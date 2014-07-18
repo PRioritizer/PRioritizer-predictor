@@ -1,0 +1,13 @@
+# General
+model.directory=/path/to/models
+
+# Repository
+repository.owner=username
+repository.name=repository-name
+
+# GHTorrent
+ghtorrent.host=localhost
+ghtorrent.port=3306
+ghtorrent.user=mysql-user
+ghtorrent.password=mysql-password
+ghtorrent.database=mysql-database
