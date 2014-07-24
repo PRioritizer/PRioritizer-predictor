@@ -8,13 +8,13 @@ object PredictorSettings {
   lazy val modelDirectory = Settings.get("model.directory").getOrElse("")
   lazy val repositoryOwner = Settings.get("repository.owner").getOrElse("")
   lazy val repositoryName = Settings.get("repository.name").getOrElse("")
-  lazy val windowInterval = Settings.get("repository.name").getOrElse("")
-  lazy val windowLimit = Settings.get("repository.name").getOrElse("")
+  lazy val windowInterval = Settings.get("window.interval").map(p => p.toInt).getOrElse(1440)
+  lazy val windowLimit = Settings.get("window.limit").map(p => p.toInt).getOrElse(0)
 }
 
 object GHTorrentSettings {
   lazy val host = Settings.get("ghtorrent.host").getOrElse("localhost")
-  lazy val port = Settings.get("ghtorrent.port").fold(3306)(p => p.toInt)
+  lazy val port = Settings.get("ghtorrent.port").map(p => p.toInt).getOrElse(3306)
   lazy val username = Settings.get("ghtorrent.username").getOrElse("")
   lazy val password = Settings.get("ghtorrent.password").getOrElse("")
   lazy val database = Settings.get("ghtorrent.database").getOrElse("")
