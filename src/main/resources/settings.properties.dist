@@ -5,6 +5,12 @@ model.directory=/path/to/models
 repository.owner=username
 repository.name=repository-name
 
+# Window interval, in minutes (1 day = 60*24 min = 1440 min)
+window.interval=1440
+
+# Window count limit (0 = unlimited)
+window.limit=0
+
 # GHTorrent
 ghtorrent.host=localhost
 ghtorrent.port=3306
