@@ -1,28 +1,32 @@
 package learning
 
-import git.{Event, Comment, PullRequest}
+import git.{Commit, Event, Comment, PullRequest}
 import org.joda.time.DateTime
 import settings.PredictorSettings
 import util.Extensions._
 import util.Window
 
-class PullRequestTracker(pullRequest: PullRequest) {
-  val ghId = 0
+class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: PullRequest) {
+  val ghPullRequestId = 0
+  val ghIssueId = 0
+
+  val author = AuthorTracker.get(pullRequest.author)
+
+  val commits = List[Commit]()
   val issueEvents = List[Event]()
   val pullRequestEvents = List[Event]()
   val issueComments = List[Comment]()
-  val pullRequestComments = List[Comment]() // review comments
+  val reviewComments = List[Comment]()
 
-  def track: Iterable[(PullRequest, Important)] = {
+  // TODO: get lists
+
+  def track: Iterable[(DateTime, PullRequest, Important)] = {
     val windows = getWindows(pullRequest.createdAt, pullRequest.closedAt).toList
-    val pulls = windows.map(w => getPullRequestSnapshot(w.start))
+    val dates = windows.map(_.start)
+    val pulls = dates.map(d => new Snapshot(this, d).get)
     val important = windows.map(w => isActedUponWithin(w))
 
-    pulls.zip(important)
-  }
-
-  def getPullRequestSnapshot(moment: DateTime): PullRequest = {
-    null
+    (dates, pulls, important).zipped.toIterable
   }
 
   def isActedUponWithin(window: Window): Boolean = {
@@ -33,7 +37,7 @@ class PullRequestTracker(pullRequest: PullRequest) {
     // Are there any issue comments created within the period?
     issueComments.filter(c => c.createdAt.isWithin(window)).nonEmpty ||
     // Are there any review comments created within the period?
-    pullRequestComments.filter(c => c.createdAt.isWithin(window)).nonEmpty
+    reviewComments.filter(c => c.createdAt.isWithin(window)).nonEmpty
   }
 
   def getWindows(start: DateTime, end: DateTime): Iterable[Window] = {
