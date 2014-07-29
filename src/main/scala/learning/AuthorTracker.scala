@@ -35,8 +35,13 @@ class AuthorTracker(repository: RepositoryTracker, username: String) {
 
   private def getCommits: List[Commit] = {
     val commits = for {
+      // From
+      pc <- Tables.projectCommits
       c <- Tables.commits
-      if c.projectId === repository.ghRepoId
+      // Join
+      if c.id === pc.commitId
+      // Where
+      if pc.projectId === repository.ghRepoId
       if c.authorId === ghAuthorId
     } yield c
 

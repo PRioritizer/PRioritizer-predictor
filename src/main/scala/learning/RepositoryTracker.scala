@@ -52,9 +52,12 @@ class RepositoryTracker(owner: String, repository: String) {
   private def getCommits: List[Commit] = {
     val projectCommits = for {
       // From
+      pc <- Tables.projectCommits
       c <- Tables.commits
+      // Join
+      if c.id === pc.commitId
       // Where
-      if c.projectId === ghRepoId
+      if pc.projectId === ghRepoId
     } yield c
 
     projectCommits.list
