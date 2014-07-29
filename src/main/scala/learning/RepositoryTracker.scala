@@ -72,7 +72,8 @@ class RepositoryTracker(owner: String, repository: String) {
       if h.extRefId =!= ""
     } yield (h.extRefId, h.createdAt)
 
-    val ids = extIds.take(PredictorSettings.pullRequestLimit).list
+    // TODO: group by ext id
+    val ids = extIds.list.distinct.take(PredictorSettings.pullRequestLimit)
 
     // Get PR info from MongoDB
     val pullRequests = ids.map((getFromMongo _).tupled)
