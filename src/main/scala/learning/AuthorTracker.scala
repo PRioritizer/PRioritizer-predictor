@@ -1,26 +1,14 @@
 package learning
 
-import git.{PullRequest, Commit}
+import git.{AuthorPullRequest, Commit}
 import org.joda.time.DateTime
 
-class AuthorTracker(username: String) {
+class AuthorTracker(repository: RepositoryTracker, username: String) {
   val ghAuthorId = 0
 
-  val coreMember: Option[DateTime] = null
-  val commits = List[Commit]()
-  val pullRequests = List[PullRequest]()
+  implicit lazy val session = repository.session
 
-  // TODO: get lists
-}
-
-object AuthorTracker {
-  private val trackers = scala.collection.mutable.Map[String, AuthorTracker]()
-
-  def get(username: String) = trackers.get(username) match {
-    case Some(tracker) => tracker
-    case None =>
-      val tracker = new AuthorTracker(username)
-      trackers += (username -> tracker)
-      tracker
-  }
+  lazy val coreMember: Option[DateTime] = None
+  lazy val commits = List[Commit]()
+  lazy val pullRequests = List[AuthorPullRequest]()
 }

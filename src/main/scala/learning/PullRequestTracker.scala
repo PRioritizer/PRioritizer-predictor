@@ -10,13 +10,13 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
   val ghPullRequestId = 0
   val ghIssueId = 0
 
-  val author = AuthorTracker.get(pullRequest.author)
+  lazy val author = repository.authors.get(pullRequest.author)
 
-  val commits = List[Commit]()
-  val issueEvents = List[Event]()
-  val pullRequestEvents = List[Event]()
-  val issueComments = List[Comment]()
-  val reviewComments = List[Comment]()
+  lazy val commits = List[Commit]()
+  lazy val issueEvents = List[Event]()
+  lazy val pullRequestEvents = List[Event]()
+  lazy val issueComments = List[Comment]()
+  lazy val reviewComments = List[Comment]()
 
   // TODO: get lists
 

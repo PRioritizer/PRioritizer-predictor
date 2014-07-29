@@ -5,15 +5,26 @@ model.directory=/path/to/models
 repository.owner=username
 repository.name=repository-name
 
+# Pull Requests
+pullrequest.limit=1000
+
 # Window interval, in minutes (1 day = 60*24 min = 1440 min)
 window.interval=1440
 
 # Window count limit (0 = unlimited)
 window.limit=0
 
-# GHTorrent
+# GHTorrent (MySQL)
 ghtorrent.host=localhost
 ghtorrent.port=3306
 ghtorrent.user=mysql-user
 ghtorrent.password=mysql-password
 ghtorrent.database=mysql-database
+
+# GHTorrent (MongoDB)
+mongodb.host=localhost
+mongodb.port=27017
+mongodb.username=mongo-user
+mongodb.password=mongo-password
+mongodb.database=mongo-database
+mongodb.collection=mongo-collection
