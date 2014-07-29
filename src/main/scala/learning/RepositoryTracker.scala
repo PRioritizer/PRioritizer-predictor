@@ -61,8 +61,8 @@ class RepositoryTracker(owner: String, repository: String) {
 
   private def getPullRequests: List[PullRequest] = {
     val extIds = for {
-      // From
-      p <- Tables.pullRequests.sortBy(_.number.desc)
+    // From
+      p <- Tables.pullRequests
       h <- Tables.pullRequestHistory
       // Join
       if p.id === h.pullRequestId
@@ -70,10 +70,17 @@ class RepositoryTracker(owner: String, repository: String) {
       if p.baseRepoId === ghRepoId
       if h.action === "closed"
       if h.extRefId =!= ""
-    } yield (h.extRefId, h.createdAt)
+    } yield (h.extRefId, h.createdAtAsTimestamp)
 
-    // TODO: group by ext id
-    val ids = extIds.list.distinct.take(PredictorSettings.pullRequestLimit)
+    // Group by extId, get max closedAt
+    val distinct = extIds
+      .groupBy { _._1 }
+      .map { case (id, g) => (id, g.map(_._2).max) }
+      .sortBy(_._2.desc)
+
+    // Execute query and map results
+    val list = distinct.list.map(row => (row._1, new DateTime(row._2.get)))
+    val ids = list.take(PredictorSettings.pullRequestLimit)
 
     // Get PR info from MongoDB
     val pullRequests = ids.map((getFromMongo _).tupled)

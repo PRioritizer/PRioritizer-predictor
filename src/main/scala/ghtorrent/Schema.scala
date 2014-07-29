@@ -83,6 +83,7 @@ object Schema {
     def userId = column[Int]("actor_id")
     def action = column[String]("action")
     def createdAt = column[DateTime]("created_at")
+    def createdAtAsTimestamp = column[java.sql.Timestamp]("created_at")
     def extRefId = column[String]("ext_ref_id")
 
     def * = (createdAt, action) <> (Event.tupled, Event.unapply)
