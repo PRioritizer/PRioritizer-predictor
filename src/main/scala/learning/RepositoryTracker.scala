@@ -4,7 +4,7 @@ import java.sql.Timestamp
 
 import ghtorrent.MongoDatabase
 import ghtorrent.Schema.Tables
-import git.PullRequest
+import git.{Commit, PullRequest}
 import org.joda.time.DateTime
 import settings.{PredictorSettings, MongoDbSettings, GHTorrentSettings}
 import scala.slick.driver.MySQLDriver.simple._
@@ -23,11 +23,18 @@ class RepositoryTracker(owner: String, repository: String) {
   def getSnapshots = {
 //    println(commits.length)
 //    println(commits.head)
+
     println(pullRequests.length)
+    val author = pullRequests.head.author
+    val tracker = new AuthorTracker(this, author)
+
+    println(tracker.coreMember)
+    println(tracker.commits)
+    println(tracker.pullRequests)
     null
   }
 
-  private def getRepoId = {
+  private def getRepoId: Int = {
     val projectIds = for {
       // From
       p <- Tables.projects
@@ -42,7 +49,7 @@ class RepositoryTracker(owner: String, repository: String) {
     projectIds.first
   }
 
-  private def getCommits = {
+  private def getCommits: List[Commit] = {
     val projectCommits = for {
       // From
       c <- Tables.commits
@@ -53,7 +60,7 @@ class RepositoryTracker(owner: String, repository: String) {
     projectCommits.list
   }
 
-  private def getPullRequests = {
+  private def getPullRequests: List[PullRequest] = {
     val extIds = for {
       // From
       p <- Tables.pullRequests.sortBy(_.number.desc)

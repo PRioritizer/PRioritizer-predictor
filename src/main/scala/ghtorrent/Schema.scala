@@ -13,6 +13,7 @@ object Schema {
     val users = TableQuery[Users]
     val commits = TableQuery[Commits]
     val pullRequestHistory = TableQuery[PullRequestHistory]
+    val projectMembers = TableQuery[ProjectMembers]
   }
 
   object TableNames {
@@ -55,6 +56,7 @@ object Schema {
   class Commits(tag: Tag) extends Table[Commit](tag, TableNames.commits) {
     def id = column[Int]("id", O.PrimaryKey)
     def projectId = column[Int]("project_id")
+    def authorId = column[Int]("author_id")
     def createdAt = column[DateTime]("created_at")
     def sha = column[String]("sha")
 
@@ -69,5 +71,14 @@ object Schema {
     def extRefId = column[String]("ext_ref_id")
 
     def * = (pullRequestId, userId, action, createdAt, extRefId)
+  }
+
+  class ProjectMembers(tag: Tag) extends Table[(Int, Int, DateTime)](tag, TableNames.projectMembers) {
+    def repoId = column[Int]("repo_id")
+    def userId = column[Int]("user_id")
+    def createdAt = column[DateTime]("created_at")
+
+    def * = (repoId, userId, createdAt)
+    def pk = primaryKey("key", (repoId, userId))
   }
 }
