@@ -1,7 +1,5 @@
 package learning
 
-import java.sql.Timestamp
-
 import ghtorrent.MongoDatabase
 import ghtorrent.Schema.Tables
 import git.{Commit, PullRequest}
@@ -18,20 +16,18 @@ class RepositoryTracker(owner: String, repository: String) {
   lazy val authors = new AuthorTrackers(this)
   lazy val pullRequests = getPullRequests
 
+  implicit lazy val mongo = new MongoDatabase(MongoDbSettings.host,
+    MongoDbSettings.port,
+    MongoDbSettings.username,
+    MongoDbSettings.password,
+    MongoDbSettings.database).open()
   implicit lazy val session = Database.forURL(dbUrl, GHTorrentSettings.username, GHTorrentSettings.password, driver = dbDriver).createSession()
 
-  def getSnapshots = {
-//    println(commits.length)
-//    println(commits.head)
+  def getSnapshots: Iterable[(PullRequest, Important)] = {
+    val trackers = pullRequests.map(pr => new PullRequestTracker(this, pr))
+    val snapshots = trackers.flatMap(t => t.track)
 
-    println(pullRequests.length)
-    val author = pullRequests.head.author
-    val tracker = new AuthorTracker(this, author)
-
-    println(tracker.coreMember)
-    println(tracker.commits)
-    println(tracker.pullRequests)
-    null
+    snapshots
   }
 
   private def getRepoId: Int = {
@@ -78,40 +74,29 @@ class RepositoryTracker(owner: String, repository: String) {
 
     val ids = extIds.take(PredictorSettings.pullRequestLimit).list
 
-    val mongo = new MongoDatabase(MongoDbSettings.host,
-      MongoDbSettings.port,
-      MongoDbSettings.username,
-      MongoDbSettings.password,
-      MongoDbSettings.database,
-      MongoDbSettings.collection)
+    // Get PR info from MongoDB
+    val pullRequests = ids.map((getFromMongo _).tupled)
 
+    pullRequests
+  }
+
+  private def getFromMongo(id: String, closedAt: DateTime): PullRequest = {
     val fields = List(
       "number",
       "user.login",
-      "title",
       "base.ref",
-      "created_at",
-      "merged_at",
-      "closed_at")
+      "title",
+      "created_at")
 
-    // Get PR info from MongoDB
-    mongo.open()
-    val objects = ids.map(id => (mongo.getObject(id._1, fields), id._2))
-    mongo.close()
+    val obj = mongo.getById(MongoDbSettings.collectionPullRequests, id, fields)
 
-    // Map to actual PR objects
-    val pullRequests = objects.map { pair =>
-      val obj = pair._1
-      PullRequest(
-        obj.get("number").get.toInt,
-        obj.get("user.login").get,
-        obj.get("base.ref").get,
-        obj.get("title").get,
-        obj.get("created_at").map(s => new DateTime(s)).get,
-        pair._2
-      )
-    }
-
-    pullRequests
+    PullRequest(
+      obj.get("number").get.asInstanceOf[Int],
+      obj.get("user.login").get.asInstanceOf[String],
+      obj.get("base.ref").get.asInstanceOf[String],
+      obj.get("title").get.asInstanceOf[String],
+      obj.get("created_at").map(s => new DateTime(s)).get,
+      closedAt
+    )
   }
 }

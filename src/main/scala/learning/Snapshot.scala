@@ -1,29 +1,28 @@
 package learning
 
 import git.PullRequest
-import org.joda.time.DateTime
+import org.joda.time.{Minutes, DateTime}
 
-class Snapshot(tracker: PullRequestTracker, moment: DateTime) {
-  val additions = tracker.commits.filter(c => c.createdAt.isBefore(moment)).map(_.additions).sum
-  val deletions = tracker.commits.filter(c => c.createdAt.isBefore(moment)).map(_.deletions).sum
-  val fileCount = tracker.commits.filter(c => c.createdAt.isBefore(moment)).flatMap(_.files).distinct.length
-  val commitCount = tracker.commits.count(c => c.createdAt.isBefore(moment))
+class Snapshot(tracker: PullRequestTracker, val moment: DateTime) {
 
-  val issueCommentsCount = tracker.issueComments.count(c => c.createdAt.isBefore(moment))
-  val reviewCommentsCount = tracker.reviewComments.count(c => c.createdAt.isBefore(moment))
+  private lazy val additions = tracker.commits.filter(c => c.createdAt.isBefore(moment)).map(_.additions).sum
+  private lazy val deletions = tracker.commits.filter(c => c.createdAt.isBefore(moment)).map(_.deletions).sum
+  private lazy val fileCount = tracker.commits.filter(c => c.createdAt.isBefore(moment)).flatMap(_.files).distinct.length
+  private lazy val commitCount = tracker.commits.count(c => c.createdAt.isBefore(moment))
 
-  val isCoreMember = tracker.author.coreMember.exists(d => d.isBefore(moment))
+  private lazy val issueCommentsCount = tracker.issueComments.count(c => c.createdAt.isBefore(moment))
+  private lazy val reviewCommentsCount = tracker.reviewComments.count(c => c.createdAt.isBefore(moment))
 
-  val authorCommits = tracker.author.commits.count(c => c.createdAt.isBefore(moment))
-  val totalCommits = tracker.repository.commits.count(c => c.createdAt.isBefore(moment))
-  val commitRatio = authorCommits.toDouble / totalCommits.toDouble
+  private lazy val isCoreMember = tracker.author.coreMember.exists(d => d.isBefore(moment))
 
-  val previousPullRequests = tracker.author.pullRequests.filter(p => p.createdAt.isBefore(moment))
-  val pullRequestRatio = previousPullRequests.count(p => p.mergedAt.isDefined).toDouble / previousPullRequests.length.toDouble
+  private lazy val authorCommits = tracker.author.commits.count(c => c.createdAt.isBefore(moment))
+  private lazy val totalCommits = tracker.repository.commits.count(c => c.createdAt.isBefore(moment))
+  private lazy val commitRatio = authorCommits.toDouble / totalCommits.toDouble
 
-  def get: PullRequest = getPullRequest
+  private lazy val previousPullRequests = tracker.author.pullRequests.filter(p => p.createdAt.isBefore(moment))
+  private lazy val pullRequestRatio = previousPullRequests.count(p => p.mergedAt.isDefined).toDouble / previousPullRequests.length.toDouble
 
-  def getPullRequest: PullRequest = {
+  val pullRequest: PullRequest = {
     // Create pull request snapshot
     val pullRequest = tracker.pullRequest.copy()
 
@@ -39,8 +38,13 @@ class Snapshot(tracker: PullRequestTracker, moment: DateTime) {
     pullRequest.contributedCommitRatio = commitRatio
     pullRequest.pullRequestAcceptRatio = pullRequestRatio
 
+    pullRequest.age = minutesAgo(pullRequest.createdAt)
+
     // TODO: mergeable properties
 
     pullRequest
   }
+
+  def minutesAgo(time: DateTime): Long =
+    Minutes.minutesBetween(tracker.pullRequest.createdAt, moment).getMinutes
 }

@@ -27,7 +27,8 @@ object MongoDbSettings {
   lazy val username = Settings.get("mongodb.username").getOrElse("")
   lazy val password = Settings.get("mongodb.password").getOrElse("")
   lazy val database = Settings.get("mongodb.database").getOrElse("")
-  lazy val collection = Settings.get("mongodb.collection").getOrElse("")
+  lazy val collectionCommits = Settings.get("mongodb.collection.commits").getOrElse("")
+  lazy val collectionPullRequests = Settings.get("mongodb.collection.pullrequests").getOrElse("")
 }
 
 object Settings {

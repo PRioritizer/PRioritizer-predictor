@@ -1,6 +1,6 @@
 package ghtorrent
 
-import git.Commit
+import git.{Comment, Event, Commit}
 import org.joda.time.DateTime
 import DateTimeMapper._
 import scala.slick.driver.SQLiteDriver.simple._
@@ -12,9 +12,14 @@ object Schema {
     val pullRequests = TableQuery[PullRequests]
     val users = TableQuery[Users]
     val commits = TableQuery[Commits]
+    val issues = TableQuery[Issues]
     val pullRequestHistory = TableQuery[PullRequestHistory]
+    val pullRequestCommits = TableQuery[PullRequestCommits]
     val projectCommits = TableQuery[ProjectCommits]
     val projectMembers = TableQuery[ProjectMembers]
+    val issueEvents = TableQuery[IssueEvents]
+    val comments = TableQuery[Comments]
+    val reviewComments = TableQuery[ReviewComments]
   }
 
   object TableNames {
@@ -24,8 +29,10 @@ object Schema {
     val commits = "commits"
     val issues = "issues"
     val pullRequestHistory = "pull_request_history"
+    val pullRequestCommits = "pull_request_commits"
     val projectCommits = "project_commits"
     val projectMembers = "project_members"
+    val issueEvents = "issue_events"
     val comments = "issue_comments"
     val reviewComments = "pull_request_comments"
   }
@@ -64,14 +71,29 @@ object Schema {
     def * = (createdAt, sha) <> (Commit.tupled, Commit.unapply)
   }
 
-  class PullRequestHistory(tag: Tag) extends Table[(Int, Int, String, DateTime, String)](tag, TableNames.pullRequestHistory) {
+  class Issues(tag: Tag) extends Table[(Int, Int)](tag, TableNames.issues) {
+    def id = column[Int]("id", O.PrimaryKey)
+    def pullRequestId = column[Int]("pull_request_id")
+
+    def * = (id, pullRequestId)
+  }
+
+  class PullRequestHistory(tag: Tag) extends Table[Event](tag, TableNames.pullRequestHistory) {
     def pullRequestId = column[Int]("pull_request_id")
     def userId = column[Int]("actor_id")
     def action = column[String]("action")
     def createdAt = column[DateTime]("created_at")
     def extRefId = column[String]("ext_ref_id")
 
-    def * = (pullRequestId, userId, action, createdAt, extRefId)
+    def * = (createdAt, action) <> (Event.tupled, Event.unapply)
+  }
+
+  class PullRequestCommits(tag: Tag) extends Table[(Int, Int)](tag, TableNames.pullRequestCommits) {
+    def pullRequestId = column[Int]("pull_request_id")
+    def commitId = column[Int]("commit_id")
+
+    def * = (pullRequestId, commitId)
+    def pk = primaryKey("key", (pullRequestId, commitId))
   }
 
   class ProjectCommits(tag: Tag) extends Table[(Int, Int)](tag, TableNames.projectCommits) {
@@ -89,5 +111,32 @@ object Schema {
 
     def * = (repoId, userId, createdAt)
     def pk = primaryKey("key", (repoId, userId))
+  }
+
+  class IssueEvents(tag: Tag) extends Table[Event](tag, TableNames.issueEvents) {
+    def eventId = column[Int]("event_id", O.PrimaryKey)
+    def issueId = column[Int]("issue_id")
+    def action = column[String]("action")
+    def createdAt = column[DateTime]("created_at")
+
+    def * = (createdAt, action) <> (Event.tupled, Event.unapply)
+  }
+
+  class Comments(tag: Tag) extends Table[Comment](tag, TableNames.comments) {
+    def id = column[Int]("comment_id", O.PrimaryKey)
+    def issueId = column[Int]("issue_id")
+    def userId = column[Int]("user_id")
+    def createdAt = column[DateTime]("created_at")
+
+    def * = (userId, createdAt) <> (Comment.tupled, Comment.unapply)
+  }
+
+  class ReviewComments(tag: Tag) extends Table[Comment](tag, TableNames.reviewComments) {
+    def id = column[Int]("comment_id", O.PrimaryKey)
+    def pullRequestId = column[Int]("pull_request_id")
+    def userId = column[Int]("user_id")
+    def createdAt = column[DateTime]("created_at")
+
+    def * = (userId, createdAt) <> (Comment.tupled, Comment.unapply)
   }
 }

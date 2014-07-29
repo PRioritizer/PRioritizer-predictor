@@ -17,8 +17,7 @@ case class PullRequest(number: Int,
   var comments: Long = 0L
   var reviewComments: Long = 0L
   var coreMember: Boolean = false
-  var contributedCommitRatio: Double = 0D
-  var pullRequestAcceptRatio: Double = 0D
-
-  def age(now: DateTime): Long = Minutes.minutesBetween(createdAt, now).getMinutes
+  var contributedCommitRatio: Double = 0D // [0-1]
+  var pullRequestAcceptRatio: Double = 0D // [0-1]
+  var age: Long = 0L // minutes
 }

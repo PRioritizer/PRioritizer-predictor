@@ -2,4 +2,4 @@ package git
 
 import org.joda.time.DateTime
 
-case class Event(createdAt: DateTime)
+case class Event(createdAt: DateTime, action: String)

@@ -6,10 +6,9 @@ import org.joda.time.DateTime
 import scala.slick.driver.MySQLDriver.simple._
 
 class AuthorTracker(repository: RepositoryTracker, username: String) {
-  val ghAuthorId = getAuthorId
-
   implicit lazy val session = repository.session
 
+  lazy val ghAuthorId = getAuthorId
   lazy val coreMember = getCoreMember
   lazy val commits = getCommits
   lazy val pullRequests = getPullRequests

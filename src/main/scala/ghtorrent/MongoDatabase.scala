@@ -4,12 +4,17 @@ import com.mongodb._
 import com.mongodb.casbah.commons.MongoDBObject
 import org.bson.types.ObjectId
 
-class MongoDatabase(host: String, port: Int, username: String, password: String, databaseName: String, collectionName: String) {
+class MongoDatabase(host: String, port: Int, username: String, password: String, databaseName: String) {
   private var client: MongoClient = _
   private var database: DB = _
-  private var collection: DBCollection = _
+  private var connected: Boolean = _
 
-  def open(): Unit = {
+  def isOpen: Boolean = connected
+
+  def open(): MongoDatabase = {
+    if (connected)
+      return this
+
     val server = new ServerAddress(host, port)
     client = if (username != null && username.nonEmpty) {
       val credential = MongoCredential.createMongoCRCredential(username, databaseName, password.toCharArray)
@@ -20,10 +25,12 @@ class MongoDatabase(host: String, port: Int, username: String, password: String,
 
     client.setReadPreference(ReadPreference.secondaryPreferred())
     database = client.getDB(databaseName)
-    collection = database.getCollection(collectionName)
+    connected = true
+
+    this
   }
 
-  def getObject(objectId: String, select: List[String]) : Map[String, String] = {
+  def getById(collectionName: String, objectId: String, select: List[String]) : Map[String, Any] = {
     if (objectId == "")
       return Map()
 
@@ -32,6 +39,7 @@ class MongoDatabase(host: String, port: Int, username: String, password: String,
     val fields = new BasicDBObject()
     select.foreach(f => fields.put(f, 1))
 
+    val collection = database.getCollection(collectionName)
     val result = collection.findOne(query, fields)
     select
       .map(f => getField(result, f).map(v => (f, v)))
@@ -39,12 +47,30 @@ class MongoDatabase(host: String, port: Int, username: String, password: String,
       .toMap
   }
 
-  private def getField(obj: DBObject, fullPath: String): Option[String] = {
-    def iteration(x: AnyRef, path: Array[String]): Option[String] = {
+  def getBySha(collectionName: String, sha: String, select: List[String]) : Map[String, Any] = {
+    if (sha == "")
+      return Map()
+
+    val query = MongoDBObject("sha" -> sha)
+
+    val fields = new BasicDBObject()
+    select.foreach(f => fields.put(f, 1))
+
+    val collection = database.getCollection(collectionName)
+    val result = collection.findOne(query, fields)
+    select
+      .map(f => getField(result, f).map(v => (f, v)))
+      .flatten
+      .toMap
+  }
+
+  private def getField(obj: DBObject, fullPath: String): Option[Any] = {
+    def iteration(x: Any, path: Array[String]): Option[Any] = {
       x match {
+        case l: BasicDBList => Some(l.toArray.toList.map(e => iteration(e, path)))
         case o: DBObject => iteration(o.get(path.head), path.tail)
         case s: String => Some(s)
-        case i: Integer => Some(i.toString)
+        case i: Int => Some(i)
         case _ => None
       }
     }
@@ -52,6 +78,7 @@ class MongoDatabase(host: String, port: Int, username: String, password: String,
   }
 
   def close(): Unit = {
+    connected = false
     if (client != null)
       client.close()
   }

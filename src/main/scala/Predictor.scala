@@ -1,12 +1,13 @@
-import git.PullRequest
-import learning.{RepositoryTracker, PullRequestTracker}
-import org.joda.time.DateTime
+import learning.TrainingData
 
 object Predictor {
   def main(args: Array[String]): Unit = {
     println("it works")
 
-    val tracker = new RepositoryTracker("scala", "scala")
-    val s = tracker.getSnapshots
+    val data = new TrainingData("scala", "scala").get
+
+    for {
+      row <- data
+    } println(row)
   }
 }
