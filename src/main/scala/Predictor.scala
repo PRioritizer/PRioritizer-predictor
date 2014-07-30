@@ -1,15 +1,14 @@
+import io.CsvWriter
 import learning.TrainingData
+import settings.PredictorSettings
 
 object Predictor {
   def main(args: Array[String]): Unit = {
-    println("working...")
+    val owner = PredictorSettings.repositoryOwner
+    val repository = PredictorSettings.repositoryName
+    val outputFile = "output.csv"
 
-    val data = new TrainingData("scala", "scala").get
-
-    for {
-      row <- data
-      pr = row._1
-      important = row._2
-    } println(s"nr: ${pr.number}, age: ${pr.age}, size: ${pr.linesAdded+pr.linesDeleted}, files: ${pr.filesChanged}, important: ${important}")
+    val data = new TrainingData(owner, repository).get
+    CsvWriter.write(outputFile, data)
   }
 }
