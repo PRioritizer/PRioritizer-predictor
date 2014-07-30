@@ -73,8 +73,8 @@ object CsvWriter {
     case s: Short => nf.format(s)
     case i: Int => nf.format(i)
     case l: Long => nf.format(l)
-    case f: Float => nf.format(f)
-    case d: Double => nf.format(d)
+    case f: Float => if (f.isNaN || f.isInfinity) "0" else nf.format(f)
+    case d: Double => if (d.isNaN || d.isInfinity) "0" else nf.format(d)
     case _ => s""""$value""""
   }
 
