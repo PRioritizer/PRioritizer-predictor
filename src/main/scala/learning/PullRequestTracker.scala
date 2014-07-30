@@ -13,7 +13,6 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
   lazy val mongo = repository.mongo
 
   lazy val author = repository.authors.get(pullRequest.author)
-  // TODO: limit window count
   lazy val windows = getWindows(pullRequest.createdAt, pullRequest.closedAt).toList
 
   lazy val ghPullRequestId = getPullRequestId
