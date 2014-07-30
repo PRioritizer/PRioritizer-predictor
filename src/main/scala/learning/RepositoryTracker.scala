@@ -1,6 +1,6 @@
 package learning
 
-import ghtorrent.MongoDatabase
+import ghtorrent.{DateTimeMapper, MongoDatabase}
 import ghtorrent.Schema.Tables
 import git.{Commit, PullRequest}
 import org.joda.time.DateTime
@@ -79,7 +79,7 @@ class RepositoryTracker(owner: String, repository: String) {
       .sortBy(_._2.desc)
 
     // Execute query and map results
-    val list = distinct.list.map(row => (row._1, new DateTime(row._2.get)))
+    val list = distinct.list.map(row => (row._1, DateTimeMapper.convert(row._2.get)))
     val ids = list.take(PredictorSettings.pullRequestLimit)
 
     // Get PR info from MongoDB
