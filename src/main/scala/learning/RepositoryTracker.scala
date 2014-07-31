@@ -4,10 +4,12 @@ import ghtorrent.{DateTimeMapper, MongoDatabase}
 import ghtorrent.Schema.Tables
 import git.{Commit, PullRequest}
 import org.joda.time.DateTime
+import org.slf4j.LoggerFactory
 import settings.{PredictorSettings, MongoDbSettings, GHTorrentSettings}
 import scala.slick.driver.MySQLDriver.simple._
 
 class RepositoryTracker(owner: String, repository: String) {
+  private val logger = LoggerFactory.getLogger("Tracker")
   private val dbUrl = s"jdbc:mysql://${GHTorrentSettings.host}:${GHTorrentSettings.port}/${GHTorrentSettings.database}"
   private val dbDriver = "com.mysql.jdbc.Driver"
 
@@ -24,9 +26,13 @@ class RepositoryTracker(owner: String, repository: String) {
   implicit lazy val session = Database.forURL(dbUrl, GHTorrentSettings.username, GHTorrentSettings.password, driver = dbDriver).createSession()
 
   def getSnapshots: Iterable[(PullRequest, Important)] = {
+    logger info s"Start"
     val trackers = pullRequests.map(pr => new PullRequestTracker(this, pr))
+
+    logger info s"Tracking ${trackers.length} closed pull requests"
     val snapshots = trackers.flatMap(t => t.track)
 
+    logger info s"Created ${snapshots.length} snaphots"
     snapshots
   }
 

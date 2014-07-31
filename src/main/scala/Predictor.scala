@@ -5,7 +5,6 @@ import settings.PredictorSettings
 
 object Predictor {
   def main(args: Array[String]): Unit = {
-    val logger = LoggerFactory.getLogger("Predictor")
     val owner = PredictorSettings.repositoryOwner
     val repository = PredictorSettings.repositoryName
     val outputFile = "output.csv"
