@@ -7,16 +7,38 @@ import org.joda.time.DateTime
 import org.slf4j.LoggerFactory
 import settings.{PredictorSettings, MongoDbSettings, GHTorrentSettings}
 import scala.slick.driver.MySQLDriver.simple._
+import scala.concurrent.duration.Duration
+import scala.concurrent.{Await, Future}
+import scala.concurrent.ExecutionContext.Implicits.global
 
 class RepositoryTracker(owner: String, repository: String) {
   private val logger = LoggerFactory.getLogger("Tracker")
   private val dbUrl = s"jdbc:mysql://${GHTorrentSettings.host}:${GHTorrentSettings.port}/${GHTorrentSettings.database}"
   private val dbDriver = "com.mysql.jdbc.Driver"
 
-  lazy val ghRepoId = getRepoId
-  lazy val commits = getCommits
   lazy val authors = new AuthorTrackers(this)
-  lazy val pullRequests = getPullRequests
+
+  // Manual implement laziness (because lazy freezes on Await?)
+  private var _ghRepoId: Int = -1
+  def ghRepoId = {
+    if (_ghRepoId == -1)
+      _ghRepoId = Await.result(getRepoId, Duration.Inf)
+    _ghRepoId
+  }
+
+  private var _pullRequests: List[PullRequest] = _
+  def pullRequests = {
+    if (_pullRequests == null)
+      _pullRequests = Await.result(getPullRequests, Duration.Inf)
+    _pullRequests
+  }
+
+  private var _commits: List[Commit] = null
+  def commits = {
+    if (_commits == null)
+      _commits = Await.result(getCommits, Duration.Inf)
+    _commits
+  }
 
   implicit lazy val mongo = new MongoDatabase(MongoDbSettings.host,
     MongoDbSettings.port,
@@ -30,13 +52,14 @@ class RepositoryTracker(owner: String, repository: String) {
     val trackers = pullRequests.map(pr => new PullRequestTracker(this, pr))
 
     logger info s"Tracking ${trackers.length} closed pull requests"
-    val snapshots = trackers.flatMap(t => t.track)
+    val fSnapshots = Future.sequence(trackers.map(t => t.track)).map(l => l.flatten)
+    val snapshots = Await.result(fSnapshots, Duration.Inf)
 
     logger info s"Created ${snapshots.length} snaphots"
     snapshots
   }
 
-  private def getRepoId: Int = {
+  private def getRepoId: Future[Int] = Future {
     val projectIds = for {
       // From
       p <- Tables.projects
@@ -51,7 +74,7 @@ class RepositoryTracker(owner: String, repository: String) {
     projectIds.first
   }
 
-  private def getCommits: List[Commit] = {
+  private def getCommits: Future[List[Commit]] = Future {
     val projectCommits = for {
       // From
       pc <- Tables.projectCommits
@@ -65,7 +88,7 @@ class RepositoryTracker(owner: String, repository: String) {
     projectCommits.list
   }
 
-  private def getPullRequests: List[PullRequest] = {
+  private def getPullRequests: Future[List[PullRequest]] = Future {
     val extIds = for {
     // From
       p <- Tables.pullRequests
@@ -91,10 +114,10 @@ class RepositoryTracker(owner: String, repository: String) {
     // Get PR info from MongoDB
     val pullRequests = ids.map((getFromMongo _).tupled)
 
-    pullRequests
+    Await.result(Future.sequence(pullRequests), Duration.Inf)
   }
 
-  private def getFromMongo(id: String, closedAt: DateTime): PullRequest = {
+  private def getFromMongo(id: String, closedAt: DateTime): Future[PullRequest] = Future {
     val fields = List(
       "number",
       "user.login",

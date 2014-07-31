@@ -7,6 +7,9 @@ import settings.{MongoDbSettings, PredictorSettings}
 import util.Extensions._
 import util.Window
 import scala.slick.driver.MySQLDriver.simple._
+import scala.concurrent.duration.Duration
+import scala.concurrent.{Await, Future}
+import scala.concurrent.ExecutionContext.Implicits.global
 
 class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: PullRequest) {
   implicit lazy val session = repository.session
@@ -15,16 +18,57 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
   lazy val author = repository.authors.get(pullRequest.author)
   lazy val windows = getWindows(pullRequest.createdAt, pullRequest.closedAt).toList
 
-  lazy val ghPullRequestId = getPullRequestId
-  lazy val ghIssueId = getIssueId
+  // Manual implement laziness (because lazy freezes on Await?)
+  private var _ghPullRequestId: Int = -1
+  def ghPullRequestId = {
+    if (_ghPullRequestId == -1)
+      _ghPullRequestId = Await.result(getPullRequestId, Duration.Inf)
+    _ghPullRequestId
+  }
 
-  lazy val commits = getCommits
-  lazy val issueEvents = getIssueEvents
-  lazy val pullRequestEvents = getPullRequestsEvents
-  lazy val issueComments = getIssueComments
-  lazy val reviewComments = getReviewComments
+  private var _ghIssueId: Int = -1
+  def ghIssueId = {
+    if (_ghIssueId == -1)
+      _ghIssueId = Await.result(getIssueId, Duration.Inf)
+    _ghIssueId
+  }
 
-  def track: Iterable[(PullRequest, Important)] = {
+  private var _commits: List[Commit] = null
+  def commits = {
+    if (_commits == null)
+      _commits = Await.result(getCommits, Duration.Inf)
+    _commits
+  }
+
+  private var _issueEvents: List[Event] = _
+  def issueEvents = {
+    if (_issueEvents == null)
+      _issueEvents = Await.result(getIssueEvents, Duration.Inf)
+    _issueEvents
+  }
+
+  private var _pullRequestEvents: List[Event] = _
+  def pullRequestEvents = {
+    if (_pullRequestEvents == null)
+      _pullRequestEvents = Await.result(getPullRequestsEvents, Duration.Inf)
+    _pullRequestEvents
+  }
+
+  private var _issueComments: List[Comment] = _
+  def issueComments = {
+    if (_issueComments == null)
+      _issueComments = Await.result(getIssueComments, Duration.Inf)
+    _issueComments
+  }
+
+  private var _reviewComments: List[Comment] = _
+  def reviewComments = {
+    if (_reviewComments == null)
+      _reviewComments = Await.result(getReviewComments, Duration.Inf)
+    _reviewComments
+  }
+
+  def track: Future[Iterable[(PullRequest, Important)]] = Future {
     val dates = windows.map(_.start)
     val pulls = dates.map(d => new Snapshot(this, d).pullRequest)
     val important = windows.map(w => isActedUponWithin(w))
@@ -50,7 +94,7 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     slidingWindows.map(w => Window(new DateTime(w(0)), new DateTime(w(1))))
   }
 
-  private def getPullRequestId: Int = {
+  private def getPullRequestId: Future[Int] = Future {
     val pullRequests = for {
       p <- Tables.pullRequests
       if p.number === pullRequest.number
@@ -60,7 +104,7 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     pullRequests.first
   }
 
-  private def getIssueId: Int = {
+  private def getIssueId: Future[Int] = Future {
     val issues = for {
       i <- Tables.issues
       if i.pullRequestId === ghPullRequestId
@@ -69,7 +113,7 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     issues.first
   }
 
-  private def getCommits: List[Commit] = {
+  private def getCommits: Future[List[Commit]] = Future {
     val commits = for {
       // From
       pc <- Tables.pullRequestCommits
@@ -81,10 +125,10 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     } yield c
 
     // Get commit info from MongoDB
-    commits.list.map(enrichFromMongo)
+    Await.result(Future.sequence(commits.list.map(enrichFromMongo)), Duration.Inf)
   }
 
-  private def enrichFromMongo(commit: Commit): Commit = {
+  private def enrichFromMongo(commit: Commit): Future[Commit] = Future {
     val fields = List(
       "stats.additions",
       "stats.deletions",
@@ -99,7 +143,7 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     commit
   }
 
-  private def getIssueEvents: List[Event] = {
+  private def getIssueEvents: Future[List[Event]] = Future {
     val events = for {
       // From
       ie <- Tables.issueEvents
@@ -110,7 +154,7 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     events.list
   }
 
-  private def getPullRequestsEvents: List[Event] = {
+  private def getPullRequestsEvents: Future[List[Event]] = Future {
     val events = for {
       // From
       prh <- Tables.pullRequestHistory
@@ -121,7 +165,7 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     events.list
   }
 
-  private def getIssueComments: List[Comment] = {
+  private def getIssueComments: Future[List[Comment]] = Future {
     val comments = for {
       // From
       c <- Tables.comments
@@ -132,7 +176,7 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     comments.list
   }
 
-  private def getReviewComments: List[Comment] = {
+  private def getReviewComments: Future[List[Comment]] = Future {
     val comments = for {
       // From
       c <- Tables.reviewComments
