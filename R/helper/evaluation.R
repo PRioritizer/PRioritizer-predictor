@@ -1,5 +1,5 @@
 # Evaluation
-library("ROCR") # Prediction
+suppressPackageStartupMessages(library("ROCR")) # Prediction
 
 # Train and test models
 models.evaluate <- function(model, train, test) {

@@ -1,6 +1,6 @@
 # Cross validation
 
-library("foreach") # Parallel foreach
+suppressPackageStartupMessages(library("foreach")) # Parallel foreach
 
 source("algorithms/all.R")
 source("helper/data.R")

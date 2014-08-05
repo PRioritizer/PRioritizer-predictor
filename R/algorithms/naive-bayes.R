@@ -1,6 +1,6 @@
 # Naive Bayes
 
-library("e1071") # Bayes
+suppressPackageStartupMessages(library("e1071")) # Bayes
 
 naive.bayes.train <- function(model, train.set) {
   bayesModel <- naiveBayes(model, data = train.set)
