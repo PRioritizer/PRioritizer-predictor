@@ -1,12 +1,14 @@
-# Cross validation
+### Install packages
+source("helper/install-packages.R")
 
-suppressPackageStartupMessages(library("foreach")) # Parallel foreach
-
+### Include helpers
 source("algorithms/all.R")
 source("helper/data.R")
 source("helper/evaluation.R")
 source("helper/model.R")
 source("helper/utils.R")
+
+suppressPackageStartupMessages(library("foreach")) # Parallel foreach
 
 # Run a cross validation round, return a dataframe with all results added
 cross.validation <- function(model, df, runs = 10) {

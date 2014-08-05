@@ -1,5 +1,7 @@
-# Single run
+### Install packages
+source("helper/install-packages.R")
 
+### Include helpers
 source("algorithms/all.R")
 source("helper/data.R")
 source("helper/evaluation.R")
