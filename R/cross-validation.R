@@ -8,11 +8,12 @@ source("helper/evaluation.R")
 source("helper/model.R")
 source("helper/utils.R")
 
-suppressPackageStartupMessages(library("foreach")) # Parallel foreach
+### Foreach support
+suppressPackageStartupMessages(library("foreach"))
 
 # Run a cross validation round, return a dataframe with all results added
 cross.validation <- function(model, df, runs = 10) {
-  result <- foreach(n = 1:runs, .combine = rbind) %dopar% {
+  result <- foreach(n = 1:runs, .combine = rbind) %do% {
     dataset <- split.data(df, .75)
     res <- models.evaluate(model, dataset$train, dataset$test)
     res$run <- n
