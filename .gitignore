@@ -27,7 +27,7 @@ simplelogger.properties
 *.csv
 
 # R
-*.Rproj
+*.Rproj*
+*.Rhistory
+*.RData
 .Rproj.user
-.Rhistory
-.RData
