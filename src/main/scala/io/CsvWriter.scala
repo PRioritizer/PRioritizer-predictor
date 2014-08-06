@@ -1,5 +1,6 @@
 package io
 
+import java.io.File
 import git.PullRequest
 import learning._
 
@@ -10,7 +11,9 @@ object CsvWriter {
   nf.setMaximumFractionDigits(6)
   nf.setGroupingUsed(false)
 
-  def write(fileName: String, data: List[(PullRequest, Important)]): Unit = {
+  def write(file: String, data: List[(PullRequest, Important)]): Unit = write(new File(file), data)
+
+  def write(file: File, data: List[(PullRequest, Important)]): Unit = {
 
     val header = List(
       "age",
@@ -49,16 +52,17 @@ object CsvWriter {
         important)
 
     val contents = header :: rows
-    writeData(fileName, contents)
+    writeData(file, contents)
   }
 
-  def writeData(fileName: String, data: List[List[Any]]): Unit = {
+  def writeData(file: File, data: List[List[Any]]): Unit = {
     val contents = data.map(row => row.map(v => format(v)).mkString(",")).mkString("\n")
-    writeToFile(fileName, contents)
+    writeToFile(file, contents)
   }
 
-  private def writeToFile(fileName: String, contents: String): Unit = {
-    val file = new java.io.File(fileName)
+  private def writeToFile(file: File, contents: String): Unit = {
+    val dir: File = file.getParentFile
+    dir.mkdirs()
     val writer = new java.io.PrintWriter(file)
     try writer.write(contents) finally writer.close()
   }

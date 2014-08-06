@@ -1,5 +1,6 @@
 # General
 model.directory=/path/to/models
+r.directory=/path/to/R/scripts
 
 # Repository
 repository.owner=username

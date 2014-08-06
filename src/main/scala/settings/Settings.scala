@@ -6,6 +6,8 @@ import scala.collection.JavaConverters._
 
 object PredictorSettings {
   lazy val modelDirectory = Settings.get("model.directory").getOrElse("")
+  lazy val rscriptLocation = Settings.get("rscript.location").getOrElse("")
+  lazy val scriptDirectory = Settings.get("script.directory").getOrElse("")
   lazy val repositoryOwner = Settings.get("repository.owner").getOrElse("")
   lazy val repositoryName = Settings.get("repository.name").getOrElse("")
   lazy val pullRequestLimit = Settings.get("pullrequest.limit").map(p => p.toInt).getOrElse(1000)
