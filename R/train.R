@@ -1,3 +1,5 @@
+#!/bin/Rscript
+
 ### Install packages
 source("helper/install-packages.R")
 
@@ -8,9 +10,15 @@ source("helper/model.R")
 
 # ================================== PROGRAM ================================== #
 
+args <- commandArgs(TRUE)
+
+if (length(args) != 1) {
+  stop("Expected one argument.\nUsage: Rscript train.R <dir>")
+}
+
 ### Files
-dir <- "~/git/prioritizer/predictor"
-input.file <- paste(dir, "xbmc-100.csv", sep = "/")
+dir <- args[1]
+input.file <- paste(dir, "train.csv", sep = "/")
 output.file <- paste(dir, "model.RData", sep = "/")
 
 ### Read data

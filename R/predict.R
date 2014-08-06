@@ -1,3 +1,5 @@
+#!/bin/Rscript
+
 ### Install packages
 source("helper/install-packages.R")
 
@@ -9,25 +11,18 @@ source("helper/utils.R")
 
 # ================================== PROGRAM ================================== #
 
+args <- commandArgs(TRUE)
+
+if (length(args) != 1) {
+  stop("Expected one argument.\nUsage: Rscript train.R <dir>")
+}
+
 ### Files
-dir <- "~/git/prioritizer/predictor"
+dir <- args[1]
+input.file <- paste(dir, "input.csv", sep = "/")
 model.file <- paste(dir, "model.RData", sep = "/")
 
-### Input
-input <- data.frame(age              = 0,
-                    coreMember       = 1,
-                    commitRatio      = 0.33,
-                    pullRequestRatio = 0.75,
-                    comments         = 0,
-                    reviewComments   = 0,
-                    additions        = 10,
-                    deletions        = 5,
-                    commits          = 1,
-                    files            = 1,
-                    important        = 0,
-                    stringsAsFactors = FALSE)
-
-#input <- read.data(paste(dir, "xbmc-100.csv", sep = "/"))
+input <- read.data(input.file)
 data2 <- prepare.data(input)
 
 ### Read trained model (access via the trained.model variable)
