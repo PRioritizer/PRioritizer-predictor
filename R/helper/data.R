@@ -26,8 +26,8 @@ prepare.data <- function(data) {
   newData$important <- newData$important == 1
 
   # Convert to factor columns
-  newData$coreMember <- factor(newData$coreMember)
-  newData$important <- factor(newData$important)
+  newData$coreMember <- factor(newData$coreMember, c(FALSE, TRUE))
+  newData$important <- factor(newData$important, c(FALSE, TRUE))
 
   newData
 }
