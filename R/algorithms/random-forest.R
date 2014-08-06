@@ -12,7 +12,12 @@ random.forest.train <- function(model, train.set) {
   rfmodel
 }
 
-random.forest.predict <- function(trained.model, test.set) {
+random.forest.raw <- function(trained.model, test.set) {
   predictions <- predict(trained.model, newdata = test.set, type = "prob")
   predictions[,2]
+}
+
+random.forest.predict <- function(trained.model, test.set) {
+  predictions <- predict(trained.model, newdata = test.set, type = "response")
+  predictions
 }

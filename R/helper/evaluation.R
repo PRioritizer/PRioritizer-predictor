@@ -15,17 +15,17 @@ models.evaluate <- function(model, train, test) {
 
   ### Binary logistic regression
   lrmodel <- logistic.regression.train(model, train)
-  predictions <- logistic.regression.predict(lrmodel, test)
+  predictions <- logistic.regression.raw(lrmodel, test)
   results[1,] <- prediction.performance("LogReg", predictions, test)
 
   ### Naive Bayes
   nbmodel <- naive.bayes.train(model, train)
-  predictions <- naive.bayes.predict(nbmodel, test)
+  predictions <- naive.bayes.raw(nbmodel, test)
   results[2,] <- prediction.performance("NaiveBayes", predictions, test)
 
   ### Random Forest
   rfmodel <- random.forest.train(model, train)
-  predictions <- random.forest.predict(rfmodel, test)
+  predictions <- random.forest.raw(rfmodel, test)
   results[3,] <- prediction.performance("RandomForest", predictions, test)
 
   results

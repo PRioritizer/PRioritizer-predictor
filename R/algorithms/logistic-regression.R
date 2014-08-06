@@ -6,7 +6,12 @@ logistic.regression.train <- function(model, train.set) {
   binlog
 }
 
-logistic.regression.predict <- function(trained.model, test.set) {
+logistic.regression.raw <- function(trained.model, test.set) {
   predictions <- predict(trained.model, newdata = test.set)
+  predictions
+}
+
+logistic.regression.predict <- function(trained.model, test.set) {
+  predictions <- predict(trained.model, newdata = test.set, type = "response")
   predictions
 }

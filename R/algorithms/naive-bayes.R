@@ -9,7 +9,12 @@ naive.bayes.train <- function(model, train.set) {
   bayesModel
 }
 
-naive.bayes.predict <- function(trained.model, test.set) {
+naive.bayes.raw <- function(trained.model, test.set) {
   predictions <- predict(trained.model, newdata = test.set, type = "raw")
   predictions[,2]
+}
+
+naive.bayes.predict <- function(trained.model, test.set) {
+  predictions <- predict(trained.model, newdata = test.set, type = "response")
+  predictions
 }
