@@ -9,17 +9,18 @@ import r.R
 
 object Predictor {
   val logger = LoggerFactory.getLogger("Predictor")
+  val owner = PredictorSettings.repositoryOwner
+  val repository = PredictorSettings.repositoryName
+  val repoDir = new File(new File(PredictorSettings.modelDirectory, owner), repository)
 
   def main(args: Array[String]): Unit = {
     train()
+    predict()
   }
 
   def train(): Unit = {
-    val owner = PredictorSettings.repositoryOwner
-    val repository = PredictorSettings.repositoryName
     val trainFileName = "training.csv"
-    val trainDir = new File(new File(PredictorSettings.modelDirectory, owner), repository)
-    val trainFile = new File(trainDir, trainFileName)
+    val trainFile = new File(repoDir, trainFileName)
 
     // Get and save data
     logger info "Training - Start"
@@ -29,7 +30,7 @@ object Predictor {
 
     // Train R model
     logger info "Training - Modeling"
-    val result = Await.result(R.train(trainDir.getPath), Duration.Inf)
+    val result = Await.result(R.train(repoDir.getPath), Duration.Inf)
 
     if (result)
       logger info "Training - End"
@@ -37,5 +38,19 @@ object Predictor {
       logger error "Training - Failed"
   }
 
-  def predict(): Unit = {}
+  def predict(): Unit = {
+    val outputFileName = "output.csv"
+    val outputFile = new File(repoDir, outputFileName)
+
+    // Predict with R model
+    logger info "Prediction - Start"
+    val result = Await.result(R.predict(repoDir.getPath), Duration.Inf)
+
+    if (result.nonEmpty) {
+      CsvWriter.writeData(outputFile, result.map(r => List(r.toString)))
+      logger info "Prediction - End"
+    } else {
+      logger error "Prediction - Failed"
+    }
+  }
 }

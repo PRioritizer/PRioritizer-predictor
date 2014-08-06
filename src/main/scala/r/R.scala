@@ -18,10 +18,16 @@ object R {
     run(command, Some(scriptDirectory))
   }
 
-  def predict(directory: String): Future[Array[Boolean]] = Future {
+  def predict(directory: String): Future[List[Boolean]] = Future {
     val scriptLocation = new File(scriptDirectory, predictScript).getPath
     val command = Seq(rscriptLocation, scriptLocation, directory)
-    Array(true, false)
+    val (result, output, _) = runWithOutput(command, Some(scriptDirectory))
+
+    // Parse output
+    if (result)
+      output.trim.split('\n').map(b => b.trim.toBoolean).toList
+    else
+      List()
   }
 
   private def runWithOutput(command: Seq[String], workingDirectory: Option[String] = None): (Boolean, String, String) = {
