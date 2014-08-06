@@ -14,8 +14,12 @@ object Predictor {
   val repoDir = new File(new File(PredictorSettings.modelDirectory, owner), repository)
 
   def main(args: Array[String]): Unit = {
-    train()
-    predict()
+    val action = args.headOption
+    action match {
+      case Some("train") => train()
+      case Some("predict") => predict()
+      case _ => println("Unknown action. Possible actions: train, predict.")
+    }
   }
 
   def train(): Unit = {
