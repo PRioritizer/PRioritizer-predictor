@@ -25,3 +25,9 @@ simplelogger.properties
 
 # Output
 *.csv
+
+# R
+*.Rproj*
+*.Rhistory
+*.RData
+.Rproj.user
