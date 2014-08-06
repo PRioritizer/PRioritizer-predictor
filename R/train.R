@@ -18,7 +18,7 @@ if (length(args) != 1) {
 
 ### Files
 dir <- args[1]
-input.file <- paste(dir, "train.csv", sep = "/")
+input.file <- paste(dir, "training.csv", sep = "/")
 output.file <- paste(dir, "model.RData", sep = "/")
 
 ### Read data

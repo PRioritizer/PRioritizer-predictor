@@ -9,11 +9,11 @@ import sys.process._
 object R {
   val rscriptLocation = PredictorSettings.rscriptLocation
   val scriptDirectory = PredictorSettings.scriptDirectory
-  val trainScript = "train.R"
+  val trainingScript = "train.R"
   val predictScript = "predict.R"
 
   def train(directory: String): Future[Boolean] = Future {
-    val scriptLocation = new File(scriptDirectory, trainScript).getPath
+    val scriptLocation = new File(scriptDirectory, trainingScript).getPath
     val command = Seq(rscriptLocation, scriptLocation, directory)
     run(command, Some(scriptDirectory))
   }

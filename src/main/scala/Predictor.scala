@@ -17,7 +17,7 @@ object Predictor {
   def train(): Unit = {
     val owner = PredictorSettings.repositoryOwner
     val repository = PredictorSettings.repositoryName
-    val trainFileName = "train.csv"
+    val trainFileName = "training.csv"
     val trainDir = new File(new File(PredictorSettings.modelDirectory, owner), repository)
     val trainFile = new File(trainDir, trainFileName)
 
