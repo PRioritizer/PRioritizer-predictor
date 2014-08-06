@@ -15,6 +15,6 @@ naive.bayes.raw <- function(trained.model, test.set) {
 }
 
 naive.bayes.predict <- function(trained.model, test.set) {
-  predictions <- predict(trained.model, newdata = test.set, type = "response")
+  predictions <- predict(trained.model, newdata = test.set, type = "class")
   predictions
 }
