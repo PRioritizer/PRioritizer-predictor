@@ -5,6 +5,7 @@ source("helper/install-packages.R")
 source("algorithms/random-forest.R")
 source("helper/data.R")
 source("helper/model.R")
+source("helper/utils.R")
 
 # ================================== PROGRAM ================================== #
 
@@ -26,7 +27,7 @@ input <- data.frame(age              = 0,
                     important        = 0,
                     stringsAsFactors = FALSE)
 
-# input <- read.data(paste(dir, "zbmc-100.csv", sep = "/"))
+#input <- read.data(paste(dir, "xbmc-100.csv", sep = "/"))
 data2 <- prepare.data(input)
 
 ### Read trained model (access via the trained.model variable)
@@ -34,5 +35,6 @@ load(model.file)
 
 ### Predict value
 predictions <- random.forest.predict(trained.model, data2)
-predictions <- as.logical(predictions)
-print(predictions)
+predictions <- as.logical(predictions) # Convert to booleans
+output <- paste(predictions, collapse="\n")
+printf("%s\n", output)
