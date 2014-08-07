@@ -1,8 +1,7 @@
 # General
 model.directory=/path/to/models
 pullrequest.limit=1000
-# Window interval, in minutes (1 day = 60*24 min = 1440 min)
-window.interval=1440
+window.interval.hours=24
 
 # R
 rscript.location=/path/to/R/executable

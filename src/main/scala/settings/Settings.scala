@@ -11,7 +11,7 @@ object PredictorSettings {
   lazy val repositoryOwner = Settings.get("repository.owner").getOrElse("")
   lazy val repositoryName = Settings.get("repository.name").getOrElse("")
   lazy val pullRequestLimit = Settings.get("pullrequest.limit").map(p => p.toInt).getOrElse(1000)
-  lazy val windowInterval = Settings.get("window.interval").map(p => p.toInt).getOrElse(1440)
+  lazy val windowInterval = Settings.get("window.interval.hours").map(p => p.toInt).getOrElse(24)
 }
 
 object GHTorrentSettings {
