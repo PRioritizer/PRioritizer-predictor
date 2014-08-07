@@ -11,7 +11,13 @@ object Predictor {
   val logger = LoggerFactory.getLogger("Predictor")
   val owner = PredictorSettings.repositoryOwner
   val repository = PredictorSettings.repositoryName
+
+  // File names and paths
+  val trainFileName = "training.csv"
+  val outputFileName = "output.csv"
   val repoDir = new File(new File(PredictorSettings.modelDirectory, owner), repository)
+  val trainFile = new File(repoDir, trainFileName)
+  val outputFile = new File(repoDir, outputFileName)
 
   def main(args: Array[String]): Unit = {
     val action = args.headOption
@@ -23,9 +29,6 @@ object Predictor {
   }
 
   def train(): Unit = {
-    val trainFileName = "training.csv"
-    val trainFile = new File(repoDir, trainFileName)
-
     // Get and save data
     logger info "Training - Start"
     logger info "Training - Fetch data"
@@ -43,9 +46,6 @@ object Predictor {
   }
 
   def predict(): Unit = {
-    val outputFileName = "output.csv"
-    val outputFile = new File(repoDir, outputFileName)
-
     // Predict with R model
     logger info "Prediction - Start"
     val result = Await.result(R.predict(repoDir.getPath), Duration.Inf)
