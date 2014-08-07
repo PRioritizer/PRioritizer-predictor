@@ -9,7 +9,6 @@ import scala.concurrent.duration.Duration
 import r.R
 
 object Predictor {
-  val logger = LoggerFactory.getLogger("Predictor")
   val owner = PredictorSettings.repositoryOwner
   val repository = PredictorSettings.repositoryName
   val interval = PredictorSettings.modelTrainInterval
@@ -31,6 +30,8 @@ object Predictor {
   }
 
   def train(): Unit = {
+    val logger = LoggerFactory.getLogger("Trainer")
+
     // Check if model needs training
     val expires = new DateTime(trainFile.lastModified).plusDays(interval)
     if (DateTime.now.isBefore(expires)) {
@@ -39,31 +40,34 @@ object Predictor {
     }
 
     // Get and save data
-    logger info "Training - Start"
-    logger info "Training - Fetch data"
+    logger info "Data - Start"
     val data = new TrainingData(owner, repository).get
     CsvWriter.write(trainFile, data)
+    logger info s"Data - Created ${data.length} snapshots"
+    logger info "Data - End"
 
     // Train R model
-    logger info "Training - Modeling"
+    logger info "Modeling - Start"
     val result = Await.result(R.train(repoDir.getPath), Duration.Inf)
 
-    if (result)
-      logger info "Training - End"
-    else
-      logger error "Training - Failed"
+    if (!result)
+      logger error "Failed"
+
+    logger info "Modeling - End"
   }
 
   def predict(): Unit = {
+    val logger = LoggerFactory.getLogger("Predictor")
+
     // Predict with R model
     logger info "Prediction - Start"
     val result = Await.result(R.predict(repoDir.getPath), Duration.Inf)
 
-    if (result.nonEmpty) {
+    if (result.nonEmpty)
       CsvWriter.writeData(outputFile, result.map(r => List(r.toString)))
-      logger info "Prediction - End"
-    } else {
+    else
       logger error "Prediction - Failed"
-    }
+
+    logger info "Prediction - End"
   }
 }

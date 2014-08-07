@@ -12,7 +12,6 @@ import scala.concurrent.{Await, Future}
 import scala.concurrent.ExecutionContext.Implicits.global
 
 class RepositoryTracker(owner: String, repository: String) {
-  private val logger = LoggerFactory.getLogger("Tracker")
   private val dbUrl = s"jdbc:mysql://${GHTorrentSettings.host}:${GHTorrentSettings.port}/${GHTorrentSettings.database}"
   private val dbDriver = "com.mysql.jdbc.Driver"
 
@@ -48,14 +47,9 @@ class RepositoryTracker(owner: String, repository: String) {
   implicit lazy val session = Database.forURL(dbUrl, GHTorrentSettings.username, GHTorrentSettings.password, driver = dbDriver).createSession()
 
   def getSnapshots: Iterable[(PullRequest, Important)] = {
-    logger info s"Start"
     val trackers = pullRequests.map(pr => new PullRequestTracker(this, pr))
-
-    logger info s"Tracking ${trackers.length} closed pull requests"
     val fSnapshots = Future.sequence(trackers.map(t => t.track)).map(l => l.flatten)
     val snapshots = Await.result(fSnapshots, Duration.Inf)
-
-    logger info s"Created ${snapshots.length} snaphots"
     snapshots
   }
 
