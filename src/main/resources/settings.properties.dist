@@ -1,5 +1,6 @@
 # General
 model.directory=/path/to/models
+model.train.interval.days=90
 pullrequest.limit=1000
 window.interval.hours=24
 

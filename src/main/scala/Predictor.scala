@@ -1,6 +1,7 @@
 import java.io.File
 import io.CsvWriter
 import learning.TrainingData
+import org.joda.time.DateTime
 import org.slf4j.LoggerFactory
 import settings.PredictorSettings
 import scala.concurrent.Await
@@ -11,6 +12,7 @@ object Predictor {
   val logger = LoggerFactory.getLogger("Predictor")
   val owner = PredictorSettings.repositoryOwner
   val repository = PredictorSettings.repositoryName
+  val interval = PredictorSettings.modelTrainInterval
 
   // File names and paths
   val trainFileName = "training.csv"
@@ -29,6 +31,13 @@ object Predictor {
   }
 
   def train(): Unit = {
+    // Check if model needs training
+    val expires = new DateTime(trainFile.lastModified).plusDays(interval)
+    if (DateTime.now.isBefore(expires)) {
+      logger info "Skip - Already recently updated"
+      return
+    }
+
     // Get and save data
     logger info "Training - Start"
     logger info "Training - Fetch data"

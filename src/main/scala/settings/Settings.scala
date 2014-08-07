@@ -6,6 +6,7 @@ import scala.collection.JavaConverters._
 
 object PredictorSettings {
   lazy val modelDirectory = Settings.get("model.directory").getOrElse("")
+  lazy val modelTrainInterval = Settings.get("model.train.interval.days").map(p => p.toInt).getOrElse(90)
   lazy val rscriptLocation = Settings.get("rscript.location").getOrElse("")
   lazy val scriptDirectory = Settings.get("script.directory").getOrElse("")
   lazy val repositoryOwner = Settings.get("repository.owner").getOrElse("")
