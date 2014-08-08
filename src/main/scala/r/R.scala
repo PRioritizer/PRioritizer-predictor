@@ -47,13 +47,12 @@ object R {
   }
 
   private def run(command: Seq[String], workingDirectory: Option[String] = None): Boolean = {
-    val logger: (String => Unit) = (s: String) => ()
     val process = workingDirectory
       .map(dir => Process(command, new java.io.File(dir)))
       .getOrElse(Process(command))
 
     // Start process
-    val exitValue = process ! ProcessLogger(logger, logger)
+    val exitValue = process.!
     exitValue == 0
   }
 }
