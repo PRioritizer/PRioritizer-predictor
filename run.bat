@@ -34,7 +34,7 @@ ECHO Whitespace is not supported.
 GOTO end
 
 :ValidArgs
-SET PROPS=-Dfile.encoding=UTF8 -Dgithub.owner=%OWNER% -Dgithub.repository=%REPOSITORY%
+SET PROPS=-Dfile.encoding=UTF8 -Drepository.owner=%OWNER% -Drepository.name=%REPOSITORY%
 java %PROPS% -jar %JAR% %ACTION%
 :end
 

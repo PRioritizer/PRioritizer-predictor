@@ -29,5 +29,5 @@ case "$OWNER$REPOSITORY" in
   ;;
 esac
 
-JAVA_OPTS="-Dfile.encoding=UTF8 -Dgithub.owner=$OWNER -Dgithub.repository=$REPOSITORY"
+JAVA_OPTS="-Dfile.encoding=UTF8 -Drepository.owner=$OWNER -Drepository.name=$REPOSITORY"
 java $JAVA_OPTS -jar $JAR $ACTION
