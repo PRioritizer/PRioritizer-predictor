@@ -15,9 +15,11 @@ object Predictor {
 
   // File names and paths
   val trainFileName = "training.csv"
+  val modelFileName = "model.RData"
   val outputFileName = "output.csv"
   val repoDir = new File(new File(PredictorSettings.modelDirectory, owner), repository)
   val trainFile = new File(repoDir, trainFileName)
+  val modelFile = new File(repoDir, modelFileName)
   val outputFile = new File(repoDir, outputFileName)
 
   def main(args: Array[String]): Unit = {
@@ -33,7 +35,7 @@ object Predictor {
     val logger = LoggerFactory.getLogger("Trainer")
 
     // Check if model needs training
-    val expires = new DateTime(trainFile.lastModified).plusDays(interval)
+    val expires = new DateTime(modelFile.lastModified).plusDays(interval)
     if (DateTime.now.isBefore(expires)) {
       logger info "Skip - Already recently updated"
       return
