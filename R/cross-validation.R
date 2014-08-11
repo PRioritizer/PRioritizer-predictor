@@ -31,7 +31,7 @@ cross.validation.means <- function(cvResult) {
 # ================================== PROGRAM ================================== #
 
 ### Read data
-data <- read.data("~/git/prioritizer/predictor/xbmc-100.csv")
+data <- read.data("~/git/prioritizer/predictor/csv/xbmc-100.csv")
 
 ### Cross validation
 results <- cross.validation(model, data, 10)

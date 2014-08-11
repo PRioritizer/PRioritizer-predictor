@@ -11,9 +11,9 @@ source("helper/utils.R")
 # ================================== PROGRAM ================================== #
 
 ### Files
-dir <- "~/git/prioritizer/predictor"
+dir <- "~/git/prioritizer/predictor/csv"
 input.file <- paste(dir, "xbmc-100.csv", sep = "/")
-output.file <- paste(dir, "model.RData", sep = "/")
+model.file <- paste(dir, "model.RData", sep = "/")
 
 ### Read data
 data <- read.data(input.file)
@@ -21,7 +21,7 @@ data <- split.data(data, .75)
 
 ### Train model
 trained.model <- random.forest.train(model, data$train)
-save(trained.model, file = output.file)
+save(trained.model, file = model.file)
 
 ### Read trained model (access via the trained.model variable)
 rm(trained.model)
