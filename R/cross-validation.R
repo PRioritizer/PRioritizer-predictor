@@ -9,7 +9,7 @@ source("helper/model.R")
 source("helper/utils.R")
 
 ### Foreach support
-suppressPackageStartupMessages(library("foreach"))
+load.package("foreach")
 
 # Run a cross validation round, return a dataframe with all results added
 cross.validation <- function(model, df, runs = 10) {

@@ -1,6 +1,6 @@
 # Random forest
 
-suppressPackageStartupMessages(library("randomForest")) # Random forest
+load.package("randomForest") # Random forest
 
 random.forest.train <- function(model, train.set) {
   rfmodel <- randomForest(model, data = train.set, importance = TRUE)

@@ -1,6 +1,13 @@
 # Packages
 
-if (!"randomForest" %in% installed.packages()) install.packages("randomForest")
-if (!"ROCR" %in% installed.packages()) install.packages("ROCR")
-if (!"e1071" %in% installed.packages()) install.packages("e1071")
-if (!"foreach" %in% installed.packages()) install.packages("foreach")
+load.package <- function(package, user.lib = TRUE) {
+  if (!package %in% installed.packages()) {
+    if (user.lib)
+      install.packages(package, lib = Sys.getenv("R_LIBS_USER"))
+    else
+      install.packages(package)
+  }
+
+  # Don't show package messages
+  suppressPackageStartupMessages(library(package, character.only = TRUE))
+}
