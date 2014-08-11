@@ -46,11 +46,14 @@ class RepositoryTracker(owner: String, repository: String) {
     MongoDbSettings.database).open()
   implicit lazy val session = Database.forURL(dbUrl, GHTorrentSettings.username, GHTorrentSettings.password, driver = dbDriver).createSession()
 
-  def getSnapshots: Iterable[(PullRequest, Important)] = {
+  def getSnapshots: Future[List[(PullRequest, Important)]] = Future {
+    if (ghRepoId == 0)
+      throw new Exception(s"Repository $owner/$repository not found in GHTorrrent")
+
     val trackers = pullRequests.map(pr => new PullRequestTracker(this, pr))
     val fSnapshots = Future.sequence(trackers.map(t => t.track)).map(l => l.flatten)
     val snapshots = Await.result(fSnapshots, Duration.Inf)
-    snapshots
+    snapshots.toList
   }
 
   private def getRepoId: Future[Int] = Future {
@@ -65,7 +68,7 @@ class RepositoryTracker(owner: String, repository: String) {
       if p.name === repository
     } yield p.id
 
-    projectIds.first
+    projectIds.firstOption.getOrElse(0)
   }
 
   private def getCommits: Future[List[Commit]] = Future {

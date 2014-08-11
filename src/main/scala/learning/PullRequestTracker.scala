@@ -68,12 +68,12 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     _reviewComments
   }
 
-  def track: Future[Iterable[(PullRequest, Important)]] = Future {
+  def track: Future[List[(PullRequest, Important)]] = Future {
     val dates = windows.map(_.start)
     val pulls = dates.map(d => new Snapshot(this, d).pullRequest)
     val important = windows.map(w => isActedUponWithin(w))
 
-    (pulls, important).zipped.toIterable
+    (pulls, important).zipped.toList
   }
 
   def isActedUponWithin(window: Window): Boolean = {
@@ -87,11 +87,11 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
     reviewComments.filter(c => c.createdAt.isWithin(window)).nonEmpty
   }
 
-  private def getWindows(start: DateTime, end: DateTime): Iterable[Window] = {
+  private def getWindows(start: DateTime, end: DateTime): List[Window] = {
     val interval = PredictorSettings.windowInterval * 60 * 60 * 1000 // convert hours to milliseconds
     val range = start.getMillis to (end.getMillis + interval) by interval
     val slidingWindows = range.sliding(2).toIterable
-    slidingWindows.map(w => Window(new DateTime(w(0)), new DateTime(w(1))))
+    slidingWindows.map(w => Window(new DateTime(w(0)), new DateTime(w(1)))).toList
   }
 
   private def getPullRequestId: Future[Int] = Future {
