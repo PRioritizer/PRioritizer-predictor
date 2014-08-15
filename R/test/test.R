@@ -11,7 +11,7 @@ source("helper/utils.R")
 # ================================== PROGRAM ================================== #
 
 ### Files
-dir <- "~/git/prioritizer/predictor/csv"
+dir <- "test/csv"
 input.file <- paste(dir, "xbmc-100.csv", sep = "/")
 model.file <- paste(dir, "model.RData", sep = "/")
 

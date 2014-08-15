@@ -1,0 +1,146 @@
+"age","title","target","author","coreMember","commitRatio","pullRequestRatio","comments","reviewComments","additions","deletions","commits","files","important"
+0,"Improved bigkeys with progress, pipelining and summary","unstable","michael-grunder",0,0.001128,0.666667,0,0,244,81,1,1,1
+1440,"Improved bigkeys with progress, pipelining and summary","unstable","michael-grunder",0,0.001128,0.6,3,0,244,81,1,1,0
+2880,"Improved bigkeys with progress, pipelining and summary","unstable","michael-grunder",0,0.001127,0.6,3,0,244,81,1,1,0
+4320,"Improved bigkeys with progress, pipelining and summary","unstable","michael-grunder",0,0.001127,0.6,3,0,244,81,1,1,1
+0,"Force INFO used_memory_peak to match peak memory","unstable","mattsta",0,0.001691,0.2,0,0,7,2,1,1,0
+1440,"Force INFO used_memory_peak to match peak memory","unstable","mattsta",0,0.001691,0.1875,0,0,7,2,1,1,0
+2880,"Force INFO used_memory_peak to match peak memory","unstable","mattsta",0,0.001691,0.1875,0,0,7,2,1,1,1
+0,"Fix IP representation in clusterMsgDataGossip","unstable","mattsta",0,0.001326,0.272727,0,0,1,1,1,1,1
+0,"Update --bigkeys to use SCAN","unstable","michael-grunder",0,0.00057,0.75,0,0,82,58,1,1,1
+0,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0,0.375,0,0,0,0,0,0,1
+1440,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000588,0.333333,2,0,12,0,1,1,0
+2880,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000586,0.333333,2,0,12,0,1,1,0
+4320,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000585,0.333333,2,0,12,0,1,1,0
+5760,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000584,0.333333,2,0,12,0,1,1,0
+7200,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000584,0.333333,2,0,12,0,1,1,0
+8640,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000584,0.333333,2,0,12,0,1,1,0
+10080,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000584,0.333333,2,0,12,0,1,1,0
+11520,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000582,0.333333,2,0,12,0,1,1,0
+12960,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.00058,0.333333,2,0,12,0,1,1,0
+14400,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000579,0.3,2,0,12,0,1,1,0
+15840,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000578,0.3,2,0,12,0,1,1,0
+17280,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000962,0.272727,2,0,12,0,1,1,0
+18720,"Deny SYNC and PSYNC in redis-cli","unstable","mattsta",0,0.000961,0.272727,2,0,12,0,1,1,1
+0,"Add cluster or sentinel to proc title","unstable","mattsta",0,0.000962,0.3,0,0,14,4,2,1,1
+0,"update copyright year","unstable","gdi2290",0,0.000397,0.504587,0,0,1,1,1,1,1
+0,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000428,0,0,0,31,21,1,6,1
+1440,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000428,0,1,0,232,102,2,10,0
+2880,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000428,0,1,0,232,102,2,10,0
+4320,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000427,0,1,0,232,102,2,10,1
+5760,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000425,0,3,0,232,102,2,10,0
+7200,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000423,0,3,0,232,102,2,10,0
+8640,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000422,0,3,0,232,102,2,10,0
+10080,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000422,0,3,0,232,102,2,10,0
+11520,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000422,0,3,0,232,102,2,10,0
+12960,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000422,0,3,0,232,102,2,10,0
+14400,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000421,0,3,0,232,102,2,10,0
+15840,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000419,0,3,0,232,102,2,10,0
+17280,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000419,0,3,0,232,102,2,10,0
+18720,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000417,0,3,0,232,102,2,10,0
+20160,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000417,0,3,0,232,102,2,10,0
+21600,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000417,0,3,0,232,102,2,10,0
+23040,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000417,0,3,0,232,102,2,10,0
+24480,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000416,0,3,0,232,102,2,10,0
+25920,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000416,0,3,0,232,102,2,10,0
+27360,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000416,0,3,0,232,102,2,10,0
+28800,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000416,0,3,0,232,102,2,10,0
+30240,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000415,0,3,0,232,102,2,10,0
+31680,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000415,0,3,0,232,102,2,10,0
+33120,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000415,0,3,0,232,102,2,10,0
+34560,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000415,0,3,0,232,102,2,10,0
+36000,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000414,0,3,0,232,102,2,10,0
+37440,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000414,0,3,0,232,102,2,10,0
+38880,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000413,0,3,0,232,102,2,10,0
+40320,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000412,0,3,0,232,102,2,10,0
+41760,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000412,0,3,0,232,102,2,10,0
+43200,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000412,0,3,0,232,102,2,10,0
+44640,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000412,0,3,0,232,102,2,10,0
+46080,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000411,0,3,0,232,102,2,10,0
+47520,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.00041,0,3,0,232,102,2,10,0
+48960,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.00041,0,3,0,232,102,2,10,0
+50400,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000409,0,3,0,232,102,2,10,0
+51840,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000409,0,3,0,232,102,2,10,0
+53280,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000409,0,3,0,232,102,2,10,0
+54720,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000409,0,3,0,232,102,2,10,0
+56160,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000409,0,3,0,232,102,2,10,0
+57600,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000409,0,3,0,232,102,2,10,0
+59040,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000408,0,3,0,232,102,2,10,0
+60480,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000407,0,3,0,232,102,2,10,0
+61920,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000407,0,3,0,232,102,2,10,0
+63360,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000407,0,3,0,232,102,2,10,0
+64800,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000407,0,3,0,232,102,2,10,0
+66240,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000407,0,3,0,232,102,2,10,0
+67680,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+69120,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+70560,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+72000,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+73440,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+74880,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+76320,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+77760,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+79200,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+80640,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+82080,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+83520,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+84960,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+86400,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000406,0,3,0,232,102,2,10,0
+87840,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000405,0,3,0,232,102,2,10,0
+89280,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000405,0,3,0,232,102,2,10,0
+90720,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000403,0,3,0,232,102,2,10,0
+92160,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000403,0,3,0,232,102,2,10,0
+93600,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000403,0,3,0,232,102,2,10,0
+95040,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000403,0,3,0,232,102,2,10,0
+96480,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000402,0,3,0,232,102,2,10,0
+97920,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000401,0,3,0,232,102,2,10,0
+99360,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000401,0,3,0,232,102,2,10,0
+100800,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.0004,0,3,0,232,102,2,10,0
+102240,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.0004,0,3,0,232,102,2,10,0
+103680,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.0004,0,3,0,232,102,2,10,0
+105120,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.0004,0,3,0,232,102,2,10,0
+106560,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.0004,0,3,0,232,102,2,10,0
+108000,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000399,0,3,0,232,102,2,10,0
+109440,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000399,0,3,0,232,102,2,10,0
+110880,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000399,0,3,0,232,102,2,10,0
+112320,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000399,0,3,0,232,102,2,10,0
+113760,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000399,0,3,0,232,102,2,10,0
+115200,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000399,0,3,0,232,102,2,10,0
+116640,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000399,0,3,0,232,102,2,10,0
+118080,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000398,0,3,0,232,102,2,10,0
+119520,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000398,0,3,0,232,102,2,10,1
+120960,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000397,0,4,0,232,102,2,10,0
+122400,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000397,0,4,0,232,102,2,10,0
+123840,"Add support for listen(2) backlog definition","unstable","nmerdan",0,0.000397,0,4,0,232,102,2,10,1
+0,"Support for Intel SIMD Bitwise Operations","unstable","jonahharris",0,0.000397,0.5,0,0,8079,3572,250,177,1
+0,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.692308,0,0,1,1,1,1,0
+1440,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+2880,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+4320,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+5760,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+7200,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+8640,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+10080,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+11520,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+12960,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+14400,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+15840,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+17280,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000811,0.642857,0,0,1,1,1,1,0
+18720,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000809,0.642857,0,0,1,1,1,1,0
+20160,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000808,0.642857,0,0,1,1,1,1,0
+21600,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000806,0.642857,0,0,1,1,1,1,0
+23040,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000806,0.642857,0,0,1,1,1,1,0
+24480,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000805,0.642857,0,0,1,1,1,1,0
+25920,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000805,0.642857,0,0,1,1,1,1,0
+27360,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000803,0.642857,0,0,1,1,1,1,0
+28800,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000802,0.642857,0,0,1,1,1,1,0
+30240,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000801,0.642857,0,0,1,1,1,1,0
+31680,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000801,0.642857,0,0,1,1,1,1,0
+33120,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000801,0.642857,0,0,1,1,1,1,0
+34560,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.0008,0.642857,0,0,1,1,1,1,0
+36000,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.0008,0.642857,0,0,1,1,1,1,0
+37440,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000799,0.642857,0,0,1,1,1,1,0
+38880,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000799,0.642857,0,0,1,1,1,1,0
+40320,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000799,0.642857,0,0,1,1,1,1,0
+41760,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000798,0.642857,0,0,1,1,1,1,0
+43200,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000798,0.642857,0,0,1,1,1,1,0
+44640,"Fix a typo in clusterStartHandshake function's comment.","unstable","huangz1990",0,0.000798,0.642857,0,0,1,1,1,1,1

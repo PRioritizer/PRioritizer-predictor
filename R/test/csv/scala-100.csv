@@ -1,0 +1,500 @@
+"age","title","target","author","coreMember","commitRatio","pullRequestRatio","comments","reviewComments","additions","deletions","commits","files","important"
+0,"Honour the ""maven.repo.local"" property while building","master","cunei",1,0.004477,0.636364,0,0,29,10,1,1,1
+0,"Enable binary comp testing. Final build cleanup.","master","adriaanm",1,0.067671,0.78427,0,0,303,503,3,5,1
+0,"Bump versions for 2.11.0-RC1","master","adriaanm",1,0.067499,0.789593,0,0,10,10,1,1,0
+1440,"Bump versions for 2.11.0-RC1","master","adriaanm",1,0.067488,0.786036,0,0,10,10,1,1,0
+2880,"Bump versions for 2.11.0-RC1","master","adriaanm",1,0.067479,0.786036,0,0,10,10,1,1,0
+4320,"Bump versions for 2.11.0-RC1","master","adriaanm",1,0.067479,0.786036,0,0,10,10,1,1,1
+0,"Fix typo in log message.","master","darabos",0,0.000043,0.5,0,0,1,1,1,1,1
+0,"SI-8266 Amend advice for deprecated octal 042","master","som-snytt",0,0.005771,0.655172,0,0,3,2,1,2,0
+1440,"SI-8266 Amend advice for deprecated octal 042","master","som-snytt",0,0.00577,0.650685,0,0,3,2,1,2,0
+2880,"SI-8266 Amend advice for deprecated octal 042","master","som-snytt",0,0.00577,0.650685,0,0,3,2,1,2,1
+0,"SI-5905 Sanity check -language options","master","som-snytt",0,0.005772,0.659722,0,0,146,10,2,7,1
+1440,"SI-5905 Sanity check -language options","master","som-snytt",0,0.005771,0.650685,1,0,146,10,2,7,1
+2880,"SI-5905 Sanity check -language options","master","som-snytt",0,0.00577,0.650685,1,0,157,13,5,8,1
+0,"SI-8281 check for unbound placeholder parameters in quasiquote parser","master","densh",0,0.010381,0.658228,0,0,14,1,1,2,0
+1440,"SI-8281 check for unbound placeholder parameters in quasiquote parser","master","densh",0,0.010509,0.619048,0,0,14,1,1,2,1
+2880,"SI-8281 check for unbound placeholder parameters in quasiquote parser","master","densh",0,0.010507,0.619048,1,0,14,1,1,2,1
+0,"SI-8332 implicit class param unquoting in quasiquotes","master","densh",0,0.010381,0.634146,0,0,79,37,2,5,1
+1440,"SI-8332 implicit class param unquoting in quasiquotes","master","densh",0,0.010509,0.619048,0,1,79,37,2,5,1
+2880,"SI-8332 implicit class param unquoting in quasiquotes","master","densh",0,0.010507,0.619048,1,2,79,37,2,5,1
+0,"SI-8333 can't use modifiers if class is in a block","master","densh",0,0.010381,0.626506,0,0,11,5,1,3,1
+1440,"SI-8333 can't use modifiers if class is in a block","master","densh",0,0.010509,0.619048,1,0,11,5,1,3,1
+0,"SI-8285 use correct kind of map for quasiquote positions","master","densh",0,0.010381,0.65,0,0,25,10,1,4,1
+1440,"SI-8285 use correct kind of map for quasiquote positions","master","densh",0,0.010509,0.619048,1,0,25,10,1,4,1
+0,"SI-8275 allow to directly extract block contents of the case def","master","densh",0,0.010381,0.666667,0,0,28,0,2,3,1
+1440,"SI-8275 allow to directly extract block contents of the case def","master","densh",0,0.010509,0.619048,5,0,160,63,5,6,1
+0,"test case that verifies SI-8352","master","xeno-by",1,0.043598,0.76876,0,0,12,0,1,3,1
+0,"Revert ""SI-7624 Fix -feature warnings in scala/tools/scalap""","master","adriaanm",1,0.067301,0.796804,0,0,332,165,2,27,1
+0,"Revert ""SI-7624 Fix -feature warnings in scala/tools/scalap""","master","gkossakowski",1,0.013314,0.734513,0,0,160,82,1,24,1
+0,"Revert ""SI-8315 Better debugging facility for ICode""","master","adriaanm",1,0.067313,0.800459,0,0,7,3,2,1,1
+0,"SI-4728 test case","master","lrytz",1,0.017929,0.808824,0,0,7,2,1,3,1
+0,"SI-8197 clarify overloading resolution with default args","master","adriaanm",1,0.067135,0.804147,0,0,137,48,3,3,1
+0,"SI-3235 math.round() returns wrong results for Int and Long","master","Ichoran",0,0.003277,0.71875,0,0,74,6,2,6,1
+0,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.002962,0.75,0,0,662,64,7,3,1
+1440,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.002959,0.72,4,6,662,64,7,3,1
+2880,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003044,0.72,6,8,697,90,8,3,1
+4320,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003041,0.72,10,8,697,90,8,3,0
+5760,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003256,0.741935,10,8,697,90,8,3,0
+7200,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003252,0.741935,10,8,697,90,8,3,0
+8640,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003251,0.741935,10,8,697,90,8,3,1
+10080,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.00325,0.741935,13,8,697,90,8,3,1
+11520,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003247,0.741935,21,8,697,90,8,3,1
+12960,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003244,0.71875,29,8,697,90,8,3,1
+14400,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003241,0.71875,32,8,697,90,8,3,0
+15840,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.00324,0.71875,32,8,697,90,8,3,0
+17280,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003237,0.71875,32,8,697,90,8,3,1
+18720,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003236,0.71875,37,8,697,90,8,3,1
+20160,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003236,0.71875,42,8,697,90,8,3,1
+21600,"SI-8240 Consider rolling back optimizations for List","master","Ichoran",0,0.003277,0.69697,51,8,697,90,8,3,1
+0,"Add ScalaDoc to Quasiquotes and Liftables parts of api","master","densh",0,0.010008,0.675325,0,0,58,7,1,2,1
+1440,"Add ScalaDoc to Quasiquotes and Liftables parts of api","master","densh",0,0.01039,0.666667,0,4,61,10,2,2,1
+0,"SI-8251 deprecate `ListBuffer::readOnly`","master","adriaanm",1,0.067095,0.806005,0,0,8,17,1,4,1
+0,"SI-6455 no longer rewrite .withFilter to .filter","master","adriaanm",1,0.066868,0.815421,0,0,17,57,3,6,1
+1440,"SI-6455 no longer rewrite .withFilter to .filter","master","adriaanm",1,0.067007,0.811628,7,0,209,57,6,8,0
+2880,"SI-6455 no longer rewrite .withFilter to .filter","master","adriaanm",1,0.066952,0.811628,7,0,209,57,6,8,0
+4320,"SI-6455 no longer rewrite .withFilter to .filter","master","adriaanm",1,0.066969,0.811628,7,0,209,57,6,8,1
+5760,"SI-6455 no longer rewrite .withFilter to .filter","master","adriaanm",1,0.067127,0.806005,11,0,209,57,6,8,1
+7200,"SI-6455 no longer rewrite .withFilter to .filter","master","adriaanm",1,0.067095,0.804147,11,2,209,57,6,8,1
+0,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000698,1,0,0,46,35,3,6,1
+1440,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000698,0.833333,3,6,46,35,3,6,1
+2880,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000697,0.833333,5,6,46,35,3,6,0
+4320,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000696,0.833333,5,6,46,35,3,6,1
+5760,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000696,0.833333,8,6,46,35,3,6,0
+7200,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000695,0.833333,8,6,46,35,3,6,0
+8640,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000695,0.833333,8,6,46,35,3,6,0
+10080,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000694,0.833333,8,6,46,35,3,6,0
+11520,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000694,0.833333,8,6,46,35,3,6,0
+12960,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000693,0.833333,8,6,46,35,3,6,0
+14400,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000693,0.833333,8,6,46,35,3,6,1
+15840,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000692,0.833333,30,9,46,35,3,6,0
+17280,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000691,0.833333,30,9,46,35,3,6,0
+18720,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000691,0.833333,30,9,46,35,3,6,0
+20160,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.000691,0.833333,30,9,46,35,3,6,0
+21600,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.00069,0.833333,30,9,46,35,3,6,0
+23040,"This fixes SI-8251: `ListBuffer.readOnly` destroys List immutability","master","pavelpavlov",0,0.00069,0.833333,30,9,46,35,3,6,1
+0,"SI-3235 math.round() returns wrong results for Int and Long","master","Ichoran",0,0.003244,0.741935,0,0,75,7,1,6,1
+1440,"SI-3235 math.round() returns wrong results for Int and Long","master","Ichoran",0,0.003243,0.71875,12,0,75,7,1,6,0
+2880,"SI-3235 math.round() returns wrong results for Int and Long","master","Ichoran",0,0.00324,0.71875,12,0,75,7,1,6,0
+4320,"SI-3235 math.round() returns wrong results for Int and Long","master","Ichoran",0,0.003238,0.71875,12,0,75,7,1,6,0
+5760,"SI-3235 math.round() returns wrong results for Int and Long","master","Ichoran",0,0.003236,0.71875,12,0,75,7,1,6,1
+7200,"SI-3235 math.round() returns wrong results for Int and Long","master","Ichoran",0,0.003236,0.71875,14,0,75,7,1,6,1
+0,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.067127,0.80787,0,0,86,35,1,4,1
+0,"SI-8330: Mismatch in stack heights","master","gkossakowski",1,0.013027,0.741071,0,0,30,3,1,3,1
+0,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.066044,0.835749,0,0,163,70,2,4,1
+1440,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.066267,0.834532,1,0,163,70,2,4,0
+2880,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.066464,0.832936,1,0,163,70,2,4,1
+4320,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.066456,0.832936,1,0,163,70,2,4,0
+5760,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.06643,0.832936,1,0,163,70,2,4,0
+7200,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.066418,0.832936,1,0,163,70,2,4,0
+8640,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.066612,0.827014,1,0,163,70,2,4,0
+10080,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.066667,0.823113,1,0,163,70,2,4,0
+11520,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.067007,0.811628,1,0,163,70,2,4,0
+12960,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.066952,0.811628,1,0,1036,112,10,56,0
+14400,"SI-6493 more robust symbol handling in existentialTransform","master","adriaanm",1,0.066969,0.811628,1,0,1109,142,15,65,1
+0,"SI-8324 fix permutation in test filename","master","adriaanm",1,0.067009,0.809745,0,0,0,0,1,1,1
+0,"SI-1503 don't assume unsound type for ident/literal patterns","master","adriaanm",1,0.066612,0.827014,0,0,221,8,2,10,1
+1440,"SI-1503 don't assume unsound type for ident/literal patterns","master","adriaanm",1,0.066788,0.81733,1,0,221,8,2,10,0
+2880,"SI-1503 don't assume unsound type for ident/literal patterns","master","adriaanm",1,0.067007,0.811628,1,0,221,8,2,10,0
+4320,"SI-1503 don't assume unsound type for ident/literal patterns","master","adriaanm",1,0.066952,0.811628,1,0,221,8,2,10,0
+5760,"SI-1503 don't assume unsound type for ident/literal patterns","master","adriaanm",1,0.066969,0.811628,1,0,221,8,2,10,1
+0,"SI-3235 Deprecate {Double,Float}#{round,ceil,floor}","master","soc",0,0.008475,0.507092,0,0,6,0,1,2,1
+1440,"SI-3235 Deprecate {Double,Float}#{round,ceil,floor}","master","soc",0,0.008468,0.5053,3,0,6,0,1,2,0
+2880,"SI-3235 Deprecate {Double,Float}#{round,ceil,floor}","master","soc",0,0.008463,0.503521,3,0,6,0,1,2,0
+4320,"SI-3235 Deprecate {Double,Float}#{round,ceil,floor}","master","soc",0,0.008457,0.503521,3,0,6,0,1,2,1
+0,"SI-6217 deprecate `_root_` as part of package name","master","adriaanm",1,0.066828,0.81733,0,0,22,1,1,4,1
+1440,"SI-6217 deprecate `_root_` as part of package name","master","adriaanm",1,0.067007,0.811628,2,4,22,1,1,4,0
+2880,"SI-6217 deprecate `_root_` as part of package name","master","adriaanm",1,0.066952,0.811628,2,4,22,1,1,4,0
+4320,"SI-6217 deprecate `_root_` as part of package name","master","adriaanm",1,0.066969,0.811628,2,4,22,1,1,4,1
+0,"Si-8321 bundles can't be whitebox","master","xeno-by",1,0.04323,0.771957,0,0,300,5,2,15,1
+1440,"Si-8321 bundles can't be whitebox","master","xeno-by",1,0.043583,0.771121,5,0,863,41,7,50,1
+0,"SI-8325 Accept infix star type outside patterns","master","som-snytt",0,0.005739,0.664336,0,0,81,9,1,8,1
+0,"SI-7962 Scalac runner does not work within Emacs's terminal","master","greenrd",0,0.000086,0.538462,0,0,2,3,1,1,1
+1440,"SI-7962 Scalac runner does not work within Emacs's terminal","master","greenrd",0,0.000086,0.518519,1,0,2,3,1,1,1
+0,"Fix ./build/<stage>/bin/scaladoc","master","retronym",1,0.047857,0.784682,0,0,1,0,1,1,1
+0,"SI-8234 Fix regression in override checks for sealed classes","master","retronym",1,0.047781,0.785818,0,0,89,39,3,7,1
+0,"SI-8197 Only consider immediate params for defaults, overloading","master","retronym",1,0.047701,0.786957,0,0,20,2,2,2,1
+0,"SI-5479 deprecate DelayedInit outside of App","master","adriaanm",1,0.066707,0.821176,0,0,16,2,1,8,1
+1440,"SI-5479 deprecate DelayedInit outside of App","master","adriaanm",1,0.067007,0.811628,13,4,19,5,2,8,0
+2880,"SI-5479 deprecate DelayedInit outside of App","master","adriaanm",1,0.066952,0.811628,13,4,19,5,2,8,1
+0,"Support def macros for constructors","master","soc",0,0.008465,0.5053,0,0,108,8,1,13,1
+0,"SI-8315 Fix crash in dead code elimination","master","retronym",1,0.047366,0.791241,0,0,28,3,2,6,1
+1440,"SI-8315 Fix crash in dead code elimination","master","retronym",1,0.047393,0.790393,7,0,28,3,2,6,0
+2880,"SI-8315 Fix crash in dead code elimination","master","retronym",1,0.047781,0.784682,7,0,28,3,2,6,1
+0,"SI-8271 ignore free term values if we can't see them","master","xeno-by",1,0.04185,0.789223,0,0,41,3,1,2,1
+1440,"SI-8271 ignore free term values if we can't see them","master","xeno-by",1,0.041869,0.787066,4,2,41,3,1,2,0
+2880,"SI-8271 ignore free term values if we can't see them","master","xeno-by",1,0.0425,0.785827,4,2,41,3,1,2,0
+4320,"SI-8271 ignore free term values if we can't see them","master","xeno-by",1,0.042702,0.783359,4,2,41,3,1,2,0
+5760,"SI-8271 ignore free term values if we can't see them","master","xeno-by",1,0.0429,0.782132,4,2,41,3,1,2,0
+7200,"SI-8271 ignore free term values if we can't see them","master","xeno-by",1,0.04317,0.779687,4,2,41,3,1,2,0
+8640,"SI-8271 ignore free term values if we can't see them","master","xeno-by",1,0.043125,0.777605,4,2,41,3,1,2,1
+10080,"SI-8271 ignore free term values if we can't see them","master","xeno-by",1,0.043149,0.772798,5,2,41,3,1,2,0
+11520,"SI-8271 ignore free term values if we can't see them","master","xeno-by",1,0.043159,0.771957,5,2,41,3,1,2,1
+0,"SI-8197 Overload resolution should not consider default arguments","master","adriaanm",1,0.066667,0.825059,0,0,27,2,2,2,1
+1440,"SI-8197 Overload resolution should not consider default arguments","master","adriaanm",1,0.067007,0.811628,13,0,27,2,2,2,1
+0,"SI-8224 Fix regression in f-bound aware LUBs","master","adriaanm",1,0.066612,0.830952,0,0,94,73,2,6,1
+1440,"SI-8224 Fix regression in f-bound aware LUBs","master","adriaanm",1,0.066626,0.825059,2,0,94,73,2,6,0
+2880,"SI-8224 Fix regression in f-bound aware LUBs","master","adriaanm",1,0.067007,0.811628,2,0,94,73,2,6,1
+0,"CodePrinter added to Printers 2.11.0","master","VladimirNik",0,0.000953,0.375,0,0,3013,1961,14,8,0
+1440,"CodePrinter added to Printers 2.11.0","master","VladimirNik",0,0.001038,0.333333,0,0,3112,1971,16,8,0
+2880,"CodePrinter added to Printers 2.11.0","master","VladimirNik",0,0.001167,0.333333,0,0,3924,3124,18,9,1
+4320,"CodePrinter added to Printers 2.11.0","master","VladimirNik",0,0.001166,0.333333,2,0,3924,3124,18,9,1
+0,"Small Predef cleanup","master","adriaanm",1,0.066612,0.832936,0,0,44,14,2,12,1
+1440,"Small Predef cleanup","master","adriaanm",1,0.066626,0.825059,2,0,44,14,2,12,1
+2880,"Small Predef cleanup","master","adriaanm",1,0.067007,0.811628,3,0,44,14,2,12,1
+0,"SI-4577 singleton type pattern test should use `eq`, not `==`","master","adriaanm",1,0.066612,0.828979,0,0,82,6,2,3,0
+1440,"SI-4577 singleton type pattern test should use `eq`, not `==`","master","adriaanm",1,0.066667,0.825059,0,0,82,6,2,3,1
+2880,"SI-4577 singleton type pattern test should use `eq`, not `==`","master","adriaanm",1,0.067007,0.811628,3,0,82,6,2,3,1
+0,"SI-6675 deprecation warning for auto-tupling in patterns","master","adriaanm",1,0.066788,0.819249,0,0,13,10,2,6,0
+1440,"SI-6675 deprecation warning for auto-tupling in patterns","master","adriaanm",1,0.067007,0.811628,0,0,13,10,2,6,1
+0,"SI-8316 SI-8318 SI-8248 reintroduces resetAllAttrs","master","xeno-by",1,0.043168,0.772798,0,0,261,9,1,17,1
+0,"Fix quasiquote terminology to be consistent with Scheme ","master","densh",0,0.009982,0.671053,0,0,212,212,2,16,1
+0,"SI-8306: handle SWITCH nodes with just default case","master","gkossakowski",1,0.012802,0.753425,0,0,0,0,0,0,1
+0,"SI-8603 and its sixteen friends","master","xeno-by",1,0.040472,0.796148,0,0,10846,5751,82,307,1
+1440,"SI-8603 and its sixteen friends","master","xeno-by",1,0.04053,0.794872,3,0,10846,5751,82,307,0
+2880,"SI-8603 and its sixteen friends","master","xeno-by",1,0.040509,0.794872,3,0,10846,5751,82,307,0
+4320,"SI-8603 and its sixteen friends","master","xeno-by",1,0.040478,0.794872,3,0,10846,5751,82,307,0
+5760,"SI-8603 and its sixteen friends","master","xeno-by",1,0.040461,0.7952,3,0,10846,5751,82,307,0
+7200,"SI-8603 and its sixteen friends","master","xeno-by",1,0.040409,0.7952,3,0,10846,5751,82,307,1
+8640,"SI-8603 and its sixteen friends","master","xeno-by",1,0.040753,0.7952,11,0,10935,5813,85,308,1
+10080,"SI-8603 and its sixteen friends","master","xeno-by",1,0.041318,0.79393,14,0,11001,5881,89,308,0
+11520,"SI-8603 and its sixteen friends","master","xeno-by",1,0.04134,0.794258,14,0,11001,5881,89,308,0
+12960,"SI-8603 and its sixteen friends","master","xeno-by",1,0.041405,0.790476,14,0,11001,5881,89,308,0
+14400,"SI-8603 and its sixteen friends","master","xeno-by",1,0.041514,0.790476,14,0,11058,5915,90,308,0
+15840,"SI-8603 and its sixteen friends","master","xeno-by",1,0.041663,0.790476,14,0,11069,5926,91,308,1
+17280,"SI-8603 and its sixteen friends","master","xeno-by",1,0.04185,0.787975,20,0,11069,5926,91,308,0
+18720,"SI-8603 and its sixteen friends","master","xeno-by",1,0.041864,0.787066,20,0,11069,5926,91,308,1
+20160,"SI-8603 and its sixteen friends","master","xeno-by",1,0.042666,0.785827,22,0,12460,6314,103,395,1
+21600,"SI-8603 and its sixteen friends","master","xeno-by",1,0.042702,0.783359,24,0,12828,6574,108,401,1
+23040,"SI-8603 and its sixteen friends","master","xeno-by",1,0.0429,0.782132,42,0,15368,7524,110,518,1
+24480,"SI-8603 and its sixteen friends","master","xeno-by",1,0.04317,0.779687,49,0,16271,7962,115,539,1
+25920,"SI-8603 and its sixteen friends","master","xeno-by",1,0.043125,0.777605,74,0,16396,7981,119,540,1
+0,"SI-8219 Source compatible name for implicit any2stringadd","master","retronym",1,0.047166,0.793558,0,0,14,4,1,5,1
+0,"SI-8065 Regression in implicit resolution","master","rjolly",0,0.00013,0.470588,0,0,31,48,1,4,1
+0,"SI-8065 Regression in implicit resolution","master","rjolly",0,0.00013,0.5,0,0,29,48,1,4,0
+1440,"SI-8065 Regression in implicit resolution","master","rjolly",0,0.00013,0.470588,0,0,29,48,1,4,1
+0,"SI-6566, unsoundness with alias variance: document fix","master","Blaisorblade",0,0.000867,0.607143,0,0,4,3,1,1,0
+1440,"SI-6566, unsoundness with alias variance: document fix","master","Blaisorblade",0,0.000909,0.602273,0,0,4,3,1,1,1
+0,"README.md: Add link to CONTRIBUTING.md","master","Blaisorblade",0,0.00091,0.6,0,0,1,1,1,1,1
+1440,"README.md: Add link to CONTRIBUTING.md","master","Blaisorblade",0,0.000909,0.602273,2,0,1,1,1,1,1
+0,"SI-7932 Exclude PolyTypes from Java generic signatures","master","retronym",1,0.046836,0.79442,0,0,19,2,1,3,1
+0,"SI-8301 fix regression with refinement subtyping, wildcard type.","master","retronym",1,0.0466,0.794682,0,0,21,2,1,2,1
+0,"Optimization: remove assertion from SubstMap constructor","master","retronym",1,0.046877,0.793255,0,0,2,1,1,1,1
+0,"SI-8072 rationalize public implicits in scala parallel collections","master","Ichoran",0,0.003127,0.740741,0,0,86,57,2,5,0
+1440,"SI-8072 rationalize public implicits in scala parallel collections","master","Ichoran",0,0.003252,0.741935,0,0,86,57,2,5,1
+2880,"SI-8072 rationalize public implicits in scala parallel collections","master","Ichoran",0,0.003251,0.741935,2,1,86,57,2,5,1
+4320,"SI-8072 rationalize public implicits in scala parallel collections","master","Ichoran",0,0.00325,0.741935,3,2,86,57,2,5,0
+5760,"SI-8072 rationalize public implicits in scala parallel collections","master","Ichoran",0,0.003247,0.741935,3,2,86,57,2,5,1
+0,"SI-5165 separate compilation test Java annotations bug","master","retronym",1,0.046753,0.793814,0,0,17,0,1,3,1
+0,"SI-5134 Test case for fixed DelayedInit / structural type bug","master","retronym",1,0.046795,0.794118,0,0,8,0,1,1,1
+0,"SI-5565 Test case for fixed delayed init bug","master","retronym",1,0.046712,0.79351,0,0,12,0,1,1,1
+0,"Toning down the noise of -Xlint and allow `-optimise -Yinline:false`","master","retronym",1,0.046561,0.795858,0,0,94,44,3,10,1
+0,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000568,0.5,0,0,5659,2441,56,235,1
+1440,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000567,0.428571,2,25,5958,2580,68,269,0
+2880,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000567,0.428571,2,25,6483,2767,71,271,1
+4320,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000567,0.428571,3,25,7393,3190,81,284,0
+5760,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000566,0.375,3,25,8810,3598,100,299,1
+7200,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000565,0.375,3,33,9704,3892,112,316,1
+8640,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000609,0.375,5,37,10592,4330,124,337,0
+10080,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000608,0.375,5,37,11915,4957,134,364,1
+11520,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000781,0.375,5,42,13018,5374,152,385,0
+12960,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.00078,0.375,5,42,13307,5400,158,385,1
+14400,"TypedTreePrinter added to Printers","master","VladimirNik",0,0.000823,0.375,7,43,15683,6491,166,424,1
+0,"SI-8269 tolerates CaseDefs with empty bodies","master","xeno-by",1,0.041889,0.787975,0,0,25,1,1,4,1
+1440,"SI-8269 tolerates CaseDefs with empty bodies","master","xeno-by",1,0.041862,0.787066,4,0,25,1,1,4,0
+2880,"SI-8269 tolerates CaseDefs with empty bodies","master","xeno-by",1,0.042662,0.784591,4,0,25,1,1,4,0
+4320,"SI-8269 tolerates CaseDefs with empty bodies","master","xeno-by",1,0.0427,0.783359,4,0,25,1,1,4,0
+5760,"SI-8269 tolerates CaseDefs with empty bodies","master","xeno-by",1,0.0429,0.782132,4,0,25,1,1,4,1
+0,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.04306,0.780908,0,0,769,122,3,35,1
+0,"SI-5920 hardens macro engine against invalid inputs","master","xeno-by",1,0.042983,0.782132,0,0,386,6,1,11,1
+0,"Avoid storing source file contents twice","master","Blaisorblade",0,0.00091,0.593023,0,0,1,1,1,1,1
+0,"Revert ""SI-5920 enables default and named args in macros""","master","retronym",1,0.0464,0.795556,0,0,119,384,1,26,1
+0,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000747,0.625,0,0,1,8,1,5,0
+1440,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000746,0.617284,0,0,1,8,1,5,0
+2880,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000745,0.617284,0,0,1,8,1,5,0
+4320,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000745,0.617284,0,0,1,8,1,5,0
+5760,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000745,0.621951,0,0,1,8,1,5,0
+7200,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000744,0.621951,0,0,1,8,1,5,0
+8640,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000743,0.621951,0,0,1,8,1,5,0
+10080,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000742,0.621951,0,0,1,8,1,5,0
+11520,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000741,0.621951,0,0,1,8,1,5,0
+12960,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000741,0.621951,0,0,1,8,1,5,1
+14400,"Tentatively fix SI-8217","master","Blaisorblade",0,0.00074,0.614458,1,0,1,8,1,5,0
+15840,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000739,0.614458,1,0,1,8,1,5,0
+17280,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000739,0.614458,1,0,1,8,1,5,0
+18720,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000738,0.614458,1,0,1,8,1,5,0
+20160,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000738,0.614458,1,0,1,8,1,5,0
+21600,"Tentatively fix SI-8217","master","Blaisorblade",0,0.00078,0.614458,1,0,1,8,1,5,1
+23040,"Tentatively fix SI-8217","master","Blaisorblade",0,0.000867,0.614458,5,0,2,9,2,5,1
+0,"TypedTreePrinter added to Printers","master","xeno-by",1,0.042864,0.783359,0,0,1042,525,5,6,1
+0,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.037751,0.798046,0,0,1819,659,20,37,1
+1440,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.038071,0.797735,5,0,1819,659,20,37,0
+2880,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.038067,0.796446,5,0,1819,659,20,37,0
+4320,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.03835,0.795491,5,0,1819,659,20,37,0
+5760,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.038431,0.796148,5,0,1819,659,20,37,0
+7200,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.038465,0.796148,5,0,1819,659,20,37,0
+8640,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.039173,0.796148,5,0,1819,659,20,37,0
+10080,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.039449,0.796148,5,0,1819,659,20,37,0
+11520,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.039972,0.796148,5,0,1819,659,20,37,0
+12960,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.03996,0.796148,5,0,1819,659,20,37,0
+14400,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.040553,0.794872,5,0,1819,659,20,37,0
+15840,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.040521,0.794872,5,0,1819,659,20,37,0
+17280,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.0405,0.794872,5,0,1819,659,20,37,0
+18720,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.040478,0.794872,5,0,1819,659,20,37,0
+20160,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.040445,0.7952,5,0,1819,659,20,37,0
+21600,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.040401,0.7952,5,0,1819,659,20,37,1
+23040,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.040744,0.7952,6,0,1819,659,20,37,0
+24480,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.041312,0.79393,6,0,1819,659,20,37,0
+25920,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.041381,0.794258,6,0,1819,659,20,37,1
+27360,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.041543,0.790476,11,0,1819,659,20,37,0
+28800,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.041511,0.790476,11,0,1819,659,20,37,1
+30240,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.041656,0.789223,14,0,1819,659,20,37,0
+31680,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.041878,0.787066,14,0,1819,659,20,37,0
+33120,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.041855,0.787066,14,0,1819,659,20,37,0
+34560,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.04266,0.784591,14,0,1819,659,20,37,0
+36000,"SI-5920 enables default and named args in macros","master","xeno-by",1,0.0427,0.783359,14,0,1819,659,20,37,1
+0,"Make handling of tuples more consistent in quasi-quotes","master","densh",0,0.009841,0.671233,0,0,26,11,1,8,1
+1440,"Make handling of tuples more consistent in quasi-quotes","master","densh",0,0.009834,0.662162,1,0,26,11,1,8,0
+2880,"Make handling of tuples more consistent in quasi-quotes","master","densh",0,0.00987,0.666667,1,0,26,11,1,8,0
+4320,"Make handling of tuples more consistent in quasi-quotes","master","densh",0,0.009861,0.666667,1,0,26,11,1,8,1
+5760,"Make handling of tuples more consistent in quasi-quotes","master","densh",0,0.009856,0.671053,2,0,26,11,1,8,0
+7200,"Make handling of tuples more consistent in quasi-quotes","master","densh",0,0.009841,0.671053,2,0,26,11,1,8,0
+8640,"Make handling of tuples more consistent in quasi-quotes","master","densh",0,0.00984,0.671053,2,0,26,11,1,8,1
+0,"SI-8270 unconfuses bundles and vanilla macros","master","xeno-by",1,0.041889,0.78673,0,0,454,308,1,16,0
+1440,"SI-8270 unconfuses bundles and vanilla macros","master","xeno-by",1,0.041862,0.787066,0,0,454,308,1,16,0
+2880,"SI-8270 unconfuses bundles and vanilla macros","master","xeno-by",1,0.042662,0.784591,0,0,454,308,1,16,0
+4320,"SI-8270 unconfuses bundles and vanilla macros","master","xeno-by",1,0.0427,0.783359,0,0,454,308,1,16,1
+0,"typecheck(q""class C"") no longer crashes","master","xeno-by",1,0.041656,0.790476,0,0,349,265,4,7,1
+1440,"typecheck(q""class C"") no longer crashes","master","xeno-by",1,0.041878,0.787066,6,0,349,265,4,7,0
+2880,"typecheck(q""class C"") no longer crashes","master","xeno-by",1,0.041855,0.787066,6,0,349,265,4,7,0
+4320,"typecheck(q""class C"") no longer crashes","master","xeno-by",1,0.04266,0.784591,6,0,349,265,4,7,0
+5760,"typecheck(q""class C"") no longer crashes","master","xeno-by",1,0.0427,0.783359,6,0,349,265,4,7,1
+0,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009041,0.720588,0,0,181,82,3,11,0
+1440,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009339,0.7,0,0,181,82,3,11,1
+2880,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009336,0.7,4,9,181,82,3,11,1
+4320,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009331,0.7,4,11,184,85,4,11,0
+5760,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009322,0.7,4,11,184,85,4,11,1
+7200,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009574,0.680556,5,11,184,85,4,11,1
+8640,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009863,0.671233,12,13,184,85,4,11,0
+10080,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009855,0.671233,12,13,184,85,4,11,1
+11520,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009854,0.671233,13,13,400,195,7,12,0
+12960,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009841,0.662162,13,13,400,195,7,12,0
+14400,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009877,0.666667,13,13,400,195,7,12,0
+15840,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009869,0.666667,13,13,400,195,7,12,0
+17280,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009861,0.666667,13,13,400,195,7,12,1
+18720,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009855,0.671053,14,13,400,195,7,12,0
+20160,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.009841,0.671053,14,13,400,195,7,12,0
+21600,"Fix SI-8202 and improve support for splicing patterns into vals","master","densh",0,0.00984,0.671053,14,13,400,195,7,12,1
+0,"SI-3452 Correct Java generic signatures for mixins, static forwarders","master","retronym",1,0.045651,0.802115,0,0,649,13,1,31,1
+1440,"SI-3452 Correct Java generic signatures for mixins, static forwarders","master","retronym",1,0.045981,0.801205,10,0,662,13,2,34,0
+2880,"SI-3452 Correct Java generic signatures for mixins, static forwarders","master","retronym",1,0.045939,0.801504,10,0,662,13,2,34,0
+4320,"SI-3452 Correct Java generic signatures for mixins, static forwarders","master","retronym",1,0.04617,0.797904,10,0,662,13,2,34,1
+5760,"SI-3452 Correct Java generic signatures for mixins, static forwarders","master","retronym",1,0.046266,0.798808,11,0,662,13,2,34,0
+7200,"SI-3452 Correct Java generic signatures for mixins, static forwarders","master","retronym",1,0.046356,0.799107,11,0,662,13,2,34,1
+8640,"SI-3452 Correct Java generic signatures for mixins, static forwarders","master","retronym",1,0.0463,0.79792,12,0,875,298,6,40,1
+0,"SI-8266 Deprecate octal escapes in f-interpolator","master","som-snytt",0,0.005784,0.671429,0,0,124,4,1,7,1
+1440,"SI-8266 Deprecate octal escapes in f-interpolator","master","som-snytt",0,0.005781,0.666667,0,2,124,4,1,7,0
+2880,"SI-8266 Deprecate octal escapes in f-interpolator","master","som-snytt",0,0.005777,0.666667,0,2,124,4,1,7,0
+4320,"SI-8266 Deprecate octal escapes in f-interpolator","master","som-snytt",0,0.005769,0.669014,0,2,124,4,1,7,0
+5760,"SI-8266 Deprecate octal escapes in f-interpolator","master","som-snytt",0,0.005766,0.669014,0,2,124,4,1,7,1
+0,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002415,0.809524,0,0,75,73,1,3,0
+1440,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002632,0.75,0,0,75,73,1,3,0
+2880,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.00263,0.75,0,0,75,73,1,3,0
+4320,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002628,0.75,0,0,75,73,1,3,1
+5760,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002627,0.75,1,0,75,73,1,3,1
+7200,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002624,0.75,5,0,75,73,1,3,0
+8640,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002621,0.75,5,0,75,73,1,3,0
+10080,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002618,0.75,5,0,75,73,1,3,0
+11520,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002616,0.75,5,0,75,73,1,3,0
+12960,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002659,0.75,5,0,75,73,1,3,0
+14400,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.002959,0.72,5,0,75,73,1,3,0
+15840,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.003001,0.72,5,0,75,73,1,3,0
+17280,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.003042,0.72,5,0,75,73,1,3,0
+18720,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.003127,0.714286,5,0,75,73,1,3,0
+20160,"SI-8214 AnyRefMap should not be final","master","Ichoran",0,0.003252,0.741935,5,0,75,73,1,3,1
+0,"SI-6908 FlatHashTable and things that depend on it can't store nulls","master","Ichoran",0,0.00304,0.730769,0,0,7,1,1,2,1
+1440,"SI-6908 FlatHashTable and things that depend on it can't store nulls","master","Ichoran",0,0.003253,0.741935,1,0,7,1,1,2,1
+0,"SI-8264 scala.collection.immutable.HashSet#- returns broken Set","master","Ichoran",0,0.00304,0.72,0,0,14,6,1,3,1
+1440,"SI-8264 scala.collection.immutable.HashSet#- returns broken Set","master","Ichoran",0,0.003253,0.741935,1,0,14,6,1,3,1
+0,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000527,1,0,0,3,0,1,1,1
+1440,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000526,0.975,0,1,3,0,1,1,0
+2880,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000526,0.975,0,1,3,0,1,1,0
+4320,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000526,0.975,0,1,3,0,1,1,1
+5760,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000526,0.975,3,1,3,0,1,1,1
+7200,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000525,0.975,8,1,3,0,1,1,1
+8640,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000524,0.975,9,1,3,0,1,1,0
+10080,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000524,0.975,9,1,3,0,1,1,0
+11520,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000523,0.97561,9,1,3,0,1,1,0
+12960,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000523,0.97561,9,1,3,0,1,1,0
+14400,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000522,0.97561,9,1,3,0,1,1,0
+15840,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000522,0.97561,9,1,3,0,1,1,0
+17280,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000522,0.97561,9,1,3,0,1,1,0
+18720,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000521,0.97561,9,1,3,0,1,1,0
+20160,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.000521,0.97561,9,1,3,0,1,1,0
+21600,"add -Xsource:version to scalac man page","master","gourlaysama",0,0.00052,0.97561,9,1,3,0,1,1,1
+0,"SI-7711 Do not emit extra argv in script body","master","som-snytt",0,0.005775,0.666667,0,0,8,12,1,4,1
+1440,"SI-7711 Do not emit extra argv in script body","master","som-snytt",0,0.005766,0.669014,6,0,31,13,2,8,1
+0,"Add an extremely well-commented test","master","clhodapp",0,0.00039,0.5,0,0,228,0,1,2,1
+1440,"Add an extremely well-commented test","master","clhodapp",0,0.00039,0.529412,2,0,228,0,1,2,1
+0,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000045,0.684211,0,0,84,16,4,1,1
+1440,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000135,0.619048,1,0,84,16,4,1,0
+2880,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000135,0.590909,1,0,84,16,4,1,0
+4320,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000135,0.625,1,0,84,16,4,1,0
+5760,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000135,0.625,1,0,84,16,4,1,0
+7200,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000135,0.625,1,0,84,16,4,1,0
+8640,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000135,0.64,1,0,84,16,4,1,0
+10080,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000135,0.64,1,0,84,16,4,1,0
+11520,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.64,1,0,84,16,4,1,0
+12960,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.64,1,0,84,16,4,1,0
+14400,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.64,1,0,84,16,4,1,0
+15840,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.64,1,0,84,16,4,1,0
+17280,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.64,1,0,84,16,4,1,0
+18720,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.653846,1,0,84,16,4,1,0
+20160,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.666667,1,0,84,16,4,1,0
+21600,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.666667,1,0,84,16,4,1,0
+23040,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.666667,1,0,84,16,4,1,0
+24480,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.666667,1,0,84,16,4,1,0
+25920,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.666667,1,0,84,16,4,1,0
+27360,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.666667,1,0,84,16,4,1,0
+28800,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.666667,1,0,84,16,4,1,0
+30240,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.666667,1,0,84,16,4,1,0
+31680,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.666667,1,0,84,16,4,1,0
+33120,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.689655,1,0,84,16,4,1,0
+34560,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000134,0.709677,1,0,84,16,4,1,0
+36000,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000133,0.742857,1,0,84,16,4,1,0
+37440,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000133,0.75,1,0,84,16,4,1,0
+38880,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000222,0.72973,1,0,84,16,4,1,1
+40320,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000222,0.736842,6,0,84,16,4,1,0
+41760,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000221,0.736842,6,0,84,16,4,1,0
+43200,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000221,0.736842,6,0,84,16,4,1,0
+44640,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000221,0.74359,6,0,84,16,4,1,1
+46080,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000221,0.731707,7,0,84,16,4,1,0
+47520,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000221,0.731707,7,0,84,16,4,1,0
+48960,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000221,0.738095,7,0,84,16,4,1,0
+50400,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000221,0.711111,7,0,84,16,4,1,0
+51840,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000221,0.711111,7,0,84,16,4,1,0
+53280,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000221,0.711111,7,0,84,16,4,1,1
+54720,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.00022,0.723404,8,0,84,16,4,1,0
+56160,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.00022,0.723404,8,0,84,16,4,1,0
+57600,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.00022,0.714286,8,0,84,16,4,1,0
+59040,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.00022,0.72549,8,0,84,16,4,1,0
+60480,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.00022,0.72549,8,0,84,16,4,1,0
+61920,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000219,0.72549,8,0,84,16,4,1,0
+63360,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000219,0.72549,8,0,84,16,4,1,0
+64800,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000219,0.730769,8,0,84,16,4,1,0
+66240,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000219,0.740741,8,0,84,16,4,1,0
+67680,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000219,0.745455,8,0,84,16,4,1,0
+69120,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000219,0.741379,8,0,84,16,4,1,1
+70560,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000218,0.716667,10,0,84,16,4,1,0
+72000,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000218,0.704918,10,0,84,16,4,1,0
+73440,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000218,0.704918,10,0,84,16,4,1,0
+74880,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000218,0.71875,10,0,84,16,4,1,1
+76320,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000218,0.735294,11,0,84,16,4,1,1
+77760,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000217,0.735294,14,0,84,16,4,1,1
+79200,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000217,0.728571,16,0,84,16,4,1,0
+80640,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000217,0.736111,16,0,84,16,4,1,0
+82080,"SI-1448 Unify casting behavior for AnyVals","master","gzm0",0,0.000217,0.736111,16,0,84,16,4,1,1
+0,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000221,0.738095,0,0,292,16,2,7,0
+1440,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000221,0.711111,0,0,292,16,2,7,0
+2880,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000221,0.711111,0,0,292,16,2,7,0
+4320,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000221,0.711111,0,0,292,16,2,7,0
+5760,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.00022,0.723404,0,0,292,16,2,7,1
+7200,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.00022,0.723404,1,0,292,16,2,7,0
+8640,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.00022,0.72,1,0,292,16,2,7,0
+10080,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.00022,0.72549,1,0,292,16,2,7,0
+11520,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.00022,0.72549,1,0,292,16,2,7,0
+12960,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000219,0.72549,1,0,292,16,2,7,0
+14400,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000219,0.72549,1,0,292,16,2,7,0
+15840,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000219,0.730769,1,0,292,16,2,7,0
+17280,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000219,0.740741,1,0,292,16,2,7,0
+18720,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000219,0.745455,1,0,292,16,2,7,0
+20160,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000219,0.741379,1,0,292,16,2,7,1
+21600,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000218,0.716667,2,0,292,16,2,7,0
+23040,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000218,0.704918,2,0,292,16,2,7,0
+24480,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000218,0.704918,2,0,292,16,2,7,0
+25920,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000218,0.723077,2,0,292,16,2,7,1
+27360,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000217,0.735294,4,0,292,16,2,7,0
+28800,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000217,0.735294,4,0,292,16,2,7,1
+30240,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000217,0.728571,5,0,292,16,2,7,0
+31680,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000217,0.736111,5,0,292,16,2,7,0
+33120,"SI-3600 Allow annotations on package objects","master","gzm0",0,0.000217,0.736111,5,0,292,16,2,7,1
+0,"SI-7475 use intersection type for pattern type","master","adriaanm",1,0.066464,0.834928,0,0,38,26,1,4,1
+0,"SI-8283 mutation-free bound inference for existentials","master","adriaanm",1,0.066236,0.834532,0,0,84,41,1,4,1
+0,"SI-8188 NPE during deserialization of TrieMap","master","Ichoran",0,0.003257,0.724138,0,0,27,2,1,2,1
+0,"SI-6632 ListBuffer's updated accepts negative positions","master","Ichoran",0,0.00317,0.714286,0,0,17,19,1,3,1
+0,"SI-8177 specializeSym must use memberInfo on high side","master","adriaanm",1,0.066238,0.834135,0,0,160,47,1,12,1
+1440,"SI-8177 specializeSym must use memberInfo on high side","master","adriaanm",1,0.066265,0.834928,7,13,173,55,2,16,1
+0,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002262,0.882353,0,0,131,70,4,4,0
+1440,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002305,0.833333,0,0,131,70,4,4,0
+2880,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002303,0.833333,0,0,131,70,4,4,0
+4320,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002303,0.833333,0,0,131,70,4,4,0
+5760,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002301,0.833333,0,0,131,70,4,4,0
+7200,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002299,0.833333,0,0,131,70,4,4,0
+8640,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002298,0.833333,0,0,131,70,4,4,0
+10080,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002297,0.833333,0,0,131,70,4,4,0
+11520,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002296,0.833333,0,0,131,70,4,4,0
+12960,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002295,0.833333,0,0,131,70,4,4,0
+14400,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002294,0.833333,0,0,131,70,4,4,0
+15840,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002292,0.833333,0,0,131,70,4,4,0
+17280,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.00229,0.833333,0,0,131,70,4,4,0
+18720,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002289,0.833333,0,0,131,70,4,4,0
+20160,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002286,0.833333,0,0,131,70,4,4,0
+21600,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002372,0.8,0,0,131,70,4,4,0
+23040,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002633,0.75,0,0,131,70,4,4,0
+24480,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002631,0.75,0,0,131,70,4,4,0
+25920,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.00263,0.75,0,0,131,70,4,4,0
+27360,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002628,0.75,0,0,131,70,4,4,0
+28800,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002625,0.75,0,0,131,70,4,4,0
+30240,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002623,0.75,0,0,131,70,4,4,0
+31680,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002618,0.75,0,0,131,70,4,4,0
+33120,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002616,0.75,0,0,131,70,4,4,0
+34560,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.00266,0.75,0,0,131,70,4,4,1
+36000,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002961,0.72,2,0,131,70,4,4,1
+37440,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.002958,0.72,2,1,131,70,4,4,1
+38880,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.003043,0.72,7,3,131,70,4,4,1
+40320,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.003041,0.72,16,3,131,70,4,4,0
+41760,"SI-8153 Mutation is hard, let's go shopping with an empty list","master","Ichoran",0,0.003255,0.741935,16,3,131,70,4,4,1
+0,"SI-8276 Test for cyclic error caused by (reverted) SI-1786 fix","master","retronym",1,0.0463,0.798808,0,0,57,0,1,1,1
+0,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.007869,0.51087,0,0,40,0,2,5,1
+1440,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.007901,0.509025,18,0,134,55,3,7,1
+2880,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008157,0.507194,19,0,163,60,4,10,0
+4320,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008154,0.507194,19,0,220,112,5,10,0
+5760,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008543,0.505376,19,0,220,112,5,10,0
+7200,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008538,0.505376,19,0,220,112,5,10,1
+8640,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008527,0.505376,23,0,220,112,5,10,0
+10080,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.00856,0.503571,23,0,220,112,5,10,0
+11520,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008551,0.503571,23,0,220,112,5,10,0
+12960,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008547,0.503571,23,0,220,112,5,10,0
+14400,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008541,0.503571,23,0,220,112,5,10,0
+15840,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008529,0.503571,23,0,220,112,5,10,1
+17280,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008523,0.503571,24,0,220,112,5,10,1
+18720,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008516,0.505338,25,0,220,112,5,10,1
+20160,"SI-3235 Add round/ceil/floor to integral number types","master","soc",0,0.008511,0.505338,29,0,220,112,5,10,1
+0,"SI-8280 regression in implicit selection.","master","paulp",1,0.172502,0.787234,0,0,95,1,1,3,1
+0,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043271,0.8128,0,0,238,227,4,28,1
+1440,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043465,0.81051,0,14,245,227,5,28,0
+2880,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043461,0.811111,0,14,245,227,5,28,0
+4320,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043455,0.81141,0,14,245,227,5,28,0
+5760,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043432,0.812893,0,14,245,227,5,28,0
+7200,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043555,0.813187,0,14,245,227,5,28,0
+8640,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043543,0.813187,0,14,245,227,5,28,0
+10080,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043549,0.81348,0,14,245,227,5,28,0
+11520,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043515,0.81348,0,14,245,227,5,28,0
+12960,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043913,0.811526,0,14,245,227,5,28,0
+14400,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.043916,0.811526,0,14,245,227,5,28,0
+15840,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.044229,0.810478,0,14,245,227,5,28,1
+17280,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.044302,0.810478,1,14,245,227,5,28,1
+18720,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.044367,0.810769,2,20,249,233,6,28,0
+20160,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.044596,0.809524,2,20,249,233,6,28,0
+21600,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.045015,0.808869,2,20,249,233,6,28,0
+23040,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.045311,0.80916,2,20,249,233,6,28,1
+24480,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.045393,0.807927,4,20,249,233,6,28,0
+25920,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.045552,0.804249,4,20,249,233,6,28,0
+27360,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.045613,0.801815,4,20,249,233,6,28,0
+28800,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.045855,0.801205,4,20,249,233,6,28,0
+30240,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.045959,0.801504,4,20,249,233,6,28,0
+31680,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.046018,0.8003,4,20,249,233,6,28,1
+33120,"SI-8134 SI-5954 Fix companions in package object under separate comp.","master","retronym",1,0.046205,0.798507,5,20,249,233,6,28,1
+0,"SI-5900 Fix pattern inference regression","master","adriaanm",1,0.066125,0.833735,0,0,46,17,2,10,1
+0,"SI-5900 Fix pattern inference regression","master","retronym",1,0.04617,0.7991,0,0,58,29,3,9,1
+0,"SI-8244 Fix raw type regression under separate compilation","master","adriaanm",1,0.065966,0.835351,0,0,104,5,1,14,1

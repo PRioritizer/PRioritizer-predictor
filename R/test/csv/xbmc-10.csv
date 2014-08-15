@@ -1,0 +1,35 @@
+"age","title","target","author","coreMember","commitRatio","pullRequestRatio","comments","reviewComments","additions","deletions","commits","files","important"
+0,"Gotham langfixes","Gotham","MartijnKaijser",1,0.007592,0.791878,0,0,8,17,4,1,1
+1440,"Gotham langfixes","Gotham","MartijnKaijser",1,0.007614,0.787879,5,0,15,21,5,5,1
+0,"URIUtils: fix out of range exception in resolvePath()","master","Montellese",1,0.034211,0.828125,0,0,5,3,2,1,1
+1440,"URIUtils: fix out of range exception in resolvePath()","master","Montellese",1,0.034196,0.824903,9,0,13,10,3,1,1
+2880,"URIUtils: fix out of range exception in resolvePath()","master","Montellese",1,0.034194,0.821705,10,0,13,10,3,1,1
+0,"Droid native sr","master","t-nelson",1,0.003438,0.660377,0,0,9,15,2,3,1
+1440,"Droid native sr","master","t-nelson",1,0.003438,0.648148,5,0,9,15,2,3,1
+0,"Load channel settings properly when <cacheindvdplayer> is disabled","Gotham","Jalle19",0,0.0003,0.71875,0,0,90,181,7,9,1
+0,"[Confluence] fix usage of ""next"" label in mismatching contexts","master","da-anda",1,0.000277,0.647059,0,0,12,8,2,5,1
+0,"[language] fix inconsistent naming of Blu-ray and improve wording of related labels","master","da-anda",1,0.000231,0.666667,0,0,3,3,1,1,1
+0,"[pvr] fix: duplicate parent dir item for recordings","master","xhaggi",0,0.001619,0.764368,0,0,57,34,3,6,1
+1440,"[pvr] fix: duplicate parent dir item for recordings","master","xhaggi",0,0.001619,0.76,1,0,57,34,3,6,1
+2880,"[pvr] fix: duplicate parent dir item for recordings","master","xhaggi",0,0.001618,0.76,8,0,57,34,3,6,0
+4320,"[pvr] fix: duplicate parent dir item for recordings","master","xhaggi",0,0.001618,0.76,8,0,57,34,3,6,0
+5760,"[pvr] fix: duplicate parent dir item for recordings","master","xhaggi",0,0.00164,0.76,8,0,58,35,4,6,0
+7200,"[pvr] fix: duplicate parent dir item for recordings","master","xhaggi",0,0.00164,0.76,8,0,58,35,4,6,1
+8640,"[pvr] fix: duplicate parent dir item for recordings","master","xhaggi",0,0.001662,0.76,16,3,58,36,5,6,1
+0,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0,0.409091,0,0,80,24,2,5,1
+1440,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000023,0.416667,6,0,120,64,3,5,0
+2880,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000023,0.416667,6,0,120,64,3,5,1
+4320,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000023,0.416667,12,0,120,64,3,5,1
+5760,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000046,0.416667,22,0,280,112,11,5,0
+7200,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000046,0.416667,22,0,280,112,11,5,0
+8640,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000046,0.416667,22,0,280,112,11,5,0
+10080,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000046,0.416667,22,0,280,112,11,5,1
+11520,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000046,0.416667,22,3,280,112,11,5,0
+12960,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000046,0.416667,22,3,280,112,11,5,1
+14400,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000046,0.416667,22,5,296,134,12,5,1
+15840,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000069,0.416667,24,7,307,156,15,6,0
+17280,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000069,0.416667,24,7,307,156,15,6,0
+18720,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000069,0.416667,24,7,307,156,15,6,0
+20160,"[PVR] : 4 fixes related to chanel icons","master","alexmaloteaux",0,0.000069,0.416667,24,7,307,156,15,6,1
+0,"WASAPI: increase audio buffer for USB devices, fixes audible distortion","Gotham","FernetMenta",1,0.010825,0.732283,0,0,32,4,2,3,1
+0,"[ios] - only use the native keyboard if tvout is not used (native keyboa...","Gotham","Memphiz",1,0.023918,0.826923,0,0,3,1,1,1,1

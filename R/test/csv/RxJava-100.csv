@@ -1,0 +1,266 @@
+"age","title","target","author","coreMember","commitRatio","pullRequestRatio","comments","reviewComments","additions","deletions","commits","files","important"
+0,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073694,0.863636,0,0,593,176,5,18,1
+1440,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073975,0.826087,2,0,594,176,6,18,1
+2880,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073712,0.826087,21,0,594,176,6,18,0
+4320,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073582,0.826087,21,0,594,176,6,18,0
+5760,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073582,0.826087,21,0,594,176,6,18,0
+7200,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073582,0.826087,21,0,594,176,6,18,0
+8640,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073516,0.826087,21,0,594,176,6,18,0
+10080,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073516,0.826087,21,0,594,176,6,18,0
+11520,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073484,0.826087,21,0,594,176,6,18,0
+12960,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073451,0.826087,21,0,594,176,6,18,1
+0,"correct link to maven search","master","devisnik",0,0.000444,0.705882,0,0,1,1,1,1,1
+1440,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
+2880,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
+4320,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
+5760,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
+7200,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
+8640,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
+10080,"correct link to maven search","master","devisnik",0,0.000442,0.666667,1,0,1,1,1,1,1
+0,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001331,0.8,0,0,29,0,1,2,1
+1440,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001773,0.666667,4,0,30,1,2,2,0
+2880,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001773,0.666667,4,0,30,1,2,2,0
+4320,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001772,0.666667,4,0,30,1,2,2,0
+5760,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001771,0.666667,4,0,30,1,2,2,0
+7200,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001771,0.666667,4,0,30,1,2,2,0
+8640,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001771,0.666667,4,0,30,1,2,2,0
+10080,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.00177,0.666667,4,0,30,1,2,2,1
+0,"Manual Merge 940","master","benjchristensen",1,0.489841,0.871528,0,0,1198,451,2,11,1
+0,"refactor the debug hooks before they become a breaking change.","master","abersnaze",1,0.000886,0.347826,0,0,557,224,1,11,1
+1440,"refactor the debug hooks before they become a breaking change.","master","abersnaze",1,0.000886,0.333333,1,0,557,224,1,11,0
+2880,"refactor the debug hooks before they become a breaking change.","master","abersnaze",1,0.000885,0.333333,1,0,557,224,1,11,1
+0,"OperationRetry -> OperatorRetry","master","benjchristensen",1,0.48939,0.87108,0,0,135,111,1,4,1
+0,"MathObservable","master","benjchristensen",1,0.488938,0.873684,0,0,2057,1,1,10,1
+0,"Skip fixed","master","headinthebox",1,0.00133,0.615385,0,0,191,199,2,6,1
+1440,"Skip fixed","master","headinthebox",1,0.00133,0.571429,1,0,191,199,2,6,0
+2880,"Skip fixed","master","headinthebox",1,0.00133,0.571429,1,0,191,199,2,6,0
+4320,"Skip fixed","master","headinthebox",1,0.001329,0.571429,1,0,191,199,2,6,0
+5760,"Skip fixed","master","headinthebox",1,0.001329,0.571429,1,0,191,199,2,6,0
+7200,"Skip fixed","master","headinthebox",1,0.001329,0.571429,1,0,191,199,2,6,1
+0,"Blocking zip operator","master","akarnokd",0,0.035411,0.488889,0,0,478,54,1,4,1
+1440,"Blocking zip operator","master","akarnokd",0,0.035244,0.483516,8,0,790,135,3,4,0
+2880,"Blocking zip operator","master","akarnokd",0,0.034965,0.478261,8,0,790,135,3,4,0
+4320,"Blocking zip operator","master","akarnokd",0,0.034932,0.478261,8,0,790,135,3,4,0
+5760,"Blocking zip operator","master","akarnokd",0,0.034884,0.473118,8,0,790,135,3,4,0
+7200,"Blocking zip operator","master","akarnokd",0,0.034435,0.473118,8,0,790,135,3,4,0
+8640,"Blocking zip operator","master","akarnokd",0,0.034215,0.473118,8,0,790,135,3,4,0
+10080,"Blocking zip operator","master","akarnokd",0,0.033952,0.473118,8,0,790,135,3,4,0
+11520,"Blocking zip operator","master","akarnokd",0,0.033723,0.473118,8,0,790,135,3,4,0
+12960,"Blocking zip operator","master","akarnokd",0,0.033557,0.473118,8,0,790,135,3,4,0
+14400,"Blocking zip operator","master","akarnokd",0,0.033557,0.473118,8,0,790,135,3,4,0
+15840,"Blocking zip operator","master","akarnokd",0,0.033542,0.473118,8,0,790,135,3,4,0
+17280,"Blocking zip operator","master","akarnokd",0,0.033422,0.473118,8,0,790,135,3,4,0
+18720,"Blocking zip operator","master","akarnokd",0,0.033319,0.468085,8,0,790,135,3,4,0
+20160,"Blocking zip operator","master","akarnokd",0,0.033259,0.468085,8,0,790,135,3,4,0
+21600,"Blocking zip operator","master","akarnokd",0,0.033245,0.468085,8,0,790,135,3,4,0
+23040,"Blocking zip operator","master","akarnokd",0,0.033245,0.468085,8,0,790,135,3,4,1
+24480,"Blocking zip operator","master","akarnokd",0,0.033215,0.468085,10,0,790,135,3,4,1
+25920,"Blocking zip operator","master","akarnokd",0,0.033215,0.468085,14,0,790,135,3,4,1
+27360,"Blocking zip operator","master","akarnokd",0,0.033215,0.468085,17,0,790,135,3,4,1
+0,"Implemented Skip using Lift in Observable and OperatorSkip","master","headinthebox",1,0.001332,0.666667,0,0,92,188,1,6,1
+0,"TestSubscriber lastSeenThread","master","benjchristensen",1,0.490214,0.879859,0,0,2,0,1,1,1
+0,"TestSubscriber: Default onError and Terminal Latch Behavior","master","benjchristensen",1,0.48976,0.879433,0,0,28,5,1,1,1
+0,"Rxjava clojure bindings final","master","daveray",1,0.014273,0.75,0,0,3709,974,29,15,1
+0,"Rxjava clojure bindings","master","daveray",1,0.008621,0.777778,0,0,2859,477,9,15,1
+1440,"Rxjava clojure bindings","master","daveray",1,0.014388,0.75,7,24,3362,684,21,15,1
+2880,"Rxjava clojure bindings","master","daveray",1,0.014324,0.75,12,28,3706,972,28,15,0
+4320,"Rxjava clojure bindings","master","daveray",1,0.014318,0.75,12,28,3709,974,29,15,0
+5760,"Rxjava clojure bindings","master","daveray",1,0.014318,0.75,12,28,3709,974,29,15,1
+7200,"Rxjava clojure bindings","master","daveray",1,0.014286,0.75,13,28,3709,974,29,15,1
+0,"Localized Operator Error Handling","master","benjchristensen",1,0.489514,0.882562,0,0,119,6,2,4,1
+0,"Changes made while integrating it with our internal system","master","abersnaze",1,0.000894,0.363636,0,0,211,100,1,5,1
+0,"Delete Deprecated onSubscribeStart That Doesn't Work","master","benjchristensen",1,0.490363,0.885714,0,0,0,6,1,1,1
+0,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.000449,0.752688,0,0,30,0,1,1,1
+0,"BugFix: Zip Never Completes When Zero Observables","master","benjchristensen",1,0.489906,0.888889,0,0,233,17,4,3,1
+0,"Operator: doOnTerminate","master","benjchristensen",1,0.489448,0.888489,0,0,36,3,1,1,1
+0,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.000472,0.769231,0,0,30,0,1,1,1
+1440,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.00047,0.76087,4,0,30,0,1,1,0
+2880,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.000466,0.76087,4,0,30,0,1,1,0
+4320,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.000466,0.752688,4,0,30,0,1,1,0
+5760,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.000466,0.752688,4,0,30,0,1,1,0
+7200,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.00046,0.752688,4,0,30,0,1,1,0
+8640,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.000457,0.752688,4,0,30,0,1,1,0
+10080,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.000454,0.752688,4,0,30,0,1,1,0
+11520,"Zip Bug UnitTest: Never Completes When Zero Observables","master","tnine",0,0.00045,0.752688,4,0,30,0,1,1,1
+0,"Merge pull request #1 from Netflix/master","master","jloisel",0,0.004047,0.666667,0,0,5341,4828,1,53,1
+0,"Merge pull request #1 from Netflix/master","master","jloisel",0,0.004047,1,0,0,5341,4828,1,53,1
+0,"Remove groupBy with selector.","master","benjchristensen",1,0.490967,0.888087,0,0,0,24,1,1,1
+0,"Scheduler Plugin Refactor","master","benjchristensen",1,0.490967,0.887681,0,0,70,55,2,7,1
+0,"Deprecate Direct Access to Scheduler Implementations","master","benjchristensen",1,0.491833,0.890909,0,0,41,6,1,5,1
+0,"Deprecate Direct Access to Scheduler Implementations","master","benjchristensen",1,0.491833,0.894161,0,0,41,6,1,5,1
+0,"RxJavaSchedulers Plugin","master","benjchristensen",1,0.491356,0.897436,0,0,184,8,1,4,1
+0,"Merge: Unsubscribe Completed Inner Observables","master","benjchristensen",1,0.491572,0.900735,0,0,121,2,1,3,1
+0,"Scheduler.Recurse fields should be private","master","benjchristensen",1,0.49134,0.904059,0,0,2,2,1,1,1
+0,"Fixed NullPointerException that may happen on timeout","master","johanhaleby",0,0.000456,0.5,0,0,3,1,1,1,1
+0,"GroupBy Unit Test from #900","master","benjchristensen",1,0.491092,0.907407,0,0,34,0,1,1,1
+0,"Handle illegal errors thrown from plugin","master","benjchristensen",1,0.491976,0.907063,0,0,34,4,1,1,1
+0,"onErrorFlatMap + OnErrorThrowable","master","benjchristensen",1,0.490078,0.909774,0,0,311,106,2,13,1
+0,"Rewrite OperationObserveFromAndroidComponent to OperatorObserveFromAndro...","master","zsxwing",0,0.040037,0.755102,0,0,112,118,1,8,1
+0,"Make Subscriptions of SwingObservable thread-safe","master","zsxwing",0,0.040019,0.770833,0,0,375,196,1,7,1
+1440,"Make Subscriptions of SwingObservable thread-safe","master","zsxwing",0,0.040037,0.76,5,0,375,196,1,7,1
+0,"removing java 7 dep","master","abersnaze",1,0.00046,0.333333,0,0,11,3,1,1,1
+0,"Fixed an issue with the from(Reader) added a bunch of unit tests.","master","abersnaze",1,0.000465,0.368421,0,0,128,4,1,2,1
+0,"Synchronized Operator Check for isTerminated","master","benjchristensen",1,0.490783,0.906716,0,0,13,4,1,1,1
+0,"Change Parallel to use Long instead of Int","master","benjchristensen",1,0.490314,0.906367,0,0,77,9,1,2,1
+0,"Lift Performance","master","benjchristensen",1,0.486486,0.911877,0,0,73,2,1,2,1
+1440,"Lift Performance","master","benjchristensen",1,0.486726,0.908397,5,0,73,2,1,2,0
+2880,"Lift Performance","master","benjchristensen",1,0.486763,0.908745,5,0,73,2,1,2,1
+0,"Eliminate rx.util.* dumping grounds","master","benjchristensen",1,0.489135,0.909434,0,0,2121,709,6,322,1
+0,"Split SubscribeOn into SubscribeOn/UnsubscribeOn","master","benjchristensen",1,0.487239,0.909091,0,0,814,336,1,8,1
+0,"Revert Bounded ObserveOn","master","benjchristensen",1,0.486763,0.908745,0,0,853,331,1,6,1
+0,"Remove Bad Filter Logic","master","benjchristensen",1,0.486524,0.908397,0,0,0,14,1,1,1
+0,"Force ViewObservable be subscribed and unsubscribed in the UI thread","master","zsxwing",0,0.039627,0.765957,0,0,56,5,1,5,1
+0,"Correct synchronization guard in groupByUntil","master","pyrtsa",0,0.000469,0.666667,0,0,1,1,1,1,1
+0,"Scheduler.scheduleRecursive","master","benjchristensen",1,0.485487,0.911538,0,0,51,0,1,1,1
+0,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000529,0.339181,0,0,62,0,2,2,1
+1440,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000526,0.337209,3,0,62,0,2,2,1
+2880,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000526,0.337209,5,0,62,0,2,2,0
+4320,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000522,0.337209,5,0,62,0,2,2,0
+5760,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000522,0.337209,5,0,62,0,2,2,0
+7200,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000522,0.337209,5,0,62,0,2,2,0
+8640,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000521,0.337209,5,0,62,0,2,2,0
+10080,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000517,0.337209,5,0,62,0,2,2,0
+11520,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000517,0.337209,5,0,62,0,2,2,0
+12960,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000514,0.34104,5,0,62,0,2,2,0
+14400,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000513,0.34104,5,0,62,0,2,2,0
+15840,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.00051,0.34104,5,0,62,0,2,2,0
+17280,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000509,0.34104,5,0,62,0,2,2,0
+18720,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000509,0.34104,5,0,62,0,2,2,0
+20160,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000508,0.34104,5,0,62,0,2,2,0
+21600,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000508,0.344828,5,0,62,0,2,2,0
+23040,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000507,0.344828,5,0,62,0,2,2,0
+24480,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000505,0.344828,5,0,62,0,2,2,0
+25920,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000505,0.344828,5,0,62,0,2,2,0
+27360,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000505,0.344828,5,0,62,0,2,2,0
+28800,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000505,0.344828,5,0,62,0,2,2,0
+30240,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000502,0.344828,5,0,62,0,2,2,0
+31680,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000499,0.344828,5,0,62,0,2,2,0
+33120,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000493,0.344828,5,0,62,0,2,2,0
+34560,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000486,0.344828,5,0,62,0,2,2,0
+36000,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000486,0.344828,5,0,62,0,2,2,0
+37440,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000485,0.344828,5,0,62,0,2,2,0
+38880,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000485,0.344828,5,0,62,0,2,2,0
+40320,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.00048,0.344828,5,0,62,0,2,2,1
+41760,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000475,0.344828,7,0,62,0,2,2,0
+43200,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.000472,0.344828,7,0,62,0,2,2,1
+44640,"Provide Observable.timestamp(Scheduler) to be used in the tests.","master","vigdorchik",0,0.00047,0.344828,8,0,62,0,2,2,1
+0,"Manual Merge of #750","master","benjchristensen",1,0.485232,0.911197,0,0,62,0,2,2,1
+0,"subscribeOn + groupBy","master","benjchristensen",1,0.483703,0.910853,0,0,1304,293,6,6,1
+1440,"subscribeOn + groupBy","master","benjchristensen",1,0.484478,0.911197,6,9,1358,383,10,8,1
+0,"Update CompositeSubscriptionTest.java","master","davidmoten",0,0.00047,1,0,0,1,1,1,1,1
+0,"Blocking buffer until experiment","master","akarnokd",0,0.035138,0.494382,0,0,581,97,2,4,1
+1440,"Blocking buffer until experiment","master","akarnokd",0,0.035411,0.488889,8,5,607,113,3,4,1
+0,"Add the selector variants of timeout in RxScala","master","zsxwing",0,0.039188,0.755556,0,0,121,4,1,3,1
+0,"Update OperationScan to OperatorScan","master","benjchristensen",1,0.482955,0.910506,0,0,130,153,1,5,1
+0,"Convert to scan to use lift","master","abersnaze",1,0.000508,0.5,0,0,371,1106,3,6,1
+1440,"Convert to scan to use lift","master","abersnaze",1,0.000508,0.466667,2,0,371,1106,3,6,0
+2880,"Convert to scan to use lift","master","abersnaze",1,0.000507,0.466667,2,0,371,1106,3,6,1
+4320,"Convert to scan to use lift","master","abersnaze",1,0.000505,0.466667,3,0,371,1106,3,6,0
+5760,"Convert to scan to use lift","master","abersnaze",1,0.000505,0.466667,3,0,371,1106,3,6,0
+7200,"Convert to scan to use lift","master","abersnaze",1,0.000505,0.466667,3,0,371,1106,3,6,0
+8640,"Convert to scan to use lift","master","abersnaze",1,0.000505,0.466667,3,0,371,1106,3,6,0
+10080,"Convert to scan to use lift","master","abersnaze",1,0.000501,0.466667,3,0,371,1106,3,6,0
+11520,"Convert to scan to use lift","master","abersnaze",1,0.000497,0.466667,3,0,371,1106,3,6,0
+12960,"Convert to scan to use lift","master","abersnaze",1,0.00049,0.466667,3,0,371,1106,3,6,0
+14400,"Convert to scan to use lift","master","abersnaze",1,0.000486,0.411765,3,0,371,1106,3,6,0
+15840,"Convert to scan to use lift","master","abersnaze",1,0.000486,0.411765,3,0,371,1106,3,6,0
+17280,"Convert to scan to use lift","master","abersnaze",1,0.000485,0.411765,3,0,371,1106,3,6,0
+18720,"Convert to scan to use lift","master","abersnaze",1,0.000485,0.411765,3,0,371,1106,3,6,0
+20160,"Convert to scan to use lift","master","abersnaze",1,0.00048,0.388889,3,0,371,1106,3,6,1
+21600,"Convert to scan to use lift","master","abersnaze",1,0.000474,0.368421,5,1,540,1396,6,25,1
+0,"SchedulePeriodically Signature","master","benjchristensen",1,0.483071,0.913725,0,0,20,17,1,8,1
+0,"Update the timeout docs","master","zsxwing",0,0.038973,0.772727,0,0,28,7,1,2,1
+0,"Optimize SwingMouseEventSource.fromRelativeMouseMotion","master","Acardiac",0,0.00095,0.5,0,0,5,28,1,1,1
+0,"Fixing the generics for merge and lift","master","abersnaze",1,0.000476,0.388889,0,0,153,363,3,20,1
+0,"Proposed solution to the time gap, using unbounded buffering.","master","akarnokd",0,0.034696,0.5,0,0,441,37,1,4,1
+0,"Change Lift to use rx.Observable.Operator","master","benjchristensen",1,0.483071,0.910156,0,0,51,72,1,52,1
+0,"Subscribe on gap","master","akarnokd",0,0.034118,0.505747,0,0,362,85,3,7,1
+0,"Reimplement the timeout operator and fix timeout bugs","master","zsxwing",0,0.038905,0.767442,0,0,573,352,4,9,1
+0,"Add 'Fragment-Host' to rxjava-contrib modules for OSGi","master","Acardiac",0,0,0,0,0,6,0,1,6,1
+0,"Various Changes While Fixing GroupBy","master","benjchristensen",1,0.480038,0.916996,0,0,1221,590,15,19,1
+0,"Fix problem with Subscription","master","MarioAriasC",0,0.006302,0.75,0,0,4,4,1,3,1
+0,"Test Unsubscribe","master","benjchristensen",1,0.475983,0.916667,0,0,34,6,1,3,1
+0,"Range OnSubscribe","master","benjchristensen",1,0.475728,0.916335,0,0,163,152,2,8,1
+0,"Performance benchmark with caliper","master","abersnaze",1,0.000508,0.538462,0,0,143,2,2,3,1
+1440,"Performance benchmark with caliper","master","abersnaze",1,0.000508,0.5,1,0,143,2,2,3,0
+2880,"Performance benchmark with caliper","master","abersnaze",1,0.000508,0.466667,1,0,143,2,2,3,0
+4320,"Performance benchmark with caliper","master","abersnaze",1,0.000507,0.466667,1,0,143,2,2,3,1
+5760,"Performance benchmark with caliper","master","abersnaze",1,0.000505,0.466667,2,0,143,2,2,3,0
+7200,"Performance benchmark with caliper","master","abersnaze",1,0.000505,0.466667,2,0,143,2,2,3,0
+8640,"Performance benchmark with caliper","master","abersnaze",1,0.000505,0.466667,2,0,143,2,2,3,0
+10080,"Performance benchmark with caliper","master","abersnaze",1,0.000505,0.466667,2,0,143,2,2,3,0
+11520,"Performance benchmark with caliper","master","abersnaze",1,0.000501,0.466667,2,0,143,2,2,3,0
+12960,"Performance benchmark with caliper","master","abersnaze",1,0.000497,0.466667,2,0,143,2,2,3,0
+14400,"Performance benchmark with caliper","master","abersnaze",1,0.000492,0.466667,2,0,143,2,2,3,1
+15840,"Performance benchmark with caliper","master","abersnaze",1,0.000486,0.411765,3,0,143,2,2,3,0
+17280,"Performance benchmark with caliper","master","abersnaze",1,0.000486,0.411765,3,0,143,2,2,3,1
+0,"Perf with JMH","master","abersnaze",1,0.000486,0.4375,0,0,174,31,3,3,1
+1440,"Perf with JMH","master","abersnaze",1,0.000486,0.411765,2,0,174,31,3,3,1
+0,"Make Scala OnCompleted Notification an object","master","samuelgruetter",0,0.077821,0.904762,0,0,862,510,2,29,1
+1440,"Make Scala OnCompleted Notification an object","master","samuelgruetter",0,0.077745,0.863636,1,0,862,510,2,29,1
+0,"ObserveOn Operator with Backpressure","master","benjchristensen",1,0.474708,0.927419,0,0,1156,730,16,11,1
+1440,"ObserveOn Operator with Backpressure","master","benjchristensen",1,0.475219,0.916335,10,0,1156,730,16,11,1
+0,"Error Handling: OnErrorNotImplemented and java.lang.Error","master","benjchristensen",1,0.474708,0.92,0,0,308,520,1,41,1
+0,"Update clojure for 0.17","master","daveray",1,0.005353,0.807692,0,0,151,96,3,7,1
+0,"[Issue #831] Fix for OperationJoin race condition","master","duncani",0,0,0,0,0,29,20,1,1,1
+0,"Reimplement 'subscribeOn' using 'lift'","master","zsxwing",0,0.038481,0.785714,0,0,280,153,1,5,1
+0,"adding marble diagrams, see-also links to javadocs of new repeat() variants","master","DavidMGross",1,0.026432,0.958333,0,0,12,4,1,1,1
+0,"Take operator was breaking the unsubscribe chain","master","benjchristensen",1,0.473607,0.931174,0,0,39,7,1,2,1
+0,"Operator Repeat and other operator fixes","master","akarnokd",0,0.033949,0.481481,0,0,386,225,1,10,1
+1440,"Operator Repeat and other operator fixes","master","akarnokd",0,0.034517,0.5,4,14,386,225,1,10,1
+0,"Fixed cut & paster error in io scheduler","master","headinthebox",1,0.001471,0.636364,0,0,2,5,1,1,1
+0,"Repeat Operator","master","benjchristensen",1,0.473529,0.930894,0,0,295,144,4,10,1
+0,"Set setDaemon on NewThreadScheduler","master","akarnokd",0,0.034993,0.5,0,0,3,1,1,1,1
+0,"Issue #799 - Commenting out the call to attachCallingThreadStack when co...","0.16.x","mattrjacobs",1,0.017725,0.615385,0,0,8,1,1,2,1
+0,"Return wrapped Subscription","master","benjchristensen",1,0.472468,0.930612,0,0,13,2,1,1,1
+0,"Update to use Subscriber/Subscriptions.create","master","benjchristensen",1,0.47332,0.930328,0,0,33,26,1,3,1
+0,"Implement some Android UI related operators","master","mironov-nsk",0,0.000513,0.714286,0,0,1474,2,2,8,1
+1440,"Implement some Android UI related operators","master","mironov-nsk",0,0.00051,0.625,1,0,1474,2,2,8,1
+2880,"Implement some Android UI related operators","master","mironov-nsk",0,0.000509,0.625,2,0,1474,2,2,8,0
+4320,"Implement some Android UI related operators","master","mironov-nsk",0,0.000509,0.625,2,0,1474,2,2,8,0
+5760,"Implement some Android UI related operators","master","mironov-nsk",0,0.000508,0.625,2,0,1474,2,2,8,0
+7200,"Implement some Android UI related operators","master","mironov-nsk",0,0.000508,0.625,2,0,1474,2,2,8,0
+8640,"Implement some Android UI related operators","master","mironov-nsk",0,0.000507,0.625,2,0,1474,2,2,8,0
+10080,"Implement some Android UI related operators","master","mironov-nsk",0,0.000505,0.625,2,0,1474,2,2,8,0
+11520,"Implement some Android UI related operators","master","mironov-nsk",0,0.000505,0.555556,2,0,1474,2,2,8,0
+12960,"Implement some Android UI related operators","master","mironov-nsk",0,0.000505,0.555556,2,0,1474,2,2,8,0
+14400,"Implement some Android UI related operators","master","mironov-nsk",0,0.000505,0.555556,2,0,1474,2,2,8,0
+15840,"Implement some Android UI related operators","master","mironov-nsk",0,0.000502,0.555556,2,0,1474,2,2,8,0
+17280,"Implement some Android UI related operators","master","mironov-nsk",0,0.000499,0.555556,2,0,1474,2,2,8,1
+0,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001539,0.666667,0,0,89,47,2,4,1
+1440,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001537,0.6,1,0,89,47,2,4,0
+2880,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001529,0.6,1,0,89,47,2,4,0
+4320,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001526,0.6,1,0,89,47,2,4,0
+5760,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001524,0.6,1,0,89,47,2,4,0
+7200,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001523,0.6,1,0,89,47,2,4,0
+8640,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001522,0.6,1,0,89,47,2,4,0
+10080,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.00152,0.6,1,0,89,47,2,4,0
+11520,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001515,0.6,1,0,89,47,2,4,0
+12960,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001514,0.6,1,0,89,47,2,4,0
+14400,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001514,0.6,1,0,89,47,2,4,0
+15840,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001514,0.6,1,0,89,47,2,4,0
+17280,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.001502,0.6,1,0,89,47,2,4,0
+18720,"Fixed buglet in join binding, simplified types","master","headinthebox",1,0.00149,0.636364,1,0,89,47,2,4,1
+0,"Git keeps modifying this file so committing it how it wants it.","master","benjchristensen",1,0.472277,0.930041,0,0,50,50,1,1,1
+0,"CompositeSubscription performance increase","master","akarnokd",0,0.034705,0.494118,0,0,75,5,1,2,1
+0,"Scala Scheduler Bindings Fix","master","headinthebox",1,0.00149,0.6,0,0,161,269,1,15,1
+0,"CompositeSubscription memory reduction","master","akarnokd",0,0.034757,0.488095,0,0,12,4,1,1,1
+0,"One global onCompleted object","master","samuelgruetter",0,0.079761,0.9,0,0,6,2,1,1,1
+0,"Fixed OperationSubscribeOn so OperationConditionalsTest works again.","master","akarnokd",0,0.034431,0.47561,0,0,1,1,1,1,1
+0,"RunAsync method for outputting multiple values","master","akarnokd",0,0.034913,0.481928,0,0,142,1,1,3,1
+0,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.468702,0.932203,0,0,1439,556,3,6,1
+1440,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.468464,0.932489,2,2,1439,556,3,6,1
+2880,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.469004,0.932489,3,4,1439,556,3,6,0
+4320,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.468528,0.932489,3,4,1439,556,3,6,0
+5760,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.469098,0.932489,3,4,1439,556,3,6,1
+7200,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.469636,0.932489,4,4,1439,556,3,6,1
+8640,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.471241,0.933054,6,4,1439,556,3,6,0
+10080,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.471241,0.933333,6,4,1439,556,3,6,0
+11520,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.471241,0.933333,6,4,1439,556,3,6,0
+12960,"Reimplement Zip Operator Using Lift [Preview]","master","benjchristensen",1,0.470913,0.93361,6,4,1439,556,3,6,1
+0,"Operator repeat","master","akarnokd",0,0.03305,0.4875,0,0,2349,2759,5,71,1
+0,"Fix CompositeException","master","benjchristensen",1,0.471443,0.93361,0,0,117,15,3,2,1
+0,"Operator repeat","master","akarnokd",0,0.033083,0.493671,0,0,1016,855,4,12,1
+0,"Scheduler Outer/Inner [Preview]","master","benjchristensen",1,0.471241,0.933054,0,0,1949,3045,2,52,1
+1440,"Scheduler Outer/Inner [Preview]","master","benjchristensen",1,0.471241,0.933333,2,0,1949,3045,2,52,1
+2880,"Scheduler Outer/Inner [Preview]","master","benjchristensen",1,0.470116,0.933333,12,0,2336,3462,4,65,1
