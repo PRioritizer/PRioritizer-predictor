@@ -7,12 +7,16 @@ import scala.collection.JavaConverters._
 object PredictorSettings {
   lazy val modelDirectory = Settings.get("model.directory").getOrElse("")
   lazy val modelTrainInterval = Settings.get("model.train.interval.days").map(p => p.toInt).getOrElse(90)
-  lazy val rscriptLocation = Settings.get("rscript.location").getOrElse("")
-  lazy val scriptDirectory = Settings.get("script.directory").getOrElse("")
   lazy val repositoryOwner = Settings.get("repository.owner").getOrElse("")
   lazy val repositoryName = Settings.get("repository.name").getOrElse("")
   lazy val pullRequestLimit = Settings.get("pullrequest.limit").map(p => p.toInt).getOrElse(1000)
   lazy val windowInterval = Settings.get("window.interval.hours").map(p => p.toInt).getOrElse(24)
+}
+
+object RSettings {
+  lazy val rscriptLocation = Settings.get("rscript.location").getOrElse("")
+  lazy val scriptDirectory = Settings.get("script.directory").getOrElse("")
+  lazy val probabilityThreshold = Settings.get("probability.threshold").map(p => p.toDouble).getOrElse(0.5)
 }
 
 object GHTorrentSettings {

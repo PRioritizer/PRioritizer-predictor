@@ -1,14 +1,14 @@
 package r
 
 import java.io.{File, PrintWriter, ByteArrayOutputStream}
-import settings.PredictorSettings
+import settings.RSettings
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global
 import sys.process._
 
 object R {
-  val rscriptLocation = PredictorSettings.rscriptLocation
-  val scriptDirectory = PredictorSettings.scriptDirectory
+  val rscriptLocation = RSettings.rscriptLocation
+  val scriptDirectory = RSettings.scriptDirectory
   val trainingScript = "train.R"
   val predictScript = "predict.R"
 
@@ -20,7 +20,8 @@ object R {
 
   def predict(directory: String): Future[List[Boolean]] = Future {
     val scriptLocation = new File(scriptDirectory, predictScript).getPath
-    val command = Seq(rscriptLocation, scriptLocation, directory)
+    val threshold = getThreshold
+    val command = Seq(rscriptLocation, scriptLocation, directory, threshold)
     val (result, output, _) = runWithOutput(command, Some(scriptDirectory))
 
     // Parse output
@@ -28,6 +29,13 @@ object R {
       output.trim.split('\n').map(b => b.trim.toBoolean).toList
     else
       List()
+  }
+
+  private def getThreshold: String = {
+    val nf = java.text.NumberFormat.getInstance(java.util.Locale.ROOT)
+    nf.setMaximumFractionDigits(2)
+    nf.setGroupingUsed(false)
+    nf.format(RSettings.probabilityThreshold)
   }
 
   private def runWithOutput(command: Seq[String], workingDirectory: Option[String] = None): (Boolean, String, String) = {

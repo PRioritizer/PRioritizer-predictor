@@ -7,6 +7,7 @@ window.interval.hours=24
 # R
 rscript.location=/path/to/R/executable
 script.directory=/path/to/R/scripts
+probability.threshold=0.5
 
 # Repository
 repository.owner=username

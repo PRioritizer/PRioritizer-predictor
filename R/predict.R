@@ -12,10 +12,14 @@ source("helper/utils.R")
 # ================================== PROGRAM ================================== #
 
 args <- commandArgs(TRUE)
+argc <- length(args)
 
-if (length(args) != 1) {
-  stop("Expected one argument.\nUsage: Rscript train.R <dir>")
+if (argc != 1 && argc != 2) {
+  stop("Expected one or two arguments.\nUsage: Rscript train.R <dir> [<threshold>]")
 }
+
+### Threshold
+threshold <- ifelse(argc == 2, as.numeric(args[2]), 0.5)
 
 ### Files
 dir <- args[1]
@@ -28,7 +32,7 @@ input <- read.data(input.file)
 load(model.file)
 
 ### Predict value
-predictions <- random.forest.predict(trained.model, input)
+predictions <- random.forest.predict(trained.model, input, threshold)
 predictions <- as.logical(predictions) # Convert to booleans
 output <- paste(predictions, collapse="\n")
 printf("%s\n", output)
