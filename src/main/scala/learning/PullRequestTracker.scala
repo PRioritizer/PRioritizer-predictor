@@ -1,15 +1,16 @@
 package learning
 
 import ghtorrent.Schema.Tables
-import git.{Commit, Event, Comment, PullRequest}
+import git.{Comment, Commit, Event, PullRequest}
 import org.joda.time.DateTime
 import settings.{MongoDbSettings, PredictorSettings}
 import util.Extensions._
 import util.Window
-import scala.slick.driver.MySQLDriver.simple._
+
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
-import scala.concurrent.ExecutionContext.Implicits.global
+import scala.slick.driver.MySQLDriver.simple._
 
 class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: PullRequest) {
   implicit lazy val session = repository.session

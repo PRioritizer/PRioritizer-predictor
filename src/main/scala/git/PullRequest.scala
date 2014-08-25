@@ -1,6 +1,6 @@
 package git
 
-import org.joda.time.{Minutes, DateTime}
+import org.joda.time.DateTime
 
 case class PullRequest(number: Int,
                        author: String,

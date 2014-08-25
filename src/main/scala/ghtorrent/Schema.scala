@@ -1,8 +1,9 @@
 package ghtorrent
 
-import git.{Comment, Event, Commit}
+import ghtorrent.DateTimeMapper._
+import git.{Comment, Commit, Event}
 import org.joda.time.DateTime
-import DateTimeMapper._
+
 import scala.slick.driver.SQLiteDriver.simple._
 import scala.slick.lifted.ProvenShape._
 

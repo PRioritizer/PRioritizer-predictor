@@ -1,8 +1,9 @@
 package learning
 
 import ghtorrent.Schema.Tables
-import git.{Commit, AuthorPullRequest}
+import git.{AuthorPullRequest, Commit}
 import org.joda.time.DateTime
+
 import scala.slick.driver.MySQLDriver.simple._
 
 class AuthorTracker(repository: RepositoryTracker, username: String) {

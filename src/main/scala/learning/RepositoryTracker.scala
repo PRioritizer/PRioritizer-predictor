@@ -1,15 +1,15 @@
 package learning
 
-import ghtorrent.{DateTimeMapper, MongoDatabase}
 import ghtorrent.Schema.Tables
+import ghtorrent.{DateTimeMapper, MongoDatabase}
 import git.{Commit, PullRequest}
 import org.joda.time.DateTime
-import org.slf4j.LoggerFactory
-import settings.{PredictorSettings, MongoDbSettings, GHTorrentSettings}
-import scala.slick.driver.MySQLDriver.simple._
+import settings.{GHTorrentSettings, MongoDbSettings, PredictorSettings}
+
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
-import scala.concurrent.ExecutionContext.Implicits.global
+import scala.slick.driver.MySQLDriver.simple._
 
 class RepositoryTracker(owner: String, repository: String) {
   private val dbUrl = s"jdbc:mysql://${GHTorrentSettings.host}:${GHTorrentSettings.port}/${GHTorrentSettings.database}"

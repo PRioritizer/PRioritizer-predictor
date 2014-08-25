@@ -1,10 +1,12 @@
 package r
 
-import java.io.{File, PrintWriter, ByteArrayOutputStream}
+import java.io.{ByteArrayOutputStream, File, PrintWriter}
+
 import settings.RSettings
-import scala.concurrent.Future
+
 import scala.concurrent.ExecutionContext.Implicits.global
-import sys.process._
+import scala.concurrent.Future
+import scala.sys.process._
 
 object R {
   val rscriptLocation = RSettings.rscriptLocation

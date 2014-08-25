@@ -1,12 +1,14 @@
 import java.io.File
+
 import io.CsvWriter
 import learning.TrainingData
 import org.joda.time.DateTime
 import org.slf4j.LoggerFactory
+import r.R
 import settings.PredictorSettings
+
 import scala.concurrent.Await
 import scala.concurrent.duration.Duration
-import r.R
 
 object Predictor {
   val owner = PredictorSettings.repositoryOwner

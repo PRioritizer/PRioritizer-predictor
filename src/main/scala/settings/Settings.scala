@@ -2,6 +2,7 @@ package settings
 
 import java.io.{BufferedReader, FileNotFoundException, InputStreamReader}
 import java.util.Properties
+
 import scala.collection.JavaConverters._
 
 object PredictorSettings {

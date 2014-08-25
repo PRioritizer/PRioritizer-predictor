@@ -1,8 +1,10 @@
 package ghtorrent
 
-import scala.slick.driver.MySQLDriver.simple._
-import org.joda.time.{DateTimeZone, DateTime}
 import java.sql.Timestamp
+
+import org.joda.time.{DateTime, DateTimeZone}
+
+import scala.slick.driver.MySQLDriver.simple._
 
 object DateTimeMapper {
   implicit def dateTime =

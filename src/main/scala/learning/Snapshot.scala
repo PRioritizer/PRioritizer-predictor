@@ -1,7 +1,7 @@
 package learning
 
 import git.PullRequest
-import org.joda.time.{Minutes, DateTime}
+import org.joda.time.{DateTime, Minutes}
 
 class Snapshot(tracker: PullRequestTracker, val moment: DateTime) {
 
