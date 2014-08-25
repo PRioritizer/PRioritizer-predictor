@@ -23,13 +23,12 @@ input.file <- paste(dir, "input.csv", sep = "/")
 model.file <- paste(dir, "model.RData", sep = "/")
 
 input <- read.data(input.file)
-data2 <- prepare.data(input)
 
 ### Read trained model (access via the trained.model variable)
 load(model.file)
 
 ### Predict value
-predictions <- random.forest.predict(trained.model, data2)
+predictions <- random.forest.predict(trained.model, input)
 predictions <- as.logical(predictions) # Convert to booleans
 output <- paste(predictions, collapse="\n")
 printf("%s\n", output)
