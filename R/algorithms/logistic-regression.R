@@ -7,14 +7,12 @@ logistic.regression.train <- function(model, train.set) {
 }
 
 logistic.regression.raw <- function(trained.model, test.set) {
-  predictions <- predict(trained.model, newdata = test.set)
+  predictions <- predict(trained.model, newdata = test.set, type = "response")
   predictions
 }
 
-logistic.regression.predict <- function(trained.model, test.set) {
-  threshold <- 0.5
-  predictions <- predict(trained.model, newdata = test.set, type = "response")
-  predictions <- predictions >= threshold # Convert to boolean
-  predictions <- factor(predictions, c(FALSE, TRUE)) # Convert to factor
+logistic.regression.predict <- function(trained.model, test.set, threshold = 0.5) {
+  predictions <- logistic.regression.raw(trained.model, test.set)
+  predictions <- as.boolean.factor(predictions, threshold) # Convert to boolean
   predictions
 }

@@ -17,7 +17,8 @@ random.forest.raw <- function(trained.model, test.set) {
   predictions[,2]
 }
 
-random.forest.predict <- function(trained.model, test.set) {
-  predictions <- predict(trained.model, newdata = test.set, type = "response")
+random.forest.predict <- function(trained.model, test.set, threshold = 0.5) {
+  predictions <- random.forest.raw(trained.model, test.set)
+  predictions <- as.boolean.factor(predictions, threshold) # Convert to boolean
   predictions
 }

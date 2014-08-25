@@ -21,13 +21,9 @@ prepare.data <- function(data) {
   dropCols <- names(data) %in% c("title", "author", "target")
   newData <- data[!dropCols]
 
-  # Convert columns to booleans
-  newData$coreMember <- newData$coreMember == 1
-  newData$important <- newData$important == 1
-
-  # Convert to factor columns
-  newData$coreMember <- factor(newData$coreMember, c(FALSE, TRUE))
-  newData$important <- factor(newData$important, c(FALSE, TRUE))
+  # Convert columns to boolean factors
+  newData$coreMember <- as.boolean.factor(newData$coreMember)
+  newData$important <- as.boolean.factor(newData$important)
 
   newData
 }
@@ -37,4 +33,13 @@ read.data <- function(file) {
   input <- read.csv(file = file, header = TRUE)
   data <- prepare.data(input)
   data
+}
+
+as.boolean.factor <- function(list, threshold = 0.5) {
+  # Convert columns to booleans
+  list <- list >= threshold
+  # Convert to factor columns
+  list <- factor(list, c(FALSE, TRUE))
+  # Return
+  list
 }

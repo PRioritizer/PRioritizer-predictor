@@ -3,15 +3,17 @@ load.package("ROCR") # Prediction
 
 # Train and test models
 models.evaluate <- function(model, train, test) {
-  # Results
-  results = data.frame(classifier = rep(NA, 3),
-    auc  = rep(0, 3),
-    acc  = rep(0, 3),
-    prec = rep(0, 3),
-    rec  = rep(0, 3),
-    f1   = rep(0, 3),
-    stringsAsFactors = FALSE)
+  # Number of algorithms
+  n <- 3
 
+  # Results
+  results = data.frame(classifier = rep(NA, n),
+    auc  = rep(0, n),
+    acc  = rep(0, n),
+    prec = rep(0, n),
+    rec  = rep(0, n),
+    f1   = rep(0, n),
+    stringsAsFactors = FALSE)
 
   ### Binary logistic regression
   lrmodel <- logistic.regression.train(model, train)
@@ -38,7 +40,7 @@ prediction.performance <- function(classifier, predictions, test) {
   p1 <- performance(pred.obj, "acc")
   p2 <- performance(pred.obj, "prec", "rec")
 
-  auc  <- as.numeric(performance(pred.obj,"auc")@y.values)
+  auc  <- as.numeric(performance(pred.obj, "auc")@y.values)
   acc  <- median(Filter(function(x){is.finite(x)}, unlist(p1@y.values)))
   prec <- median(Filter(function(x){is.finite(x)}, unlist(p2@y.values)))
   rec  <- median(Filter(function(x){is.finite(x)}, unlist(p2@x.values)))
