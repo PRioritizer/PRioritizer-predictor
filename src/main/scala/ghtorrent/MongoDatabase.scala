@@ -16,14 +16,20 @@ class MongoDatabase(host: String, port: Int, username: String, password: String,
       return this
 
     val server = new ServerAddress(host, port)
+
+    val options = new MongoClientOptions.Builder()
+      .connectTimeout(30000)
+      .socketTimeout(30000)
+      .readPreference(ReadPreference.secondaryPreferred())
+      .build()
+
     client = if (username != null && username.nonEmpty) {
       val credential = MongoCredential.createMongoCRCredential(username, databaseName, password.toCharArray)
-      new MongoClient(server, java.util.Arrays.asList(credential))
+      new MongoClient(server, java.util.Arrays.asList(credential), options)
     } else {
-      new MongoClient(server)
+      new MongoClient(server, options)
     }
 
-    client.setReadPreference(ReadPreference.secondaryPreferred())
     database = client.getDB(databaseName)
     connected = true
 
