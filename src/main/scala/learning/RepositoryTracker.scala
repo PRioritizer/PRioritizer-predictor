@@ -111,10 +111,11 @@ class RepositoryTracker(owner: String, repository: String) {
     // Get PR info from MongoDB
     val pullRequests = ids.map((getFromMongo _).tupled)
 
-    Await.result(Future.sequence(pullRequests), Duration.Inf)
+    val result = Await.result(Future.sequence(pullRequests), Duration.Inf)
+    result.flatten
   }
 
-  private def getFromMongo(id: String, closedAt: DateTime): Future[PullRequest] = Future {
+  private def getFromMongo(id: String, closedAt: DateTime): Future[Option[PullRequest]] = Future {
     val fields = List(
       "number",
       "user.login",
@@ -124,13 +125,16 @@ class RepositoryTracker(owner: String, repository: String) {
 
     val obj = mongo.getById(MongoDbSettings.collectionPullRequests, id, fields)
 
-    PullRequest(
-      obj.get("number").get.asInstanceOf[Int],
-      obj.get("user.login").get.asInstanceOf[String],
-      obj.get("base.ref").get.asInstanceOf[String],
-      obj.get("title").get.asInstanceOf[String],
-      obj.get("created_at").map(s => new DateTime(s)).get,
-      closedAt
-    )
+    if (obj.isEmpty)
+      None
+    else
+      Some(PullRequest(
+        obj.get("number").get.asInstanceOf[Int],
+        obj.get("user.login").get.asInstanceOf[String],
+        obj.get("base.ref").get.asInstanceOf[String],
+        obj.get("title").get.asInstanceOf[String],
+        obj.get("created_at").map(s => new DateTime(s)).get,
+        closedAt
+      ))
   }
 }

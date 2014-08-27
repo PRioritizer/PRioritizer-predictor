@@ -137,9 +137,11 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
 
     val obj = mongo.getBySha(MongoDbSettings.collectionCommits, commit.sha, fields)
 
-    commit.additions = obj.getOrElse("stats.additions", 0).asInstanceOf[Int]
-    commit.deletions = obj.getOrElse("stats.deletions", 0).asInstanceOf[Int]
-    commit.files = obj.getOrElse("files.filename", List[String]()).asInstanceOf[List[String]]
+    if (obj.nonEmpty) {
+      commit.additions = obj.getOrElse("stats.additions", 0).asInstanceOf[Int]
+      commit.deletions = obj.getOrElse("stats.deletions", 0).asInstanceOf[Int]
+      commit.files = obj.getOrElse("files.filename", List[String]()).asInstanceOf[List[String]]
+    }
 
     commit
   }
