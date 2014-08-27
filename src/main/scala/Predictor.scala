@@ -6,6 +6,7 @@ import org.joda.time.DateTime
 import org.slf4j.LoggerFactory
 import r.R
 import settings.PredictorSettings
+import util.Extensions._
 
 import scala.concurrent.Await
 import scala.concurrent.duration.Duration
@@ -26,41 +27,59 @@ object Predictor {
 
   def main(args: Array[String]): Unit = {
     val action = args.headOption
-    action match {
+    val result = action match {
       case Some("train") => train()
       case Some("predict") => predict()
-      case _ => println("Unknown action. Possible actions: train, predict.")
+      case _ =>
+        println("Unknown action. Possible actions: train, predict.")
+        false
     }
+
+    if (result)
+      System.exit(0)
+    else
+      System.exit(1)
   }
 
-  def train(): Unit = {
+  def train(): Boolean = {
     val logger = LoggerFactory.getLogger("Trainer")
 
     // Check if model needs training
     val expires = new DateTime(modelFile.lastModified).plusDays(interval)
     if (DateTime.now.isBefore(expires)) {
       logger info "Skip - Already recently updated"
-      return
+      return true
     }
 
     // Get and save data
     logger info "Data - Start"
-    val data = new TrainingData(owner, repository).get
-    CsvWriter.write(trainFile, data)
-    logger info s"Data - Created ${data.length} snapshots"
-    logger info "Data - End"
+    try {
+      val data = new TrainingData(owner, repository).get
+      CsvWriter.write(trainFile, data)
+      logger info s"Data - Created ${data.length} snapshots"
+    } catch {
+      case e: Throwable =>
+        logger error s"Data - Failed - ${e.getMessage}"
+        logger error s"Stack trace - Begin\n${e.stackTraceToString}"
+        logger error s"Stack trace - End"
+        return false
+    } finally {
+      logger info "Data - End"
+    }
 
     // Train R model
     logger info "Modeling - Start"
     val result = Await.result(R.train(repoDir.getPath), Duration.Inf)
 
     if (!result)
-      logger error "Failed"
+      logger error "Modeling - Failed"
 
     logger info "Modeling - End"
+
+    result
   }
 
-  def predict(): Unit = {
+  def predict(): Boolean = {
     val logger = LoggerFactory.getLogger("Predictor")
 
     // Predict with R model
@@ -73,5 +92,7 @@ object Predictor {
       logger error "Prediction - Failed"
 
     logger info "Prediction - End"
+
+    result.nonEmpty
   }
 }
