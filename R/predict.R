@@ -26,8 +26,8 @@ limit <- ifelse(argc == 3, as.numeric(args[3]), -1)
 
 ### Files
 dir <- args[1]
-input.file <- paste(dir, "input.csv", sep = "/")
-model.file <- paste(dir, "model.RData", sep = "/")
+input.file <- file.path(dir, "input.csv")
+model.file <- file.path(dir, "model.RData")
 
 input <- read.data(input.file)
 

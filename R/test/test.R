@@ -12,8 +12,8 @@ source("helper/utils.R")
 
 ### Files
 dir <- "test/csv"
-input.file <- paste(dir, "xbmc-100.csv", sep = "/")
-model.file <- paste(dir, "model.RData", sep = "/")
+input.file <- file.path(dir, "xbmc-100.csv")
+model.file <- file.path(dir, "model.RData")
 
 ### Read data
 data <- read.data(input.file)
