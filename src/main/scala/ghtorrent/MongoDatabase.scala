@@ -40,24 +40,23 @@ class MongoDatabase(host: String, port: Int, username: String, password: String,
     if (objectId == "")
       return Map()
 
-    val query = MongoDBObject("_id" -> new ObjectId(objectId))
-
-    val fields = new BasicDBObject()
-    select.foreach(f => fields.put(f, 1))
-
-    val collection = database.getCollection(collectionName)
-    val result = collection.findOne(query, fields)
-    select
-      .map(f => getField(result, f).map(v => (f, v)))
-      .flatten
-      .toMap
+    val res = getByKey(collectionName, List("_id" -> new ObjectId(objectId)), select)
+    res
   }
 
   def getBySha(collectionName: String, sha: String, select: List[String]) : Map[String, Any] = {
     if (sha == "")
       return Map()
 
-    val query = MongoDBObject("sha" -> sha)
+    val res = getByKey(collectionName, List("sha" -> sha), select)
+    res
+  }
+
+  def getByKey(collectionName: String, key: List[(String, Any)], select: List[String]) : Map[String, Any] = {
+    if (key.exists { case (k, v) => k == null || k == "" })
+      return Map()
+
+    val query = MongoDBObject(key)
 
     val fields = new BasicDBObject()
     select.foreach(f => fields.put(f, 1))
@@ -65,18 +64,18 @@ class MongoDatabase(host: String, port: Int, username: String, password: String,
     val collection = database.getCollection(collectionName)
     val result = collection.findOne(query, fields)
     select
-      .map(f => getField(result, f).map(v => (f, v)))
+      .map(f => getField[Any](result, f).map(v => (f, v)))
       .flatten
       .toMap
   }
 
-  private def getField(obj: DBObject, fullPath: String): Option[Any] = {
-    def iteration(x: Any, path: Array[String]): Option[Any] = {
+  private def getField[T](obj: DBObject, fullPath: String): Option[T] = {
+    def iteration(x: Any, path: Array[String]): Option[T] = {
       x match {
-        case l: BasicDBList => Some(l.toArray.toList.map(e => iteration(e, path)))
+        case l: BasicDBList => Some(l.toArray.toList.map(e => iteration(e, path)).asInstanceOf[T])
         case o: DBObject => iteration(o.get(path.head), path.tail)
-        case s: String => Some(s)
-        case i: Int => Some(i)
+        case s: String => Some(s.asInstanceOf[T])
+        case i: Int => Some(i.asInstanceOf[T])
         case _ => None
       }
     }
