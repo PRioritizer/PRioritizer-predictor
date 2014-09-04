@@ -48,7 +48,7 @@ class RepositoryTracker(owner: String, repository: String) {
 
   def getSnapshots: Future[List[(PullRequest, Important)]] = Future {
     if (ghRepoId == 0)
-      throw new Exception(s"Repository $owner/$repository not found in GHTorrrent")
+      throw new Exception(s"Repository $owner/$repository not found in GHTorrent")
 
     val trackers = pullRequests.map(pr => new PullRequestTracker(this, pr))
     val fSnapshots = Future.sequence(trackers.map(t => t.track)).map(l => l.flatten)

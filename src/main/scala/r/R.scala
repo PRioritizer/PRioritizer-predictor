@@ -11,6 +11,7 @@ import scala.sys.process._
 object R {
   val rscriptLocation = RSettings.rscriptLocation
   val scriptDirectory = RSettings.scriptDirectory
+  val limit = RSettings.resultLimit
   val trainingScript = "train.R"
   val predictScript = "predict.R"
 
@@ -23,8 +24,8 @@ object R {
   def predict(directory: String): Future[List[Boolean]] = Future {
     val scriptLocation = new File(scriptDirectory, predictScript).getPath
     val threshold = getThreshold
-    val command = Seq(rscriptLocation, scriptLocation, directory, threshold)
-    val (result, output, _) = runWithOutput(command, Some(scriptDirectory))
+    val command = Seq(rscriptLocation, scriptLocation, directory, threshold, limit.toString)
+    val (result, output, error) = runWithOutput(command, Some(scriptDirectory))
 
     // Parse output
     if (result)

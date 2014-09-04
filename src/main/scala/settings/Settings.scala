@@ -18,6 +18,7 @@ object RSettings {
   lazy val rscriptLocation = Settings.get("rscript.location").getOrElse("")
   lazy val scriptDirectory = Settings.get("script.directory").getOrElse("")
   lazy val probabilityThreshold = Settings.get("probability.threshold").map(p => p.toDouble).getOrElse(0.5)
+  lazy val resultLimit = Settings.get("result.limit").map(p => p.toInt).getOrElse(5)
 }
 
 object GHTorrentSettings {

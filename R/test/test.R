@@ -32,4 +32,3 @@ test <- head(data$test, n = 1)
 predictions <- random.forest.predict(trained.model, test)
 predictions <- as.logical(predictions)
 print(predictions)
-

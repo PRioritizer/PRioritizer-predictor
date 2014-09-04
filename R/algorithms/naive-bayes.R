@@ -14,8 +14,8 @@ naive.bayes.raw <- function(trained.model, test.set) {
   predictions[,2]
 }
 
-naive.bayes.predict <- function(trained.model, test.set, threshold = 0.5) {
+naive.bayes.predict <- function(trained.model, test.set, threshold = 0.5, limit = -1) {
   predictions <- naive.bayes.raw(trained.model, test.set)
-  predictions <- as.boolean.factor(predictions, threshold) # Convert to boolean
+  predictions <- as.boolean.factor(predictions, threshold, limit) # Convert to boolean
   predictions
 }

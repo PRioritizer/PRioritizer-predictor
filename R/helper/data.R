@@ -35,7 +35,24 @@ read.data <- function(file) {
   data
 }
 
-as.boolean.factor <- function(list, threshold = 0.5) {
+as.boolean.factor <- function(list, threshold = 0.5, limit = -1) {
+  # Total length
+  size <- length(list)
+
+  # Limit number of TRUE values
+  if (limit > -1 && limit < size) {
+    # Hard limit to 1/3 of size
+    limit <- min(limit, size/3)
+
+    # Get sorted indices
+    indices <- sort.int(list, decreasing = TRUE, index.return = TRUE)$ix
+
+    # Set values outside limit to probability: 0
+    for (i in (limit+1):size ) {
+      list[indices[i]] = 0
+    }
+  }
+
   # Convert columns to booleans
   list <- list >= threshold
   # Convert to factor columns

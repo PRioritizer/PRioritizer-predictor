@@ -11,8 +11,8 @@ logistic.regression.raw <- function(trained.model, test.set) {
   predictions
 }
 
-logistic.regression.predict <- function(trained.model, test.set, threshold = 0.5) {
+logistic.regression.predict <- function(trained.model, test.set, threshold = 0.5, limit = -1) {
   predictions <- logistic.regression.raw(trained.model, test.set)
-  predictions <- as.boolean.factor(predictions, threshold) # Convert to boolean
+  predictions <- as.boolean.factor(predictions, threshold, limit) # Convert to boolean
   predictions
 }
