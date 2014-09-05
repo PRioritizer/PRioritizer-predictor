@@ -6,6 +6,7 @@ case class PullRequest(number: Int,
                        author: String,
                        target: String,
                        title: String,
+                       intraBranch: Boolean,
                        createdAt: DateTime,
                        closedAt: DateTime)
 {

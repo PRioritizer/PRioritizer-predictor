@@ -121,6 +121,8 @@ class RepositoryTracker(owner: String, repository: String) {
       "user.login",
       "base.ref",
       "title",
+      "head.repo.id",
+      "base.repo.id",
       "created_at")
 
     val obj = mongo.getById(MongoDbSettings.collectionPullRequests, id, fields)
@@ -133,6 +135,7 @@ class RepositoryTracker(owner: String, repository: String) {
         obj.get("user.login").get.asInstanceOf[String],
         obj.get("base.ref").get.asInstanceOf[String],
         obj.get("title").get.asInstanceOf[String],
+        obj.get("head.repo.id").get.asInstanceOf[Int] == obj.get("base.repo.id").get.asInstanceOf[Int],
         obj.get("created_at").map(s => new DateTime(s)).get,
         closedAt
       ))
