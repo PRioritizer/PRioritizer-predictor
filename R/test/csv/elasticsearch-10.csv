@@ -1,216 +1,39 @@
-"age","title","target","author","coreMember","commitRatio","pullRequestRatio","comments","reviewComments","additions","deletions","commits","files","important"
-0,"Added support for aliases to index templates","master","javanna",0,0.042121,0.446429,0,0,2743,765,5,20,0
-1440,"Added support for aliases to index templates","master","javanna",0,0.043076,0.438596,0,0,2743,765,5,20,0
-2880,"Added support for aliases to index templates","master","javanna",0,0.042909,0.438596,0,0,2743,765,5,20,0
-4320,"Added support for aliases to index templates","master","javanna",0,0.043969,0.431034,0,0,2743,765,5,20,0
-5760,"Added support for aliases to index templates","master","javanna",0,0.043964,0.431034,0,0,2743,765,5,20,1
-7200,"Added support for aliases to index templates","master","javanna",0,0.043906,0.431034,6,0,2743,765,5,20,1
-8640,"Added support for aliases to index templates","master","javanna",0,0.043954,0.431034,7,0,2743,765,5,20,0
-10080,"Added support for aliases to index templates","master","javanna",0,0.044264,0.431034,7,0,2743,765,5,20,0
-11520,"Added support for aliases to index templates","master","javanna",0,0.044144,0.431034,7,0,2743,765,5,20,0
-12960,"Added support for aliases to index templates","master","javanna",0,0.044293,0.431034,7,0,2743,765,5,20,1
-14400,"Added support for aliases to index templates","master","javanna",0,0.044239,0.431034,9,0,2743,765,5,20,0
-15840,"Added support for aliases to index templates","master","javanna",0,0.044239,0.431034,9,0,2743,765,5,20,0
-17280,"Added support for aliases to index templates","master","javanna",0,0.044826,0.431034,9,0,2743,765,5,20,0
-18720,"Added support for aliases to index templates","master","javanna",0,0.044772,0.431034,9,0,2743,765,5,20,1
-20160,"Added support for aliases to index templates","master","javanna",0,0.044726,0.431034,10,0,2743,765,5,20,1
-0,"Added support for sorting buckets based on sub aggregation down the curr...","master","uboness",1,0.017807,0.142857,0,0,1974,345,2,24,1
-0,"Post filter phrase suggestions","master","nik9000",0,0.002726,0.2,0,0,419,35,1,20,0
-1440,"Post filter phrase suggestions","master","nik9000",0,0.002719,0.1875,0,0,419,35,1,20,0
-2880,"Post filter phrase suggestions","master","nik9000",0,0.002709,0.1875,0,0,419,35,1,20,0
-4320,"Post filter phrase suggestions","master","nik9000",0,0.0027,0.1875,0,0,419,35,1,20,0
-5760,"Post filter phrase suggestions","master","nik9000",0,0.002692,0.1875,0,0,419,35,1,20,0
-7200,"Post filter phrase suggestions","master","nik9000",0,0.002687,0.1875,0,0,419,35,1,20,0
-8640,"Post filter phrase suggestions","master","nik9000",0,0.002684,0.1875,0,0,419,35,1,20,0
-10080,"Post filter phrase suggestions","master","nik9000",0,0.002677,0.1875,0,0,419,35,1,20,0
-11520,"Post filter phrase suggestions","master","nik9000",0,0.002673,0.1875,0,0,419,35,1,20,0
-12960,"Post filter phrase suggestions","master","nik9000",0,0.002668,0.1875,0,0,419,35,1,20,0
-14400,"Post filter phrase suggestions","master","nik9000",0,0.002664,0.1875,0,0,419,35,1,20,0
-15840,"Post filter phrase suggestions","master","nik9000",0,0.002656,0.1875,0,0,419,35,1,20,0
-17280,"Post filter phrase suggestions","master","nik9000",0,0.002651,0.1875,0,0,419,35,1,20,0
-18720,"Post filter phrase suggestions","master","nik9000",0,0.00265,0.1875,0,0,419,35,1,20,0
-20160,"Post filter phrase suggestions","master","nik9000",0,0.002644,0.1875,0,0,419,35,1,20,0
-21600,"Post filter phrase suggestions","master","nik9000",0,0.002639,0.1875,0,0,419,35,1,20,0
-23040,"Post filter phrase suggestions","master","nik9000",0,0.002632,0.1875,0,0,419,35,1,20,0
-24480,"Post filter phrase suggestions","master","nik9000",0,0.002627,0.1875,0,0,419,35,1,20,0
-25920,"Post filter phrase suggestions","master","nik9000",0,0.00262,0.1875,0,0,419,35,1,20,0
-27360,"Post filter phrase suggestions","master","nik9000",0,0.002617,0.1875,0,0,419,35,1,20,0
-28800,"Post filter phrase suggestions","master","nik9000",0,0.002615,0.1875,0,0,419,35,1,20,0
-30240,"Post filter phrase suggestions","master","nik9000",0,0.00261,0.1875,0,0,419,35,1,20,0
-31680,"Post filter phrase suggestions","master","nik9000",0,0.002601,0.1875,0,0,419,35,1,20,0
-33120,"Post filter phrase suggestions","master","nik9000",0,0.002596,0.1875,0,0,419,35,1,20,0
-34560,"Post filter phrase suggestions","master","nik9000",0,0.002586,0.176471,0,0,419,35,1,20,0
-36000,"Post filter phrase suggestions","master","nik9000",0,0.002578,0.176471,0,0,419,35,1,20,0
-37440,"Post filter phrase suggestions","master","nik9000",0,0.002573,0.176471,0,0,419,35,1,20,0
-38880,"Post filter phrase suggestions","master","nik9000",0,0.002572,0.176471,0,0,419,35,1,20,0
-40320,"Post filter phrase suggestions","master","nik9000",0,0.002565,0.176471,0,0,419,35,1,20,0
-41760,"Post filter phrase suggestions","master","nik9000",0,0.002559,0.176471,0,0,419,35,1,20,0
-43200,"Post filter phrase suggestions","master","nik9000",0,0.002553,0.176471,0,0,419,35,1,20,0
-44640,"Post filter phrase suggestions","master","nik9000",0,0.002547,0.176471,0,0,419,35,1,20,0
-46080,"Post filter phrase suggestions","master","nik9000",0,0.002892,0.166667,0,0,419,35,1,20,0
-47520,"Post filter phrase suggestions","master","nik9000",0,0.002889,0.166667,0,0,419,35,1,20,0
-48960,"Post filter phrase suggestions","master","nik9000",0,0.002884,0.166667,0,0,419,35,1,20,0
-50400,"Post filter phrase suggestions","master","nik9000",0,0.002875,0.166667,0,0,419,35,1,20,0
-51840,"Post filter phrase suggestions","master","nik9000",0,0.002868,0.166667,0,0,419,35,1,20,0
-53280,"Post filter phrase suggestions","master","nik9000",0,0.002862,0.166667,0,0,419,35,1,20,0
-54720,"Post filter phrase suggestions","master","nik9000",0,0.002853,0.166667,0,0,419,35,1,20,0
-56160,"Post filter phrase suggestions","master","nik9000",0,0.002845,0.157895,0,0,419,35,1,20,0
-57600,"Post filter phrase suggestions","master","nik9000",0,0.002841,0.157895,0,0,419,35,1,20,0
-59040,"Post filter phrase suggestions","master","nik9000",0,0.002839,0.157895,0,0,419,35,1,20,0
-60480,"Post filter phrase suggestions","master","nik9000",0,0.002832,0.157895,0,0,419,35,1,20,0
-61920,"Post filter phrase suggestions","master","nik9000",0,0.002824,0.157895,0,0,419,35,1,20,0
-63360,"Post filter phrase suggestions","master","nik9000",0,0.002808,0.157895,0,0,419,35,1,20,0
-64800,"Post filter phrase suggestions","master","nik9000",0,0.002799,0.157895,0,0,419,35,1,20,0
-66240,"Post filter phrase suggestions","master","nik9000",0,0.002793,0.157895,0,0,419,35,1,20,0
-67680,"Post filter phrase suggestions","master","nik9000",0,0.002792,0.157895,0,0,419,35,1,20,0
-69120,"Post filter phrase suggestions","master","nik9000",0,0.002788,0.157895,0,0,419,35,1,20,0
-70560,"Post filter phrase suggestions","master","nik9000",0,0.002783,0.157895,0,0,419,35,1,20,0
-72000,"Post filter phrase suggestions","master","nik9000",0,0.002778,0.157895,0,0,419,35,1,20,0
-73440,"Post filter phrase suggestions","master","nik9000",0,0.002776,0.157895,0,0,419,35,1,20,0
-74880,"Post filter phrase suggestions","master","nik9000",0,0.002774,0.157895,0,0,419,35,1,20,0
-76320,"Post filter phrase suggestions","master","nik9000",0,0.002769,0.157895,0,0,419,35,1,20,0
-77760,"Post filter phrase suggestions","master","nik9000",0,0.002767,0.157895,0,0,419,35,1,20,0
-79200,"Post filter phrase suggestions","master","nik9000",0,0.002765,0.157895,0,0,419,35,1,20,0
-80640,"Post filter phrase suggestions","master","nik9000",0,0.002762,0.157895,0,0,419,35,1,20,0
-82080,"Post filter phrase suggestions","master","nik9000",0,0.002758,0.157895,0,0,419,35,1,20,0
-83520,"Post filter phrase suggestions","master","nik9000",0,0.002758,0.157895,0,0,419,35,1,20,0
-84960,"Post filter phrase suggestions","master","nik9000",0,0.002752,0.157895,0,0,419,35,1,20,0
-86400,"Post filter phrase suggestions","master","nik9000",0,0.002744,0.157895,0,0,419,35,1,20,0
-87840,"Post filter phrase suggestions","master","nik9000",0,0.002736,0.157895,0,0,419,35,1,20,0
-89280,"Post filter phrase suggestions","master","nik9000",0,0.002735,0.157895,0,0,419,35,1,20,0
-90720,"Post filter phrase suggestions","master","nik9000",0,0.00273,0.157895,0,0,419,35,1,20,0
-92160,"Post filter phrase suggestions","master","nik9000",0,0.002936,0.15,0,0,419,35,1,20,0
-93600,"Post filter phrase suggestions","master","nik9000",0,0.003249,0.142857,0,0,419,35,1,20,0
-95040,"Post filter phrase suggestions","master","nik9000",0,0.003235,0.136364,0,0,419,35,1,20,0
-96480,"Post filter phrase suggestions","master","nik9000",0,0.003215,0.136364,0,0,419,35,1,20,0
-97920,"Post filter phrase suggestions","master","nik9000",0,0.003204,0.173913,0,0,419,35,1,20,0
-99360,"Post filter phrase suggestions","master","nik9000",0,0.003202,0.173913,0,0,419,35,1,20,0
-100800,"Post filter phrase suggestions","master","nik9000",0,0.003199,0.173913,0,0,419,35,1,20,0
-102240,"Post filter phrase suggestions","master","nik9000",0,0.003186,0.173913,0,0,419,35,1,20,0
-103680,"Post filter phrase suggestions","master","nik9000",0,0.003179,0.173913,0,0,419,35,1,20,0
-105120,"Post filter phrase suggestions","master","nik9000",0,0.003693,0.166667,0,0,419,35,1,20,0
-106560,"Post filter phrase suggestions","master","nik9000",0,0.003671,0.166667,0,0,419,35,1,20,0
-108000,"Post filter phrase suggestions","master","nik9000",0,0.003662,0.166667,0,0,419,35,1,20,0
-109440,"Post filter phrase suggestions","master","nik9000",0,0.00366,0.166667,0,0,419,35,1,20,0
-110880,"Post filter phrase suggestions","master","nik9000",0,0.003644,0.166667,0,0,419,35,1,20,0
-112320,"Post filter phrase suggestions","master","nik9000",0,0.003636,0.166667,0,0,419,35,1,20,0
-113760,"Post filter phrase suggestions","master","nik9000",0,0.003609,0.166667,0,0,419,35,1,20,0
-115200,"Post filter phrase suggestions","master","nik9000",0,0.003598,0.166667,0,0,419,35,1,20,0
-116640,"Post filter phrase suggestions","master","nik9000",0,0.003889,0.153846,0,0,419,35,1,20,0
-118080,"Post filter phrase suggestions","master","nik9000",0,0.003878,0.153846,0,0,419,35,1,20,0
-119520,"Post filter phrase suggestions","master","nik9000",0,0.003875,0.153846,0,0,419,35,1,20,0
-120960,"Post filter phrase suggestions","master","nik9000",0,0.00386,0.153846,0,0,419,35,1,20,0
-122400,"Post filter phrase suggestions","master","nik9000",0,0.003852,0.153846,0,0,419,35,1,20,0
-123840,"Post filter phrase suggestions","master","nik9000",0,0.003844,0.153846,0,0,419,35,1,20,0
-125280,"Post filter phrase suggestions","master","nik9000",0,0.003835,0.153846,0,0,419,35,1,20,0
-126720,"Post filter phrase suggestions","master","nik9000",0,0.003823,0.153846,0,0,419,35,1,20,0
-128160,"Post filter phrase suggestions","master","nik9000",0,0.003808,0.153846,0,0,419,35,1,20,0
-129600,"Post filter phrase suggestions","master","nik9000",0,0.003808,0.153846,0,0,419,35,1,20,0
-131040,"Post filter phrase suggestions","master","nik9000",0,0.0038,0.153846,0,0,419,35,1,20,0
-132480,"Post filter phrase suggestions","master","nik9000",0,0.003781,0.153846,0,0,419,35,1,20,0
-133920,"Post filter phrase suggestions","master","nik9000",0,0.003777,0.153846,0,0,419,35,1,20,0
-135360,"Post filter phrase suggestions","master","nik9000",0,0.003765,0.148148,0,0,419,35,1,20,0
-136800,"Post filter phrase suggestions","master","nik9000",0,0.003745,0.148148,0,0,419,35,1,20,0
-138240,"Post filter phrase suggestions","master","nik9000",0,0.003732,0.142857,0,0,419,35,1,20,0
-139680,"Post filter phrase suggestions","master","nik9000",0,0.00373,0.142857,0,0,419,35,1,20,0
-141120,"Post filter phrase suggestions","master","nik9000",0,0.003715,0.142857,0,0,419,35,1,20,0
-142560,"Post filter phrase suggestions","master","nik9000",0,0.003702,0.142857,0,0,419,35,1,20,0
-144000,"Post filter phrase suggestions","master","nik9000",0,0.003689,0.142857,0,0,419,35,1,20,0
-145440,"Post filter phrase suggestions","master","nik9000",0,0.003679,0.142857,0,0,419,35,1,20,0
-146880,"Post filter phrase suggestions","master","nik9000",0,0.003864,0.137931,0,0,419,35,1,20,0
-148320,"Post filter phrase suggestions","master","nik9000",0,0.003857,0.137931,0,0,419,35,1,20,0
-149760,"Post filter phrase suggestions","master","nik9000",0,0.003857,0.137931,0,0,419,35,1,20,0
-151200,"Post filter phrase suggestions","master","nik9000",0,0.003853,0.137931,0,0,419,35,1,20,0
-152640,"Post filter phrase suggestions","master","nik9000",0,0.003845,0.137931,0,0,419,35,1,20,0
-154080,"Post filter phrase suggestions","master","nik9000",0,0.003829,0.137931,0,0,419,35,1,20,0
-155520,"Post filter phrase suggestions","master","nik9000",0,0.003817,0.133333,0,0,419,35,1,20,0
-156960,"Post filter phrase suggestions","master","nik9000",0,0.003798,0.133333,0,0,419,35,1,20,0
-158400,"Post filter phrase suggestions","master","nik9000",0,0.00379,0.133333,0,0,419,35,1,20,0
-159840,"Post filter phrase suggestions","master","nik9000",0,0.00379,0.133333,0,0,419,35,1,20,0
-161280,"Post filter phrase suggestions","master","nik9000",0,0.003785,0.133333,0,0,419,35,1,20,0
-162720,"Post filter phrase suggestions","master","nik9000",0,0.003774,0.133333,0,0,419,35,1,20,0
-164160,"Post filter phrase suggestions","master","nik9000",0,0.00377,0.133333,0,0,419,35,1,20,0
-165600,"Post filter phrase suggestions","master","nik9000",0,0.003758,0.133333,0,0,419,35,1,20,0
-167040,"Post filter phrase suggestions","master","nik9000",0,0.003748,0.133333,0,0,419,35,1,20,0
-168480,"Post filter phrase suggestions","master","nik9000",0,0.003741,0.133333,0,0,419,35,1,20,0
-169920,"Post filter phrase suggestions","master","nik9000",0,0.003741,0.133333,0,0,419,35,1,20,0
-171360,"Post filter phrase suggestions","master","nik9000",0,0.003737,0.133333,0,0,419,35,1,20,0
-172800,"Post filter phrase suggestions","master","nik9000",0,0.003731,0.129032,0,0,419,35,1,20,0
-174240,"Post filter phrase suggestions","master","nik9000",0,0.003727,0.129032,0,0,419,35,1,20,1
-0,"Add multi-field support to common term query","master","nik9000",0,0.003774,0.153846,0,0,244,10,1,6,1
-1440,"Add multi-field support to common term query","master","nik9000",0,0.00375,0.148148,1,0,244,10,1,6,0
-2880,"Add multi-field support to common term query","master","nik9000",0,0.003735,0.142857,1,0,244,10,1,6,0
-4320,"Add multi-field support to common term query","master","nik9000",0,0.003732,0.142857,1,0,244,10,1,6,0
-5760,"Add multi-field support to common term query","master","nik9000",0,0.003728,0.142857,1,0,244,10,1,6,0
-7200,"Add multi-field support to common term query","master","nik9000",0,0.003707,0.142857,1,0,244,10,1,6,0
-8640,"Add multi-field support to common term query","master","nik9000",0,0.003692,0.142857,1,0,244,10,1,6,0
-10080,"Add multi-field support to common term query","master","nik9000",0,0.003686,0.142857,1,0,244,10,1,6,0
-11520,"Add multi-field support to common term query","master","nik9000",0,0.003869,0.137931,1,0,244,10,1,6,0
-12960,"Add multi-field support to common term query","master","nik9000",0,0.003857,0.137931,1,0,244,10,1,6,0
-14400,"Add multi-field support to common term query","master","nik9000",0,0.003857,0.137931,1,0,244,10,1,6,0
-15840,"Add multi-field support to common term query","master","nik9000",0,0.003857,0.137931,1,0,244,10,1,6,0
-17280,"Add multi-field support to common term query","master","nik9000",0,0.003849,0.137931,1,0,244,10,1,6,0
-18720,"Add multi-field support to common term query","master","nik9000",0,0.003837,0.137931,1,0,244,10,1,6,0
-20160,"Add multi-field support to common term query","master","nik9000",0,0.003823,0.137931,1,0,244,10,1,6,0
-21600,"Add multi-field support to common term query","master","nik9000",0,0.003806,0.133333,1,0,244,10,1,6,0
-23040,"Add multi-field support to common term query","master","nik9000",0,0.00379,0.133333,1,0,244,10,1,6,0
-24480,"Add multi-field support to common term query","master","nik9000",0,0.00379,0.133333,1,0,244,10,1,6,0
-25920,"Add multi-field support to common term query","master","nik9000",0,0.00379,0.133333,1,0,244,10,1,6,0
-27360,"Add multi-field support to common term query","master","nik9000",0,0.003782,0.133333,1,0,244,10,1,6,0
-28800,"Add multi-field support to common term query","master","nik9000",0,0.003771,0.133333,1,0,244,10,1,6,0
-30240,"Add multi-field support to common term query","master","nik9000",0,0.003761,0.133333,1,0,244,10,1,6,0
-31680,"Add multi-field support to common term query","master","nik9000",0,0.003755,0.133333,1,0,244,10,1,6,0
-33120,"Add multi-field support to common term query","master","nik9000",0,0.003743,0.133333,1,0,244,10,1,6,0
-34560,"Add multi-field support to common term query","master","nik9000",0,0.003741,0.133333,1,0,244,10,1,6,0
-36000,"Add multi-field support to common term query","master","nik9000",0,0.00374,0.133333,1,0,244,10,1,6,0
-37440,"Add multi-field support to common term query","master","nik9000",0,0.003734,0.129032,1,0,244,10,1,6,0
-38880,"Add multi-field support to common term query","master","nik9000",0,0.003729,0.129032,1,0,244,10,1,6,1
-0,"Convert common terms in query string to OR","master","nik9000",0,0.003899,0.16,0,0,92,4,1,2,1
-1440,"Convert common terms in query string to OR","master","nik9000",0,0.003885,0.153846,1,0,92,4,1,2,0
-2880,"Convert common terms in query string to OR","master","nik9000",0,0.003876,0.153846,1,0,92,4,1,2,0
-4320,"Convert common terms in query string to OR","master","nik9000",0,0.003875,0.153846,1,0,92,4,1,2,1
-5760,"Convert common terms in query string to OR","master","nik9000",0,0.003856,0.153846,2,0,92,4,1,2,0
-7200,"Convert common terms in query string to OR","master","nik9000",0,0.003851,0.153846,2,0,92,4,1,2,0
-8640,"Convert common terms in query string to OR","master","nik9000",0,0.003843,0.153846,2,0,92,4,1,2,0
-10080,"Convert common terms in query string to OR","master","nik9000",0,0.003833,0.153846,2,0,92,4,1,2,0
-11520,"Convert common terms in query string to OR","master","nik9000",0,0.00382,0.153846,2,0,92,4,1,2,0
-12960,"Convert common terms in query string to OR","master","nik9000",0,0.003808,0.153846,2,0,92,4,1,2,0
-14400,"Convert common terms in query string to OR","master","nik9000",0,0.003807,0.153846,2,0,92,4,1,2,0
-15840,"Convert common terms in query string to OR","master","nik9000",0,0.003794,0.153846,2,0,92,4,1,2,0
-17280,"Convert common terms in query string to OR","master","nik9000",0,0.003781,0.153846,2,0,92,4,1,2,0
-18720,"Convert common terms in query string to OR","master","nik9000",0,0.003776,0.153846,2,0,92,4,1,2,0
-20160,"Convert common terms in query string to OR","master","nik9000",0,0.003759,0.148148,2,0,92,4,1,2,0
-21600,"Convert common terms in query string to OR","master","nik9000",0,0.003744,0.148148,2,0,92,4,1,2,0
-23040,"Convert common terms in query string to OR","master","nik9000",0,0.003732,0.142857,2,0,92,4,1,2,0
-24480,"Convert common terms in query string to OR","master","nik9000",0,0.00373,0.142857,2,0,92,4,1,2,0
-25920,"Convert common terms in query string to OR","master","nik9000",0,0.003708,0.142857,2,0,92,4,1,2,0
-27360,"Convert common terms in query string to OR","master","nik9000",0,0.003697,0.142857,2,0,92,4,1,2,0
-28800,"Convert common terms in query string to OR","master","nik9000",0,0.003687,0.142857,2,0,92,4,1,2,0
-30240,"Convert common terms in query string to OR","master","nik9000",0,0.00387,0.142857,2,0,92,4,1,2,0
-31680,"Convert common terms in query string to OR","master","nik9000",0,0.003863,0.137931,2,0,92,4,1,2,0
-33120,"Convert common terms in query string to OR","master","nik9000",0,0.003857,0.137931,2,0,92,4,1,2,0
-34560,"Convert common terms in query string to OR","master","nik9000",0,0.003857,0.137931,2,0,92,4,1,2,0
-36000,"Convert common terms in query string to OR","master","nik9000",0,0.003851,0.137931,2,0,92,4,1,2,0
-37440,"Convert common terms in query string to OR","master","nik9000",0,0.003844,0.137931,2,0,92,4,1,2,0
-38880,"Convert common terms in query string to OR","master","nik9000",0,0.003829,0.137931,2,0,92,4,1,2,0
-40320,"Convert common terms in query string to OR","master","nik9000",0,0.003812,0.133333,2,0,92,4,1,2,0
-41760,"Convert common terms in query string to OR","master","nik9000",0,0.003796,0.133333,2,0,92,4,1,2,0
-43200,"Convert common terms in query string to OR","master","nik9000",0,0.00379,0.133333,2,0,92,4,1,2,0
-44640,"Convert common terms in query string to OR","master","nik9000",0,0.00379,0.133333,2,0,92,4,1,2,0
-46080,"Convert common terms in query string to OR","master","nik9000",0,0.003785,0.133333,2,0,92,4,1,2,0
-47520,"Convert common terms in query string to OR","master","nik9000",0,0.003772,0.133333,2,0,92,4,1,2,0
-48960,"Convert common terms in query string to OR","master","nik9000",0,0.003767,0.133333,2,0,92,4,1,2,0
-50400,"Convert common terms in query string to OR","master","nik9000",0,0.003756,0.133333,2,0,92,4,1,2,0
-51840,"Convert common terms in query string to OR","master","nik9000",0,0.003746,0.133333,2,0,92,4,1,2,0
-53280,"Convert common terms in query string to OR","master","nik9000",0,0.003741,0.133333,2,0,92,4,1,2,0
-54720,"Convert common terms in query string to OR","master","nik9000",0,0.003741,0.133333,2,0,92,4,1,2,0
-56160,"Convert common terms in query string to OR","master","nik9000",0,0.003735,0.133333,2,0,92,4,1,2,0
-57600,"Convert common terms in query string to OR","master","nik9000",0,0.003731,0.129032,2,0,92,4,1,2,0
-59040,"Convert common terms in query string to OR","master","nik9000",0,0.003727,0.129032,2,0,92,4,1,2,1
-0,"Fix issue where circuit breaker was always reset to 80% upon startup","master","dakrone",0,0.010447,0.564706,0,0,8,8,2,1,1
-0,"[DOCS] add Elasticsearch Image Plugin","master","kzwang",0,0.001864,0.111111,0,0,1,0,1,1,1
-0,"Force merges to not happen when indexing a doc / flush","master","kimchy",1,0.490661,0,0,0,370,139,1,15,1
-1440,"Force merges to not happen when indexing a doc / flush","master","kimchy",1,0.490066,0,3,3,370,139,1,15,1
-0,"Added support for sorting buckets based on single-bucket sub aggregation...","master","uboness",1,0.017837,0.153846,0,0,1137,189,2,22,1
-1440,"Added support for sorting buckets based on single-bucket sub aggregation...","master","uboness",1,0.017816,0.142857,2,2,1137,189,2,22,1
-0,"add circuit breaker for parent/child id cache","master","dakrone",0,0.010453,0.571429,0,0,70,16,3,3,1
+"age","title","target","author","coreMember","intraBranch","fix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
+0,"Added an option to add arbitrary headers to the client requests","master","uboness",1,0,0,0.015163,0.074074,0,0,0,400,56,1,17,1
+1440,"Added an option to add arbitrary headers to the client requests","master","uboness",1,0,0,0.015762,0.068966,2,8,0,1684,83,4,19,1
+2880,"Added an option to add arbitrary headers to the client requests","master","uboness",1,0,0,0.015883,0.068966,3,15,0,1684,83,4,19,1
+4320,"Added an option to add arbitrary headers to the client requests","master","uboness",1,0,0,0.016097,0.068966,5,31,0,1684,83,4,19,1
+5760,"Added an option to add arbitrary headers to the client requests","master","uboness",1,0,0,0.016078,0.068966,5,46,0,1684,83,4,19,1
+0,"[Query Cache] Add a request level flag to control query cache","master","kimchy",1,0,0,0.351463,0.012048,0,0,0,158,4,2,8,1
+0,"Update API enhancement - add support for scripted upserts.","master","markharwood",0,0,0,0.004446,0,0,0,0,171,16,1,5,1
+1440,"Update API enhancement - add support for scripted upserts.","master","markharwood",0,0,0,0.004562,0,1,4,0,209,34,4,7,1
+0,"Query Cache: Support shard level query response caching","master","kimchy",1,0,0,0.351251,0.012195,0,0,0,3361,651,3,40,1
+0,"CORS: Allowed to configure allow-credentials header to work via SSL","master","spinscale",0,0,0,0.023527,0.51875,0,0,0,14,0,1,4,1
+1440,"CORS: Allowed to configure allow-credentials header to work via SSL","master","spinscale",0,0,0,0.023638,0.515528,1,0,1,14,0,1,4,1
+2880,"CORS: Allowed to configure allow-credentials header to work via SSL","master","spinscale",0,0,0,0.023787,0.512346,3,2,0,44,7,2,5,0
+4320,"CORS: Allowed to configure allow-credentials header to work via SSL","master","spinscale",0,0,0,0.023749,0.512346,3,2,0,44,7,2,5,0
+5760,"CORS: Allowed to configure allow-credentials header to work via SSL","master","spinscale",0,0,0,0.023709,0.512346,3,2,0,44,7,2,5,0
+7200,"CORS: Allowed to configure allow-credentials header to work via SSL","master","spinscale",0,0,0,0.023684,0.512346,3,2,0,44,7,2,5,0
+8640,"CORS: Allowed to configure allow-credentials header to work via SSL","master","spinscale",0,0,0,0.02367,0.512346,3,2,0,44,7,2,5,0
+10080,"CORS: Allowed to configure allow-credentials header to work via SSL","master","spinscale",0,0,0,0.023824,0.50303,3,2,0,44,7,2,5,1
+11520,"CORS: Allowed to configure allow-credentials header to work via SSL","master","spinscale",0,0,0,0.023788,0.5,4,2,0,44,7,2,5,1
+0,"Resolve wording inconsistency","master","konradkonrad",0,0,0,0.000431,0.142857,0,0,0,3,3,1,2,1
+0,"Make ""cluster.routing.allocation.allow_rebalance"" a dynamic setting","master","dakrone",0,0,0,0.017946,0.432203,0,0,0,253,133,2,18,0
+1440,"Make ""cluster.routing.allocation.allow_rebalance"" a dynamic setting","master","dakrone",0,0,0,0.017902,0.428571,0,0,0,253,133,2,18,1
+2880,"Make ""cluster.routing.allocation.allow_rebalance"" a dynamic setting","master","dakrone",0,0,0,0.018072,0.428571,2,2,0,277,149,4,18,0
+4320,"Make ""cluster.routing.allocation.allow_rebalance"" a dynamic setting","master","dakrone",0,0,0,0.018051,0.428571,2,2,0,277,149,4,18,0
+5760,"Make ""cluster.routing.allocation.allow_rebalance"" a dynamic setting","master","dakrone",0,0,0,0.018046,0.428571,2,2,0,277,149,4,18,1
+7200,"Make ""cluster.routing.allocation.allow_rebalance"" a dynamic setting","master","dakrone",0,0,0,0.018009,0.428571,3,2,0,292,152,5,18,1
+0,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037621,0.120482,0,0,0,3962,1193,67,50,0
+1440,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037595,0.119048,0,0,0,3962,1193,67,50,0
+2880,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037581,0.119048,0,0,0,3962,1193,67,50,1
+4320,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037462,0.119048,0,2,0,3962,1193,67,50,0
+5760,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037419,0.119048,0,2,0,3962,1193,67,50,0
+7200,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037363,0.119048,0,2,0,3962,1193,67,50,0
+8640,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037342,0.119048,0,2,0,3962,1193,67,50,0
+10080,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037305,0.119048,0,2,0,3962,1193,67,50,0
+11520,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037268,0.119048,0,2,0,3962,1193,67,50,0
+12960,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037261,0.119048,0,2,0,3962,1193,67,50,0
+14400,"[Discovery] add cluster name and cluster state version to fault detection pinging","feature/improve_zen","bleskes",0,0,0,0.037188,0.119048,0,2,0,3962,1193,67,50,1
+0,"[DOCS] add Proxy setting for using plugin command","master","johtani",0,0,0,0.000863,0.354167,0,0,0,20,0,1,1,1
+0,"Aggregations: key_as_string only shown when format specified in terms agg","master","colings86",0,0,0,0.006289,0.08,0,0,0,2,2,1,2,1

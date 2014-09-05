@@ -1,60 +1,19 @@
-"age","title","target","author","coreMember","commitRatio","pullRequestRatio","comments","reviewComments","additions","deletions","commits","files","important"
-0,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073694,0.863636,0,0,593,176,5,18,1
-1440,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073975,0.826087,2,0,594,176,6,18,1
-2880,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073712,0.826087,21,0,594,176,6,18,0
-4320,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073582,0.826087,21,0,594,176,6,18,0
-5760,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073582,0.826087,21,0,594,176,6,18,0
-7200,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073582,0.826087,21,0,594,176,6,18,0
-8640,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073516,0.826087,21,0,594,176,6,18,0
-10080,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073516,0.826087,21,0,594,176,6,18,0
-11520,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073484,0.826087,21,0,594,176,6,18,0
-12960,"Observable creation from Subscriber[T]=>Unit for Scala","master","samuelgruetter",0,0.073451,0.826087,21,0,594,176,6,18,1
-0,"correct link to maven search","master","devisnik",0,0.000444,0.705882,0,0,1,1,1,1,1
-1440,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
-2880,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
-4320,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
-5760,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
-7200,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
-8640,"correct link to maven search","master","devisnik",0,0.000443,0.666667,1,0,1,1,1,1,0
-10080,"correct link to maven search","master","devisnik",0,0.000442,0.666667,1,0,1,1,1,1,1
-0,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001331,0.8,0,0,29,0,1,2,1
-1440,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001773,0.666667,4,0,30,1,2,2,0
-2880,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001773,0.666667,4,0,30,1,2,2,0
-4320,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001772,0.666667,4,0,30,1,2,2,0
-5760,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001771,0.666667,4,0,30,1,2,2,0
-7200,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001771,0.666667,4,0,30,1,2,2,0
-8640,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.001771,0.666667,4,0,30,1,2,2,0
-10080,"add Observable.startWith(Observable) method and unit test","master","davidmoten",0,0.00177,0.666667,4,0,30,1,2,2,1
-0,"Manual Merge 940","master","benjchristensen",1,0.489841,0.871528,0,0,1198,451,2,11,1
-0,"refactor the debug hooks before they become a breaking change.","master","abersnaze",1,0.000886,0.347826,0,0,557,224,1,11,1
-1440,"refactor the debug hooks before they become a breaking change.","master","abersnaze",1,0.000886,0.333333,1,0,557,224,1,11,0
-2880,"refactor the debug hooks before they become a breaking change.","master","abersnaze",1,0.000885,0.333333,1,0,557,224,1,11,1
-0,"OperationRetry -> OperatorRetry","master","benjchristensen",1,0.48939,0.87108,0,0,135,111,1,4,1
-0,"MathObservable","master","benjchristensen",1,0.488938,0.873684,0,0,2057,1,1,10,1
-0,"Skip fixed","master","headinthebox",1,0.00133,0.615385,0,0,191,199,2,6,1
-1440,"Skip fixed","master","headinthebox",1,0.00133,0.571429,1,0,191,199,2,6,0
-2880,"Skip fixed","master","headinthebox",1,0.00133,0.571429,1,0,191,199,2,6,0
-4320,"Skip fixed","master","headinthebox",1,0.001329,0.571429,1,0,191,199,2,6,0
-5760,"Skip fixed","master","headinthebox",1,0.001329,0.571429,1,0,191,199,2,6,0
-7200,"Skip fixed","master","headinthebox",1,0.001329,0.571429,1,0,191,199,2,6,1
-0,"Blocking zip operator","master","akarnokd",0,0.035411,0.488889,0,0,478,54,1,4,1
-1440,"Blocking zip operator","master","akarnokd",0,0.035244,0.483516,8,0,790,135,3,4,0
-2880,"Blocking zip operator","master","akarnokd",0,0.034965,0.478261,8,0,790,135,3,4,0
-4320,"Blocking zip operator","master","akarnokd",0,0.034932,0.478261,8,0,790,135,3,4,0
-5760,"Blocking zip operator","master","akarnokd",0,0.034884,0.473118,8,0,790,135,3,4,0
-7200,"Blocking zip operator","master","akarnokd",0,0.034435,0.473118,8,0,790,135,3,4,0
-8640,"Blocking zip operator","master","akarnokd",0,0.034215,0.473118,8,0,790,135,3,4,0
-10080,"Blocking zip operator","master","akarnokd",0,0.033952,0.473118,8,0,790,135,3,4,0
-11520,"Blocking zip operator","master","akarnokd",0,0.033723,0.473118,8,0,790,135,3,4,0
-12960,"Blocking zip operator","master","akarnokd",0,0.033557,0.473118,8,0,790,135,3,4,0
-14400,"Blocking zip operator","master","akarnokd",0,0.033557,0.473118,8,0,790,135,3,4,0
-15840,"Blocking zip operator","master","akarnokd",0,0.033542,0.473118,8,0,790,135,3,4,0
-17280,"Blocking zip operator","master","akarnokd",0,0.033422,0.473118,8,0,790,135,3,4,0
-18720,"Blocking zip operator","master","akarnokd",0,0.033319,0.468085,8,0,790,135,3,4,0
-20160,"Blocking zip operator","master","akarnokd",0,0.033259,0.468085,8,0,790,135,3,4,0
-21600,"Blocking zip operator","master","akarnokd",0,0.033245,0.468085,8,0,790,135,3,4,0
-23040,"Blocking zip operator","master","akarnokd",0,0.033245,0.468085,8,0,790,135,3,4,1
-24480,"Blocking zip operator","master","akarnokd",0,0.033215,0.468085,10,0,790,135,3,4,1
-25920,"Blocking zip operator","master","akarnokd",0,0.033215,0.468085,14,0,790,135,3,4,1
-27360,"Blocking zip operator","master","akarnokd",0,0.033215,0.468085,17,0,790,135,3,4,1
-0,"Implemented Skip using Lift in Observable and OperatorSkip","master","headinthebox",1,0.001332,0.666667,0,0,92,188,1,6,1
+"age","title","target","author","coreMember","intraBranch","fix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
+0,"BufferWithSize backpressure","master","davidmoten",0,0,0,0.004704,0.4,0,0,0,75,0,1,2,1
+0,"Concat Backpressure","master","benjchristensen",1,0,0,0.482759,0.748252,0,0,0,149,37,1,2,1
+0,"Amb with backpressure support","master","zsxwing",0,0,0,0.07532,0.387387,0,0,0,75,1,1,2,1
+1440,"Amb with backpressure support","master","zsxwing",0,0,0,0.075007,0.383929,1,0,0,75,1,1,2,0
+2880,"Amb with backpressure support","master","zsxwing",0,0,0,0.075556,0.380531,1,0,0,75,1,1,2,0
+4320,"Amb with backpressure support","master","zsxwing",0,0,0,0.075533,0.380531,1,0,0,75,1,1,2,0
+5760,"Amb with backpressure support","master","zsxwing",0,0,0,0.07565,0.380531,1,0,0,75,1,1,2,1
+7200,"Amb with backpressure support","master","zsxwing",0,0,0,0.076039,0.373913,2,1,0,75,1,1,2,1
+0,"Amb + Backpressure","master","benjchristensen",1,0,0,0.482606,0.75,0,0,0,462,141,6,2,1
+0,"Added unit tests of backpressure to OperatorReduce","master","mattrjacobs",1,0,0,0.017409,0.407407,0,0,0,17,0,1,1,1
+0,"Failing unit test for reduce, showing it does not implement backpressure correctly","master","mattrjacobs",1,0,0,0.017155,0.423077,0,0,0,15,0,1,1,1
+0,"Bump to Robolectric 2.3, make samples build under Studio 0.8.+","master","mttkay",0,0,0,0.012737,0.517241,0,0,0,6,4,1,3,1
+1440,"Bump to Robolectric 2.3, make samples build under Studio 0.8.+","master","mttkay",0,0,0,0.012729,0.5,1,0,0,6,4,1,3,1
+0,"Add operators to create Observables from BroadcastReceiver (rebased)","master","Yarikx",0,0,0,0.001774,0.25,0,0,0,383,17,4,8,1
+0,"Fix issue #1522","master","zsxwing",0,0,1,0.075556,0.383929,0,0,0,306,20,3,2,1
+1440,"Fix issue #1522","master","zsxwing",0,0,1,0.075556,0.380531,3,0,0,306,20,3,2,1
+2880,"Fix issue #1522","master","zsxwing",0,0,1,0.075511,0.380531,4,0,0,306,20,3,2,1
+0,"Fix the unbounded check for merge","master","zsxwing",0,0,1,0.076196,0.377193,0,0,0,4,1,1,1,1
