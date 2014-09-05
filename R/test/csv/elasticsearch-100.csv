@@ -1,4 +1,4 @@
-"age","title","target","author","coreMember","intraBranch","fix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
+"age","title","target","author","coreMember","intraBranch","containsFix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
 0,"Added an option to add arbitrary headers to the client requests","master","uboness",1,0,0,0.015163,0.074074,0,0,0,400,56,1,17,1
 1440,"Added an option to add arbitrary headers to the client requests","master","uboness",1,0,0,0.015762,0.068966,2,8,0,1684,83,4,19,1
 2880,"Added an option to add arbitrary headers to the client requests","master","uboness",1,0,0,0.015883,0.068966,3,15,0,1684,83,4,19,1

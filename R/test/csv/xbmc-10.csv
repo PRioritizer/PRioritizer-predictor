@@ -1,4 +1,4 @@
-"age","title","target","author","coreMember","intraBranch","fix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
+"age","title","target","author","coreMember","intraBranch","containsFix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
 0,"StringUtils: add compiler parameters checking for Format()/FormatV()","master","Karlson2k",0,0,0,0.018733,0.662983,0,0,0,41,16,4,1,1
 1440,"StringUtils: add compiler parameters checking for Format()/FormatV()","master","Karlson2k",0,0,0,0.018731,0.659341,2,0,0,41,16,4,1,1
 2880,"StringUtils: add compiler parameters checking for Format()/FormatV()","master","Karlson2k",0,0,0,0.01877,0.659341,3,0,1,41,16,4,1,0
