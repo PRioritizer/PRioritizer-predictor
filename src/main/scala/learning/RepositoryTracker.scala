@@ -127,7 +127,7 @@ class RepositoryTracker(owner: String, repository: String) {
 
     val obj = mongo.getById(MongoDbSettings.collectionPullRequests, id, fields)
 
-    if (obj.isEmpty)
+    if (obj.isEmpty || obj.size != fields.length)
       None
     else
       Some(PullRequest(
