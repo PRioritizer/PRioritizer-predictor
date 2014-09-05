@@ -22,6 +22,8 @@ prepare.data <- function(data) {
   # Convert columns to boolean factors
   newData$coreMember <- as.boolean.factor(newData$coreMember)
   newData$important <- as.boolean.factor(newData$important)
+  newData$containsFix <- as.boolean.factor(newData$containsFix)
+  newData$lastCommentMention <- as.boolean.factor(newData$lastCommentMention)
 
   newData
 }
