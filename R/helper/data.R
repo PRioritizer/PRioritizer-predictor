@@ -17,9 +17,7 @@ split.data <- function(data, split = .5) {
 }
 
 prepare.data <- function(data) {
-  # Drop string columns
-  dropCols <- names(data) %in% c("title", "author", "target")
-  newData <- data[!dropCols]
+  newData <- data
 
   # Convert columns to boolean factors
   newData$coreMember <- as.boolean.factor(newData$coreMember)
