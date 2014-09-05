@@ -1,7 +1,7 @@
 package ghtorrent
 
 import ghtorrent.DateTimeMapper._
-import git.{Comment, Commit, Event}
+import git._
 import org.joda.time.DateTime
 
 import scala.slick.driver.SQLiteDriver.simple._
@@ -124,21 +124,23 @@ object Schema {
     def * = (createdAt, action) <> (Event.tupled, Event.unapply)
   }
 
-  class Comments(tag: Tag) extends Table[Comment](tag, TableNames.comments) {
+  class Comments(tag: Tag) extends Table[IssueComment](tag, TableNames.comments) {
     def id = column[Int]("comment_id", O.PrimaryKey)
     def issueId = column[Int]("issue_id")
     def userId = column[Int]("user_id")
     def createdAt = column[DateTime]("created_at")
+    def extRefId = column[String]("ext_ref_id")
 
-    def * = (userId, createdAt) <> (Comment.tupled, Comment.unapply)
+    def * = (userId, createdAt, extRefId) <> (IssueComment.tupled, IssueComment.unapply)
   }
 
-  class ReviewComments(tag: Tag) extends Table[Comment](tag, TableNames.reviewComments) {
+  class ReviewComments(tag: Tag) extends Table[ReviewComment](tag, TableNames.reviewComments) {
     def id = column[Int]("comment_id", O.PrimaryKey)
     def pullRequestId = column[Int]("pull_request_id")
     def userId = column[Int]("user_id")
     def createdAt = column[DateTime]("created_at")
+    def extRefId = column[String]("ext_ref_id")
 
-    def * = (userId, createdAt) <> (Comment.tupled, Comment.unapply)
+    def * = (userId, createdAt, extRefId) <> (ReviewComment.tupled, ReviewComment.unapply)
   }
 }

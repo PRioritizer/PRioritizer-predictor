@@ -17,6 +17,7 @@ case class PullRequest(number: Int,
   var commits: Long = 0L
   var comments: Long = 0L
   var reviewComments: Long = 0L
+  var lastCommentMention: Boolean = false
   var coreMember: Boolean = false
   var contributedCommitRatio: Double = 0D // [0-1]
   var pullRequestAcceptRatio: Double = 0D // [0-1]

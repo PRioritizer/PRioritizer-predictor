@@ -1,7 +1,7 @@
 package learning
 
 import ghtorrent.Schema.Tables
-import git.{Comment, Commit, Event, PullRequest}
+import git._
 import org.joda.time.DateTime
 import settings.{MongoDbSettings, PredictorSettings}
 import util.Extensions._
@@ -176,7 +176,7 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
       if c.issueId === ghIssueId
     } yield c
 
-    comments.list
+    Await.result(Future.sequence(comments.list.map(enrichFromMongo)), Duration.Inf)
   }
 
   private def getReviewComments: Future[List[Comment]] = Future {
@@ -187,6 +187,24 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
       if c.pullRequestId === ghPullRequestId
     } yield c
 
-    comments.list
+    Await.result(Future.sequence(comments.list.map(enrichFromMongo)), Duration.Inf)
+  }
+
+  private def enrichFromMongo(comment: Comment): Future[Comment] = Future {
+    val fields = List("body")
+
+    val collection = comment match {
+      case _: IssueComment => MongoDbSettings.collectionIssueComments
+      case _: ReviewComment => MongoDbSettings.collectionPullRequestComments
+      case _ => ""
+    }
+
+    val obj = mongo.getById(collection, comment.extRefId, fields)
+
+    if (obj.nonEmpty) {
+      comment.body = obj.getOrElse("body", "").asInstanceOf[String]
+    }
+
+    comment
   }
 }

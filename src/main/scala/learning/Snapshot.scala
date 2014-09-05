@@ -12,6 +12,7 @@ class Snapshot(tracker: PullRequestTracker, val moment: DateTime) {
 
   private lazy val issueCommentsCount = tracker.issueComments.count(c => c.createdAt.isBefore(moment))
   private lazy val reviewCommentsCount = tracker.reviewComments.count(c => c.createdAt.isBefore(moment))
+  private lazy val lastComment = tracker.issueComments.union(tracker.reviewComments).filter(c => c.createdAt.isBefore(moment)).lastOption
 
   private lazy val isCoreMember = tracker.author.coreMember.exists(d => d.isBefore(moment))
 
@@ -33,6 +34,7 @@ class Snapshot(tracker: PullRequestTracker, val moment: DateTime) {
 
     pullRequest.comments = issueCommentsCount
     pullRequest.reviewComments = reviewCommentsCount
+    pullRequest.lastCommentMention = lastComment.exists(c => c.hasUserMention)
 
     pullRequest.coreMember = isCoreMember
     pullRequest.contributedCommitRatio = commitRatio

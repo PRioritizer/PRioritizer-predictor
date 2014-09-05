@@ -37,6 +37,8 @@ object MongoDbSettings {
   lazy val database = Settings.get("mongodb.database").getOrElse("")
   lazy val collectionCommits = Settings.get("mongodb.collection.commits").getOrElse("")
   lazy val collectionPullRequests = Settings.get("mongodb.collection.pullrequests").getOrElse("")
+  lazy val collectionIssueComments = Settings.get("mongodb.collection.issue.comments").getOrElse("")
+  lazy val collectionPullRequestComments = Settings.get("mongodb.collection.pullrequest.comments").getOrElse("")
 }
 
 object Settings {
