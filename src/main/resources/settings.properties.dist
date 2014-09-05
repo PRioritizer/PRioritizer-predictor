@@ -29,3 +29,5 @@ mongodb.password=mongo-password
 mongodb.database=mongo-database
 mongodb.collection.commits=commits-collection
 mongodb.collection.pullrequests=pull-requests-collection
+mongodb.collection.issue.comments=issue-comments-collection
+mongodb.collection.pullrequest.comments=pull-request-comments-collection
