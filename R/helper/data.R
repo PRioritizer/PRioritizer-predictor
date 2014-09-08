@@ -39,11 +39,13 @@ as.boolean.factor <- function(list, threshold = 0.5, limit = -1) {
   # Total length
   size <- length(list)
 
+  # Hard limit to 1/3 of size
+  if (limit > -1) {
+    limit <- min(limit, floor(size/3))
+  }
+
   # Limit number of TRUE values
   if (limit > -1 && limit < size) {
-    # Hard limit to 1/3 of size
-    limit <- min(limit, floor(size/3))
-
     # Get sorted indices
     indices <- sort.int(list, decreasing = TRUE, index.return = TRUE)$ix
 
