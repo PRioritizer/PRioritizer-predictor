@@ -12,12 +12,12 @@ source("helper/utils.R")
 
 ### Files
 dir <- "test/csv"
-input.file <- file.path(dir, "xbmc-100.csv")
+input.file <- file.path(dir, "all.csv")
 model.file <- file.path(dir, "model.RData")
 
 ### Read data
 data <- read.data(input.file)
-data <- split.data(data, .75)
+data <- split.data(data, .90)
 
 ### Train model
 trained.model <- random.forest.train(model, data$train)

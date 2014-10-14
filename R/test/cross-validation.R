@@ -31,10 +31,10 @@ cross.validation.means <- function(cvResult) {
 # ================================== PROGRAM ================================== #
 
 ### Read data
-data <- read.data("test/csv/xbmc-100.csv")
+data <- read.data("test/csv/all.csv")
 
 ### Cross validation
-results <- cross.validation(model, data, 10)
+results <- cross.validation(model, data, 5)
 means <- cross.validation.means(results)
 printf("=====================================================================\n")
 printf("                                  Runs\n")

@@ -19,6 +19,8 @@ split.data <- function(data, split = .5) {
 prepare.data <- function(data) {
   newData <- data
 
+  newData$churn <- data$additions + data$deletions
+  
   # Convert columns to boolean factors
   newData$coreMember <- as.boolean.factor(newData$coreMember)
   newData$important <- as.boolean.factor(newData$important)
