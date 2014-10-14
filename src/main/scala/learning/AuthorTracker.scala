@@ -20,7 +20,7 @@ class AuthorTracker(repository: RepositoryTracker, username: String) {
       if u.login === username
     } yield u.id
 
-    authorIds.first
+    authorIds.firstOption.getOrElse(0)
   }
 
   private def getCoreMember: Option[DateTime] = {
