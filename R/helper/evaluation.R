@@ -2,7 +2,7 @@
 load.package("ROCR") # Prediction
 
 # Train and test models
-models.evaluate <- function(model, train, test) {
+models.evaluate <- function(model, train, test, select = list()) {
   # Number of algorithms
   n <- 3
 
@@ -16,19 +16,25 @@ models.evaluate <- function(model, train, test) {
     stringsAsFactors = FALSE)
 
   ### Binary logistic regression
-  lrmodel <- logistic.regression.train(model, train)
-  predictions <- logistic.regression.raw(lrmodel, test)
-  results[1,] <- prediction.performance("LogReg", predictions, test)
+  if (length(select) == 0 || select$logistic.regression) {
+    lrmodel <- logistic.regression.train(model, train)
+    predictions <- logistic.regression.raw(lrmodel, test)
+    results[1,] <- prediction.performance("LogReg", predictions, test)
+  }
 
   ### Naive Bayes
-  nbmodel <- naive.bayes.train(model, train)
-  predictions <- naive.bayes.raw(nbmodel, test)
-  results[2,] <- prediction.performance("NaiveBayes", predictions, test)
+  if (length(select) == 0 || select$naive.bayes) {
+    nbmodel <- naive.bayes.train(model, train)
+    predictions <- naive.bayes.raw(nbmodel, test)
+    results[2,] <- prediction.performance("NaiveBayes", predictions, test)
+  }
 
   ### Random Forest
-  rfmodel <- random.forest.train(model, train)
-  predictions <- random.forest.raw(rfmodel, test)
-  results[3,] <- prediction.performance("RandomForest", predictions, test)
+  if (length(select) == 0 || select$random.forest) {
+    rfmodel <- random.forest.train(model, train)
+    predictions <- random.forest.raw(rfmodel, test)
+    results[3,] <- prediction.performance("RandomForest", predictions, test)
+  }
 
   results
 }

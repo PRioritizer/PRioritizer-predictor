@@ -11,12 +11,19 @@ source("helper/utils.R")
 ### Foreach support
 load.package("foreach")
 
+# Select algorithms
+select <- list(
+  logistic.regression = FALSE,
+  naive.bayes = FALSE,
+  random.forest = TRUE
+)
+
 # Run a cross validation round, return a dataframe with all results added
-cross.validation <- function(model, df, runs = 10) {
+cross.validation <- function(model, df, runs) {
   result <- foreach(n = 1:runs, .combine = rbind) %do% {
     printf("Run #%s\n", n)
     dataset <- split.data(df, .75)
-    res <- models.evaluate(model, dataset$train, dataset$test)
+    res <- models.evaluate(model, dataset$train, dataset$test, select)
     res$run <- n
     res
   }
