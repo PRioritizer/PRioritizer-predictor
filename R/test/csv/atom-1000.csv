@@ -1,0 +1,1125 @@
+"age","title","target","author","coreMember","intraBranch","containsFix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
+0,"Add build fix from #2435","master","sryze",0,0,1,0.000061,0,0,0,0,13,0,1,1,1
+0,"Correct Node.js' spelling, link Git and GNOME Keyring","master","Bengt",0,0,0,0.000307,0.375,0,0,0,7,7,1,1,0
+1440,"Correct Node.js' spelling, link Git and GNOME Keyring","master","Bengt",0,0,0,0.000307,0.362069,0,0,0,7,7,1,1,1
+0,"Improve cursor movement and typing latency a bit","master","nathansobo",0,1,0,0.185862,0.293333,0,0,0,14,8,4,3,0
+1440,"Improve cursor movement and typing latency a bit","master","nathansobo",0,1,0,0.186001,0.285714,0,0,0,14,8,4,3,1
+0,"In devmode do not load incompatible modules from cache","master","maschs",0,0,0,0.000614,0,0,0,0,4,3,1,1,1
+0,"Remove vendored dlls","master","kevinsawicki",0,1,0,0.369681,0.536797,0,0,0,0,6,2,3,0
+1440,"Remove vendored dlls","master","kevinsawicki",0,1,0,0.369532,0.534188,0,0,0,0,6,2,3,1
+0,"Make sure src/ is CoffeeLint compliant","master","maschs",0,0,0,0.000494,0,0,0,0,340,333,1,42,1
+0,"Export Atom's version of React and Reactionary","master","dmnd",0,0,0,0.000124,0.24,0,0,0,2,0,1,1,0
+1440,"Export Atom's version of React and Reactionary","master","dmnd",0,0,0,0.000186,0.214286,0,0,0,2,0,1,1,0
+2880,"Export Atom's version of React and Reactionary","master","dmnd",0,0,0,0.000185,0.214286,0,0,0,2,0,1,1,1
+0,"Style mini editors","master","benogle",0,1,0,0.069482,0.227273,0,0,0,21,18,5,3,1
+0,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.5,0,0,0,0,0,1,2,1
+1440,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.333333,9,0,0,0,0,3,3,0
+2880,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.333333,9,0,0,0,0,3,3,1
+4320,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.333333,15,0,1,0,0,3,3,0
+5760,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.333333,15,0,1,0,0,3,3,1
+0,"Upgrade to Chrome36","master","zcbenz",0,1,0,0.024431,0.439394,0,0,0,1,1,1,1,1
+0,"Apply React editor font styles via CSS instead of inline styles","master","nathansobo",0,1,0,0.186124,0.297297,0,0,0,186,85,6,5,1
+0,"Show detailed React errors/warnings in devMode","master","dmnd",0,0,0,0.000186,0.222222,0,0,0,1,1,1,1,0
+1440,"Show detailed React errors/warnings in devMode","master","dmnd",0,0,0,0.000185,0.214286,0,0,0,1,1,1,1,1
+0,"individual descriptions for instructions","master","Bengt",0,0,0,0.000198,0.411765,0,0,0,51,15,2,1,0
+1440,"individual descriptions for instructions","master","Bengt",0,0,0,0.000198,0.403846,0,0,0,51,15,2,1,0
+2880,"individual descriptions for instructions","master","Bengt",0,0,0,0.000197,0.403846,0,0,0,51,15,2,1,0
+4320,"individual descriptions for instructions","master","Bengt",0,0,0,0.000197,0.403846,0,0,0,51,15,2,1,0
+5760,"individual descriptions for instructions","master","Bengt",0,0,0,0.000197,0.403846,0,0,0,51,15,2,1,0
+7200,"individual descriptions for instructions","master","Bengt",0,0,0,0.000196,0.403846,0,0,0,51,15,2,1,0
+8640,"individual descriptions for instructions","master","Bengt",0,0,0,0.000196,0.403846,0,0,0,51,15,2,1,0
+10080,"individual descriptions for instructions","master","Bengt",0,0,0,0.000196,0.403846,0,0,0,51,15,2,1,0
+11520,"individual descriptions for instructions","master","Bengt",0,0,0,0.000195,0.403846,0,0,0,51,15,2,1,0
+12960,"individual descriptions for instructions","master","Bengt",0,0,0,0.000195,0.403846,0,0,0,51,15,2,1,0
+14400,"individual descriptions for instructions","master","Bengt",0,0,0,0.000195,0.403846,0,0,0,51,15,2,1,0
+15840,"individual descriptions for instructions","master","Bengt",0,0,0,0.000195,0.403846,0,0,0,51,15,2,1,0
+17280,"individual descriptions for instructions","master","Bengt",0,0,0,0.000194,0.403846,0,0,0,51,15,2,1,0
+18720,"individual descriptions for instructions","master","Bengt",0,0,0,0.000193,0.403846,0,0,0,51,15,2,1,0
+20160,"individual descriptions for instructions","master","Bengt",0,0,0,0.000193,0.403846,0,0,0,51,15,2,1,1
+21600,"individual descriptions for instructions","master","Bengt",0,0,0,0.000193,0.403846,2,0,1,51,15,2,1,0
+23040,"individual descriptions for instructions","master","Bengt",0,0,0,0.000192,0.403846,2,0,1,51,15,2,1,0
+24480,"individual descriptions for instructions","master","Bengt",0,0,0,0.000192,0.403846,2,0,1,51,15,2,1,0
+25920,"individual descriptions for instructions","master","Bengt",0,0,0,0.000192,0.403846,2,0,1,51,15,2,1,0
+27360,"individual descriptions for instructions","master","Bengt",0,0,0,0.000192,0.403846,2,0,1,51,15,2,1,0
+28800,"individual descriptions for instructions","master","Bengt",0,0,0,0.000191,0.403846,2,0,1,51,15,2,1,0
+30240,"individual descriptions for instructions","master","Bengt",0,0,0,0.000191,0.403846,2,0,1,51,15,2,1,0
+31680,"individual descriptions for instructions","master","Bengt",0,0,0,0.00019,0.403846,2,0,1,51,15,2,1,0
+33120,"individual descriptions for instructions","master","Bengt",0,0,0,0.00019,0.403846,2,0,1,51,15,2,1,0
+34560,"individual descriptions for instructions","master","Bengt",0,0,0,0.00019,0.403846,2,0,1,51,15,2,1,0
+36000,"individual descriptions for instructions","master","Bengt",0,0,0,0.000189,0.403846,2,0,1,51,15,2,1,0
+37440,"individual descriptions for instructions","master","Bengt",0,0,0,0.000189,0.403846,2,0,1,51,15,2,1,0
+38880,"individual descriptions for instructions","master","Bengt",0,0,0,0.000188,0.396226,2,0,1,51,15,2,1,0
+40320,"individual descriptions for instructions","master","Bengt",0,0,0,0.000188,0.396226,2,0,1,51,15,2,1,0
+41760,"individual descriptions for instructions","master","Bengt",0,0,0,0.000188,0.388889,2,0,1,51,15,2,1,0
+43200,"individual descriptions for instructions","master","Bengt",0,0,0,0.000188,0.388889,2,0,1,51,15,2,1,0
+44640,"individual descriptions for instructions","master","Bengt",0,0,0,0.000188,0.388889,2,0,1,51,15,2,1,0
+46080,"individual descriptions for instructions","master","Bengt",0,0,0,0.000188,0.388889,2,0,1,51,15,2,1,0
+47520,"individual descriptions for instructions","master","Bengt",0,0,0,0.000187,0.388889,2,0,1,51,15,2,1,0
+48960,"individual descriptions for instructions","master","Bengt",0,0,0,0.000186,0.388889,2,0,1,51,15,2,1,0
+50400,"individual descriptions for instructions","master","Bengt",0,0,0,0.000186,0.388889,2,0,1,51,15,2,1,0
+51840,"individual descriptions for instructions","master","Bengt",0,0,0,0.000186,0.388889,2,0,1,51,15,2,1,0
+53280,"individual descriptions for instructions","master","Bengt",0,0,0,0.000248,0.375,2,0,1,51,15,2,1,0
+54720,"individual descriptions for instructions","master","Bengt",0,0,0,0.000248,0.375,2,0,1,51,15,2,1,0
+56160,"individual descriptions for instructions","master","Bengt",0,0,0,0.000247,0.375,2,0,1,51,15,2,1,1
+0,"Update linux.md","master","Bengt",0,0,0,0.000248,0.388889,0,0,0,1,0,1,1,0
+1440,"Update linux.md","master","Bengt",0,0,0,0.000248,0.375,0,0,0,1,0,1,1,1
+2880,"Update linux.md","master","Bengt",0,0,0,0.000247,0.375,0,1,0,1,0,1,1,1
+0,"Fix source maps for CoffeeScript on Windows.","master","ehuss",0,0,1,0.000062,0.533333,0,0,0,7,1,1,1,0
+1440,"Fix source maps for CoffeeScript on Windows.","master","ehuss",0,0,1,0.000062,0.5,0,0,0,7,1,1,1,0
+2880,"Fix source maps for CoffeeScript on Windows.","master","ehuss",0,0,1,0.000062,0.5,0,0,0,7,1,1,1,1
+4320,"Fix source maps for CoffeeScript on Windows.","master","ehuss",0,0,1,0.000062,0.5,1,0,0,7,1,1,1,0
+5760,"Fix source maps for CoffeeScript on Windows.","master","ehuss",0,0,1,0.000062,0.5,1,0,0,7,1,1,1,1
+0,"Upgrade to Chrome 35","master","zcbenz",0,1,0,0.024218,0.459677,0,0,0,642,422,22,23,1
+1440,"Upgrade to Chrome 35","master","zcbenz",0,1,0,0.024143,0.456,8,0,0,700,460,29,34,0
+2880,"Upgrade to Chrome 35","master","zcbenz",0,1,0,0.024113,0.456,8,0,0,700,460,29,34,1
+4320,"Upgrade to Chrome 35","master","zcbenz",0,1,0,0.024251,0.460317,19,0,1,986,801,36,65,1
+5760,"Upgrade to Chrome 35","master","zcbenz",0,1,0,0.02433,0.460317,21,0,1,1309,1036,54,74,0
+7200,"Upgrade to Chrome 35","master","zcbenz",0,1,0,0.024325,0.453125,21,0,1,1309,1036,54,74,0
+8640,"Upgrade to Chrome 35","master","zcbenz",0,1,0,0.024442,0.449612,21,0,1,1351,1083,58,75,1
+0,"Remove duplicate addUrlToOpen() in browser/main.coffee","master","marcbachmann",0,0,0,0.000062,0.533333,0,0,0,0,4,1,1,0
+1440,"Remove duplicate addUrlToOpen() in browser/main.coffee","master","marcbachmann",0,0,0,0.000062,0.5,0,0,0,0,4,1,1,0
+2880,"Remove duplicate addUrlToOpen() in browser/main.coffee","master","marcbachmann",0,0,0,0.000062,0.5,0,0,0,0,4,1,1,1
+0,"More useful split-selection-into-lines","master","dmnd",0,0,0,0.000062,0.25,0,0,0,2,1,1,1,1
+0,"Fix for jank measurement when `letter-spacing` is set.","master","benogle",0,1,1,0.069363,0.238095,0,0,0,11,2,1,1,1
+0,"Fix performance regression caused by transparent backgrounds on lines and gutter","master","nathansobo",0,1,1,0.185592,0.287671,0,0,0,66,16,4,4,1
+0,"Use React for select list mini editors when config option is toggled","master","nathansobo",0,1,0,0.185408,0.277778,0,0,0,39,28,3,4,1
+0,"Horizontal scrollbar no longer covers the gutter","master","benogle",0,1,0,0.068983,0.25,0,0,0,96,28,4,4,1
+1440,"Horizontal scrollbar no longer covers the gutter","master","benogle",0,1,0,0.069199,0.246914,1,6,1,202,58,8,4,1
+0,"Remove unneeded files from distribution","master","kevinsawicki",0,1,0,0.365204,0.553571,0,0,0,147,102,30,6,0
+1440,"Remove unneeded files from distribution","master","kevinsawicki",0,1,0,0.366166,0.551111,0,0,0,183,368,46,17,0
+2880,"Remove unneeded files from distribution","master","kevinsawicki",0,1,0,0.366955,0.548673,0,0,0,199,524,58,24,0
+4320,"Remove unneeded files from distribution","master","kevinsawicki",0,1,0,0.366489,0.548673,0,0,0,199,524,58,24,0
+5760,"Remove unneeded files from distribution","master","kevinsawicki",0,1,0,0.366374,0.548673,0,0,0,199,524,58,24,0
+7200,"Remove unneeded files from distribution","master","kevinsawicki",0,1,0,0.366352,0.548673,0,0,0,199,524,58,24,0
+8640,"Remove unneeded files from distribution","master","kevinsawicki",0,1,0,0.366225,0.548673,0,0,0,199,524,58,24,1
+10080,"Remove unneeded files from distribution","master","kevinsawicki",0,1,0,0.367587,0.54386,1,0,0,248,530,68,26,0
+11520,"Remove unneeded files from distribution","master","kevinsawicki",0,1,0,0.3679,0.541485,1,0,0,248,530,68,26,1
+0,"Add key binding for select-line to linux and win keymaps","master","dsandstrom",0,0,0,0.000062,0.32,0,0,0,2,0,1,2,1
+0,"fedora need dpkg-deb","master","MasseGuillaume",0,0,0,0,0.55102,0,0,0,1,1,1,1,1
+0,"Added Ctrl-Shift-Z for Linux Redo.","master","kubekhrm",0,0,0,0.000062,0,0,0,0,1,0,1,1,1
+0,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068049,0.273973,0,0,0,9,3,3,1,1
+1440,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.069031,0.25641,1,0,1,17,11,6,2,0
+2880,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.069145,0.253165,1,0,1,17,11,6,2,0
+4320,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068966,0.253165,1,0,1,17,11,6,2,1
+5760,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068783,0.253165,2,0,1,17,11,6,2,0
+7200,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068803,0.253165,2,0,1,17,11,6,2,0
+8640,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068712,0.253165,2,0,1,17,11,6,2,0
+10080,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068686,0.253165,2,0,1,17,11,6,2,0
+11520,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068588,0.253165,2,0,1,17,11,6,2,0
+12960,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068624,0.253165,2,0,1,17,11,6,2,0
+14400,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068737,0.253165,2,0,1,17,11,6,2,0
+15840,"Fix width too wide when softwrap enabled when editor can vertical scroll","master","benogle",0,1,1,0.068692,0.253165,2,0,1,17,11,6,2,1
+0,"Ship with tomorrow light theme","master","kevinsawicki",0,1,0,0.367587,0.546256,0,0,0,6,0,4,2,1
+0,"Make react the default editor","master","probablycorey",0,1,0,0.165877,0.451613,0,0,0,3,3,3,1,0
+1440,"Make react the default editor","master","probablycorey",0,1,0,0.165903,0.4375,0,0,0,3,3,3,1,1
+2880,"Make react the default editor","master","probablycorey",0,1,0,0.165834,0.424242,7,0,0,3,3,3,1,1
+4320,"Make react the default editor","master","probablycorey",0,1,0,0.165709,0.4,11,0,1,3,3,3,1,1
+5760,"Make react the default editor","master","probablycorey",0,1,0,0.165605,0.4,15,0,1,3,3,3,1,1
+7200,"Make react the default editor","master","probablycorey",0,1,0,0.165535,0.4,17,0,1,3,3,3,1,0
+8640,"Make react the default editor","master","probablycorey",0,1,0,0.165144,0.4,17,0,1,6,7,4,3,0
+10080,"Make react the default editor","master","probablycorey",0,1,0,0.165565,0.388889,17,0,1,6,7,4,3,0
+11520,"Make react the default editor","master","probablycorey",0,1,0,0.165767,0.388889,17,0,1,6,7,4,3,0
+12960,"Make react the default editor","master","probablycorey",0,1,0,0.16504,0.388889,17,0,1,6,7,4,3,0
+14400,"Make react the default editor","master","probablycorey",0,1,0,0.164502,0.378378,17,0,1,6,7,4,3,0
+15840,"Make react the default editor","master","probablycorey",0,1,0,0.164389,0.378378,17,0,1,6,7,4,3,0
+17280,"Make react the default editor","master","probablycorey",0,1,0,0.164378,0.378378,17,0,1,6,7,4,3,0
+18720,"Make react the default editor","master","probablycorey",0,1,0,0.164863,0.378378,17,0,1,6,7,4,3,0
+20160,"Make react the default editor","master","probablycorey",0,1,0,0.164777,0.378378,17,0,1,6,7,4,3,0
+21600,"Make react the default editor","master","probablycorey",0,1,0,0.164504,0.378378,17,0,1,6,7,4,3,0
+23040,"Make react the default editor","master","probablycorey",0,1,0,0.164509,0.378378,17,0,1,6,7,4,3,0
+24480,"Make react the default editor","master","probablycorey",0,1,0,0.163914,0.368421,17,0,1,6,7,4,3,0
+25920,"Make react the default editor","master","probablycorey",0,1,0,0.163683,0.368421,17,0,1,6,7,4,3,0
+27360,"Make react the default editor","master","probablycorey",0,1,0,0.163617,0.368421,17,0,1,6,7,4,3,0
+28800,"Make react the default editor","master","probablycorey",0,1,0,0.163027,0.368421,17,0,1,6,7,4,3,0
+30240,"Make react the default editor","master","probablycorey",0,1,0,0.162958,0.368421,17,0,1,6,7,4,3,0
+31680,"Make react the default editor","master","probablycorey",0,1,0,0.162758,0.368421,17,0,1,6,7,4,3,0
+33120,"Make react the default editor","master","probablycorey",0,1,0,0.162028,0.358974,17,0,1,6,7,4,3,0
+34560,"Make react the default editor","master","probablycorey",0,1,0,0.16156,0.358974,17,0,1,6,7,4,3,0
+36000,"Make react the default editor","master","probablycorey",0,1,0,0.161358,0.358974,17,0,1,6,7,4,3,0
+37440,"Make react the default editor","master","probablycorey",0,1,0,0.161316,0.358974,17,0,1,6,7,4,3,0
+38880,"Make react the default editor","master","probablycorey",0,1,0,0.161216,0.358974,17,0,1,6,7,4,3,0
+40320,"Make react the default editor","master","probablycorey",0,1,0,0.160668,0.35,17,0,1,6,7,4,3,0
+41760,"Make react the default editor","master","probablycorey",0,1,0,0.160334,0.341463,17,0,1,6,7,4,3,0
+43200,"Make react the default editor","master","probablycorey",0,1,0,0.160357,0.333333,17,0,1,6,7,4,3,0
+44640,"Make react the default editor","master","probablycorey",0,1,0,0.160548,0.333333,17,0,1,6,7,4,3,0
+46080,"Make react the default editor","master","probablycorey",0,1,0,0.160392,0.333333,17,0,1,6,7,4,3,0
+47520,"Make react the default editor","master","probablycorey",0,1,0,0.160382,0.333333,17,0,1,6,7,4,3,0
+48960,"Make react the default editor","master","probablycorey",0,1,0,0.160397,0.333333,17,0,1,6,7,4,3,0
+50400,"Make react the default editor","master","probablycorey",0,1,0,0.16008,0.333333,17,0,1,6,7,4,3,0
+51840,"Make react the default editor","master","probablycorey",0,1,0,0.15969,0.333333,17,0,1,6,7,4,3,0
+53280,"Make react the default editor","master","probablycorey",0,1,0,0.159146,0.333333,17,0,1,6,7,4,3,0
+54720,"Make react the default editor","master","probablycorey",0,1,0,0.159024,0.333333,17,0,1,6,7,4,3,0
+56160,"Make react the default editor","master","probablycorey",0,1,0,0.15881,0.333333,17,0,1,6,7,4,3,0
+57600,"Make react the default editor","master","probablycorey",0,1,0,0.158799,0.333333,17,0,1,6,7,4,3,1
+59040,"Make react the default editor","master","probablycorey",0,1,0,0.158494,0.333333,17,1,0,6,7,4,3,0
+60480,"Make react the default editor","master","probablycorey",0,1,0,0.158651,0.340909,17,1,0,6,7,4,3,1
+61920,"Make react the default editor","master","probablycorey",0,1,0,0.158321,0.340909,18,1,0,6,7,4,3,0
+63360,"Make react the default editor","master","probablycorey",0,1,0,0.158293,0.333333,18,1,0,6,7,4,3,0
+64800,"Make react the default editor","master","probablycorey",0,1,0,0.157975,0.326087,18,1,0,6,7,4,3,0
+66240,"Make react the default editor","master","probablycorey",0,1,0,0.157955,0.326087,18,1,0,6,7,4,3,0
+67680,"Make react the default editor","master","probablycorey",0,1,0,0.157535,0.326087,18,1,0,6,7,4,3,0
+69120,"Make react the default editor","master","probablycorey",0,1,0,0.157128,0.326087,18,1,0,6,7,4,3,0
+70560,"Make react the default editor","master","probablycorey",0,1,0,0.156456,0.326087,18,1,0,6,7,4,3,0
+72000,"Make react the default editor","master","probablycorey",0,1,0,0.156221,0.326087,18,1,0,6,7,4,3,0
+73440,"Make react the default editor","master","probablycorey",0,1,0,0.156191,0.326087,18,1,0,6,7,4,3,0
+74880,"Make react the default editor","master","probablycorey",0,1,0,0.155966,0.326087,18,1,0,6,7,4,3,0
+76320,"Make react the default editor","master","probablycorey",0,1,0,0.155908,0.326087,18,1,0,6,7,4,3,0
+77760,"Make react the default editor","master","probablycorey",0,1,0,0.155878,0.326087,18,1,0,6,7,4,3,0
+79200,"Make react the default editor","master","probablycorey",0,1,0,0.155606,0.326087,18,1,0,6,7,4,3,1
+0,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.000973,0.470588,0,0,0,26,0,2,1,0
+1440,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.000971,0.457143,0,0,0,26,0,2,1,0
+2880,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001033,0.444444,0,0,0,26,0,2,1,0
+4320,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.00103,0.444444,0,0,0,26,0,2,1,0
+5760,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001028,0.444444,0,0,0,26,0,2,1,0
+7200,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001026,0.444444,0,0,0,26,0,2,1,0
+8640,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001026,0.444444,0,0,0,26,0,2,1,0
+10080,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001026,0.444444,0,0,0,26,0,2,1,0
+11520,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001023,0.444444,0,0,0,26,0,2,1,0
+12960,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001021,0.444444,0,0,0,26,0,2,1,0
+14400,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001146,0.432432,0,0,0,26,0,2,1,0
+15840,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001207,0.432432,0,0,0,26,0,2,1,0
+17280,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001205,0.432432,0,0,0,26,0,2,1,0
+18720,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001205,0.432432,0,0,0,26,0,2,1,0
+20160,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.0012,0.432432,0,0,0,26,0,2,1,0
+21600,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001195,0.432432,0,0,0,26,0,2,1,0
+23040,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001382,0.410256,0,0,0,26,0,2,1,0
+24480,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.00138,0.410256,0,0,0,26,0,2,1,0
+25920,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001378,0.410256,0,0,0,26,0,2,1,0
+27360,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001377,0.410256,0,0,0,26,0,2,1,0
+28800,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001377,0.410256,0,0,0,26,0,2,1,0
+30240,"Document pagination for atom.io/api/packages","master","thedaniel",0,1,0,0.001376,0.410256,0,0,0,26,0,2,1,1
+0,"Write Atom.desktop file directly from template","master","kevinsawicki",0,1,0,0.366454,0.548673,0,0,0,7,9,1,1,1
+0,"Update linux.md","master","richizo",0,0,0,0,0,0,0,0,1,1,1,1,1
+1440,"Update linux.md","master","richizo",0,0,0,0,0,7,0,0,1,1,1,1,1
+2880,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,0
+4320,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,0
+5760,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,0
+7200,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,0
+8640,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,0
+10080,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,0
+11520,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,0
+12960,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,0
+14400,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,0
+15840,"Update linux.md","master","richizo",0,0,0,0,0,8,0,0,1,1,1,1,1
+0,"Make deb need sudo","master","netroby",0,0,0,0,0.15,0,0,0,1,1,1,1,1
+1440,"Make deb need sudo","master","netroby",0,0,0,0,0.142857,2,0,0,1,1,1,1,0
+2880,"Make deb need sudo","master","netroby",0,0,0,0,0.142857,2,0,0,1,1,1,1,0
+4320,"Make deb need sudo","master","netroby",0,0,0,0,0.142857,2,0,0,1,1,1,1,0
+5760,"Make deb need sudo","master","netroby",0,0,0,0,0.142857,2,0,0,1,1,1,1,0
+7200,"Make deb need sudo","master","netroby",0,0,0,0,0.142857,2,0,0,1,1,1,1,0
+8640,"Make deb need sudo","master","netroby",0,0,0,0,0.142857,2,0,0,1,1,1,1,0
+10080,"Make deb need sudo","master","netroby",0,0,0,0,0.142857,2,0,0,1,1,1,1,1
+0,"WIP: Use React editor for mini-editors","master","nathansobo",0,1,0,0.185804,0.285714,0,0,0,634,458,21,9,0
+1440,"WIP: Use React editor for mini-editors","master","nathansobo",0,1,0,0.187279,0.28169,0,0,0,796,552,29,9,0
+2880,"WIP: Use React editor for mini-editors","master","nathansobo",0,1,0,0.186491,0.28169,0,0,0,796,552,29,9,0
+4320,"WIP: Use React editor for mini-editors","master","nathansobo",0,1,0,0.18621,0.28169,0,0,0,796,552,29,9,0
+5760,"WIP: Use React editor for mini-editors","master","nathansobo",0,1,0,0.186175,0.28169,0,0,0,796,552,29,9,0
+7200,"WIP: Use React editor for mini-editors","master","nathansobo",0,1,0,0.186146,0.277778,0,0,0,854,573,30,11,0
+8640,"WIP: Use React editor for mini-editors","master","nathansobo",0,1,0,0.186087,0.277778,0,0,0,854,573,30,11,0
+10080,"WIP: Use React editor for mini-editors","master","nathansobo",0,1,0,0.186115,0.277778,0,0,0,854,573,30,11,1
+0,"Update Windows build instructions","master","batjko",0,0,0,0.000188,0.142857,0,0,0,15,5,1,1,1
+0,"Update linux.md","master","mervekaya",0,0,0,0,0,0,0,0,1,1,1,1,1
+1440,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+2880,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+4320,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+5760,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+7200,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+8640,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+10080,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+11520,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+12960,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+14400,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+15840,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+17280,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+18720,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,0
+20160,"Update linux.md","master","mervekaya",0,0,0,0,0,7,0,0,1,1,1,1,1
+0,"Issue with mkdeb","master","bedna-KU",0,0,0,0,0,0,0,0,1,1,1,1,1
+1440,"Issue with mkdeb","master","bedna-KU",0,0,0,0,0,1,0,0,1,1,1,1,1
+0,"support ctrl-shift-home/end on Windows","master","jordanbtucker",0,0,0,0.000063,0.2,0,0,0,2,0,1,1,0
+1440,"support ctrl-shift-home/end on Windows","master","jordanbtucker",0,0,0,0.000063,0.166667,0,0,0,2,0,1,1,0
+2880,"support ctrl-shift-home/end on Windows","master","jordanbtucker",0,0,0,0.000063,0.142857,0,0,0,2,0,1,1,0
+4320,"support ctrl-shift-home/end on Windows","master","jordanbtucker",0,0,0,0.000063,0.142857,0,0,0,2,0,1,1,0
+5760,"support ctrl-shift-home/end on Windows","master","jordanbtucker",0,0,0,0.000063,0.142857,0,0,0,2,0,1,1,1
+0,"Fix typo in event trigger","master","dmnd",0,0,1,0.000063,0.3,0,0,0,1,1,1,1,1
+0,"Add build instructions for Arch","master","maschs",0,0,0,0.000314,0,0,0,0,3,0,1,1,0
+1440,"Add build instructions for Arch","master","maschs",0,0,0,0.000376,0,0,0,0,7,0,2,1,0
+2880,"Add build instructions for Arch","master","maschs",0,0,0,0.000376,0,0,0,0,7,0,2,1,1
+4320,"Add build instructions for Arch","master","maschs",0,0,0,0.000501,0,1,0,0,25,21,4,1,0
+5760,"Add build instructions for Arch","master","maschs",0,0,0,0.000501,0,1,0,0,25,21,4,1,1
+0,"Improve Linux install instructions","master","Frozenfire92",0,0,0,0.000063,0,0,0,0,5,1,1,1,1
+1440,"Improve Linux install instructions","master","Frozenfire92",0,0,0,0.000188,0,0,4,0,7,3,3,1,1
+0,"Upgrade keymap to support 'abort!' directive in keybindings","master","nathansobo",0,1,0,0.186328,0.28169,0,0,0,1,1,1,1,1
+0,"Support multiple separators in context menu","master","izuzak",0,1,0,0.002776,0.474747,0,0,0,15,4,1,3,1
+0,"Fix tab stops for soft tabs","master","benogle",0,1,1,0.069145,0.25641,0,0,0,64,6,4,3,1
+1440,"Fix tab stops for soft tabs","master","benogle",0,1,1,0.069145,0.253165,1,0,0,64,6,4,3,0
+2880,"Fix tab stops for soft tabs","master","benogle",0,1,1,0.068957,0.253165,1,0,0,64,6,4,3,0
+4320,"Fix tab stops for soft tabs","master","benogle",0,1,1,0.068783,0.253165,1,0,0,64,6,4,3,1
+0,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000131,0,0,0,0,4,3,1,2,0
+1440,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000131,0,0,0,0,4,3,1,2,0
+2880,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000131,0,0,0,0,4,3,1,2,0
+4320,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.00013,0,0,0,0,4,3,1,2,0
+5760,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.00013,0,0,0,0,4,3,1,2,0
+7200,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.00013,0,0,0,0,4,3,1,2,0
+8640,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.00013,0,0,0,0,4,3,1,2,0
+10080,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.00013,0,0,0,0,4,3,1,2,0
+11520,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000259,0,0,0,0,4,3,1,2,0
+12960,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000258,0,0,0,0,4,3,1,2,0
+14400,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000257,0,0,0,0,4,3,1,2,0
+15840,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000257,0,0,0,0,4,3,1,2,0
+17280,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000257,0,0,0,0,4,3,1,2,0
+18720,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000257,0,0,0,0,4,3,1,2,0
+20160,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000256,0,0,0,0,4,3,1,2,0
+21600,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000256,0,0,0,0,4,3,1,2,0
+23040,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000255,0,0,0,0,4,3,1,2,0
+24480,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000318,0,0,0,0,4,3,1,2,1
+25920,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000317,0,1,0,0,4,3,1,2,0
+27360,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000317,0,1,0,0,4,3,1,2,0
+28800,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000316,0,1,0,0,4,3,1,2,0
+30240,"Indentation respects tab stops now, fix #2672","master","maschs",0,0,1,0.000316,0,1,0,0,4,3,1,2,1
+0,":bug: Fix regression in indent-guide in React editor","master","lee-dohm",0,0,1,0.000571,0.564103,0,0,0,1,1,1,1,1
+1440,":bug: Fix regression in indent-guide in React editor","master","lee-dohm",0,0,1,0.000632,0.55,1,0,0,24,6,2,2,1
+0,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,0,0,0,2,0,1,1,0
+1440,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,0,0,0,2,0,1,1,0
+2880,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,0,0,0,2,0,1,1,0
+4320,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,0,0,0,2,0,1,1,0
+5760,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,0,0,0,2,0,1,1,1
+7200,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+8640,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+10080,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+11520,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+12960,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+14400,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+15840,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+17280,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+18720,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+20160,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+21600,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+23040,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+24480,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+25920,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+27360,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+28800,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+30240,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+31680,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+33120,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+34560,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+36000,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+37440,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+38880,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+40320,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+41760,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+43200,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+44640,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+46080,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+47520,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+48960,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+50400,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+51840,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+53280,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+54720,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+56160,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+57600,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+59040,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+60480,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+61920,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+63360,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+64800,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+66240,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+67680,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+69120,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+70560,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+72000,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,0
+73440,"Changes cursor for scrollbars to default.","master","digitalvapor",0,0,0,0,0,2,0,0,2,0,1,1,1
+0,"Don't quote certain explorer arguments","master","kevinsawicki",0,1,0,0.364441,0.556054,0,0,0,16,4,4,2,1
+0,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182609,0.371429,0,0,0,154,251,2,2,1
+1440,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182537,0.342105,4,0,0,155,252,3,2,1
+2880,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183361,0.333333,9,0,0,401,537,7,3,1
+4320,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183441,0.325,14,0,1,401,546,8,3,1
+5760,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183415,0.325,15,0,1,401,546,8,3,0
+7200,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183376,0.325,15,0,1,401,546,8,3,0
+8640,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183363,0.325,15,0,1,401,546,8,3,0
+10080,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183225,0.325,15,0,1,401,546,8,3,0
+11520,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182747,0.325,15,0,1,401,546,8,3,0
+12960,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182733,0.325,15,0,1,401,546,8,3,0
+14400,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181926,0.317073,15,0,1,401,546,8,3,0
+15840,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.18206,0.317073,15,0,1,401,546,8,3,0
+17280,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183293,0.309524,15,0,1,401,546,8,3,0
+18720,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184183,0.302326,15,0,1,401,546,8,3,0
+20160,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.18394,0.302326,15,0,1,401,546,8,3,0
+21600,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183896,0.302326,15,0,1,401,546,8,3,0
+23040,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182836,0.302326,15,0,1,401,546,8,3,0
+24480,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182452,0.302326,15,0,1,401,546,8,3,0
+25920,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182427,0.302326,15,0,1,401,546,8,3,0
+27360,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182526,0.302326,15,0,1,401,546,8,3,0
+28800,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.18261,0.302326,15,0,1,401,546,8,3,0
+30240,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.18217,0.302326,15,0,1,401,546,8,3,0
+31680,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182383,0.288889,15,0,1,401,546,8,3,0
+33120,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182234,0.288889,15,0,1,401,546,8,3,0
+34560,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181678,0.288889,15,0,1,401,546,8,3,0
+36000,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181641,0.288889,15,0,1,401,546,8,3,0
+37440,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181581,0.288889,15,0,1,401,546,8,3,0
+38880,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181078,0.288889,15,0,1,401,546,8,3,0
+40320,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181068,0.288889,15,0,1,401,546,8,3,0
+41760,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.180679,0.288889,15,0,1,401,546,8,3,0
+43200,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.180767,0.276596,15,0,1,401,546,8,3,0
+44640,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181255,0.26,15,0,1,401,546,8,3,0
+46080,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.1818,0.25,15,0,1,401,546,8,3,0
+47520,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181776,0.25,15,0,1,401,546,8,3,0
+48960,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181353,0.25,15,0,1,401,546,8,3,0
+50400,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.181319,0.240741,15,0,1,401,546,8,3,0
+51840,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.182121,0.236364,15,0,1,401,546,8,3,0
+53280,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.18199,0.236364,15,0,1,401,546,8,3,0
+54720,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183354,0.232143,15,0,1,401,546,8,3,0
+56160,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184084,0.22807,15,0,1,401,546,8,3,0
+57600,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184072,0.22807,15,0,1,401,546,8,3,0
+59040,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184205,0.224138,15,0,1,401,546,8,3,0
+60480,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184467,0.220339,15,0,1,401,546,8,3,0
+61920,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184367,0.233333,15,0,1,401,546,8,3,0
+63360,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184224,0.233333,15,0,1,401,546,8,3,0
+64800,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184265,0.229508,15,0,1,401,546,8,3,0
+66240,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184016,0.229508,15,0,1,401,546,8,3,0
+67680,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184005,0.229508,15,0,1,401,546,8,3,0
+69120,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184406,0.253731,15,0,1,401,546,8,3,0
+70560,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184663,0.285714,15,0,1,401,546,8,3,0
+72000,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184574,0.285714,15,0,1,401,546,8,3,0
+73440,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.184222,0.285714,15,0,1,401,546,8,3,1
+74880,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183837,0.285714,17,0,1,401,546,8,3,0
+76320,"For discussion: Overhead of React components for lines and line numbers","master","nathansobo",0,1,0,0.183837,0.285714,17,0,1,401,546,8,3,1
+0,"Import base *-variables files as fallback vars when loading packages/themes","master","benogle",0,1,0,0.068622,0.25974,0,0,0,54,8,5,8,1
+0,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.000845,0.484848,0,0,0,2,0,1,1,0
+1440,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.000844,0.470588,0,0,0,2,0,1,1,0
+2880,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.000844,0.470588,0,0,0,2,0,1,1,0
+4320,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.000973,0.457143,0,0,0,2,0,1,1,0
+5760,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.000971,0.457143,0,0,0,2,0,1,1,0
+7200,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.001033,0.444444,0,0,0,2,0,1,1,0
+8640,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.00103,0.444444,0,0,0,2,0,1,1,0
+10080,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.001028,0.444444,0,0,0,2,0,1,1,0
+11520,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.001026,0.444444,0,0,0,2,0,1,1,0
+12960,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.001026,0.444444,0,0,0,2,0,1,1,0
+14400,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.001025,0.444444,0,0,0,2,0,1,1,0
+15840,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.001023,0.444444,0,0,0,2,0,1,1,0
+17280,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.001021,0.444444,0,0,0,2,0,1,1,0
+18720,"Add stability message for Atom.io API","master","thedaniel",0,1,0,0.001146,0.432432,0,0,0,2,0,1,1,1
+0,"Move gutter member into a showLineNumbers observe block","master","benogle",0,1,0,0.068146,0.27027,0,0,0,12,9,1,1,1
+0,"Change shift-delete to trigger core:cut in Win32 and Linux","master","batjko",0,0,0,0.000127,0.25,0,0,0,2,2,1,2,1
+0,"Ship 32-bit node with apm on Windows","master","kevinsawicki",0,1,0,0.365123,0.563636,0,0,0,6,0,2,1,1
+0,"test","master","atom-bot",0,1,0,0.000191,0,0,0,0,17,8,1,1,1
+0,"Save files on close editor, not show dialog","master","DENIELER",0,1,0,0,0,0,0,0,4,2,1,2,1
+0,"Validate window dimensions","master","kevinsawicki",0,1,0,0.364569,0.571429,0,0,0,60,34,6,1,0
+1440,"Validate window dimensions","master","kevinsawicki",0,1,0,0.365123,0.561086,0,0,0,65,41,9,1,1
+0,"Change some heading levels and add docs for package renames","master","thedaniel",0,1,0,0.001083,0.444444,0,0,0,34,7,1,1,1
+0,"Move to beginning anf end of lines uses screen lines","master","benogle",0,1,0,0.067784,0.277778,0,0,0,2,4,1,1,1
+0,"Fix typo","master","maschs",0,0,1,0.000318,0,0,0,0,1,1,1,1,1
+0,"Index line-wise decorations by ids","master","benogle",0,1,0,0.067704,0.267606,0,0,0,20,12,1,3,1
+0,"Render empty line invisibles in React editor","master","nathansobo",0,1,0,0.184466,0.275362,0,0,0,46,5,1,3,1
+0,"Streamline character width remeasurement to hopefully avoid exceptions","master","nathansobo",0,1,0,0.184409,0.264706,0,0,0,6,16,1,1,1
+0,"Add autoUpdater shim for Windows","master","probablycorey",0,1,0,0.158498,0.333333,0,0,0,22,1,1,1,1
+0,"Fix ugly buttons issue in .btn-toolbar on resizing","master","Azeirah",0,0,1,0,0.4,0,0,0,2,4,1,1,1
+1440,"Fix ugly buttons issue in .btn-toolbar on resizing","master","Azeirah",0,0,1,0,0.285714,2,0,1,2,4,1,1,0
+2880,"Fix ugly buttons issue in .btn-toolbar on resizing","master","Azeirah",0,0,1,0,0.285714,2,0,1,2,4,1,1,1
+4320,"Fix ugly buttons issue in .btn-toolbar on resizing","master","Azeirah",0,0,1,0,0.285714,5,0,0,2,4,1,1,1
+0,"WIP: Update the decoration API","master","benogle",0,1,0,0.067446,0.271429,0,0,0,12,0,2,1,0
+1440,"WIP: Update the decoration API","master","benogle",0,1,0,0.067502,0.267606,0,0,0,12,0,2,1,0
+2880,"WIP: Update the decoration API","master","benogle",0,1,0,0.067411,0.267606,0,0,0,12,0,2,1,0
+4320,"WIP: Update the decoration API","master","benogle",0,1,0,0.067406,0.267606,0,0,0,12,0,2,1,1
+0,"Make React editor wrap guide work like it did in the old editor","master","nathansobo",0,1,0,0.18446,0.257576,0,0,0,36,30,2,4,1
+0,"Move serialization of active pane from Pane to PaneContainer","master","nathansobo",0,1,0,0.184374,0.261538,0,0,0,5,3,1,2,1
+0,"Re-measure character widths when stylesheets change","master","nathansobo",0,1,0,0.184305,0.265625,0,0,0,34,0,1,2,1
+0,"Autoscroll to cursor on undo","master","nathansobo",0,1,0,0.184253,0.253968,0,0,0,7,2,1,3,1
+0,"Account for padding-left on scroll view when soft-wrapping lines in the React editor","master","nathansobo",0,1,0,0.184108,0.241935,0,0,0,17,3,2,2,1
+0,"Scroll React editor all the way left when soft wrap is enabled","master","nathansobo",0,1,0,0.183951,0.229508,0,0,0,19,1,1,2,1
+0,"CSS snippet needs `!important` to work properly","master","cihadturhan",0,0,0,0,0,0,0,0,1,1,1,1,1
+0,"Codesign on Windows CI","master","kevinsawicki",0,1,0,0.363595,0.574074,0,0,0,50,34,6,1,0
+1440,"Codesign on Windows CI","master","kevinsawicki",0,1,0,0.36307,0.571429,0,0,0,50,34,6,1,1
+0,"Explicitly test removal of flash class prior to next animation frame","master","nathansobo",0,1,0,0.184276,0.233333,0,0,0,7,7,1,1,1
+0,"WIP add ability to 'flash' selections (find and replace used to do this)","master","benogle",0,1,0,0.064483,0.272727,0,0,0,210,54,12,4,1
+1440,"WIP add ability to 'flash' selections (find and replace used to do this)","master","benogle",0,1,0,0.065743,0.268657,7,10,0,624,480,30,9,1
+0,"Remove fnr marker less from themes, and into fnr","master","benogle",0,1,0,0.066439,0.264706,0,0,0,6,6,2,1,1
+0,"Fix jitter in React editor","master","nathansobo",0,1,1,0.184625,0.220339,0,0,0,39,20,3,2,1
+0,"Document stargazers endpoint for atom.io","master","thedaniel",0,1,0,0.001035,0.457143,0,0,0,13,0,1,1,1
+0,"Upgrade scandal to handle file read errors","master","benogle",0,1,0,0.062849,0.28125,0,0,0,48,4,2,4,1
+0,"F select multiple list view","master","frk1705",0,0,0,0.000068,0.117647,0,0,0,128,1,2,1,1
+1440,"F select multiple list view","master","frk1705",0,0,0,0.000137,0.105263,1,0,0,130,3,3,1,1
+2880,"F select multiple list view","master","frk1705",0,0,0,0.000204,0.105263,8,0,0,185,23,4,1,1
+4320,"F select multiple list view","master","frk1705",0,0,0,0.000204,0.105263,9,0,0,185,23,4,1,0
+5760,"F select multiple list view","master","frk1705",0,0,0,0.000203,0.090909,9,0,0,185,23,4,1,0
+7200,"F select multiple list view","master","frk1705",0,0,0,0.000202,0.090909,9,0,0,185,23,4,1,0
+8640,"F select multiple list view","master","frk1705",0,0,0,0.000201,0.08,9,0,0,185,23,4,1,0
+10080,"F select multiple list view","master","frk1705",0,0,0,0.000201,0.074074,9,0,0,185,23,4,1,0
+11520,"F select multiple list view","master","frk1705",0,0,0,0.000201,0.074074,9,0,0,185,23,4,1,0
+12960,"F select multiple list view","master","frk1705",0,0,0,0.0002,0.074074,9,0,0,185,23,4,1,0
+14400,"F select multiple list view","master","frk1705",0,0,0,0.0002,0.074074,9,0,0,185,23,4,1,0
+15840,"F select multiple list view","master","frk1705",0,0,0,0.000199,0.074074,9,0,0,185,23,4,1,0
+17280,"F select multiple list view","master","frk1705",0,0,0,0.000198,0.068966,9,0,0,185,23,4,1,0
+18720,"F select multiple list view","master","frk1705",0,0,0,0.000198,0.068966,9,0,0,185,23,4,1,0
+20160,"F select multiple list view","master","frk1705",0,0,0,0.000197,0.068966,9,0,0,185,23,4,1,0
+21600,"F select multiple list view","master","frk1705",0,0,0,0.000197,0.068966,9,0,0,185,23,4,1,0
+23040,"F select multiple list view","master","frk1705",0,0,0,0.000197,0.068966,9,0,0,185,23,4,1,0
+24480,"F select multiple list view","master","frk1705",0,0,0,0.000196,0.068966,9,0,0,185,23,4,1,0
+25920,"F select multiple list view","master","frk1705",0,0,0,0.000196,0.068966,9,0,0,185,23,4,1,0
+27360,"F select multiple list view","master","frk1705",0,0,0,0.000195,0.068966,9,0,0,185,23,4,1,0
+28800,"F select multiple list view","master","frk1705",0,0,0,0.000195,0.068966,9,0,0,185,23,4,1,0
+30240,"F select multiple list view","master","frk1705",0,0,0,0.000195,0.068966,9,0,0,185,23,4,1,0
+31680,"F select multiple list view","master","frk1705",0,0,0,0.000195,0.068966,9,0,0,185,23,4,1,0
+33120,"F select multiple list view","master","frk1705",0,0,0,0.000195,0.068966,9,0,0,185,23,4,1,1
+0,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000335,0.468927,0,0,0,15,1,1,2,0
+1440,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000335,0.466292,0,0,0,15,1,1,2,0
+2880,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000335,0.466292,0,0,0,15,1,1,2,0
+4320,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000334,0.464986,0,0,0,15,1,1,2,1
+5760,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000333,0.464986,1,0,0,15,1,1,2,1
+7200,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000398,0.461111,3,2,0,15,1,2,2,1
+8640,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000463,0.454795,7,2,0,17,3,3,2,0
+10080,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000461,0.454795,7,2,0,17,3,3,2,0
+11520,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000461,0.454795,7,2,0,17,3,3,2,0
+12960,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000461,0.454795,7,2,0,17,3,3,2,0
+14400,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000459,0.454795,7,2,0,17,3,3,2,0
+15840,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000458,0.452316,7,2,0,17,3,3,2,0
+17280,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000457,0.449864,7,2,0,17,3,3,2,0
+18720,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000456,0.449864,7,2,0,17,3,3,2,0
+20160,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000455,0.448649,7,2,0,17,3,3,2,0
+21600,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000454,0.448649,7,2,0,17,3,3,2,0
+23040,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000454,0.447439,7,2,0,17,3,3,2,0
+24480,"remove duplicate context menu entries","master","philschatz",0,0,0,0.000454,0.447439,7,2,0,17,3,3,2,1
+0,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.181147,0.265306,0,0,0,77,23,2,3,1
+1440,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.181824,0.25,1,0,1,109,25,4,4,0
+2880,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.181776,0.25,1,0,1,109,25,4,4,1
+4320,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.181353,0.25,3,0,1,109,25,4,4,0
+5760,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.181319,0.240741,3,0,1,109,25,4,4,0
+7200,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.182121,0.236364,3,0,1,109,25,4,4,0
+8640,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.18199,0.236364,3,0,1,109,25,4,4,0
+10080,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.183354,0.232143,3,0,1,109,25,4,4,0
+11520,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.184084,0.22807,3,0,1,109,25,4,4,0
+12960,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.184072,0.22807,3,0,1,109,25,4,4,0
+14400,"WIP: Fix issues highlighting lines containing the cursor","master","nathansobo",0,1,1,0.184205,0.224138,3,0,1,109,25,4,4,1
+0,"Ignore generated files in resources/linux.","master","smashwilson",0,0,0,0.000195,0.290909,0,0,0,2,0,1,1,0
+1440,"Ignore generated files in resources/linux.","master","smashwilson",0,0,0,0.000195,0.287425,0,0,0,2,0,1,1,0
+2880,"Ignore generated files in resources/linux.","master","smashwilson",0,0,0,0.000195,0.287425,0,0,0,2,0,1,1,1
+0,"Fix scroll jitter when deleting a line reduces the maximum allowed scrollTop","master","nathansobo",0,1,1,0.184231,0.22807,0,0,0,28,2,2,2,0
+1440,"Fix scroll jitter when deleting a line reduces the maximum allowed scrollTop","master","nathansobo",0,1,1,0.184193,0.224138,0,0,0,28,2,2,2,1
+0,"Build and publish API docs","master","probablycorey",0,1,0,0.160248,0.341463,0,0,0,35,25,6,4,1
+1440,"Build and publish API docs","master","probablycorey",0,1,0,0.160548,0.333333,1,3,0,60,43,11,6,0
+2880,"Build and publish API docs","master","probablycorey",0,1,0,0.160392,0.333333,1,3,0,60,43,11,6,0
+4320,"Build and publish API docs","master","probablycorey",0,1,0,0.160382,0.333333,1,3,0,60,43,11,6,1
+0,"Improve default decorations for cursor and selection lines in React editor","master","nathansobo",0,1,0,0.183326,0.236364,0,0,0,210,34,20,5,1
+1440,"Improve default decorations for cursor and selection lines in React editor","master","nathansobo",0,1,0,0.183778,0.232143,2,0,0,492,444,24,5,1
+0,"Autoscroll cursor when attempting to move it, even if it doesn't move","master","nathansobo",0,1,0,0.183937,0.232143,0,0,0,4,5,1,1,1
+0,"Add PPA instructions for easier installation","master","battlemidget",0,0,0,0,0.534591,0,0,0,10,0,1,1,1
+0,"Fix max scroll width in react editor","master","benogle",0,1,1,0.062831,0.295082,0,0,0,34,2,10,4,1
+1440,"Fix max scroll width in react editor","master","benogle",0,1,1,0.063055,0.285714,3,0,0,100,22,12,6,1
+0,"Use setImmediate instead of nextTick to batch React editor updates","master","nathansobo",0,1,0,0.181332,0.240741,0,0,0,169,171,2,2,1
+0,"Never allow partial pixel values for scroll","master","benogle",0,1,0,0.062888,0.290323,0,0,0,4,4,1,1,1
+0,"Only perform a single synchronous update inside animation frames","master","nathansobo",0,1,0,0.181301,0.245283,0,0,0,15,10,1,1,1
+0,"Compute pixel rects of cursors and highlights in EditorComponent","master","nathansobo",0,1,0,0.18152,0.25,0,0,0,52,34,6,5,1
+0,"Subscribe to marker changes","master","benogle",0,1,0,0.060793,0.305085,0,0,0,78,48,3,4,1
+0,"Preload grammars on deserialization","master","benogle",0,1,0,0.060518,0.310345,0,0,0,56,2,2,3,1
+1440,"Preload grammars on deserialization","master","benogle",0,1,0,0.060674,0.305085,7,3,0,106,22,6,4,0
+2880,"Preload grammars on deserialization","master","benogle",0,1,0,0.060658,0.305085,7,3,0,106,22,6,4,0
+4320,"Preload grammars on deserialization","master","benogle",0,1,0,0.060598,0.305085,7,3,0,106,22,6,4,1
+0,"Implement ""tiling"" strategy for lines and line numbers in React editor","master","nathansobo",0,1,0,0.181824,0.254902,0,0,0,378,407,10,6,0
+1440,"Implement ""tiling"" strategy for lines and line numbers in React editor","master","nathansobo",0,1,0,0.181776,0.25,0,0,0,378,407,10,6,0
+2880,"Implement ""tiling"" strategy for lines and line numbers in React editor","master","nathansobo",0,1,0,0.181663,0.25,0,0,0,447,417,11,8,1
+0,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.359551,0,0,0,2,2,1,1,0
+1440,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.355556,0,0,0,2,2,1,1,1
+2880,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.355556,1,0,1,2,2,1,1,0
+4320,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.355556,1,0,1,2,2,1,1,0
+5760,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,1,0,1,2,2,1,1,0
+7200,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,1,0,1,2,2,1,1,0
+8640,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,1,0,1,2,2,1,1,0
+10080,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,1,0,1,2,2,1,1,0
+11520,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,1,0,1,2,2,1,1,1
+12960,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+14400,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+15840,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+17280,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+18720,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+20160,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+21600,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+23040,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+24480,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+25920,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+27360,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+28800,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+30240,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+31680,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+33120,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+34560,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+36000,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+37440,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+38880,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+40320,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+41760,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+43200,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+44640,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+46080,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+47520,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,0
+48960,"Include tabs in leading and trailing whitespace regexes","master","matthewwithanm",0,0,0,0,0.351648,4,0,1,2,2,1,1,1
+0,"Update linux.md to accomadate build issues","master","Theswweet",0,0,0,0.000066,0,0,0,0,4,0,1,1,1
+1440,"Update linux.md to accomadate build issues","master","Theswweet",0,0,0,0.000132,0,0,1,0,5,1,2,1,1
+0,"Fix for installation of desktop file","master","deprint",0,0,1,0.000266,0,0,0,0,6,4,2,1,1
+1440,"Fix for installation of desktop file","master","deprint",0,0,1,0.000265,0,1,2,0,6,4,2,1,0
+2880,"Fix for installation of desktop file","master","deprint",0,0,1,0.000264,0,1,2,0,6,4,2,1,0
+4320,"Fix for installation of desktop file","master","deprint",0,0,1,0.000263,0,1,2,0,6,4,2,1,1
+0,"Revert ""Render highlights on their own layer to avoid GPU artifacts""","master","nathansobo",0,1,0,0.181309,0.26,0,0,0,31,59,1,9,1
+0,"Render highlights on their own layer to avoid GPU artifacts","master","nathansobo",0,1,0,0.180829,0.276596,0,0,0,26,13,1,5,1
+0,"Autoscroll to selections in model layer when added","master","nathansobo",0,1,0,0.180967,0.270833,0,0,0,18,1,1,2,1
+0,"Batch all editor updates together automatically via process.nextTick","master","nathansobo",0,1,0,0.180664,0.282609,0,0,0,809,575,3,4,1
+0,"Select page up/down","master","kevinsawicki",0,1,0,0.367309,0.57619,0,0,0,74,17,7,6,1
+0,"Fix caching of gutter's previous decorations","master","benogle",0,1,1,0.060334,0.315789,0,0,0,20,12,3,2,1
+0,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000071,0.285714,0,0,0,8,0,1,4,1
+1440,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000213,0.275862,4,0,1,17,3,2,5,0
+2880,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000212,0.275862,4,0,1,17,3,2,5,0
+4320,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000212,0.275862,4,0,1,17,3,2,5,0
+5760,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000212,0.275862,4,0,1,17,3,2,5,0
+7200,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000212,0.275862,4,0,1,17,3,2,5,0
+8640,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000212,0.275862,4,0,1,17,3,2,5,0
+10080,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000211,0.275862,4,0,1,17,3,2,5,0
+11520,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000211,0.275862,4,0,1,17,3,2,5,0
+12960,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.00021,0.275862,4,0,1,17,3,2,5,0
+14400,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.00021,0.275862,4,0,1,17,3,2,5,0
+15840,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000209,0.275862,4,0,1,17,3,2,5,0
+17280,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000209,0.275862,4,0,1,17,3,2,5,0
+18720,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000208,0.275862,4,0,1,17,3,2,5,0
+20160,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000207,0.275862,4,0,1,17,3,2,5,0
+21600,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000206,0.275862,4,0,1,17,3,2,5,0
+23040,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000205,0.275862,4,0,1,17,3,2,5,0
+24480,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000205,0.275862,4,0,1,17,3,2,5,0
+25920,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000205,0.275862,4,0,1,17,3,2,5,0
+27360,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000204,0.275862,4,0,1,17,3,2,5,0
+28800,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000203,0.275862,4,0,1,17,3,2,5,0
+30240,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000203,0.275862,4,0,1,17,3,2,5,0
+31680,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000202,0.275862,4,0,1,17,3,2,5,0
+33120,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000201,0.275862,4,0,1,17,3,2,5,0
+34560,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000201,0.275862,4,0,1,17,3,2,5,0
+36000,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000201,0.275862,4,0,1,17,3,2,5,0
+37440,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.0002,0.275862,4,0,1,17,3,2,5,0
+38880,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.0002,0.275862,4,0,1,17,3,2,5,0
+40320,"Add command to select text using page up/down keys","master","jabr",0,0,0,0.000199,0.275862,4,0,1,17,3,2,5,1
+0,"Render line decorations","master","benogle",0,1,0,0.059947,0.321429,0,0,0,243,14,2,2,1
+0,"add folded line icon","master","philschatz",0,0,0,0,0.471591,0,0,0,4,1,1,1,1
+1440,"add folded line icon","master","philschatz",0,0,0,0.000271,0.470255,5,3,0,53,16,5,4,1
+2880,"add folded line icon","master","philschatz",0,0,0,0.00027,0.470255,7,3,0,53,16,5,4,1
+4320,"add folded line icon","master","philschatz",0,0,0,0.000269,0.468927,11,4,0,122,19,6,4,0
+5760,"add folded line icon","master","philschatz",0,0,0,0.000335,0.467606,11,4,0,157,69,7,4,0
+7200,"add folded line icon","master","philschatz",0,0,0,0.000335,0.466292,11,4,0,157,69,7,4,0
+8640,"add folded line icon","master","philschatz",0,0,0,0.000335,0.466292,11,4,0,157,69,7,4,0
+10080,"add folded line icon","master","philschatz",0,0,0,0.000334,0.464986,11,4,0,157,69,7,4,0
+11520,"add folded line icon","master","philschatz",0,0,0,0.000333,0.464986,11,4,0,157,69,7,4,0
+12960,"add folded line icon","master","philschatz",0,0,0,0.000398,0.461111,11,4,0,157,69,7,4,0
+14400,"add folded line icon","master","philschatz",0,0,0,0.000463,0.454795,11,4,0,157,69,7,4,1
+0,"Added a hint about the required Python path.","master","grenade",0,0,0,0.000066,0.5,0,0,0,1,0,1,1,1
+0,"Bundle DLLs","master","kevinsawicki",0,1,0,0.367456,0.587379,0,0,0,12,4,12,3,1
+0,"Don’t render decorations on the last empty line when selection not empty","master","benogle",0,1,0,0.059551,0.333333,0,0,0,15,3,1,2,1
+0,"Implement gutter clicking and dragging to change selection on react editor","master","benogle",0,1,0,0.059506,0.339623,0,0,0,375,75,10,4,1
+0,"Align hard tabs","master","kevinsawicki",0,1,0,0.36662,0.590244,0,0,0,50,26,2,2,1
+0,"Don't measure character widths when editor is hidden","master","nathansobo",0,1,0,0.180776,0.288889,0,0,0,90,31,2,7,1
+0,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000072,1,0,0,0,25,13,1,2,0
+1440,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000072,0.5,0,0,0,25,13,1,2,0
+2880,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000072,0.5,0,0,0,25,13,1,2,0
+4320,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000072,0.5,0,0,0,25,13,1,2,0
+5760,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000072,0.5,0,0,0,25,13,1,2,0
+7200,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000072,0.5,0,0,0,25,13,1,2,0
+8640,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000072,0.5,0,0,0,25,13,1,2,0
+10080,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000071,0.5,0,0,0,25,13,1,2,0
+11520,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000071,0.5,0,0,0,25,13,1,2,0
+12960,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000071,0.5,0,0,0,25,13,1,2,0
+14400,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000071,0.5,0,0,0,25,13,1,2,0
+15840,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000071,0.5,0,0,0,25,13,1,2,0
+17280,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000071,0.5,0,0,0,25,13,1,2,0
+18720,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000071,0.5,0,0,0,25,13,1,2,0
+20160,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000071,0.5,0,0,0,25,13,1,2,0
+21600,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.00007,0.5,0,0,0,25,13,1,2,1
+23040,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.00007,0.5,2,0,0,25,13,1,2,0
+24480,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.00007,0.5,2,0,0,25,13,1,2,0
+25920,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.00007,0.5,2,0,0,25,13,1,2,0
+27360,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.00007,0.5,2,0,0,25,13,1,2,0
+28800,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.00007,0.5,2,0,0,25,13,1,2,0
+30240,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000069,0.5,2,0,0,25,13,1,2,0
+31680,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000069,0.5,2,0,0,25,13,1,2,0
+33120,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000069,0.5,2,0,0,25,13,1,2,0
+34560,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000068,0.5,2,0,0,25,13,1,2,0
+36000,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000068,0.5,2,0,0,25,13,1,2,0
+37440,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000068,0.5,2,0,0,25,13,1,2,0
+38880,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000068,0.5,2,0,0,25,13,1,2,0
+40320,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000068,0.5,2,0,0,25,13,1,2,0
+41760,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000068,0.5,2,0,0,25,13,1,2,0
+43200,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000067,0.5,2,0,0,25,13,1,2,0
+44640,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000067,0.5,2,0,0,25,13,1,2,0
+46080,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000067,0.5,2,0,0,25,13,1,2,0
+47520,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000067,0.5,2,0,0,25,13,1,2,1
+48960,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000067,0.5,3,0,1,25,13,1,2,1
+50400,"Make hard tabs align to columns.","master","a-m-s",0,0,0,0.000067,0.5,4,0,0,25,13,1,2,1
+0,"Add fold markers to folded lines","master","benogle",0,1,0,0.059492,0.346154,0,0,0,34,0,3,4,1
+0,"Upgrade find and replace to use decorations for marker views","master","benogle",0,1,0,0.05925,0.352941,0,0,0,6,6,2,1,1
+0,"Upgrade syntax themes to add css for new find decorations","master","chalamarc",0,1,0,0,0,0,0,0,5,5,1,1,1
+0,"added delete to end of line","master","adnelson",0,0,0,0.000067,0.8,0,0,0,92,0,2,5,1
+1440,"added delete to end of line","master","adnelson",0,0,0,0.000067,0.666667,0,1,0,92,0,2,5,1
+2880,"added delete to end of line","master","adnelson",0,0,0,0.0002,0.666667,3,4,0,113,21,4,5,1
+0,"Expose resizing to editor","master","probablycorey",0,1,0,0.1642,0.378378,0,0,0,10,2,3,2,1
+1440,"Expose resizing to editor","master","probablycorey",0,1,0,0.163683,0.368421,3,0,0,61,43,4,2,0
+2880,"Expose resizing to editor","master","probablycorey",0,1,0,0.163617,0.368421,3,0,0,61,43,4,2,1
+4320,"Expose resizing to editor","master","probablycorey",0,1,0,0.163332,0.368421,9,0,0,61,43,4,2,0
+5760,"Expose resizing to editor","master","probablycorey",0,1,0,0.162831,0.368421,9,0,0,61,43,4,2,1
+0,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.00014,0.666667,0,0,0,11,0,1,1,1
+1440,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.00021,0.625,2,0,0,13,2,2,1,0
+2880,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000209,0.625,2,0,0,13,2,2,1,0
+4320,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000208,0.625,2,0,0,13,2,2,1,0
+5760,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000207,0.625,2,0,0,13,2,2,1,0
+7200,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000206,0.625,2,0,0,13,2,2,1,0
+8640,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000205,0.625,2,0,0,13,2,2,1,0
+10080,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000205,0.625,2,0,0,13,2,2,1,0
+11520,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000205,0.625,2,0,0,13,2,2,1,0
+12960,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000204,0.625,2,0,0,13,2,2,1,0
+14400,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000204,0.625,2,0,0,13,2,2,1,0
+15840,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000203,0.625,2,0,0,13,2,2,1,0
+17280,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000202,0.588235,2,0,0,13,2,2,1,0
+18720,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000201,0.588235,2,0,0,13,2,2,1,0
+20160,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000201,0.588235,2,0,0,13,2,2,1,0
+21600,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.000201,0.588235,2,0,0,13,2,2,1,0
+23040,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.0002,0.588235,2,0,0,13,2,2,1,1
+24480,"Emit tokenized-lines signal if lines tokenized","master","klorenz",0,0,0,0.0002,0.588235,3,0,0,13,2,2,1,1
+0,"Install Atom.desktop when installing to /usr/local","master","deprint",0,0,0,0.000067,0,0,0,0,21,3,1,3,1
+0,"WIP Add highlights","master","benogle",0,1,0,0.056732,0.375,0,0,0,701,931,34,11,1
+1440,"WIP Add highlights","master","benogle",0,1,0,0.057735,0.367347,0,1,0,829,1035,46,15,0
+2880,"WIP Add highlights","master","benogle",0,1,0,0.057712,0.367347,0,1,0,829,1035,46,15,1
+4320,"WIP Add highlights","master","benogle",0,1,0,0.05821,0.367347,1,13,1,1056,1307,56,15,1
+5760,"WIP Add highlights","master","benogle",0,1,0,0.058972,0.36,2,14,0,1302,1434,74,16,1
+0,"Handle textInput events in a way that works with autocomplete-plus","master","nathansobo",0,1,0,0.182568,0.295455,0,0,0,32,34,1,3,0
+1440,"Handle textInput events in a way that works with autocomplete-plus","master","nathansobo",0,1,0,0.182247,0.288889,0,0,0,35,35,2,3,0
+2880,"Handle textInput events in a way that works with autocomplete-plus","master","nathansobo",0,1,0,0.181953,0.288889,0,0,0,35,35,2,3,0
+4320,"Handle textInput events in a way that works with autocomplete-plus","master","nathansobo",0,1,0,0.181654,0.288889,0,0,0,35,35,2,3,0
+5760,"Handle textInput events in a way that works with autocomplete-plus","master","nathansobo",0,1,0,0.181581,0.288889,0,0,0,35,35,2,3,0
+7200,"Handle textInput events in a way that works with autocomplete-plus","master","nathansobo",0,1,0,0.181199,0.288889,0,0,0,35,35,2,3,1
+0,"Adding BUILD_DIR environment variable","master","dhabyx",0,0,0,0.000067,0,0,0,0,1,1,1,1,1
+0,"Smaller Windows build","master","kevinsawicki",0,1,0,0.366573,0.597015,0,0,0,3,0,3,1,1
+0,"Fix packages specs on CI","master","kevinsawicki",0,1,1,0.36641,0.6,0,0,0,8,11,9,3,1
+0,"Handle mousedown events only for left button in editors","master","izuzak",0,1,0,0.00261,0.534091,0,0,0,4,0,1,2,1
+0,"Fix build instructions by adding `./`","master","felixrabe",0,0,1,0,0.177778,0,0,0,6,6,1,3,1
+1440,"Fix build instructions by adding `./`","master","felixrabe",0,0,1,0,0.173913,1,0,1,6,6,1,3,1
+0,"added delete to end of line","master","adnelson",0,0,0,0.000067,1,0,0,0,32,0,2,4,1
+0,"Add installation step of ""C++ Toolchain"" on Fedora","master","Bengt",0,0,0,0.000134,0.428571,0,0,0,1,0,1,1,1
+0,"Publish builds on Windows CI","master","kevinsawicki",0,1,0,0.365818,0.606061,0,0,0,65,42,15,3,1
+0,":memo: Add git req to linux build instructions","master","joliv",0,0,0,0.000067,0.5,0,0,0,3,0,1,1,1
+0,"Change line commenting to uncomment if all non-blank lines are commented out","master","lee-dohm",0,0,0,0.000476,0.785714,0,0,0,19,6,2,2,1
+1440,"Change line commenting to uncomment if all non-blank lines are commented out","master","lee-dohm",0,0,0,0.000543,0.733333,0,2,0,25,12,3,2,0
+2880,"Change line commenting to uncomment if all non-blank lines are commented out","master","lee-dohm",0,0,0,0.00054,0.733333,0,2,0,25,12,3,2,1
+0,"Outdent only if a tab is matched at the start of the line","master","izuzak",0,1,0,0.002169,0.546512,0,0,0,1,1,1,1,1
+0,"Detached, centered overlays","master","alfredxing",0,0,0,0.000146,0.176471,0,0,0,12,0,2,2,0
+1440,"Detached, centered overlays","master","alfredxing",0,0,0,0.000146,0.166667,0,0,0,13,1,3,2,0
+2880,"Detached, centered overlays","master","alfredxing",0,0,0,0.000145,0.166667,0,0,0,13,1,3,2,1
+4320,"Detached, centered overlays","master","alfredxing",0,0,0,0.000145,0.166667,2,0,0,13,1,3,2,0
+5760,"Detached, centered overlays","master","alfredxing",0,0,0,0.000145,0.166667,2,0,0,13,1,3,2,0
+7200,"Detached, centered overlays","master","alfredxing",0,0,0,0.000144,0.166667,2,0,0,13,1,3,2,0
+8640,"Detached, centered overlays","master","alfredxing",0,0,0,0.000144,0.166667,2,0,0,13,1,3,2,0
+10080,"Detached, centered overlays","master","alfredxing",0,0,0,0.000143,0.166667,2,0,0,13,1,3,2,0
+11520,"Detached, centered overlays","master","alfredxing",0,0,0,0.000143,0.166667,2,0,0,13,1,3,2,0
+12960,"Detached, centered overlays","master","alfredxing",0,0,0,0.000143,0.166667,2,0,0,13,1,3,2,0
+14400,"Detached, centered overlays","master","alfredxing",0,0,0,0.000143,0.166667,2,0,0,13,1,3,2,0
+15840,"Detached, centered overlays","master","alfredxing",0,0,0,0.000143,0.166667,2,0,0,13,1,3,2,0
+17280,"Detached, centered overlays","master","alfredxing",0,0,0,0.000142,0.166667,2,0,0,13,1,3,2,0
+18720,"Detached, centered overlays","master","alfredxing",0,0,0,0.000142,0.166667,2,0,0,13,1,3,2,0
+20160,"Detached, centered overlays","master","alfredxing",0,0,0,0.000142,0.166667,2,0,0,13,1,3,2,0
+21600,"Detached, centered overlays","master","alfredxing",0,0,0,0.000142,0.166667,2,0,0,13,1,3,2,0
+23040,"Detached, centered overlays","master","alfredxing",0,0,0,0.000142,0.166667,2,0,0,13,1,3,2,0
+24480,"Detached, centered overlays","master","alfredxing",0,0,0,0.000141,0.166667,2,0,0,13,1,3,2,0
+25920,"Detached, centered overlays","master","alfredxing",0,0,0,0.000141,0.166667,2,0,0,13,1,3,2,0
+27360,"Detached, centered overlays","master","alfredxing",0,0,0,0.000141,0.166667,2,0,0,13,1,3,2,0
+28800,"Detached, centered overlays","master","alfredxing",0,0,0,0.000141,0.166667,2,0,0,13,1,3,2,0
+30240,"Detached, centered overlays","master","alfredxing",0,0,0,0.00014,0.166667,2,0,0,13,1,3,2,0
+31680,"Detached, centered overlays","master","alfredxing",0,0,0,0.00014,0.166667,2,0,0,13,1,3,2,0
+33120,"Detached, centered overlays","master","alfredxing",0,0,0,0.00014,0.166667,2,0,0,13,1,3,2,0
+34560,"Detached, centered overlays","master","alfredxing",0,0,0,0.000139,0.166667,2,0,0,13,1,3,2,0
+36000,"Detached, centered overlays","master","alfredxing",0,0,0,0.000139,0.166667,2,0,0,13,1,3,2,0
+37440,"Detached, centered overlays","master","alfredxing",0,0,0,0.000138,0.166667,2,0,0,13,1,3,2,0
+38880,"Detached, centered overlays","master","alfredxing",0,0,0,0.000137,0.166667,2,0,0,13,1,3,2,0
+40320,"Detached, centered overlays","master","alfredxing",0,0,0,0.000137,0.166667,2,0,0,13,1,3,2,0
+41760,"Detached, centered overlays","master","alfredxing",0,0,0,0.000137,0.166667,2,0,0,13,1,3,2,0
+43200,"Detached, centered overlays","master","alfredxing",0,0,0,0.000136,0.166667,2,0,0,13,1,3,2,0
+44640,"Detached, centered overlays","master","alfredxing",0,0,0,0.000136,0.166667,2,0,0,13,1,3,2,0
+46080,"Detached, centered overlays","master","alfredxing",0,0,0,0.000135,0.166667,2,0,0,13,1,3,2,1
+0,"Fix pageUp and pageDown in the react editor","master","benogle",0,1,1,0.055533,0.382979,0,0,0,16,3,1,2,1
+0,"Slow the scroll speed","master","benogle",0,1,0,0.055597,0.4,0,0,0,4,4,2,1,1
+1440,"Slow the scroll speed","master","benogle",0,1,0,0.055582,0.391304,4,0,0,100,36,4,3,1
+0,"Add shims to the React View Editor","master","probablycorey",0,1,0,0.165472,0.4,0,0,0,6,0,2,1,1
+1440,"Add shims to the React View Editor","master","probablycorey",0,1,0,0.165778,0.388889,2,0,0,45,17,13,5,0
+2880,"Add shims to the React View Editor","master","probablycorey",0,1,0,0.165142,0.388889,2,0,0,85,25,24,6,1
+4320,"Add shims to the React View Editor","master","probablycorey",0,1,0,0.164603,0.378378,8,0,0,432,97,29,30,0
+5760,"Add shims to the React View Editor","master","probablycorey",0,1,0,0.164389,0.378378,8,0,0,432,97,29,30,0
+7200,"Add shims to the React View Editor","master","probablycorey",0,1,0,0.164378,0.378378,8,0,0,432,97,29,30,1
+8640,"Add shims to the React View Editor","master","probablycorey",0,1,0,0.164566,0.378378,10,0,1,564,172,48,42,0
+10080,"Add shims to the React View Editor","master","probablycorey",0,1,0,0.164618,0.378378,10,0,1,614,192,55,43,1
+0,"Adds select-to-beginning-of-next/previous-paragraph commands","master","karlin",0,0,0,0.000206,0.4,0,0,0,54,2,2,5,1
+1440,"Adds select-to-beginning-of-next/previous-paragraph commands","master","karlin",0,0,0,0.000205,0.333333,2,0,0,54,2,2,5,0
+2880,"Adds select-to-beginning-of-next/previous-paragraph commands","master","karlin",0,0,0,0.000205,0.333333,2,0,0,54,2,2,5,0
+4320,"Adds select-to-beginning-of-next/previous-paragraph commands","master","karlin",0,0,0,0.000205,0.333333,2,0,0,54,2,2,5,0
+5760,"Adds select-to-beginning-of-next/previous-paragraph commands","master","karlin",0,0,0,0.000204,0.333333,2,0,0,54,2,2,5,1
+0,"Fix NPM verification failures after `script/clean` on Win32","master","jugglingnutcase",0,0,1,0.000679,0.614286,0,0,0,3,0,1,1,1
+0,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.6,0,0,0,2,0,1,1,1
+1440,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+2880,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+4320,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+5760,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+7200,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+8640,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+10080,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+11520,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+12960,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+14400,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+15840,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+17280,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+18720,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+20160,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+21600,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+23040,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+24480,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+25920,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,0
+27360,"Added note about nodejs on ubuntu 14.04, related to #2025","master","rafaelsierra",0,0,0,0,0.5,5,0,0,2,0,1,1,1
+0,"Update linux.md","master","Noxer",0,0,0,0,1,0,0,0,4,0,1,1,1
+1440,"Update linux.md","master","Noxer",0,0,0,0.000072,0.5,3,0,0,5,3,2,1,1
+2880,"Update linux.md","master","Noxer",0,0,0,0.000072,0.5,4,0,0,5,3,2,1,0
+4320,"Update linux.md","master","Noxer",0,0,0,0.000072,0.5,4,0,0,5,3,2,1,0
+5760,"Update linux.md","master","Noxer",0,0,0,0.000072,0.5,4,0,0,5,3,2,1,0
+7200,"Update linux.md","master","Noxer",0,0,0,0.000072,0.5,4,0,0,5,3,2,1,0
+8640,"Update linux.md","master","Noxer",0,0,0,0.000072,0.5,4,0,0,5,3,2,1,0
+10080,"Update linux.md","master","Noxer",0,0,0,0.000071,0.5,4,0,0,5,3,2,1,0
+11520,"Update linux.md","master","Noxer",0,0,0,0.000071,0.5,4,0,0,5,3,2,1,0
+12960,"Update linux.md","master","Noxer",0,0,0,0.000071,0.5,4,0,0,5,3,2,1,0
+14400,"Update linux.md","master","Noxer",0,0,0,0.000071,0.5,4,0,0,5,3,2,1,0
+15840,"Update linux.md","master","Noxer",0,0,0,0.000071,0.5,4,0,0,5,3,2,1,0
+17280,"Update linux.md","master","Noxer",0,0,0,0.000071,0.333333,4,0,0,5,3,2,1,0
+18720,"Update linux.md","master","Noxer",0,0,0,0.000071,0.333333,4,0,0,5,3,2,1,0
+20160,"Update linux.md","master","Noxer",0,0,0,0.000071,0.333333,4,0,0,5,3,2,1,0
+21600,"Update linux.md","master","Noxer",0,0,0,0.00007,0.333333,4,0,0,5,3,2,1,0
+23040,"Update linux.md","master","Noxer",0,0,0,0.00007,0.333333,4,0,0,5,3,2,1,0
+24480,"Update linux.md","master","Noxer",0,0,0,0.00007,0.333333,4,0,0,5,3,2,1,0
+25920,"Update linux.md","master","Noxer",0,0,0,0.00007,0.333333,4,0,0,5,3,2,1,0
+27360,"Update linux.md","master","Noxer",0,0,0,0.00007,0.333333,4,0,0,5,3,2,1,0
+28800,"Update linux.md","master","Noxer",0,0,0,0.00007,0.333333,4,0,0,5,3,2,1,0
+30240,"Update linux.md","master","Noxer",0,0,0,0.000069,0.333333,4,0,0,5,3,2,1,0
+31680,"Update linux.md","master","Noxer",0,0,0,0.000069,0.333333,4,0,0,5,3,2,1,1
+33120,"Update linux.md","master","Noxer",0,0,0,0.000069,0.333333,5,0,0,5,3,2,1,0
+34560,"Update linux.md","master","Noxer",0,0,0,0.000068,0.333333,5,0,0,5,3,2,1,0
+36000,"Update linux.md","master","Noxer",0,0,0,0.000068,0.333333,5,0,0,5,3,2,1,0
+37440,"Update linux.md","master","Noxer",0,0,0,0.000068,0.333333,5,0,0,5,3,2,1,0
+38880,"Update linux.md","master","Noxer",0,0,0,0.000068,0.333333,5,0,0,5,3,2,1,1
+0,"Update linux.md","master","phaedryx",0,0,0,0,0.625,0,0,0,1,0,1,1,1
+1440,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,1,0,0,1,0,1,1,0
+2880,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,1,0,0,1,0,1,1,0
+4320,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,1,0,0,1,0,1,1,1
+5760,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,2,0,1,1,0,1,1,1
+7200,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,3,0,1,1,0,1,1,0
+8640,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,3,0,1,1,0,1,1,0
+10080,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,3,0,1,1,0,1,1,0
+11520,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,3,0,1,1,0,1,1,0
+12960,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,3,0,1,1,0,1,1,0
+14400,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,3,0,1,1,0,1,1,0
+15840,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,3,0,1,1,0,1,1,0
+17280,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,3,0,1,1,0,1,1,1
+18720,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,4,0,0,1,0,1,1,0
+20160,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,4,0,0,1,0,1,1,0
+21600,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,4,0,0,1,0,1,1,0
+23040,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,4,0,0,1,0,1,1,0
+24480,"Update linux.md","master","phaedryx",0,0,0,0,0.588235,4,0,0,1,0,1,1,1
+0,"Add an API for decorations; render stuff in the gutter again","master","benogle",0,1,0,0.048748,0.428571,0,0,0,1444,208,32,5,1
+1440,"Add an API for decorations; render stuff in the gutter again","master","benogle",0,1,0,0.051687,0.418605,14,33,0,2544,972,70,6,1
+2880,"Add an API for decorations; render stuff in the gutter again","master","benogle",0,1,0,0.054675,0.4,19,33,0,3204,1304,105,9,1
+4320,"Add an API for decorations; render stuff in the gutter again","master","benogle",0,1,0,0.054728,0.4,22,33,0,3204,1304,105,9,0
+5760,"Add an API for decorations; render stuff in the gutter again","master","benogle",0,1,0,0.054724,0.4,22,33,0,3204,1304,105,9,1
+0,"Add classic copy/paste to Linux and Win32 keymaps","master","batjko",0,0,0,0.000068,1,0,0,0,4,0,1,2,1
+0,"Support 32bit build on Linux","master","zcbenz",0,1,0,0.024648,0.647059,0,0,0,36,22,8,5,0
+1440,"Support 32bit build on Linux","master","zcbenz",0,1,0,0.024534,0.639535,0,0,0,36,22,8,5,1
+0,"Add troubleshooting long path issues for Windows","master","strugee",0,0,0,0.000069,1,0,0,0,6,0,1,1,1
+0,"Fix unresponsive text input after double-clicking","master","probablycorey",0,1,1,0.165041,0.388889,0,0,0,2,0,1,1,1
+0,"better script/clean removal for windows","master","radum",0,0,0,0.000069,0.363636,0,0,0,1,1,1,1,1
+0,":memo: Add documentation for Atom.io Star API","master","thedaniel",0,1,0,0.000759,0.5,0,0,0,27,0,1,1,1
+0,"Add debugging guide","master","izuzak",0,1,0,0.001735,0.559524,0,0,0,72,0,1,1,1
+1440,"Add debugging guide","master","izuzak",0,1,0,0.002002,0.552941,5,8,0,114,14,2,1,1
+0,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,0,0,0,1,1,1,1,1
+1440,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,1,0,0,1,1,1,1,0
+2880,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,1,0,0,1,1,1,1,0
+4320,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,1,0,0,1,1,1,1,0
+5760,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,1,0,0,1,1,1,1,0
+7200,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,1,0,0,1,1,1,1,0
+8640,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,1,0,0,1,1,1,1,0
+10080,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,1,0,0,1,1,1,1,0
+11520,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,1,0,0,1,1,1,1,1
+12960,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,2,0,0,1,1,1,1,0
+14400,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,2,0,0,1,1,1,1,0
+15840,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,2,0,0,1,1,1,1,0
+17280,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,2,0,0,1,1,1,1,0
+18720,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,2,0,0,1,1,1,1,0
+20160,"NPM set config requires root","master","mitchelldmcmillan",0,0,0,0,0,2,0,0,1,1,1,1,1
+0,"Add concrete install instructions for Fedora Linux","master","Bengt",0,0,0,0.000069,0.446809,0,0,0,5,2,1,1,1
+0,"Add alt-# shortcuts for pane switching","master","wulftone",0,0,0,0.000069,0.472222,0,0,0,9,0,1,1,1
+0,"Add clickable fold icon to gutter","master","philschatz",0,0,0,0,0.482456,0,0,0,59,128,1,1,1
+0,"Changing mkdeb script","master","onkrot",0,0,0,0.000069,0,0,0,0,2,2,1,1,1
+0,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+1440,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+2880,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+4320,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+5760,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+7200,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+8640,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+10080,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+11520,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+12960,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+14400,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+15840,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+17280,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+18720,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+20160,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+21600,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+23040,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+24480,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+25920,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+27360,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+28800,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+30240,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+31680,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,0
+33120,"Added precisions","master","gabsoftware",0,0,0,0,0,0,0,0,8,3,1,1,1
+0,"Create requirement verifier for script/bootstrap","master","probablycorey",0,1,0,0.165999,0.424242,0,0,0,39,20,5,3,1
+1440,"Create requirement verifier for script/bootstrap","master","probablycorey",0,1,0,0.165616,0.4,13,0,0,39,20,5,3,0
+2880,"Create requirement verifier for script/bootstrap","master","probablycorey",0,1,0,0.165547,0.4,13,0,0,39,20,5,3,0
+4320,"Create requirement verifier for script/bootstrap","master","probablycorey",0,1,0,0.165236,0.4,13,0,0,39,20,5,3,0
+5760,"Create requirement verifier for script/bootstrap","master","probablycorey",0,1,0,0.165309,0.4,13,0,0,39,20,5,3,0
+7200,"Create requirement verifier for script/bootstrap","master","probablycorey",0,1,0,0.165465,0.388889,13,0,0,196,91,11,3,1
+0,"Add a better python checker","master","avdg",0,0,0,0.000353,0.615385,0,0,0,409,15,4,2,1
+1440,"Add a better python checker","master","avdg",0,0,0,0.000493,0.6,4,0,0,423,24,7,2,1
+2880,"Add a better python checker","master","avdg",0,0,0,0.000633,0.6,10,6,0,443,62,9,2,1
+4320,"Add a better python checker","master","avdg",0,0,0,0.00063,0.6,16,6,0,443,62,9,2,1
+5760,"Add a better python checker","master","avdg",0,0,0,0.0007,0.6,17,6,0,555,156,10,3,0
+7200,"Add a better python checker","master","avdg",0,0,0,0.000698,0.6,17,6,0,555,156,10,3,0
+8640,"Add a better python checker","master","avdg",0,0,0,0.000697,0.6,17,6,0,555,156,10,3,0
+10080,"Add a better python checker","master","avdg",0,0,0,0.000694,0.6,17,6,0,555,156,10,3,1
+0,"Check python version to verify requirements, addition to #2457","cj-add-python-check","jugglingnutcase",0,0,0,0.000625,0.632353,0,0,0,66,24,1,2,1
+0,"WIP: Split up gutter into multiple components","master","benogle",0,1,0,0.046448,0.45,0,0,0,26,0,1,3,0
+1440,"WIP: Split up gutter into multiple components","master","benogle",0,1,0,0.046495,0.428571,0,0,0,26,0,1,3,0
+2880,"WIP: Split up gutter into multiple components","master","benogle",0,1,0,0.046546,0.428571,0,0,0,26,0,1,3,0
+4320,"WIP: Split up gutter into multiple components","master","benogle",0,1,0,0.046447,0.428571,0,0,0,415,367,2,10,1
+0,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0,0.372093,0,0,0,0,0,0,0,0
+1440,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0,0.363636,0,0,0,0,0,0,0,0
+2880,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0,0.363636,0,0,0,0,0,0,0,1
+4320,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0,0.363636,1,0,1,0,0,0,0,1
+5760,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000072,0.363636,4,0,1,8,0,1,2,0
+7200,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000072,0.363636,4,0,1,8,0,1,2,1
+8640,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000072,0.363636,6,1,0,8,0,1,2,0
+10080,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000072,0.363636,6,1,0,8,0,1,2,0
+11520,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000072,0.363636,6,1,0,8,0,1,2,1
+12960,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000072,0.363636,8,1,0,8,0,1,2,0
+14400,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000071,0.363636,8,1,0,8,0,1,2,1
+15840,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000071,0.363636,9,1,0,8,0,1,2,0
+17280,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000071,0.363636,9,1,0,8,0,1,2,0
+18720,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000071,0.363636,9,1,0,8,0,1,2,0
+20160,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000071,0.363636,9,1,0,8,0,1,2,0
+21600,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000071,0.363636,9,1,0,8,0,1,2,0
+23040,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000071,0.363636,9,1,0,8,0,1,2,0
+24480,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000071,0.363636,9,1,0,8,0,1,2,1
+25920,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.00007,0.363636,10,1,0,8,0,1,2,1
+27360,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.00007,0.363636,11,1,0,8,0,1,2,0
+28800,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.00007,0.363636,11,1,0,8,0,1,2,1
+30240,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.00014,0.363636,12,1,0,18,0,2,2,0
+31680,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.00014,0.363636,12,1,0,18,0,2,2,0
+33120,"Fix indenting of HTML tags for instance. Fix #1294","master","steffengy",0,0,1,0.000139,0.363636,12,1,0,18,0,2,2,1
+0,"Add links to build error reports in build docs","master","izuzak",0,1,0,0.001532,0.566265,0,0,0,9,0,1,3,1
+0,":penguin: Make ""Developer Tools"" key binding match Chrome","master","p-e-w",0,0,0,0.00007,0,0,0,0,1,1,1,1,1
+0,"Advanced context menu","master","erikhakansson",0,0,0,0.000219,0,0,0,0,16,6,4,2,0
+1440,"Advanced context menu","master","erikhakansson",0,0,0,0.000218,0,0,0,0,16,6,4,2,1
+2880,"Advanced context menu","master","erikhakansson",0,0,0,0.000436,0,1,2,0,474,66,7,22,0
+4320,"Advanced context menu","master","erikhakansson",0,0,0,0.000435,0,1,2,0,474,66,7,22,0
+5760,"Advanced context menu","master","erikhakansson",0,0,0,0.000434,0,1,2,0,474,66,7,22,1
+7200,"Advanced context menu","master","erikhakansson",0,0,0,0.000433,0,4,2,0,474,66,7,22,1
+8640,"Advanced context menu","master","erikhakansson",0,0,0,0.000432,0,4,3,0,474,66,7,22,1
+10080,"Advanced context menu","master","erikhakansson",0,0,0,0.00043,0,5,3,0,474,66,7,22,1
+11520,"Advanced context menu","master","erikhakansson",0,0,0,0.000717,0,8,4,0,500,76,11,23,0
+12960,"Advanced context menu","master","erikhakansson",0,0,0,0.000717,0,8,4,0,500,76,11,23,0
+14400,"Advanced context menu","master","erikhakansson",0,0,0,0.000716,0,8,4,0,500,76,11,23,0
+15840,"Advanced context menu","master","erikhakansson",0,0,0,0.000713,0,8,4,0,500,76,11,23,0
+17280,"Advanced context menu","master","erikhakansson",0,0,0,0.000713,0,8,4,0,500,76,11,23,0
+18720,"Advanced context menu","master","erikhakansson",0,0,0,0.00071,0,8,4,0,500,76,11,23,0
+20160,"Advanced context menu","master","erikhakansson",0,0,0,0.000708,0,8,4,0,500,76,11,23,1
+21600,"Advanced context menu","master","erikhakansson",0,0,0,0.000779,0,9,4,0,503,80,12,23,0
+23040,"Advanced context menu","master","erikhakansson",0,0,0,0.000779,0,9,4,0,503,80,12,23,0
+24480,"Advanced context menu","master","erikhakansson",0,0,0,0.000779,0,9,4,0,503,80,12,23,1
+25920,"Advanced context menu","master","erikhakansson",0,0,0,0.000777,0,10,4,0,503,80,12,23,1
+27360,"Advanced context menu","master","erikhakansson",0,0,0,0.001058,0,11,4,0,541,85,16,24,1
+28800,"Advanced context menu","master","erikhakansson",0,0,0,0.001056,0,14,4,0,541,85,16,24,1
+30240,"Advanced context menu","master","erikhakansson",0,0,0,0.001051,0,18,4,0,541,85,16,24,0
+31680,"Advanced context menu","master","erikhakansson",0,0,0,0.00105,0,18,4,0,541,85,16,24,0
+33120,"Advanced context menu","master","erikhakansson",0,0,0,0.00105,0,18,4,0,541,85,16,24,0
+34560,"Advanced context menu","master","erikhakansson",0,0,0,0.001046,0,18,4,0,541,85,16,24,1
+0,"On ""core:close"" (ctrl/cmd-w), closes window if no files/panes left to close","master","jingchan",0,0,0,0,1,0,0,0,2,0,1,1,1
+1440,"On ""core:close"" (ctrl/cmd-w), closes window if no files/panes left to close","master","jingchan",0,0,0,0,0.5,3,0,0,2,0,1,1,1
+2880,"On ""core:close"" (ctrl/cmd-w), closes window if no files/panes left to close","master","jingchan",0,0,0,0,0.5,9,0,1,2,0,1,1,1
+4320,"On ""core:close"" (ctrl/cmd-w), closes window if no files/panes left to close","master","jingchan",0,0,0,0,0.5,11,0,0,2,0,1,1,0
+5760,"On ""core:close"" (ctrl/cmd-w), closes window if no files/panes left to close","master","jingchan",0,0,0,0,0.5,11,0,0,2,0,1,1,0
+7200,"On ""core:close"" (ctrl/cmd-w), closes window if no files/panes left to close","master","jingchan",0,0,0,0,0.5,11,0,0,2,0,1,1,0
+8640,"On ""core:close"" (ctrl/cmd-w), closes window if no files/panes left to close","master","jingchan",0,0,0,0,0.5,11,0,0,2,0,1,1,0
+10080,"On ""core:close"" (ctrl/cmd-w), closes window if no files/panes left to close","master","jingchan",0,0,0,0,0.5,11,0,0,2,0,1,1,1
+0,"Fix cursor and selection positioning when changing line height, font size, and font family","master","nathansobo",0,1,1,0.184376,0.309524,0,0,0,762,675,26,9,1
+0,"Add missing shift-backspace and shift-delete bindings","master","benogle",0,1,0,0.046495,0.439024,0,0,0,4,0,1,3,0
+1440,"Add missing shift-backspace and shift-delete bindings","master","benogle",0,1,0,0.046546,0.428571,0,0,0,4,0,1,3,1
+0,"Get core specs green on Windows","master","kevinsawicki",0,1,0,0.369955,0.625,0,0,0,164,258,28,21,0
+1440,"Get core specs green on Windows","master","kevinsawicki",0,1,0,0.369862,0.621762,0,0,0,164,258,28,21,0
+2880,"Get core specs green on Windows","master","kevinsawicki",0,1,0,0.369707,0.621762,0,0,0,164,258,28,21,1
+0,"Merge EditorScrollViewComponent into EditorComponent","master","nathansobo",0,1,0,0.182289,0.317073,0,0,0,348,387,2,3,0
+1440,"Merge EditorScrollViewComponent into EditorComponent","master","nathansobo",0,1,0,0.184148,0.309524,0,0,0,348,387,2,3,1
+0,"Fix line duplication in React editor","master","nathansobo",0,1,1,0.181965,0.325,0,0,0,40,6,3,4,1
+0,"Fix data gutter add class to line","master","probablycorey",0,1,1,0.165894,0.411765,0,0,0,2,2,2,2,1
+0,"webupdate team","master","jhonmike",0,0,0,0,0.166667,0,0,0,8,0,1,1,1
+0,"Update os-x.md","master","jsomers",0,0,0,0.00007,1,0,0,0,1,1,1,1,1
+0,"Use tokenized event to determine tab style","master","probablycorey",0,1,0,0.165903,0.4375,0,0,0,85,8,6,6,1
+0,"Preview mode","master","dcunited08",0,0,0,0,0,0,0,0,24,8,4,3,1
+1440,"Preview mode","master","dcunited08",0,0,0,0,0,3,3,0,24,8,4,3,1
+2880,"Preview mode","master","dcunited08",0,0,0,0,0,6,4,0,50,18,7,4,1
+4320,"Preview mode","master","dcunited08",0,0,0,0,0,7,4,0,50,18,7,4,0
+5760,"Preview mode","master","dcunited08",0,0,0,0,0,7,4,0,50,18,7,4,0
+7200,"Preview mode","master","dcunited08",0,0,0,0,0,7,4,0,50,18,7,4,1
+8640,"Preview mode","master","dcunited08",0,0,0,0,0,8,4,0,50,18,7,4,1
+10080,"Preview mode","master","dcunited08",0,0,0,0,0,9,4,0,50,18,7,4,1
+11520,"Preview mode","master","dcunited08",0,0,0,0,0,10,4,0,50,18,7,4,1
+12960,"Preview mode","master","dcunited08",0,0,0,0,0,13,4,0,50,18,7,4,1
+14400,"Preview mode","master","dcunited08",0,0,0,0,0,14,4,0,50,18,7,4,1
+15840,"Preview mode","master","dcunited08",0,0,0,0,0,20,4,0,50,18,7,4,0
+17280,"Preview mode","master","dcunited08",0,0,0,0,0,20,4,0,1900,846,8,72,0
+18720,"Preview mode","master","dcunited08",0,0,0,0,0,20,4,0,1900,846,8,72,0
+20160,"Preview mode","master","dcunited08",0,0,0,0,0,20,4,0,1900,846,8,72,0
+21600,"Preview mode","master","dcunited08",0,0,0,0,0,20,4,0,1939,876,9,74,1
+0,"Fixed links in docs/README.md","master","Noah-Huppert",0,0,1,0,0,0,0,0,41,41,4,1,0
+1440,"Fixed links in docs/README.md","master","Noah-Huppert",0,0,1,0,0,0,0,0,41,41,4,1,0
+2880,"Fixed links in docs/README.md","master","Noah-Huppert",0,0,1,0,0,0,0,0,41,41,4,1,0
+4320,"Fixed links in docs/README.md","master","Noah-Huppert",0,0,1,0,0,0,0,0,41,41,4,1,0
+5760,"Fixed links in docs/README.md","master","Noah-Huppert",0,0,1,0,0,0,0,0,41,41,4,1,1
+0,"Update linux.md","master","valix",0,0,0,0,0,0,0,0,8,0,1,1,1
+1440,"Update linux.md","master","valix",0,0,0,0,0,1,0,0,8,0,1,1,1
+2880,"Update linux.md","master","valix",0,0,0,0,0,2,0,0,8,0,1,1,0
+4320,"Update linux.md","master","valix",0,0,0,0,0,2,0,0,8,0,1,1,0
+5760,"Update linux.md","master","valix",0,0,0,0,0,2,0,0,8,0,1,1,0
+7200,"Update linux.md","master","valix",0,0,0,0,0,2,0,0,8,0,1,1,0
+8640,"Update linux.md","master","valix",0,0,0,0,0,2,0,0,8,0,1,1,1
+0,"Check for Python27 on path when building on Win32","master","jugglingnutcase",0,0,0,0.000356,0.641791,0,0,0,2,8,2,1,1
+1440,"Check for Python27 on path when building on Win32","master","jugglingnutcase",0,0,0,0.000355,0.632353,5,0,1,2,8,2,1,1
+2880,"Check for Python27 on path when building on Win32","master","jugglingnutcase",0,0,0,0.000354,0.632353,7,0,1,2,8,2,1,0
+4320,"Check for Python27 on path when building on Win32","master","jugglingnutcase",0,0,0,0.000354,0.632353,7,0,1,2,8,2,1,0
+5760,"Check for Python27 on path when building on Win32","master","jugglingnutcase",0,0,0,0.000354,0.632353,7,0,1,2,8,2,1,0
+7200,"Check for Python27 on path when building on Win32","master","jugglingnutcase",0,0,0,0.000354,0.632353,7,0,1,2,8,2,1,1
+0,"Reload grammar in editor when path changes","master","kevinsawicki",0,1,0,0.367798,0.634921,0,0,0,4,2,2,2,1
+1440,"Reload grammar in editor when path changes","master","kevinsawicki",0,1,0,0.367821,0.631579,0,6,0,6,6,6,2,0
+2880,"Reload grammar in editor when path changes","master","kevinsawicki",0,1,0,0.367769,0.631579,0,6,0,6,6,6,2,0
+4320,"Reload grammar in editor when path changes","master","kevinsawicki",0,1,0,0.367717,0.631579,0,6,0,6,6,6,2,1
+0,":memo: Re added troubleshooting Visual Studio","master","knightzero",0,0,0,0,0.2,0,0,0,10,0,1,1,1
+1440,":memo: Re added troubleshooting Visual Studio","master","knightzero",0,0,0,0.000071,0.166667,2,0,0,23,4,2,1,0
+2880,":memo: Re added troubleshooting Visual Studio","master","knightzero",0,0,0,0.000071,0.166667,2,0,0,23,4,2,1,1
+0,"Make cursor visible when over indent guides","master","benogle",0,1,0,0.046245,0.5,0,0,0,1,1,1,1,1
+0,"Update getLongTitle to be project relative","master","themaninthesuitcase",0,0,0,0.000071,0,0,0,0,1,1,1,1,1
+1440,"Update getLongTitle to be project relative","master","themaninthesuitcase",0,0,0,0.000071,0,7,0,0,1,1,1,1,0
+2880,"Update getLongTitle to be project relative","master","themaninthesuitcase",0,0,0,0.000071,0,7,0,0,1,1,1,1,0
+4320,"Update getLongTitle to be project relative","master","themaninthesuitcase",0,0,0,0.000071,0,7,0,0,1,1,1,1,0
+5760,"Update getLongTitle to be project relative","master","themaninthesuitcase",0,0,0,0.000071,0,7,0,0,1,1,1,1,1
+0,"Make React editor backward compatible with find-and-replace marker views","master","nathansobo",0,1,0,0.183441,0.333333,0,0,0,10,2,4,2,0
+1440,"Make React editor backward compatible with find-and-replace marker views","master","nathansobo",0,1,0,0.183415,0.325,0,0,0,10,2,4,2,0
+2880,"Make React editor backward compatible with find-and-replace marker views","master","nathansobo",0,1,0,0.183389,0.325,0,0,0,10,2,4,2,0
+4320,"Make React editor backward compatible with find-and-replace marker views","master","nathansobo",0,1,0,0.183363,0.325,0,0,0,10,2,4,2,1
+0,":bug: Prevent call to `getCursorScreenRow` if there's no cursor","master","abe33",0,0,0,0.000779,0.294118,0,0,0,1,0,1,1,1
+1440,":bug: Prevent call to `getCursorScreenRow` if there's no cursor","master","abe33",0,0,0,0.000779,0.285714,3,0,1,1,0,1,1,1
+0,"Fix typo in EditorView documentation","master","thomasjo",0,0,1,0,0.285714,0,0,0,1,1,1,1,0
+1440,"Fix typo in EditorView documentation","master","thomasjo",0,0,1,0,0.25,0,0,0,1,1,1,1,0
+2880,"Fix typo in EditorView documentation","master","thomasjo",0,0,1,0,0.25,0,0,0,1,1,1,1,1
+0,"Fix example in editor-view.coffee","master","frk1705",0,0,1,0.000071,0,0,0,0,1,1,1,1,0
+1440,"Fix example in editor-view.coffee","master","frk1705",0,0,1,0.000071,0,0,0,0,1,1,1,1,1
+0,"Add :checkered_flag: for Windows to CONTRIBUTING.md","master","Gaelan",0,0,0,0.000071,0.369565,0,0,0,1,0,1,1,1
+1440,"Add :checkered_flag: for Windows to CONTRIBUTING.md","master","Gaelan",0,0,0,0.000071,0.361702,2,0,0,1,0,1,1,1
+0,"ⓐⓓⓓⓘⓝⓖ ⓟⓐⓣⓒⓗ ⓣⓞ ⓓⓞⓒⓢ","master","ddavison",0,0,0,0.000142,0.297297,0,0,0,12,3,2,1,1
+0,"Prevent React editor's scroll view from being auto-scrolled by Chromium","master","nathansobo",0,1,0,0.183361,0.342105,0,0,0,56,26,3,3,1
+0,"add atom.io api docs","master","thedaniel",0,1,0,0.00064,0.533333,0,0,0,192,0,1,2,1
+0,"Marked broken links in docs/README.md","master","Noah-Huppert",0,0,0,0,0,0,0,0,17,16,3,1,1
+0,"add moveToBeginningOf{Next,Previous}Paragraph for cursor and editor","master","karlin",0,0,0,0.000071,0.5,0,0,0,77,0,1,3,1
+0,"Update windows.md","master","nticaric",0,0,0,0,0,0,0,0,2,2,1,1,1
+0,"Add separate Windows 8 and Windows 7 build instructions","master","probablycorey",0,1,0,0.165873,0.466667,0,0,0,14,3,2,1,1
+0,"Support core:move-up and core:move-down in ScrollView","master","izuzak",0,1,0,0.001207,0.621622,0,0,0,4,0,1,1,1
+0,"Fix slash in Windows build instructions","master","CoolOppo",0,0,1,0.000071,0.3125,0,0,0,1,1,1,1,1
+0,":memo: Add solution for ""TypeError: Unable to watch path""","master","klorenz",0,0,0,0.000142,0.833333,0,0,0,27,1,2,2,1
+0,"React: Don't measure line height / char width when editor is hidden","master","nathansobo",0,1,0,0.18255,0.351351,0,0,0,300,182,11,14,1
+0,"Use Atom-specific fork of React allowing selection restoration opt out","master","nathansobo",0,1,0,0.182726,0.361111,0,0,0,25,25,1,13,1
+1440,"Use Atom-specific fork of React allowing selection restoration opt out","master","nathansobo",0,1,0,0.182537,0.342105,1,0,0,25,25,1,13,1
+0,"Ensure .lines div is always at least the height of the scroll view","master","kevinsawicki",0,1,0,0.368492,0.646739,0,0,0,20,6,1,4,1
+0,"Add Visual Studio 2010 SP1 download URL","master","zelon",0,0,0,0.000072,0.6,0,0,0,1,1,1,1,1
+1440,"Add Visual Studio 2010 SP1 download URL","master","zelon",0,0,0,0.000143,0.5,2,0,0,2,2,2,1,1
+2880,"Add Visual Studio 2010 SP1 download URL","master","zelon",0,0,0,0.000142,0.5,3,0,1,2,2,2,1,1
+0,"Add spec documentation","master","probablycorey",0,1,0,0.166013,0.482759,0,0,0,64,0,2,3,1
+0,"Updates Jasmine link in CONTRIBUTING.md","master","aaronraimist",0,0,0,0.000142,0.538462,0,0,0,1,1,1,1,1
+0,"Toggle Line Comment update","master","arandilopez",0,0,0,0.000072,0,0,0,0,1,1,1,1,1
+1440,"Toggle Line Comment update","master","arandilopez",0,0,0,0.000072,0,2,1,0,1,1,1,1,0
+2880,"Toggle Line Comment update","master","arandilopez",0,0,0,0.000072,0,2,1,0,1,1,1,1,0
+4320,"Toggle Line Comment update","master","arandilopez",0,0,0,0.000071,0,2,1,0,1,1,1,1,0
+5760,"Toggle Line Comment update","master","arandilopez",0,0,0,0.000071,0,2,1,0,1,1,1,1,1
+0,":memo: Unify the two contributing documents","master","lee-dohm",0,0,0,0.000287,0.814815,0,0,0,167,318,2,2,1
+1440,":memo: Unify the two contributing documents","master","lee-dohm",0,0,0,0.000286,0.785714,2,0,1,167,318,2,2,1
+2880,":memo: Unify the two contributing documents","master","lee-dohm",0,0,0,0.000285,0.785714,4,0,0,167,318,2,2,1
+0,"Use sudo for commands needing to copy within /tmp","master","holocronweaver",0,0,0,0,0.333333,0,0,0,1,1,1,1,1
+0,"Add invisibles to react editor","master","probablycorey",0,1,0,0.165714,0.5,0,0,0,101,31,12,4,1
+0,"Don't use CSS animations to blink cursor in the React editor","master","nathansobo",0,1,0,0.182234,0.333333,0,0,0,46,44,2,7,1
+0,"Ignore paste in react editor, Fixes 2186","master","pritambaral",0,0,1,0.00086,0.352941,0,0,0,8,0,2,1,0
+1440,"Ignore paste in react editor, Fixes 2186","master","pritambaral",0,0,1,0.00086,0.333333,0,0,0,8,0,2,1,0
+2880,"Ignore paste in react editor, Fixes 2186","master","pritambaral",0,0,1,0.00093,0.333333,0,0,0,8,0,2,1,1
+0,"Update windows build instructions and requirements","master","probablycorey",0,1,0,0.165487,0.52,0,0,0,35,19,7,2,1
+1440,"Update windows build instructions and requirements","master","probablycorey",0,1,0,0.165275,0.5,0,8,0,105,64,11,18,0
+2880,"Update windows build instructions and requirements","master","probablycorey",0,1,0,0.164921,0.5,0,8,0,106,65,12,18,0
+4320,"Update windows build instructions and requirements","master","probablycorey",0,1,0,0.164946,0.5,0,8,0,106,65,12,18,0
+5760,"Update windows build instructions and requirements","master","probablycorey",0,1,0,0.164934,0.5,0,8,0,106,65,12,18,0
+7200,"Update windows build instructions and requirements","master","probablycorey",0,1,0,0.165044,0.5,0,8,0,117,76,15,18,1
+0,"Update linux.md","master","mnbayazit",0,0,0,0,0.666667,0,0,0,2,2,1,1,1
+0,"Improve scroll performance of the React editor","master","nathansobo",0,1,0,0.181471,0.34375,0,0,0,975,808,43,16,1
+1440,"Improve scroll performance of the React editor","master","nathansobo",0,1,0,0.181955,0.333333,3,0,0,1259,1022,53,16,0
+2880,"Improve scroll performance of the React editor","master","nathansobo",0,1,0,0.181962,0.333333,3,0,0,1297,1047,56,17,0
+4320,"Improve scroll performance of the React editor","master","nathansobo",0,1,0,0.181922,0.333333,3,0,0,1297,1047,56,17,1
+0,"Use os.tmpdir() insted of /tmp","master","pritambaral",0,0,0,0.000431,0.4,0,0,0,6,6,2,2,1
+1440,"Use os.tmpdir() insted of /tmp","master","pritambaral",0,0,0,0.000789,0.352941,3,5,0,22,42,6,2,0
+2880,"Use os.tmpdir() insted of /tmp","master","pritambaral",0,0,0,0.00086,0.333333,3,5,0,22,42,6,2,1
+4320,"Use os.tmpdir() insted of /tmp","master","pritambaral",0,0,0,0.00086,0.333333,4,6,0,22,42,6,2,1
+0,"Make instructions for manual VS path more accurate","master","varesa",0,0,0,0.000072,1,0,0,0,1,1,1,1,0
+1440,"Make instructions for manual VS path more accurate","master","varesa",0,0,0,0.000072,0.5,0,0,0,1,1,1,1,1
+0,"Fixed a typo where cmd would appear in linux.cson","master","GeoffreyFrogeye",0,0,1,0.000072,0.7,0,0,0,2,2,1,1,1
+0,"Add more Emoji to the contributing guide","master","hkdobrev",0,0,0,0.000073,0.438144,0,0,0,7,0,1,1,0
+1440,"Add more Emoji to the contributing guide","master","hkdobrev",0,0,0,0.000072,0.435897,0,0,0,7,0,1,1,0
+2880,"Add more Emoji to the contributing guide","master","hkdobrev",0,0,0,0.000072,0.431472,0,0,0,7,0,1,1,1
+4320,"Add more Emoji to the contributing guide","master","hkdobrev",0,0,0,0.000288,0.427136,1,12,0,9,3,4,1,1
+0,":lipstick: Deprecate backspaceToBeginningOf{Word,Line}","master","Locke23rus",0,0,0,0.000145,0.722222,0,0,0,53,33,1,10,1
+1440,":lipstick: Deprecate backspaceToBeginningOf{Word,Line}","master","Locke23rus",0,0,0,0.000218,0.684211,1,0,0,53,33,1,10,0
+2880,":lipstick: Deprecate backspaceToBeginningOf{Word,Line}","master","Locke23rus",0,0,0,0.000217,0.684211,1,0,0,53,33,1,10,0
+4320,":lipstick: Deprecate backspaceToBeginningOf{Word,Line}","master","Locke23rus",0,0,0,0.000217,0.684211,1,0,0,53,33,1,10,0
+5760,":lipstick: Deprecate backspaceToBeginningOf{Word,Line}","master","Locke23rus",0,0,0,0.000216,0.684211,1,0,0,53,33,1,10,1
+0,"download-atom-shell abort error solution","cj-windows-build-instructions-update","HorizonShadow",0,0,0,0,0,0,0,0,4,0,1,1,1
+0,":memo: Document process for hacking node module components","master","lee-dohm",0,0,0,0.000144,0.84,0,0,0,25,0,1,2,1
+0,"Update CONTRIBUTING.md","master","hgasdvkajs",0,0,0,0,0,0,0,0,6,6,1,1,1
+0,"Extract the devPackagePath from PackageManager.","master","smashwilson",0,0,0,0.000073,0.397849,0,0,0,10,1,1,1,0
+1440,"Extract the devPackagePath from PackageManager.","master","smashwilson",0,0,0,0.000073,0.393617,0,0,0,10,1,1,1,0
+2880,"Extract the devPackagePath from PackageManager.","master","smashwilson",0,0,0,0.000073,0.393617,0,0,0,10,1,1,1,0
+4320,"Extract the devPackagePath from PackageManager.","master","smashwilson",0,0,0,0.000072,0.393617,0,0,0,10,1,1,1,1
+5760,"Extract the devPackagePath from PackageManager.","master","smashwilson",0,0,0,0.000145,0.4,2,1,0,11,2,2,1,1
+0,"Add troubleshoot document libudev in Ubuntu 14.04","master","sophearak",0,0,0,0.000073,0,0,0,0,12,0,1,1,1
+0,"Fix running .cmd stubs through BufferedProcess","master","Spice-King",0,0,1,0.000073,0.5,0,0,0,8,1,1,1,1
+1440,"Fix running .cmd stubs through BufferedProcess","master","Spice-King",0,0,1,0.000073,0.6,2,0,0,8,1,1,1,1
+0,"Merge pull request #1 from atom/master","master","strobemute",0,0,0,0,1,0,0,0,75,52,1,19,1
+0,"Fix Windows build instructions","master","paulcbetts",0,1,1,0.000367,0.648889,0,0,0,1,3,1,1,1
+0,"Shift backspace keymap","master","xcvd",0,0,0,0.000073,0.5,0,0,0,1,0,1,1,1
+0,"Added install and uninstall scripts for easier upgrade","master","kelunik",0,0,0,0.000073,0.285714,0,0,0,39,4,2,4,1
+0,"Make atom build behind firewalls","master","captn3m0",0,0,0,0.000073,0.5,0,0,0,1,1,1,1,1
+0,"Update build docs","master","probablycorey",0,1,0,0.164632,0.5,0,0,0,144,122,5,5,1
+0,"append .cmd to apm in package-manager.coffee if platform is win32","master","bradgearon",0,0,0,0,0.4,0,0,0,5,1,1,1,1
+0,"Wordsmith the Atom readme","master","cameronmcefee",0,0,0,0.000734,0.7,0,0,0,3,9,2,1,1
+1440,"Wordsmith the Atom readme","master","cameronmcefee",0,0,0,0.000879,0.709677,0,5,0,5,11,4,1,1
+0,"Make Atom smarter about guessing if a file uses soft or hard tabs","master","probablycorey",0,1,0,0.163387,0.5,0,0,0,27,2,2,4,0
+1440,"Make Atom smarter about guessing if a file uses soft or hard tabs","master","probablycorey",0,1,0,0.163933,0.5,0,0,0,29,4,3,4,1
+0,"Add mercurial directories to default list of ignored names","master","AngelEzquerra",0,0,0,0.000073,0,0,0,0,1,1,1,1,1
+0,":memo: Some simple documentation fixes","master","lee-dohm",0,0,1,0.000073,0.833333,0,0,0,5,3,1,2,1
+0,"Remove unused requirements at Atom","master","mizchi",0,0,0,0,0.730769,0,0,0,0,5,1,1,1
+0,"Update mkdeb, README.md: update debian packaging","master","igxactly",0,0,0,0.000073,0,0,0,0,6,3,1,1,1
+0,"Update README.md","master","dpen2000",0,0,0,0.000074,0.441176,0,0,0,1,1,1,1,1
+0,"Add Arch Linux installation instructions","master","vially",0,0,0,0,0.536585,0,0,0,5,0,1,1,1
+0,"Fix for source tarballs error on 'set-version' (not a git repository)","master","Ferk",0,0,1,0.000074,0.5,0,0,0,1,1,1,1,1
+0,"ignore Thumbs.db in workspace-view and in actual atom gitignore","master","evinugur",0,0,0,0.000074,0.459459,0,0,0,2,1,1,2,1
+0,"update readme for linux requirements","master","JoeDailey",0,0,0,0,0,0,0,0,1,1,1,1,1
+0,"Fixed typos","master","pborreli",0,0,1,0.000074,0.735115,0,0,0,21,21,1,10,1
+0,"Visual C++ 2010 should be SP1","master","Heather",0,0,0,0.000074,0.568182,0,0,0,1,1,1,1,1
+0,"Add Git for Windows as Windows build requirement","master","qJake",0,0,0,0.000074,1,0,0,0,2,0,1,1,1
+0,"Updates Jasmine link","master","aaronraimist",0,0,0,0.000074,0.529412,0,0,0,1,1,1,1,1
+0,"Remove npm warnings","master","kevinsawicki",0,1,0,0.357167,0.695364,0,0,0,6,6,3,4,1

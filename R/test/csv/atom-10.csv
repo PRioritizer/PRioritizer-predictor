@@ -1,0 +1,20 @@
+"age","title","target","author","coreMember","intraBranch","containsFix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
+0,"Add build fix from #2435","master","sryze",0,0,1,0.000061,0,0,0,0,13,0,1,1,1
+0,"Correct Node.js' spelling, link Git and GNOME Keyring","master","Bengt",0,0,0,0.000307,0.375,0,0,0,7,7,1,1,0
+1440,"Correct Node.js' spelling, link Git and GNOME Keyring","master","Bengt",0,0,0,0.000307,0.362069,0,0,0,7,7,1,1,1
+0,"Improve cursor movement and typing latency a bit","master","nathansobo",0,1,0,0.185862,0.293333,0,0,0,14,8,4,3,0
+1440,"Improve cursor movement and typing latency a bit","master","nathansobo",0,1,0,0.186001,0.285714,0,0,0,14,8,4,3,1
+0,"In devmode do not load incompatible modules from cache","master","maschs",0,0,0,0.000614,0,0,0,0,4,3,1,1,1
+0,"Remove vendored dlls","master","kevinsawicki",0,1,0,0.369681,0.536797,0,0,0,0,6,2,3,0
+1440,"Remove vendored dlls","master","kevinsawicki",0,1,0,0.369532,0.534188,0,0,0,0,6,2,3,1
+0,"Make sure src/ is CoffeeLint compliant","master","maschs",0,0,0,0.000494,0,0,0,0,340,333,1,42,1
+0,"Export Atom's version of React and Reactionary","master","dmnd",0,0,0,0.000124,0.24,0,0,0,2,0,1,1,0
+1440,"Export Atom's version of React and Reactionary","master","dmnd",0,0,0,0.000186,0.214286,0,0,0,2,0,1,1,0
+2880,"Export Atom's version of React and Reactionary","master","dmnd",0,0,0,0.000185,0.214286,0,0,0,2,0,1,1,1
+0,"Style mini editors","master","benogle",0,1,0,0.069482,0.227273,0,0,0,21,18,5,3,1
+0,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.5,0,0,0,0,0,1,2,1
+1440,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.333333,9,0,0,0,0,3,3,0
+2880,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.333333,9,0,0,0,0,3,3,1
+4320,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.333333,15,0,1,0,0,3,3,0
+5760,"Update Mac icon to be flatter, to work with Yosemite styling","master","ParkerK",0,0,0,0,0.333333,15,0,1,0,0,3,3,1
+0,"Upgrade to Chrome36","master","zcbenz",0,1,0,0.024431,0.439394,0,0,0,1,1,1,1,1

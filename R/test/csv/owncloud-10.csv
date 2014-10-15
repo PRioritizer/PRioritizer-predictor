@@ -1,0 +1,164 @@
+"age","title","target","author","coreMember","intraBranch","containsFix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
+0,"Backport of #10144 to stable7","stable7","DeepDiver1975",1,1,0,0.123493,0.589623,0,0,0,4,4,2,4,1
+0,"Update fr.php","master","jewome62",0,0,0,0,0.538462,0,0,0,1,1,1,1,1
+0,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00018,0,0,0,0,2,2,1,1,1
+1440,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000179,0,7,0,1,2,2,1,1,1
+2880,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000179,0,9,0,1,2,2,1,1,0
+4320,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000179,0,9,0,1,2,2,1,1,1
+5760,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000179,0,10,0,0,2,2,1,1,0
+7200,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000178,0,10,0,0,2,2,1,1,0
+8640,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000177,0,10,0,0,2,2,1,1,0
+10080,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000177,0,10,0,0,2,2,1,1,0
+11520,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000176,0,10,0,0,2,2,1,1,0
+12960,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000176,0,10,0,0,2,2,1,1,0
+14400,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000176,0,10,0,0,2,2,1,1,0
+15840,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000176,0,10,0,0,2,2,1,1,0
+17280,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000175,0,10,0,0,2,2,1,1,0
+18720,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000175,0,10,0,0,2,2,1,1,0
+20160,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000174,0,10,0,0,2,2,1,1,0
+21600,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000174,0,10,0,0,2,2,1,1,0
+23040,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000174,0,10,0,0,2,2,1,1,0
+24480,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000174,0,10,0,0,2,2,1,1,0
+25920,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000173,0,10,0,0,2,2,1,1,0
+27360,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000173,0,10,0,0,2,2,1,1,0
+28800,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000173,0,10,0,0,2,2,1,1,0
+30240,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000173,0,10,0,0,2,2,1,1,0
+31680,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000172,0,10,0,0,2,2,1,1,0
+33120,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000172,0,10,0,0,2,2,1,1,0
+34560,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000172,0,10,0,0,2,2,1,1,0
+36000,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000172,0,10,0,0,2,2,1,1,0
+37440,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000171,0,10,0,0,2,2,1,1,0
+38880,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000171,0,10,0,0,2,2,1,1,0
+40320,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000171,0,10,0,0,2,2,1,1,0
+41760,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000171,0,10,0,0,2,2,1,1,1
+43200,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000171,0,11,0,1,2,2,1,1,0
+44640,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000171,0,11,0,1,2,2,1,1,0
+46080,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00017,0,11,0,1,2,2,1,1,0
+47520,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00017,0,11,0,1,2,2,1,1,0
+48960,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00017,0,11,0,1,2,2,1,1,0
+50400,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000169,0,11,0,1,2,2,1,1,0
+51840,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000169,0,11,0,1,2,2,1,1,0
+53280,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000169,0,11,0,1,2,2,1,1,0
+54720,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000168,0,11,0,1,2,2,1,1,0
+56160,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000168,0,11,0,1,2,2,1,1,0
+57600,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000167,0,11,0,1,2,2,1,1,0
+59040,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000167,0,11,0,1,2,2,1,1,0
+60480,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000167,0,11,0,1,2,2,1,1,0
+61920,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000166,0,11,0,1,2,2,1,1,0
+63360,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000166,0,11,0,1,2,2,1,1,0
+64800,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000166,0,11,0,1,2,2,1,1,0
+66240,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000166,0,11,0,1,2,2,1,1,0
+67680,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000165,0,11,0,1,2,2,1,1,0
+69120,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000165,0,11,0,1,2,2,1,1,0
+70560,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000164,0,11,0,1,2,2,1,1,0
+72000,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000164,0,11,0,1,2,2,1,1,0
+73440,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000164,0,11,0,1,2,2,1,1,0
+74880,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000164,0,11,0,1,2,2,1,1,0
+76320,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000163,0,11,0,1,2,2,1,1,0
+77760,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000163,0,11,0,1,2,2,1,1,0
+79200,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000162,0,11,0,1,2,2,1,1,0
+80640,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000161,0,11,0,1,2,2,1,1,0
+82080,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000161,0,11,0,1,2,2,1,1,0
+83520,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000161,0,11,0,1,2,2,1,1,0
+84960,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000161,0,11,0,1,2,2,1,1,0
+86400,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00016,0,11,0,1,2,2,1,1,1
+87840,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00016,0,13,0,0,2,2,1,1,0
+89280,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000159,0,13,0,0,2,2,1,1,0
+90720,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000158,0,13,0,0,2,2,1,1,0
+92160,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000157,0,13,0,0,2,2,1,1,0
+93600,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000157,0,13,0,0,2,2,1,1,0
+95040,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000157,0,13,0,0,2,2,1,1,0
+96480,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000157,0,13,0,0,2,2,1,1,0
+97920,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000156,0,13,0,0,2,2,1,1,0
+99360,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000156,0,13,0,0,2,2,1,1,0
+100800,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000155,0,13,0,0,2,2,1,1,0
+102240,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000155,0,13,0,0,2,2,1,1,0
+103680,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000155,0,13,0,0,2,2,1,1,0
+105120,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000155,0,13,0,0,2,2,1,1,0
+106560,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000154,0,13,0,0,2,2,1,1,0
+108000,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000154,0,13,0,0,2,2,1,1,0
+109440,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000154,0,13,0,0,2,2,1,1,0
+110880,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000154,0,13,0,0,2,2,1,1,0
+112320,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000154,0,13,0,0,2,2,1,1,0
+113760,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000154,0,13,0,0,2,2,1,1,0
+115200,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000154,0,13,0,0,2,2,1,1,0
+116640,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000154,0,13,0,0,2,2,1,1,0
+118080,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000153,0,13,0,0,2,2,1,1,0
+119520,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000153,0,13,0,0,2,2,1,1,0
+120960,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000153,0,13,0,0,2,2,1,1,0
+122400,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000152,0,13,0,0,2,2,1,1,0
+123840,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000152,0,13,0,0,2,2,1,1,0
+125280,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000152,0,13,0,0,2,2,1,1,0
+126720,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000152,0,13,0,0,2,2,1,1,0
+128160,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000152,0,13,0,0,2,2,1,1,0
+129600,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000151,0,13,0,0,2,2,1,1,0
+131040,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000151,0,13,0,0,2,2,1,1,0
+132480,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00015,0,13,0,0,2,2,1,1,0
+133920,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00015,0,13,0,0,2,2,1,1,0
+135360,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00015,0,13,0,0,2,2,1,1,0
+136800,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00015,0,13,0,0,2,2,1,1,0
+138240,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.00015,0,13,0,0,2,2,1,1,0
+139680,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000149,0,13,0,0,2,2,1,1,0
+141120,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000149,0,13,0,0,2,2,1,1,0
+142560,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000148,0,13,0,0,2,2,1,1,0
+144000,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000148,0,13,0,0,2,2,1,1,0
+145440,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000148,0,13,0,0,2,2,1,1,0
+146880,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000148,0,13,0,0,2,2,1,1,0
+148320,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000148,0,13,0,0,2,2,1,1,0
+149760,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000147,0,13,0,0,2,2,1,1,0
+151200,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000147,0,13,0,0,2,2,1,1,0
+152640,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000147,0,13,0,0,2,2,1,1,0
+154080,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000147,0,13,0,0,2,2,1,1,0
+155520,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000147,0,13,0,0,2,2,1,1,0
+156960,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000147,0,13,0,0,2,2,1,1,0
+158400,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000147,0,13,0,0,2,2,1,1,0
+159840,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000146,0,13,0,0,2,2,1,1,0
+161280,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000146,0,13,0,0,2,2,1,1,0
+162720,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000146,0,13,0,0,2,2,1,1,0
+164160,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000146,0,13,0,0,2,2,1,1,0
+165600,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000146,0,13,0,0,2,2,1,1,0
+167040,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000146,0,13,0,0,2,2,1,1,0
+168480,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000145,0,13,0,0,2,2,1,1,0
+169920,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000145,0,13,0,0,2,2,1,1,0
+171360,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000145,0,13,0,0,2,2,1,1,0
+172800,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000145,0,13,0,0,2,2,1,1,0
+174240,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000145,0,13,0,0,2,2,1,1,0
+175680,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000145,0,13,0,0,2,2,1,1,0
+177120,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000145,0,13,0,0,2,2,1,1,0
+178560,"lib/private/files.php: adapted to minimally changed ZipStreamer API","master","McNetic",1,0,0,0.000144,0,13,0,0,2,2,1,1,1
+0,"Issue/9972 Fix issues with group and username `0`","master","nickvergessen",1,1,1,0.005172,0.520278,0,0,0,8,8,4,4,1
+1440,"Issue/9972 Fix issues with group and username `0`","master","nickvergessen",1,1,1,0.005275,0.518476,10,0,0,8,8,4,4,1
+0,"[versioning] make sure that getVersions() return the correct path","master","schiesbn",1,1,0,0.10195,0.692112,0,0,0,36,2,2,2,1
+0,"[sharing] remove trailing slash","master","schiesbn",1,1,0,0.102112,0.690355,0,0,0,2,2,2,2,1
+0,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000262,0,0,0,0,114,26,2,2,1
+1440,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000336,0,12,2,0,118,30,4,3,0
+2880,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000335,0,12,2,0,118,30,4,3,0
+4320,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000334,0,12,2,0,118,30,4,3,0
+5760,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000333,0,12,2,0,118,30,4,3,0
+7200,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000333,0,12,2,0,118,30,4,3,0
+8640,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000333,0,12,2,0,118,30,4,3,0
+10080,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000332,0,12,2,0,118,30,4,3,0
+11520,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000331,0,12,2,0,118,30,4,3,0
+12960,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000331,0,12,2,0,118,30,4,3,0
+14400,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000331,0,12,2,0,118,30,4,3,0
+15840,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.00033,0,12,2,0,118,30,4,3,0
+17280,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.00033,0,12,2,0,118,30,4,3,0
+18720,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.00033,0,12,2,0,118,30,4,3,0
+20160,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.00033,0,12,2,0,118,30,4,3,0
+21600,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000329,0,12,2,0,118,30,4,3,0
+23040,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000329,0,12,2,0,118,30,4,3,0
+24480,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000328,0,12,2,0,118,30,4,3,0
+25920,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000328,0,12,2,0,118,30,4,3,0
+27360,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000328,0,12,2,0,118,30,4,3,0
+28800,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000328,0,12,2,0,118,30,4,3,1
+30240,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000327,0,14,2,0,118,30,4,3,1
+31680,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000327,0,17,2,0,126,38,6,3,0
+33120,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000326,0,17,2,0,126,38,6,3,0
+34560,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000326,0,17,2,0,126,38,6,3,0
+36000,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000398,0,17,2,0,126,38,6,3,0
+37440,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000398,0,17,2,0,126,38,6,3,0
+38880,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000398,0,17,2,0,126,38,6,3,1
+40320,"Add ability to theme iOS and Android client URLs just like desktop URLs.","master","scolebrook",1,1,0,0.000397,0,25,3,0,127,39,7,3,1
+0,"use correct app-icon class for new apps as well, fix icon size","master","jancborchardt",1,1,1,0.03494,0.517401,0,0,0,1,1,1,1,1
+0,"[sharing] respect ""sharing allowed"" setting in the share dialog","master","schiesbn",1,1,0,0.101807,0.695652,0,0,0,13,3,1,4,1
+0,"Fix undefined variable when uninstalling an app","master","icewind1991",1,1,1,0.101294,0.514368,0,0,0,4,2,2,1,1
