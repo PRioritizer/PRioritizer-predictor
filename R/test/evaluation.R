@@ -11,7 +11,7 @@ source("helper/utils.R")
 # ================================== PROGRAM ================================== #
 
 ### Read data
-data <- read.data("test/csv/xbmc-100.csv")
+data <- read.data("test/csv/angular-5000.csv")
 
 ### Single run
 data <- split.data(data, .75)

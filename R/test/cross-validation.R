@@ -14,6 +14,7 @@ load.package("foreach")
 # Run a cross validation round, return a dataframe with all results added
 cross.validation <- function(model, df, runs = 10) {
   result <- foreach(n = 1:runs, .combine = rbind) %do% {
+    printf("Run #%s\n", n)
     dataset <- split.data(df, .75)
     res <- models.evaluate(model, dataset$train, dataset$test)
     res$run <- n
@@ -31,7 +32,7 @@ cross.validation.means <- function(cvResult) {
 # ================================== PROGRAM ================================== #
 
 ### Read data
-data <- read.data("test/csv/xbmc-100.csv")
+data <- read.data("test/csv/angular-5000.csv")
 
 ### Cross validation
 results <- cross.validation(model, data, 10)
