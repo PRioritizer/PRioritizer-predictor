@@ -17,15 +17,17 @@ split.data <- function(data, split = .5) {
 }
 
 prepare.data <- function(data) {
-  newData <- data
+  # Remove string columns
+  drop <- c("title", "target", "author")
+  data[,!(names(data) %in% drop)]
 
   # Convert columns to boolean factors
-  newData$coreMember <- as.boolean.factor(newData$coreMember)
-  newData$important <- as.boolean.factor(newData$important)
-  newData$containsFix <- as.boolean.factor(newData$containsFix)
-  newData$lastCommentMention <- as.boolean.factor(newData$lastCommentMention)
+  data$coreMember <- as.boolean.factor(data$coreMember)
+  data$important <- as.boolean.factor(data$important)
+  data$containsFix <- as.boolean.factor(data$containsFix)
+  data$lastCommentMention <- as.boolean.factor(data$lastCommentMention)
 
-  newData
+  data
 }
 
 read.data <- function(file) {
