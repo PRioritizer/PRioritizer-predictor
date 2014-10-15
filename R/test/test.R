@@ -28,7 +28,7 @@ rm(trained.model)
 load(model.file)
 
 ### Predict value
-test <- head(data$test, n = 1)
-predictions <- random.forest.predict(trained.model, test)
-predictions <- as.logical(predictions)
+test <- head(data$test, n = 5)
+predictions <- random.forest.raw(trained.model, test)
+predictions <- as.double(predictions)
 print(predictions)

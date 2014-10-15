@@ -35,7 +35,7 @@ input <- read.data(input.file)
 load(model.file)
 
 ### Predict value
-predictions <- random.forest.predict(trained.model, input, threshold, limit)
-predictions <- as.logical(predictions) # Convert to booleans
+predictions <- random.forest.raw(trained.model, input)
+predictions <- as.double(predictions) # Convert to doubles
 output <- paste(predictions, collapse="\n")
 printf("%s\n", output)

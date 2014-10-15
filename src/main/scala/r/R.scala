@@ -21,7 +21,7 @@ object R {
     run(command, Some(scriptDirectory))
   }
 
-  def predict(directory: String): Future[List[Boolean]] = Future {
+  def predict(directory: String): Future[List[Double]] = Future {
     val scriptLocation = new File(scriptDirectory, predictScript).getPath
     val threshold = getThreshold
     val command = Seq(rscriptLocation, scriptLocation, directory, threshold, limit.toString)
@@ -29,7 +29,7 @@ object R {
 
     // Parse output
     if (result)
-      output.trim.split('\n').map(b => b.trim.toBoolean).toList
+      output.trim.split('\n').map(b => b.trim.toDouble).toList
     else
       List()
   }
