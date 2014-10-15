@@ -3,6 +3,9 @@
 load.package("randomForest") # Random forest
 
 random.forest.train <- function(model, train.set) {
+  # minority.size <- nrow(subset(train.set, important == TRUE))
+  # sample.size <- c('FALSE' = 1*minority.size, 'TRUE' = 1*minority.size)
+  # rfmodel <- randomForest(model, data = train.set, importance = TRUE, ntree = 150, do.trace = 1, sampsize = sample.size)
   rfmodel <- randomForest(model, data = train.set, importance = TRUE)
   # print(rfmodel)
   # print(importance(rfmodel))
