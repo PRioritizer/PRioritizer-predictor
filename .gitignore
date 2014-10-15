@@ -25,6 +25,7 @@ simplelogger.properties
 
 # Output
 *.csv
+!**/csv/*.csv
 
 # R
 *.Rproj*
