@@ -21,6 +21,9 @@ prepare.data <- function(data) {
   drop <- c("title", "target", "author")
   data[,!(names(data) %in% drop)]
 
+  # Calculate churn
+  data$churn <- data$additions + data$deletions
+
   # Convert columns to boolean factors
   data$coreMember <- as.boolean.factor(data$coreMember)
   data$important <- as.boolean.factor(data$important)
