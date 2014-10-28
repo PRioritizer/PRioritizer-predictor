@@ -28,7 +28,7 @@ object R {
     val (result, output, error) = runWithOutput(command, Some(scriptDirectory))
 
     // Parse output
-    if (result)
+    if (result && output.trim.nonEmpty)
       output.trim.split('\n').map(b => b.trim.toDouble).toList
     else
       List()
