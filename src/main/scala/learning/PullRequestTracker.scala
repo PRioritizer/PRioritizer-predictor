@@ -91,8 +91,12 @@ class PullRequestTracker(val repository: RepositoryTracker, val pullRequest: Pul
   private def getWindows(start: DateTime, end: DateTime): List[Window] = {
     val interval = PredictorSettings.windowInterval * 60 * 60 * 1000 // convert hours to milliseconds
     val range = start.getMillis to (end.getMillis + interval) by interval
-    val slidingWindows = range.sliding(2).toIterable
-    slidingWindows.map(w => Window(new DateTime(w(0)), new DateTime(w(1)))).toList
+    if (range.length < 2) {
+      List(Window(start, end))
+    } else {
+      val slidingWindows = range.sliding(2).toIterable
+      slidingWindows.map(w => Window(new DateTime(w(0)), new DateTime(w(1)))).toList
+    }
   }
 
   private def getPullRequestId: Future[Int] = Future {
