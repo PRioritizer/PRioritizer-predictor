@@ -18,7 +18,7 @@ select <- list(
 # ================================== PROGRAM ================================== #
 
 ### Read data
-data <- read.data("test/csv/angular-5000.csv")
+data <- read.data("test/csv/angular.csv")
 
 ### Single run
 data <- split.data(data, .75)

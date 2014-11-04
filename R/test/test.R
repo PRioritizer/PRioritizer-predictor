@@ -12,7 +12,7 @@ source("helper/utils.R")
 
 ### Files
 dir <- "test/csv"
-input.file <- file.path(dir, "angular-5000.csv")
+input.file <- file.path(dir, "angular.csv")
 model.file <- file.path(dir, "model.RData")
 
 ### Read data

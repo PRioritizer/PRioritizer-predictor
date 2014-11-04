@@ -39,7 +39,7 @@ cross.validation.means <- function(cvResult) {
 # ================================== PROGRAM ================================== #
 
 ### Read data
-data <- read.data("test/csv/angular-5000.csv")
+data <- read.data("test/csv/angular.csv")
 
 ### Cross validation
 results <- cross.validation(model, data, 10)
