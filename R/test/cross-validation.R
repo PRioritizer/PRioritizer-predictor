@@ -11,6 +11,17 @@ source("helper/utils.R")
 ### Foreach support
 load.package("foreach")
 
+# Parallel execution
+num.cores <- 4
+if(.Platform$OS.type == "windows") {
+  load.package("doSNOW")
+  cl <- makeCluster(num.cores)
+  registerDoSNOW(cl)
+} else {
+  load.package("doMC")
+  registerDoMC(num.cores)
+}
+
 # Select algorithms
 select <- list(
   logistic.regression = FALSE,
@@ -18,9 +29,23 @@ select <- list(
   random.forest = TRUE
 )
 
+# Export functions
+export.names <- c(
+  "select",
+  "printf",
+  "randomForest",
+  "prediction",
+  "performance",
+  "split.data",
+  "models.evaluate",
+  "random.forest.train",
+  "random.forest.raw",
+  "prediction.performance"
+)
+
 # Run a cross validation round, return a dataframe with all results added
 cross.validation <- function(model, df, runs) {
-  result <- foreach(n = 1:runs, .combine = rbind) %do% {
+  result <- foreach(n = 1:runs, .combine = rbind, .export=export.names) %dopar% {
     printf("Run #%s\n", n)
     dataset <- split.data(df, .90)
     res <- models.evaluate(model, dataset$train, dataset$test, select)
@@ -57,3 +82,8 @@ print(means)
 num.true <- nrow(subset(data, important == TRUE))
 num.false <- nrow(subset(data, important == FALSE))
 printf("Distribution: %sF:%sT (Total: %s)\n", num.false, num.true, nrow(data))
+
+# Stop parallel execution
+if(.Platform$OS.type == "windows") {
+  stopCluster(cl)
+}
