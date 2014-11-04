@@ -22,7 +22,7 @@ select <- list(
 cross.validation <- function(model, df, runs) {
   result <- foreach(n = 1:runs, .combine = rbind) %do% {
     printf("Run #%s\n", n)
-    dataset <- split.data(df, .75)
+    dataset <- split.data(df, .90)
     res <- models.evaluate(model, dataset$train, dataset$test, select)
     res$run <- n
     res

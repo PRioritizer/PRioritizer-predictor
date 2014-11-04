@@ -21,6 +21,6 @@ select <- list(
 data <- read.data("test/csv/angular.csv")
 
 ### Single run
-data <- split.data(data, .75)
+data <- split.data(data, .90)
 results <- models.evaluate(model, data$train, data$test, select)
 print(results)

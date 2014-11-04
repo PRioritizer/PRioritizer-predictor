@@ -17,7 +17,7 @@ model.file <- file.path(dir, "model.RData")
 
 ### Read data
 data <- read.data(input.file)
-data <- split.data(data, .75)
+data <- split.data(data, .90)
 
 ### Train model
 trained.model <- random.forest.train(model, data$train)
