@@ -52,3 +52,8 @@ printf("=====================================================================\n"
 printf("                                  Mean\n")
 printf("=====================================================================\n")
 print(means)
+
+# Data characteristics
+num.true <- nrow(subset(data, important == TRUE))
+num.false <- nrow(subset(data, important == FALSE))
+printf("Distribution: %sF:%sT (Total: %s)\n", num.false, num.true, nrow(data))
