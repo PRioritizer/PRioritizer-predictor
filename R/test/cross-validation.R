@@ -34,12 +34,17 @@ export.names <- c(
   "select",
   "printf",
   "randomForest",
+  "naiveBayes",
   "prediction",
   "performance",
   "split.data",
   "models.evaluate",
   "random.forest.train",
   "random.forest.raw",
+  "logistic.regression.train",
+  "logistic.regression.raw",
+  "naive.bayes.train",
+  "naive.bayes.raw",
   "prediction.performance"
 )
 
