@@ -1,7 +1,22 @@
 # Logistic regression
 
 logistic.regression.train <- function(model, train.set) {
-  binlog <- glm(model, data = train.set, family = "binomial")
+  lr.model <- model
+
+  # Remove factors with less than 2 unique values
+  if (length(unique(train.set$coreMember)) < 2) {
+    lr.model <- update(model, . ~ . - coreMember)
+  }
+
+  if (length(unique(train.set$containsFix)) < 2) {
+    lr.model <- update(model, . ~ . - containsFix)
+  }
+
+  if (length(unique(train.set$lastCommentMention)) < 2) {
+    lr.model <- update(model, . ~ . - lastCommentMention)
+  }
+
+  binlog <- glm(lr.model, data = train.set, family = "binomial")
   # print(summary(binlog))
   binlog
 }
