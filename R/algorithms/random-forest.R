@@ -3,10 +3,11 @@
 load.package("randomForest") # Random forest
 
 random.forest.train <- function(model, train.set) {
-  # minority.size <- nrow(subset(train.set, important == TRUE))
-  # sample.size <- c('FALSE' = 1*minority.size, 'TRUE' = 1*minority.size)
-  # rfmodel <- randomForest(model, data = train.set, importance = TRUE, ntree = 150, do.trace = 1, sampsize = sample.size)
-  rfmodel <- randomForest(model, data = train.set, importance = TRUE, ntree = 150)
+  # num.true <- nrow(subset(train.set, important == TRUE))
+  # num.false <- nrow(subset(train.set, important == FALSE))
+  # sample.size <- c('FALSE' = min(c(num.false, 4*num.true)), 'TRUE' = 1*num.true)
+  # rfmodel <- randomForest(model, data = train.set, importance = TRUE, ntree = 150, sampsize = sample.size)
+  rfmodel <- randomForest(model, data = train.set, importance = TRUE, ntree = 150) # do.trace = 1
   # print(rfmodel)
   # print(importance(rfmodel))
   # varImpPlot(rfmodel, type = 1)
