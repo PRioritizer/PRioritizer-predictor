@@ -5,6 +5,14 @@ import java.io.{PrintStream, ByteArrayOutputStream}
 import org.joda.time.DateTime
 
 object Extensions {
+  implicit class EnrichString(str: String) {
+    def safeFileName: String =
+      str.replaceAll("[\\\\/:*?\"<>|]+", "-").trim(List(' ', '-'))
+
+    def trim(chars: List[Char]): String =
+      str.dropWhile(c => chars.contains(c)).reverse.dropWhile(c => chars.contains(c)).reverse
+  }
+
   implicit class RichDateTime(dateTime: DateTime) {
     def isWithin(after: DateTime, before: DateTime): Boolean =
       dateTime.isAfter(after) && dateTime.isBefore(before)

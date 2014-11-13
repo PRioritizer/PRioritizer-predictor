@@ -20,7 +20,7 @@ object Predictor {
   val trainFileName = "training.csv"
   val modelFileName = "model.RData"
   val outputFileName = "output.csv"
-  val repoDir = new File(new File(PredictorSettings.modelDirectory, owner), repository)
+  val repoDir = new File(new File(PredictorSettings.modelDirectory, owner.toLowerCase.safeFileName), repository.toLowerCase.safeFileName)
   val trainFile = new File(repoDir, trainFileName)
   val modelFile = new File(repoDir, modelFileName)
   val outputFile = new File(repoDir, outputFileName)
