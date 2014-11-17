@@ -33,6 +33,7 @@ object CsvWriter {
       "deletions",
       "commits",
       "files",
+      "hasTestCode",
       "important")
 
     val rows = for {
@@ -56,6 +57,7 @@ object CsvWriter {
         pr.linesDeleted,
         pr.commits,
         pr.filesChanged,
+        pr.hasTestCode,
         important)
 
     val contents = header :: rows

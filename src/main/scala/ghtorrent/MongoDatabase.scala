@@ -72,7 +72,7 @@ class MongoDatabase(host: String, port: Int, username: String, password: String,
   private def getField[T](obj: DBObject, fullPath: String): Option[T] = {
     def iteration(x: Any, path: Array[String]): Option[T] = {
       x match {
-        case l: BasicDBList => Some(l.toArray.toList.map(e => iteration(e, path)).asInstanceOf[T])
+        case l: BasicDBList => Some(l.toArray.toList.map(e => iteration(e, path).get).asInstanceOf[T])
         case o: DBObject => iteration(o.get(path.head), path.tail)
         case s: String => Some(s.asInstanceOf[T])
         case i: Int => Some(i.asInstanceOf[T])
