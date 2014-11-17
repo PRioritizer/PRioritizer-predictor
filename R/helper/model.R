@@ -8,4 +8,5 @@ model <- important ~ age + coreMember +
                      comments + reviewComments +
                      lastCommentMention +
                      additions + deletions +
-                     commits + files
+                     commits + files +
+                     hasTestCode

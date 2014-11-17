@@ -29,6 +29,7 @@ prepare.data <- function(data) {
   data$important <- as.boolean.factor(data$important)
   data$containsFix <- as.boolean.factor(data$containsFix)
   data$lastCommentMention <- as.boolean.factor(data$lastCommentMention)
+  data$hasTestCode <- as.boolean.factor(data$hasTestCode)
 
   data
 }
