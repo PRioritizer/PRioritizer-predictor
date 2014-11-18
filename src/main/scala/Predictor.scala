@@ -84,15 +84,15 @@ object Predictor {
 
     // Predict with R model
     logger info "Prediction - Start"
-    val result = Await.result(R.predict(repoDir.getPath), Duration.Inf)
+    val (result, output) = Await.result(R.predict(repoDir.getPath), Duration.Inf)
 
-    if (result.nonEmpty)
-      CsvWriter.writeData(outputFile, result.map(r => List(r.toString)))
+    if (result)
+      CsvWriter.writeData(outputFile, output.map(r => List(r.toString)))
     else
       logger error "Prediction - Failed"
 
     logger info "Prediction - End"
 
-    result.nonEmpty
+    result
   }
 }

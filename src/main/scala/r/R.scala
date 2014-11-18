@@ -21,17 +21,15 @@ object R {
     run(command, Some(scriptDirectory))
   }
 
-  def predict(directory: String): Future[List[Double]] = Future {
+  def predict(directory: String): Future[(Boolean, List[Double])] = Future {
     val scriptLocation = new File(scriptDirectory, predictScript).getPath
     val threshold = getThreshold
     val command = Seq(rscriptLocation, scriptLocation, directory, threshold, limit.toString)
     val (result, output, error) = runWithOutput(command, Some(scriptDirectory))
 
     // Parse output
-    if (result && output.trim.nonEmpty)
-      output.trim.split('\n').map(b => b.trim.toDouble).toList
-    else
-      List()
+    val list = if (output.trim.nonEmpty) output.trim.split('\n').map(b => b.trim.toDouble).toList else List()
+    (result, list)
   }
 
   private def getThreshold: String = {
