@@ -12,7 +12,7 @@ source("helper/utils.R")
 load.package("foreach")
 
 # Parallel execution
-num.cores <- 4
+num.cores <- 2
 if(.Platform$OS.type == "windows") {
   load.package("doSNOW")
   cl <- makeCluster(num.cores)
@@ -101,6 +101,7 @@ foreach(f = files) %do% {
   results <- cross.validation(model, data, 10)
   means <- cross.validation.means(results)
   printf("File: %s\n", f)
+
   print(means)
 }
 
