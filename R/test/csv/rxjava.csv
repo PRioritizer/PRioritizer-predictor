@@ -1,269 +1,303 @@
-"age","title","target","author","coreMember","intraBranch","containsFix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","important"
-0,"Excluding things from the javadoc","1.x","abersnaze",0,0,0,0.004302,0.181818,0,0,0,10,33,1,4,0
-1440,"Excluding things from the javadoc","1.x","abersnaze",0,0,0,0.004301,0.166667,0,0,0,10,33,1,4,0
-2880,"Excluding things from the javadoc","1.x","abersnaze",0,0,0,0.0043,0.166667,0,0,0,10,33,1,4,1
-0,"Change Transformer to Func1<Observable<T>, Observable<R>>","1.x","zsxwing",0,0,0,0.061444,0.356643,0,0,0,7,9,1,2,1
-1440,"Change Transformer to Func1<Observable<T>, Observable<R>>","1.x","zsxwing",0,0,0,0.061444,0.349315,1,0,0,7,9,1,2,1
-0,"Observable.compose Generics","1.x","benjchristensen",0,0,0,0.560135,0.709486,0,0,0,101,9,2,3,1
-0,"Compose generics","1.x","vadims",0,0,0,0.00093,0.642857,0,0,0,58,8,1,3,1
-1440,"Compose generics","1.x","vadims",0,0,0,0.000923,0.5625,1,0,1,58,8,1,3,1
-2880,"Compose generics","1.x","vadims",0,0,0,0.000923,0.5625,2,2,0,58,8,1,3,1
-0,"On error return backpressure","1.x","neerajrj",0,0,0,0.001232,0.333333,0,0,0,93,0,2,4,1
-0,"ExecutorScheduler delivers uncaught exceptions","1.x","loganj",0,0,0,0.000617,0.645161,0,0,0,13,1,1,2,1
-0,"Unhandled errors go to UncaughtExceptionHandler","1.x","loganj",0,0,0,0.000309,0.666667,0,0,0,166,4,1,6,1
-0,"Cleanup RefCount Tests","0.20.x","benjchristensen",0,0,0,0.560062,0.712302,0,0,0,535,290,1,2,1
-0,"Issue #1642 Fix null-emitting combineLatest","0.20.x","edenman",0,0,1,0.00062,0.671875,0,0,0,24,1,1,2,1
-0,"Cleanup: added missing annotations, removed unnecesary annotations","1.x","akarnokd",0,0,0,0.033189,0.272727,0,0,0,86,23,1,33,1
-0,"Fix TestSubject to schedule events correctly","1.x","zsxwing",0,0,1,0.061725,0.359155,0,0,0,99,4,1,2,1
-0,"OnSubscribeRefCount with Synchronous Support","1.x","benjchristensen",0,0,0,0.559901,0.715139,0,0,0,430,168,2,3,1
-0,"WIP: OnSubscribeRefCount Synchronous","1.x","benjchristensen",0,0,0,0.559938,0.716567,0,0,0,390,168,1,3,1
-0,"Support Synchronous Source in OnSubscribeRefCount","1.x","benjchristensen",0,0,0,0.559801,0.716,0,0,0,150,166,1,3,1
-0,"Added missing headers, removed unnecessary casts","1.x","akarnokd",0,0,0,0.03295,0.274286,0,0,0,219,145,1,18,1
-0,"Fix NPE when iterable is null","1.x","zsxwing",0,0,1,0.061936,0.366906,0,0,0,5,12,1,2,1
-0,"BufferUntilSubscriber EmptyObserver","1.x","benjchristensen",0,0,0,0.559639,0.717435,0,0,0,23,1,1,1,1
-0,"Cleanup1008","1.x","akarnokd",0,0,0,0.03237,0.277457,0,0,0,2530,2357,1,244,0
-1440,"Cleanup1008","1.x","akarnokd",0,0,0,0.032339,0.275862,0,0,0,2659,2487,2,246,1
-2880,"Cleanup1008","1.x","akarnokd",0,0,0,0.032449,0.274286,5,0,0,2659,2487,2,246,1
-0,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000648,0.566929,0,0,0,78,0,1,3,1
-1440,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000647,0.5625,1,0,0,78,0,1,3,0
-2880,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000646,0.5625,1,0,0,78,0,1,3,0
-4320,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000646,0.5625,1,0,0,78,0,1,3,0
-5760,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000645,0.5625,1,0,0,78,0,1,3,0
-7200,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000644,0.5625,1,0,0,78,0,1,3,0
-8640,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,0
-10080,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,0
-11520,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,0
-12960,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,0
-14400,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,0
-15840,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000641,0.5625,1,0,0,78,0,1,3,0
-17280,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-18720,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-20160,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-21600,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-23040,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-24480,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-25920,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-27360,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-28800,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-30240,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-31680,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,0
-33120,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,0
-34560,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,0
-36000,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,0
-37440,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,0
-38880,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,0
-40320,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000638,0.5625,1,0,0,78,0,1,3,0
-41760,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000638,0.5625,1,0,0,78,0,1,3,0
-43200,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000638,0.5625,1,0,0,78,0,1,3,0
-44640,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000638,0.5625,1,0,0,78,0,1,3,0
-46080,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000637,0.5625,1,0,0,78,0,1,3,1
-47520,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000633,0.5625,2,0,0,78,0,1,3,0
-48960,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000632,0.5625,2,0,0,78,0,1,3,1
-50400,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000632,0.5625,3,0,0,78,0,1,3,0
-51840,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000631,0.5625,3,0,0,78,0,1,3,0
-53280,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00063,0.5625,3,0,0,78,0,1,3,0
-54720,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000629,0.5625,3,0,0,78,0,1,3,0
-56160,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000628,0.5625,3,0,0,78,0,1,3,1
-0,"SerializedSubject","1.x","benjchristensen",0,0,0,0.559513,0.71831,0,0,0,87,0,1,2,1
-0,"Fatal System.err Logs on Unhandled Exceptions","1.x","benjchristensen",0,0,0,0.55965,0.716867,0,0,0,15,3,1,1,1
-0,"Subject Error Handling","1.x","benjchristensen",0,0,0,0.559237,0.717742,0,0,0,297,6,1,9,1
-0,"EmptyObserver and TestObserver","1.x","benjchristensen",0,0,0,0.558962,0.719192,0,0,0,31,53,3,5,1
-0,"longCount -> countLong","1.x","benjchristensen",0,0,0,0.558409,0.718623,0,0,0,28,28,1,1,1
-0,"Delay Operator with Reactive Pull Backpressure","1.x","benjchristensen",0,0,0,0.557716,0.721545,0,0,0,444,258,1,7,1
-0,"Fix Slow Non-deterministic Test","1.x","benjchristensen",0,0,1,0.557855,0.720081,0,0,0,6,2,1,1,1
-0,"Move To Proper Location","1.x","benjchristensen",0,0,0,0.557372,0.722449,0,0,0,0,0,1,1,1
-0,"Remove Unused Code","1.x","benjchristensen",0,0,0,0.556815,0.721881,0,0,0,0,162,1,1,1
-0,"CombineLatest: Request Up When Dropping Values","1.x","benjchristensen",0,0,0,0.556396,0.723361,0,0,0,60,10,1,2,1
-0,"ObserveOn Error Propagation","1.x","benjchristensen",0,0,0,0.556396,0.724846,0,0,0,108,44,2,2,1
-0,"Proposed groupBy/groupByUntil Changes","1.x","benjchristensen",0,0,0,0.555836,0.726337,0,0,0,1062,1314,2,5,1
-0,"Groupby with back pressure","1.x","neerajrj",0,0,0,0.000316,1,0,0,0,448,188,2,4,0
-1440,"Groupby with back pressure","1.x","neerajrj",0,0,0,0.000316,0.5,0,0,0,448,188,2,4,1
-2880,"Groupby with back pressure","1.x","neerajrj",0,0,0,0.000316,0.5,1,0,1,448,188,2,4,1
-0,"Fix Merge: backpressure + scalarValueQueue don't play nicely ","1.x","benjchristensen",0,0,1,0.555556,0.727835,0,0,0,118,11,3,2,1
-0,"Change repeatWhen and retryWhen signatures.","1.x","abersnaze",0,0,0,0.003796,0.190476,0,0,0,52,8,1,1,1
-0,"Bug in the onBackpressure operators","0.20.x","abersnaze",0,0,0,0.004111,0.186047,0,0,0,18,2,1,3,1
-0,"Bug in the onBackpressure operators","1.x","abersnaze",0,0,0,0.003481,0.195122,0,0,0,18,2,1,3,1
-0,"Remove Observable.Parallel","1.x","benjchristensen",0,0,0,0.555661,0.727273,0,0,0,0,415,1,3,1
-0,"Deprecate Parallel","0.20.x","benjchristensen",0,0,0,0.555379,0.726708,0,0,0,2,0,1,1,1
-0,"Merge 0.20.5 into 1.x","1.x","benjchristensen",0,0,0,0.555097,0.726141,0,0,0,281,176,6,7,1
-0,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.061198,0.386364,0,0,0,1,18,1,1,1
-1440,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.0618,0.383459,1,0,0,163,121,2,3,0
-2880,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06178,0.383459,1,0,0,163,121,2,3,1
-4320,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06238,0.383459,5,0,0,168,122,3,3,0
-5760,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06238,0.383459,5,0,0,168,122,3,3,0
-7200,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06236,0.383459,5,0,0,168,122,3,3,0
-8640,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06236,0.383459,5,0,0,168,122,3,3,0
-10080,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06236,0.383459,5,0,0,168,122,3,3,0
-11520,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06236,0.383459,5,0,0,168,122,3,3,0
-12960,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06236,0.383459,5,0,0,168,122,3,3,0
-14400,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06236,0.383459,5,0,0,168,122,3,3,0
-15840,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06234,0.383459,5,0,0,168,122,3,3,0
-17280,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06234,0.383459,5,0,0,168,122,3,3,0
-18720,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063239,0.380597,5,0,0,168,122,3,3,0
-20160,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063239,0.380597,5,0,0,168,122,3,3,0
-21600,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063239,0.380597,5,0,0,168,122,3,3,0
-23040,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063198,0.380597,5,0,0,168,122,3,3,0
-24480,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063198,0.380597,5,0,0,168,122,3,3,0
-25920,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063158,0.377778,5,0,0,168,122,3,3,0
-27360,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063138,0.377778,5,0,0,168,122,3,3,0
-28800,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063017,0.377778,5,0,0,168,122,3,3,1
-0,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.557729,0.725941,0,0,0,18,4,2,2,1
-1440,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.557871,0.724426,1,0,0,65,4,3,3,0
-2880,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.557157,0.724426,1,0,0,65,4,3,3,0
-4320,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.557157,0.724426,1,0,0,65,4,3,3,0
-5760,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556622,0.724426,1,0,0,65,4,3,3,0
-7200,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556622,0.724426,1,0,0,65,4,3,3,0
-8640,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556444,0.724426,1,0,0,65,4,3,3,0
-10080,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556444,0.725,1,0,0,65,4,3,3,0
-11520,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556444,0.725,1,0,0,65,4,3,3,0
-12960,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556444,0.725,1,0,0,65,4,3,3,0
-14400,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556444,0.725,1,0,0,65,4,3,3,0
-15840,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556444,0.725,1,0,0,65,4,3,3,0
-17280,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556444,0.725,1,0,0,65,4,3,3,1
-18720,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556266,0.725,1,1,0,65,4,3,3,0
-20160,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555733,0.725572,1,1,0,65,4,3,3,0
-21600,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555733,0.725572,1,1,0,65,4,3,3,0
-23040,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555733,0.725572,1,1,0,65,4,3,3,0
-24480,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555378,0.725572,1,1,0,65,4,3,3,0
-25920,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555378,0.725572,1,1,0,65,4,3,3,0
-27360,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555024,0.725572,1,1,0,65,4,3,3,0
-28800,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555166,0.725572,1,1,0,65,4,3,3,0
-30240,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.554106,0.725572,1,1,0,65,4,3,3,1
-0,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063239,0.383459,0,0,0,48,12,2,3,0
-1440,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063239,0.380597,0,0,0,48,12,2,3,0
-2880,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063239,0.380597,0,0,0,48,12,2,3,0
-4320,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063239,0.380597,0,0,0,48,12,2,3,0
-5760,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063198,0.380597,0,0,0,48,12,2,3,0
-7200,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063198,0.380597,0,0,0,48,12,2,3,0
-8640,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063158,0.377778,0,0,0,48,12,2,3,0
-10080,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063138,0.377778,0,0,0,48,12,2,3,0
-11520,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063017,0.377778,0,0,0,48,12,2,3,1
-0,"Slightly cleaner code for onNext from buffer","1.x","benjchristensen",0,0,0,0.554531,0.725572,0,0,0,1,2,1,1,1
-0,"Issue #1642 Fix null-emitting combineLatest","1.x","edenman",0,0,1,0.000638,0.693548,0,0,0,24,1,1,2,1
-1440,"Issue #1642 Fix null-emitting combineLatest","1.x","edenman",0,0,1,0.000638,0.68254,1,0,0,24,1,1,2,0
-2880,"Issue #1642 Fix null-emitting combineLatest","1.x","edenman",0,0,1,0.000638,0.68254,1,0,0,24,1,1,2,0
-4320,"Issue #1642 Fix null-emitting combineLatest","1.x","edenman",0,0,1,0.000637,0.68254,1,0,0,24,1,1,2,1
-0,"Fixing regression in mergeDelayError","0.20.x","mattrjacobs",0,0,1,0.015595,0.701493,0,0,0,69,46,2,2,1
-0,"Demonstrate a regression in a special case exposed by Groovy","0.20.x","mattrjacobs",0,0,0,0.01434,0.712121,0,0,0,25,8,1,1,1
-0,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005442,0.08,0,0,0,1,1,1,1,0
-1440,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005438,0.076923,0,0,0,1,1,1,1,1
-2880,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005438,0.076923,1,0,0,1,1,1,1,0
-4320,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005437,0.076923,1,0,0,1,1,1,1,0
-5760,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005437,0.076923,1,0,0,1,1,1,1,0
-7200,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005437,0.076923,1,0,0,1,1,1,1,0
-8640,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005437,0.076923,1,0,0,1,1,1,1,0
-10080,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005437,0.076923,1,0,0,1,1,1,1,0
-11520,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005437,0.076923,1,0,0,1,1,1,1,0
-12960,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005435,0.076923,1,0,0,1,1,1,1,0
-14400,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005435,0.076923,1,0,0,1,1,1,1,0
-15840,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.00543,0.076923,1,0,0,1,1,1,1,0
-17280,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.00543,0.076923,1,0,0,1,1,1,1,0
-18720,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.00543,0.076923,1,0,0,1,1,1,1,0
-20160,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005426,0.076923,1,0,0,1,1,1,1,0
-21600,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005426,0.076923,1,0,0,1,1,1,1,0
-23040,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005423,0.076923,1,0,0,1,1,1,1,1
-0,"OnSubscribeRefCount rewrite to handle synchronous source #1688","0.20.x","davidmoten",0,0,0,0.003518,0.375,0,0,0,295,175,7,12,1
-0,"Merge 0.20.4 Fixes","1.x","benjchristensen",0,0,1,0.556592,0.723629,0,0,0,177,5,5,10,1
-0,"Make TakeUntil obey Rx serialization contract","0.20.x","zsxwing",0,0,0,0.060116,0.372093,0,0,0,2,1,1,1,1
-1440,"Make TakeUntil obey Rx serialization contract","0.20.x","zsxwing",0,0,0,0.060684,0.381679,4,0,0,2,1,1,1,0
-2880,"Make TakeUntil obey Rx serialization contract","0.20.x","zsxwing",0,0,0,0.060665,0.381679,4,0,0,2,1,1,1,0
-4320,"Make TakeUntil obey Rx serialization contract","0.20.x","zsxwing",0,0,0,0.060889,0.386364,4,0,0,2,1,1,1,1
-0,"Error Handling Unsubscribe and Terminal State","0.20.x","benjchristensen",0,0,0,0.556807,0.723044,0,0,0,143,3,1,6,1
-0,"Ignore furthur messages after entering terminate state","0.20.x","zsxwing",0,0,0,0.060724,0.376923,0,0,0,13,0,1,1,1
-1440,"Ignore furthur messages after entering terminate state","0.20.x","zsxwing",0,0,0,0.060684,0.381679,7,0,1,13,0,1,1,0
-2880,"Ignore furthur messages after entering terminate state","0.20.x","zsxwing",0,0,0,0.060665,0.381679,7,0,1,13,0,1,1,0
-4320,"Ignore furthur messages after entering terminate state","0.20.x","zsxwing",0,0,0,0.060889,0.386364,7,0,1,13,0,1,1,1
-0,"OperatorScan should check for MAX_VALUE on request","0.20.x","davidmoten",0,0,0,0.003229,0.3,0,0,0,1,1,1,1,1
-1440,"OperatorScan should check for MAX_VALUE on request","0.20.x","davidmoten",0,0,0,0.003227,0.363636,3,0,1,1,1,1,1,0
-2880,"OperatorScan should check for MAX_VALUE on request","0.20.x","davidmoten",0,0,0,0.003223,0.391304,3,0,1,1,1,1,1,1
-0,"Fix the bug that Switch doesn't propagate 'unsubscribe'","0.20.x","zsxwing",0,0,1,0.060889,0.381679,0,0,0,18,0,1,2,1
-0,"StringObservable.split NPE fixes","0.20.x","davidmoten",0,0,1,0.003227,0.363636,0,0,0,22,2,1,2,1
-0,"Fix Javadoc README link","1.x","loganlinn",0,0,1,0.000323,0.469388,0,0,0,1,1,1,1,1
-0,"Operator Scan Backpressure Fix","1.x","benjchristensen",0,0,1,0.557032,0.72103,0,0,0,219,21,1,3,1
-0,"Operator Scan Backpressure Fix","0.20.x","benjchristensen",0,0,1,0.557032,0.72043,0,0,0,219,21,1,3,1
-0,"RxScala: Fix the problem that Subscriber.onStart isn't called","0.20.x","zsxwing",0,0,1,0.059624,0.362205,0,0,0,46,2,1,3,1
-0,"Operator Scan Backpressure Fix","0.20.x","benjchristensen",0,0,1,0.557032,0.721983,0,0,0,196,12,1,2,1
-0,"RxScala: Fix infinite recursive onStart call in Subscriber","0.20.x","jbripley",0,0,1,0.00521,0.043478,0,0,0,26,2,1,2,1
-1440,"RxScala: Fix infinite recursive onStart call in Subscriber","0.20.x","jbripley",0,0,1,0.00521,0.083333,3,0,0,26,2,1,2,1
-0,"Deprecate ParallelMerge","0.20.x","benjchristensen",0,0,0,0.556457,0.721382,0,0,0,4,0,1,1,1
-0,"Remove ParallelMerge","1.x","benjchristensen",0,0,0,0.556169,0.720779,0,0,0,0,273,1,3,1
-0,"Nebula Build - Single Module","1.x","benjchristensen",0,0,0,0.555809,0.720174,0,0,0,9,694,1,14,1
-0,"Migrate Build to Nebula","1.x","benjchristensen",0,0,0,0.555737,0.721739,0,0,0,14,629,1,18,1
-1440,"Migrate Build to Nebula","1.x","benjchristensen",0,0,0,0.555519,0.720174,3,0,0,14,629,1,18,1
-0,"doOnEach - Handle Fatal Exceptions","1.x","benjchristensen",0,0,0,0.553331,0.720524,0,0,0,41,6,1,2,1
-0,"Composite Exception - Circular Reference Handling","1.x","benjchristensen",0,0,0,0.553038,0.719912,0,0,0,270,105,1,2,1
-0,"Optimize single BlockingObservable operations.","1.x","daschl",0,0,0,0.002639,0.4125,0,0,0,162,37,1,4,1
-0,"Optimize single BlockingObservable operations","0.20.x","benjchristensen",0,0,0,0.552597,0.719298,0,0,0,199,74,1,4,1
-0,"WIP: Fast path for BlockingObservables.","1.x","daschl",0,0,0,0.001983,0.417722,0,0,0,110,7,1,2,1
-0,"Reverting to the work immutable CompositeException but add the option to...","0.20.x","abersnaze",0,0,0,0.002649,0.210526,0,0,0,187,150,1,9,1
-1440,"Reverting to the work immutable CompositeException but add the option to...","0.20.x","abersnaze",0,0,0,0.002975,0.205128,1,0,0,187,150,1,9,1
-0,"Composite Exception - Circular Reference Handling","0.20.x","benjchristensen",0,0,0,0.551884,0.718062,0,0,0,300,135,2,2,1
-0,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060947,0.354839,0,0,0,335,16,1,5,1
-1440,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060947,0.352,2,0,0,335,16,1,5,0
-2880,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060947,0.352,2,0,0,335,16,1,5,0
-4320,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060927,0.352,2,0,0,335,16,1,5,0
-5760,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060927,0.352,2,0,0,335,16,1,5,1
-0,"RxScala: Mark superfluous from/empty methods with scheduler parameter as...","0.20.x","jbripley",0,0,0,0.004967,0.047619,0,0,0,4,0,1,1,1
-1440,"RxScala: Mark superfluous from/empty methods with scheduler parameter as...","0.20.x","jbripley",0,0,0,0.004967,0.043478,1,0,0,4,0,1,1,1
-0,"Handle Fatal Exceptions","0.20.x","benjchristensen",0,0,0,0.551473,0.717439,0,0,0,38,3,1,2,1
-0,"Deprecation Removal","1.x","benjchristensen",0,0,0,0.551393,0.721604,0,0,0,46,1247,1,18,1
-0,"Non blocking future","1.x","tbak",0,0,0,0,0.0625,0,0,0,2138,2690,3,95,1
-0,"fix the usage of deprecated methods.","1.x","abersnaze",0,0,1,0.002659,0.216216,0,0,0,38,59,1,2,1
-0,"Moving Netflix to ReactiveX","1.x","daschl",0,0,0,0.001999,0.423077,0,0,0,2107,2116,2,99,1
-0,"Update README to reflect repository move.","1.x","daschl",0,0,0,0.001334,0.428571,0,0,0,44,62,2,2,1
-0,"RxScala: Add backpressure support","master","zsxwing",0,0,0,0.061012,0.355372,0,0,0,129,4,1,3,1
-0,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.416667,0,0,0,22,9,1,1,1
-1440,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,5,0,0,22,9,1,1,1
-2880,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,16,0,1,22,9,1,1,1
-4320,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,23,0,0,22,9,1,1,0
-5760,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,23,0,0,22,9,1,1,1
-7200,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,25,0,1,22,9,1,1,1
-8640,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-10080,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-11520,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-12960,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-14400,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-15840,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-17280,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-18720,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-20160,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-21600,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-23040,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-24480,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-25920,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-27360,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-28800,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-30240,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-31680,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-33120,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-34560,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-36000,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-37440,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-38880,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-40320,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-41760,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-43200,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-44640,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-46080,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-47520,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-48960,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-50400,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-51840,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-53280,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-54720,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-56160,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-57600,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-59040,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-60480,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-61920,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-63360,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-64800,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-66240,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-67680,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-69120,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-70560,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-72000,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-73440,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-74880,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-76320,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0
-77760,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,1
+"age","title","target","author","coreMember","intraBranch","containsFix","commitRatio","pullRequestRatio","comments","reviewComments","lastCommentMention","additions","deletions","commits","files","hasTestCode","important"
+0,"Merge fix","1.x","akarnokd",0,0,1,0.032875,0.270718,0,0,0,43,7,2,3,1,1
+0,"Fix memory leak in bounded ReplaySubject due to retaining the node index","1.x","akarnokd",0,0,1,0.032914,0.272222,0,0,0,1,1,1,1,0,1
+1440,"Fix memory leak in bounded ReplaySubject due to retaining the node index","1.x","akarnokd",0,0,1,0.032895,0.270718,2,0,0,1,1,1,1,0,0
+2880,"Fix memory leak in bounded ReplaySubject due to retaining the node index","1.x","akarnokd",0,0,1,0.032895,0.270718,2,0,0,1,1,1,1,0,0
+4320,"Fix memory leak in bounded ReplaySubject due to retaining the node index","1.x","akarnokd",0,0,1,0.032895,0.270718,2,0,0,1,1,1,1,0,1
+0,"Fix Scan/Reduce/Collect Factory Ambiguity","1.x","benjchristensen",0,0,1,0.562033,0.6926,0,0,0,45,75,1,3,1,1
+0,"Fix Scan/Reduce/Collect Lambda Ambiguity","1.x","benjchristensen",0,0,1,0.562033,0.693916,0,0,0,104,87,1,7,1,1
+0,"Remove Unused Scheduler.parallelism","1.x","benjchristensen",0,0,0,0.561902,0.695238,0,0,0,0,12,1,1,0,1
+0,"Backpressure suppport for Window by size","1.x","zsxwing",0,0,0,0.060288,0.312883,0,0,0,248,73,1,6,1,1
+0,"Fix Concat Breaks with Double onCompleted","0.20.x","abersnaze",0,0,1,0.004199,0.166667,0,0,0,34,4,1,2,1,1
+0,"Scan/Reduce with Seed Factory","1.x","benjchristensen",0,0,0,0.564404,0.692308,0,0,0,114,4,1,3,1,1
+0,"Reduce Ring Buffer Default Sizes (and lower for Android)","1.x","benjchristensen",0,0,0,0.564404,0.692898,0,0,0,373,2,2,3,0,1
+0,"CacheThreadScheduler Evictor should Check Removal","1.x","alexwen",0,0,0,0.000605,0.333333,0,0,0,4,6,1,1,0,1
+0,"Fix mergeDelayError Handling of Error in Parent Observable","1.x","benjchristensen",0,0,1,0.563878,0.693642,0,0,0,73,3,2,2,1,1
+0,"Fix Window by Count Unsubscribe Behavior","1.x","benjchristensen",0,0,1,0.563785,0.694981,0,0,0,878,570,3,6,1,1
+0,"Fix Concat Breaks with Double onCompleted","1.x","benjchristensen",0,0,1,0.563069,0.696325,0,0,0,34,4,1,2,1,1
+0,"Fix Synchronous OnSubscribe Exception Skips Operators","1.x","benjchristensen",0,0,1,0.562671,0.697674,0,0,0,65,6,1,2,1,1
+0,"Fix issue #1812 that zip may swallow requests","1.x","zsxwing",0,0,1,0.061076,0.335526,0,0,0,29,1,1,2,1,1
+0,"Remove Utility Functions from Public API","1.x","benjchristensen",0,0,0,0.562177,0.699029,0,0,0,221,199,2,12,1,1
+0,"Remove Unnecessary Utilities","1.x","benjchristensen",0,0,0,0.561986,0.700389,0,0,0,0,109,2,3,0,1
+0,"Fix the RxClojure project link.","1.x","jparise",0,0,1,0.000305,0.688172,0,0,0,1,1,1,1,0,1
+0,"add hasObservers method to Subjects (#1772)","1.x","simonbasle",0,0,0,0.000305,0,0,0,0,55,6,1,10,1,0
+1440,"add hasObservers method to Subjects (#1772)","1.x","simonbasle",0,0,0,0.000305,0.125,0,0,0,55,6,1,10,1,1
+0,"Print full classname (inner class support) and fix enum output","1.x","edenman",0,0,1,0.000915,0.676923,0,0,0,8,5,1,1,0,1
+0,"Improve TestSubject Javadoc","1.x","benjchristensen",0,0,0,0.56187,0.701754,0,0,0,19,11,1,1,1,1
+0,"Remove PublishLast/InitialValue","1.x","benjchristensen",0,0,0,0.560968,0.705882,0,0,0,1,100,1,2,1,0
+1440,"Remove PublishLast/InitialValue","1.x","benjchristensen",0,0,0,0.561468,0.701754,0,0,0,1,100,1,2,1,1
+0,"Fix for #1791 - don't retry (subscribe) to source if child has unsubscri...","1.x","alexwen",0,0,1,0.000306,0.4,0,0,0,35,0,1,2,1,1
+0,"Take/Redo Unsubscribe","1.x","benjchristensen",0,0,0,0.561334,0.703125,0,0,0,41,2,2,3,1,1
+0,"GroupedObservable.from/create","1.x","benjchristensen",0,0,0,0.561103,0.704501,0,0,0,58,6,1,2,0,1
+0,"Remove *withIndex Operators","1.x","benjchristensen",0,0,0,0.560834,0.707269,0,0,0,15,56,1,3,1,1
+0,"Remove Multicast","1.x","benjchristensen",0,0,0,0.560564,0.708661,0,0,0,7,115,1,2,1,1
+0,"Publish with Backpressure","1.x","benjchristensen",0,0,0,0.560295,0.710059,0,0,0,563,66,1,4,1,1
+0,"Excluding things from the javadoc","1.x","abersnaze",0,0,0,0.004301,0.181818,0,0,0,10,33,1,4,1,0
+1440,"Excluding things from the javadoc","1.x","abersnaze",0,0,0,0.0043,0.166667,0,0,0,10,33,1,4,1,0
+2880,"Excluding things from the javadoc","1.x","abersnaze",0,0,0,0.004297,0.166667,0,0,0,10,33,1,4,1,1
+0,"Change Transformer to Func1<Observable<T>, Observable<R>>","1.x","zsxwing",0,0,0,0.061425,0.356643,0,0,0,7,9,1,2,1,1
+1440,"Change Transformer to Func1<Observable<T>, Observable<R>>","1.x","zsxwing",0,0,0,0.061425,0.349315,1,0,0,7,9,1,2,1,1
+0,"Observable.compose Generics","1.x","benjchristensen",0,0,0,0.559963,0.709486,0,0,0,101,9,2,3,1,1
+0,"Compose generics","1.x","vadims",0,0,0,0.000929,0.642857,0,0,0,58,8,1,3,1,1
+1440,"Compose generics","1.x","vadims",0,0,0,0.000923,0.5625,1,0,1,58,8,1,3,1,1
+2880,"Compose generics","1.x","vadims",0,0,0,0.000923,0.5625,2,2,0,58,8,1,3,1,1
+0,"On error return backpressure","1.x","neerajrj",0,0,0,0.001231,0.333333,0,0,0,93,0,2,4,1,1
+0,"ExecutorScheduler delivers uncaught exceptions","1.x","loganj",0,0,0,0.000617,0.645161,0,0,0,13,1,1,2,1,1
+0,"Unhandled errors go to UncaughtExceptionHandler","1.x","loganj",0,0,0,0.000309,0.666667,0,0,0,166,4,1,6,1,1
+0,"Cleanup RefCount Tests","0.20.x","benjchristensen",0,0,0,0.559889,0.712302,0,0,0,535,290,1,2,1,1
+0,"Issue #1642 Fix null-emitting combineLatest","0.20.x","edenman",0,0,1,0.00062,0.671875,0,0,0,24,1,1,2,1,1
+0,"Cleanup: added missing annotations, removed unnecesary annotations","1.x","akarnokd",0,0,0,0.033178,0.272727,0,0,0,86,23,1,33,1,1
+0,"Fix TestSubject to schedule events correctly","1.x","zsxwing",0,0,1,0.061705,0.359155,0,0,0,99,4,1,2,1,1
+0,"OnSubscribeRefCount with Synchronous Support","1.x","benjchristensen",0,0,0,0.559727,0.715139,0,0,0,430,168,2,3,1,1
+0,"WIP: OnSubscribeRefCount Synchronous","1.x","benjchristensen",0,0,0,0.559764,0.716567,0,0,0,390,168,1,3,1,1
+0,"Support Synchronous Source in OnSubscribeRefCount","1.x","benjchristensen",0,0,0,0.559627,0.716,0,0,0,150,166,1,3,1,1
+0,"Added missing headers, removed unnecessary casts","1.x","akarnokd",0,0,0,0.03294,0.274286,0,0,0,219,145,1,18,1,1
+0,"Fix NPE when iterable is null","1.x","zsxwing",0,0,1,0.061917,0.366906,0,0,0,5,12,1,2,1,1
+0,"BufferUntilSubscriber EmptyObserver","1.x","benjchristensen",0,0,0,0.559465,0.717435,0,0,0,23,1,1,1,0,1
+0,"Cleanup1008","1.x","akarnokd",0,0,0,0.032359,0.277457,0,0,0,2530,2357,1,244,1,0
+1440,"Cleanup1008","1.x","akarnokd",0,0,0,0.032329,0.275862,0,0,0,2659,2487,2,246,1,1
+2880,"Cleanup1008","1.x","akarnokd",0,0,0,0.032439,0.274286,5,0,0,2659,2487,2,246,1,1
+0,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000648,0.566929,0,0,0,78,0,1,3,1,1
+1440,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000647,0.5625,1,0,0,78,0,1,3,1,0
+2880,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000646,0.5625,1,0,0,78,0,1,3,1,0
+4320,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000645,0.5625,1,0,0,78,0,1,3,1,0
+5760,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000645,0.5625,1,0,0,78,0,1,3,1,0
+7200,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000644,0.5625,1,0,0,78,0,1,3,1,0
+8640,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,1,0
+10080,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,1,0
+11520,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,1,0
+12960,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,1,0
+14400,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000642,0.5625,1,0,0,78,0,1,3,1,0
+15840,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000641,0.5625,1,0,0,78,0,1,3,1,0
+17280,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,1,0
+18720,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,1,0
+20160,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,1,0
+21600,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00064,0.5625,1,0,0,78,0,1,3,1,0
+23040,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+24480,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+25920,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+27360,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+28800,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+30240,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+31680,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+33120,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+34560,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+36000,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+37440,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+38880,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000639,0.5625,1,0,0,78,0,1,3,1,0
+40320,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000638,0.5625,1,0,0,78,0,1,3,1,0
+41760,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000638,0.5625,1,0,0,78,0,1,3,1,0
+43200,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000638,0.5625,1,0,0,78,0,1,3,1,0
+44640,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000638,0.5625,1,0,0,78,0,1,3,1,0
+46080,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000636,0.5625,1,0,0,78,0,1,3,1,1
+47520,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000633,0.5625,2,0,0,78,0,1,3,1,0
+48960,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000632,0.5625,2,0,0,78,0,1,3,1,1
+50400,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000632,0.5625,3,0,0,78,0,1,3,1,0
+51840,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000631,0.5625,3,0,0,78,0,1,3,1,0
+53280,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.00063,0.5625,3,0,0,78,0,1,3,1,0
+54720,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000628,0.5625,3,0,0,78,0,1,3,1,0
+56160,"Add takeUntil(predicate) operator","1.x","samueltardieu",0,0,0,0.000628,0.5625,3,0,0,78,0,1,3,1,1
+0,"SerializedSubject","1.x","benjchristensen",0,0,0,0.559338,0.71831,0,0,0,87,0,1,2,1,1
+0,"Fatal System.err Logs on Unhandled Exceptions","1.x","benjchristensen",0,0,0,0.559475,0.716867,0,0,0,15,3,1,1,0,1
+0,"Subject Error Handling","1.x","benjchristensen",0,0,0,0.559062,0.717742,0,0,0,297,6,1,9,1,1
+0,"EmptyObserver and TestObserver","1.x","benjchristensen",0,0,0,0.558787,0.719192,0,0,0,31,53,3,5,1,1
+0,"longCount -> countLong","1.x","benjchristensen",0,0,0,0.558234,0.718623,0,0,0,28,28,1,1,0,1
+0,"Delay Operator with Reactive Pull Backpressure","1.x","benjchristensen",0,0,0,0.557542,0.721545,0,0,0,444,258,1,7,1,1
+0,"Fix Slow Non-deterministic Test","1.x","benjchristensen",0,0,1,0.55768,0.720081,0,0,0,6,2,1,1,1,1
+0,"Move To Proper Location","1.x","benjchristensen",0,0,0,0.557197,0.722449,0,0,0,0,0,1,1,1,1
+0,"Remove Unused Code","1.x","benjchristensen",0,0,0,0.556639,0.721881,0,0,0,0,162,1,1,0,1
+0,"CombineLatest: Request Up When Dropping Values","1.x","benjchristensen",0,0,0,0.55622,0.723361,0,0,0,60,10,1,2,1,1
+0,"ObserveOn Error Propagation","1.x","benjchristensen",0,0,0,0.55622,0.724846,0,0,0,108,44,2,2,1,1
+0,"Proposed groupBy/groupByUntil Changes","1.x","benjchristensen",0,0,0,0.555661,0.726337,0,0,0,1062,1314,2,5,1,1
+0,"Groupby with back pressure","1.x","neerajrj",0,0,0,0.000316,1,0,0,0,448,188,2,4,1,0
+1440,"Groupby with back pressure","1.x","neerajrj",0,0,0,0.000316,0.5,0,0,0,448,188,2,4,1,1
+2880,"Groupby with back pressure","1.x","neerajrj",0,0,0,0.000316,0.5,1,0,1,448,188,2,4,1,1
+0,"Fix Merge: backpressure + scalarValueQueue don't play nicely ","1.x","benjchristensen",0,0,1,0.55538,0.727835,0,0,0,118,11,3,2,1,1
+0,"Change repeatWhen and retryWhen signatures.","1.x","abersnaze",0,0,0,0.003795,0.190476,0,0,0,52,8,1,1,0,1
+0,"Bug in the onBackpressure operators","0.20.x","abersnaze",0,0,0,0.00411,0.186047,0,0,0,18,2,1,3,1,1
+0,"Bug in the onBackpressure operators","1.x","abersnaze",0,0,0,0.00348,0.195122,0,0,0,18,2,1,3,1,1
+0,"Remove Observable.Parallel","1.x","benjchristensen",0,0,0,0.555485,0.727273,0,0,0,0,415,1,3,1,1
+0,"Deprecate Parallel","0.20.x","benjchristensen",0,0,0,0.555203,0.726708,0,0,0,2,0,1,1,0,1
+0,"Merge 0.20.5 into 1.x","1.x","benjchristensen",0,0,0,0.554921,0.726141,0,0,0,281,176,6,7,1,1
+0,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.061179,0.386364,0,0,0,1,18,1,1,0,1
+1440,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06178,0.383459,1,0,0,163,121,2,3,1,0
+2880,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06176,0.383459,1,0,0,163,121,2,3,1,1
+4320,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06236,0.383459,5,0,0,168,122,3,3,1,0
+5760,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06236,0.383459,5,0,0,168,122,3,3,1,0
+7200,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06234,0.383459,5,0,0,168,122,3,3,1,0
+8640,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06234,0.383459,5,0,0,168,122,3,3,1,0
+10080,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06234,0.383459,5,0,0,168,122,3,3,1,0
+11520,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06234,0.383459,5,0,0,168,122,3,3,1,0
+12960,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06234,0.383459,5,0,0,168,122,3,3,1,0
+14400,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06234,0.383459,5,0,0,168,122,3,3,1,0
+15840,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06232,0.383459,5,0,0,168,122,3,3,1,0
+17280,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.06232,0.383459,5,0,0,168,122,3,3,1,0
+18720,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063218,0.380597,5,0,0,168,122,3,3,1,0
+20160,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063218,0.380597,5,0,0,168,122,3,3,1,0
+21600,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063218,0.380597,5,0,0,168,122,3,3,1,0
+23040,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063178,0.380597,5,0,0,168,122,3,3,1,0
+24480,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063178,0.380597,5,0,0,168,122,3,3,1,0
+25920,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063138,0.377778,5,0,0,168,122,3,3,1,0
+27360,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.063118,0.377778,5,0,0,168,122,3,3,1,0
+28800,"Fix Rx serialization bug in takeUntil again and the concurrent issue in BufferUntilSubscriber","0.20.x","zsxwing",0,0,1,0.062997,0.377778,5,0,0,168,122,3,3,1,1
+0,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.55755,0.725941,0,0,0,18,4,2,2,0,1
+1440,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.557692,0.724426,1,0,0,65,4,3,3,1,0
+2880,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556978,0.724426,1,0,0,65,4,3,3,1,0
+4320,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556978,0.724426,1,0,0,65,4,3,3,1,0
+5760,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556444,0.724426,1,0,0,65,4,3,3,1,0
+7200,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556444,0.724426,1,0,0,65,4,3,3,1,0
+8640,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556266,0.724426,1,0,0,65,4,3,3,1,0
+10080,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556266,0.725,1,0,0,65,4,3,3,1,0
+11520,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556266,0.725,1,0,0,65,4,3,3,1,0
+12960,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556266,0.725,1,0,0,65,4,3,3,1,0
+14400,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556266,0.725,1,0,0,65,4,3,3,1,0
+15840,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556266,0.725,1,0,0,65,4,3,3,1,0
+17280,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556266,0.725,1,0,0,65,4,3,3,1,1
+18720,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.556088,0.725,1,1,0,65,4,3,3,1,0
+20160,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555556,0.725572,1,1,0,65,4,3,3,1,0
+21600,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555556,0.725572,1,1,0,65,4,3,3,1,0
+23040,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555556,0.725572,1,1,0,65,4,3,3,1,0
+24480,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555201,0.725572,1,1,0,65,4,3,3,1,0
+25920,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.555201,0.725572,1,1,0,65,4,3,3,1,0
+27360,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.554847,0.725572,1,1,0,65,4,3,3,1,0
+28800,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.554989,0.725572,1,1,0,65,4,3,3,1,0
+30240,"ObserveOn Error Handling","1.x","benjchristensen",0,0,0,0.553929,0.725572,1,1,0,65,4,3,3,1,1
+0,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063218,0.383459,0,0,0,48,12,2,3,1,0
+1440,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063218,0.380597,0,0,0,48,12,2,3,1,0
+2880,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063218,0.380597,0,0,0,48,12,2,3,1,0
+4320,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063218,0.380597,0,0,0,48,12,2,3,1,0
+5760,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063178,0.380597,0,0,0,48,12,2,3,1,0
+7200,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063178,0.380597,0,0,0,48,12,2,3,1,0
+8640,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063138,0.377778,0,0,0,48,12,2,3,1,0
+10080,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.063118,0.377778,0,0,0,48,12,2,3,1,0
+11520,"Fix the compose generics","0.20.x","zsxwing",0,0,1,0.062997,0.377778,0,0,0,48,12,2,3,1,1
+0,"Slightly cleaner code for onNext from buffer","1.x","benjchristensen",0,0,0,0.554355,0.725572,0,0,0,1,2,1,1,1,1
+0,"Issue #1642 Fix null-emitting combineLatest","1.x","edenman",0,0,1,0.000638,0.693548,0,0,0,24,1,1,2,1,1
+1440,"Issue #1642 Fix null-emitting combineLatest","1.x","edenman",0,0,1,0.000638,0.68254,1,0,0,24,1,1,2,1,0
+2880,"Issue #1642 Fix null-emitting combineLatest","1.x","edenman",0,0,1,0.000638,0.68254,1,0,0,24,1,1,2,1,0
+4320,"Issue #1642 Fix null-emitting combineLatest","1.x","edenman",0,0,1,0.000636,0.68254,1,0,0,24,1,1,2,1,1
+0,"Fixing regression in mergeDelayError","0.20.x","mattrjacobs",0,0,1,0.01559,0.701493,0,0,0,69,46,2,2,1,1
+0,"Demonstrate a regression in a special case exposed by Groovy","0.20.x","mattrjacobs",0,0,0,0.014336,0.712121,0,0,0,25,8,1,1,1,1
+0,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.00544,0.08,0,0,0,1,1,1,1,0,0
+1440,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005437,0.076923,0,0,0,1,1,1,1,0,1
+2880,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005437,0.076923,1,0,0,1,1,1,1,0,0
+4320,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005435,0.076923,1,0,0,1,1,1,1,0,0
+5760,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005435,0.076923,1,0,0,1,1,1,1,0,0
+7200,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005435,0.076923,1,0,0,1,1,1,1,0,0
+8640,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005435,0.076923,1,0,0,1,1,1,1,0,0
+10080,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005435,0.076923,1,0,0,1,1,1,1,0,0
+11520,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005435,0.076923,1,0,0,1,1,1,1,0,0
+12960,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005433,0.076923,1,0,0,1,1,1,1,0,0
+14400,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005433,0.076923,1,0,0,1,1,1,1,0,0
+15840,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005428,0.076923,1,0,0,1,1,1,1,0,0
+17280,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005428,0.076923,1,0,0,1,1,1,1,0,0
+18720,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005428,0.076923,1,0,0,1,1,1,1,0,0
+20160,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005424,0.076923,1,0,0,1,1,1,1,0,0
+21600,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005424,0.076923,1,0,0,1,1,1,1,0,0
+23040,"Don't allocate an empty ArrayList for each Observable.empty call","1.x","jbripley",0,0,0,0.005421,0.076923,1,0,0,1,1,1,1,0,1
+0,"OnSubscribeRefCount rewrite to handle synchronous source #1688","0.20.x","davidmoten",0,0,0,0.003517,0.36,0,0,0,295,175,7,12,1,1
+0,"Merge 0.20.4 Fixes","1.x","benjchristensen",0,0,1,0.556413,0.723629,0,0,0,177,5,5,10,1,1
+0,"Make TakeUntil obey Rx serialization contract","0.20.x","zsxwing",0,0,0,0.060097,0.372093,0,0,0,2,1,1,1,0,1
+1440,"Make TakeUntil obey Rx serialization contract","0.20.x","zsxwing",0,0,0,0.060665,0.381679,4,0,0,2,1,1,1,0,0
+2880,"Make TakeUntil obey Rx serialization contract","0.20.x","zsxwing",0,0,0,0.060645,0.381679,4,0,0,2,1,1,1,0,0
+4320,"Make TakeUntil obey Rx serialization contract","0.20.x","zsxwing",0,0,0,0.06087,0.386364,4,0,0,2,1,1,1,0,1
+0,"Error Handling Unsubscribe and Terminal State","0.20.x","benjchristensen",0,0,0,0.556628,0.723044,0,0,0,143,3,1,6,1,1
+0,"Ignore furthur messages after entering terminate state","0.20.x","zsxwing",0,0,0,0.060704,0.376923,0,0,0,13,0,1,1,0,1
+1440,"Ignore furthur messages after entering terminate state","0.20.x","zsxwing",0,0,0,0.060665,0.381679,7,0,1,13,0,1,1,0,0
+2880,"Ignore furthur messages after entering terminate state","0.20.x","zsxwing",0,0,0,0.060645,0.381679,7,0,1,13,0,1,1,0,0
+4320,"Ignore furthur messages after entering terminate state","0.20.x","zsxwing",0,0,0,0.06087,0.386364,7,0,1,13,0,1,1,0,1
+0,"OperatorScan should check for MAX_VALUE on request","0.20.x","davidmoten",0,0,0,0.003228,0.285714,0,0,0,1,1,1,1,0,1
+1440,"OperatorScan should check for MAX_VALUE on request","0.20.x","davidmoten",0,0,0,0.003226,0.347826,3,0,1,1,1,1,1,0,0
+2880,"OperatorScan should check for MAX_VALUE on request","0.20.x","davidmoten",0,0,0,0.003222,0.375,3,0,1,1,1,1,1,0,1
+0,"Fix the bug that Switch doesn't propagate 'unsubscribe'","0.20.x","zsxwing",0,0,1,0.06087,0.381679,0,0,0,18,0,1,2,1,1
+0,"StringObservable.split NPE fixes","0.20.x","davidmoten",0,0,1,0.003226,0.347826,0,0,0,22,2,1,2,1,1
+0,"Fix Javadoc README link","1.x","loganlinn",0,0,1,0.000322,0.469388,0,0,0,1,1,1,1,0,1
+0,"Operator Scan Backpressure Fix","1.x","benjchristensen",0,0,1,0.556851,0.72103,0,0,0,219,21,1,3,1,1
+0,"Operator Scan Backpressure Fix","0.20.x","benjchristensen",0,0,1,0.556851,0.72043,0,0,0,219,21,1,3,1,1
+0,"RxScala: Fix the problem that Subscriber.onStart isn't called","0.20.x","zsxwing",0,0,1,0.059605,0.362205,0,0,0,46,2,1,3,1,1
+0,"Operator Scan Backpressure Fix","0.20.x","benjchristensen",0,0,1,0.556851,0.721983,0,0,0,196,12,1,2,1,1
+0,"RxScala: Fix infinite recursive onStart call in Subscriber","0.20.x","jbripley",0,0,1,0.005208,0.043478,0,0,0,26,2,1,2,1,1
+1440,"RxScala: Fix infinite recursive onStart call in Subscriber","0.20.x","jbripley",0,0,1,0.005208,0.083333,3,0,0,26,2,1,2,1,1
+0,"Deprecate ParallelMerge","0.20.x","benjchristensen",0,0,0,0.556276,0.721382,0,0,0,4,0,1,1,0,1
+0,"Remove ParallelMerge","1.x","benjchristensen",0,0,0,0.555988,0.720779,0,0,0,0,273,1,3,1,1
+0,"Nebula Build - Single Module","1.x","benjchristensen",0,0,0,0.555628,0.720174,0,0,0,9,694,1,14,0,1
+0,"Migrate Build to Nebula","1.x","benjchristensen",0,0,0,0.555556,0.721739,0,0,0,14,629,1,18,0,1
+1440,"Migrate Build to Nebula","1.x","benjchristensen",0,0,0,0.555339,0.720174,3,0,0,14,629,1,18,0,1
+0,"doOnEach - Handle Fatal Exceptions","1.x","benjchristensen",0,0,0,0.55315,0.720524,0,0,0,41,6,1,2,1,1
+0,"Composite Exception - Circular Reference Handling","1.x","benjchristensen",0,0,0,0.552856,0.719912,0,0,0,270,105,1,2,1,1
+0,"Optimize single BlockingObservable operations.","1.x","daschl",0,0,0,0.002638,0.4125,0,0,0,162,37,1,4,1,1
+0,"Optimize single BlockingObservable operations","0.20.x","benjchristensen",0,0,0,0.552415,0.719298,0,0,0,199,74,1,4,1,1
+0,"WIP: Fast path for BlockingObservables.","1.x","daschl",0,0,0,0.001982,0.417722,0,0,0,110,7,1,2,0,1
+0,"Reverting to the work immutable CompositeException but add the option to...","0.20.x","abersnaze",0,0,0,0.002648,0.210526,0,0,0,187,150,1,9,1,1
+1440,"Reverting to the work immutable CompositeException but add the option to...","0.20.x","abersnaze",0,0,0,0.002974,0.205128,1,0,0,187,150,1,9,1,1
+0,"Composite Exception - Circular Reference Handling","0.20.x","benjchristensen",0,0,0,0.551701,0.718062,0,0,0,300,135,2,2,1,1
+0,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060927,0.354839,0,0,0,335,16,1,5,1,1
+1440,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060927,0.352,2,0,0,335,16,1,5,1,0
+2880,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060927,0.352,2,0,0,335,16,1,5,1,0
+4320,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060907,0.352,2,0,0,335,16,1,5,1,0
+5760,"RxScala: Add more operators to match RxJava","0.20.x","zsxwing",0,0,0,0.060907,0.352,2,0,0,335,16,1,5,1,1
+0,"RxScala: Mark superfluous from/empty methods with scheduler parameter as...","0.20.x","jbripley",0,0,0,0.004965,0.047619,0,0,0,4,0,1,1,0,1
+1440,"RxScala: Mark superfluous from/empty methods with scheduler parameter as...","0.20.x","jbripley",0,0,0,0.004965,0.043478,1,0,0,4,0,1,1,0,1
+0,"Handle Fatal Exceptions","0.20.x","benjchristensen",0,0,0,0.551291,0.717439,0,0,0,38,3,1,2,1,1
+0,"Deprecation Removal","1.x","benjchristensen",0,0,0,0.55121,0.721604,0,0,0,46,1247,1,18,1,1
+0,"Non blocking future","1.x","tbak",0,0,0,0,0.0625,0,0,0,2138,2690,3,95,1,1
+0,"fix the usage of deprecated methods.","1.x","abersnaze",0,0,1,0.002658,0.216216,0,0,0,38,59,1,2,1,1
+0,"Moving Netflix to ReactiveX","1.x","daschl",0,0,0,0.001999,0.423077,0,0,0,2107,2116,2,99,1,1
+0,"Update README to reflect repository move.","1.x","daschl",0,0,0,0.001333,0.428571,0,0,0,44,62,2,2,0,1
+0,"RxScala: Add backpressure support","master","zsxwing",0,0,0,0.060992,0.355372,0,0,0,129,4,1,3,0,1
+0,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.416667,0,0,0,22,9,1,1,0,1
+1440,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,5,0,0,22,9,1,1,0,1
+2880,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,16,0,1,22,9,1,1,0,1
+4320,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,23,0,0,22,9,1,1,0,0
+5760,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,23,0,0,22,9,1,1,0,1
+7200,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,25,0,1,22,9,1,1,0,1
+8640,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+10080,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+11520,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+12960,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+14400,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+15840,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+17280,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+18720,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+20160,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+21600,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+23040,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+24480,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+25920,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+27360,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+28800,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+30240,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+31680,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+33120,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+34560,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+36000,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+37440,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+38880,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+40320,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+41760,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+43200,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+44640,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+46080,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+47520,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+48960,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+50400,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+51840,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+53280,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+54720,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+56160,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+57600,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+59040,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+60480,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+61920,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+63360,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+64800,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+66240,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+67680,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+69120,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+70560,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+72000,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+73440,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+74880,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+76320,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,0
+77760,"AndroidObservable to hold weak reference to Activity or Fragment","master","drbild",0,0,0,0,0.357143,27,0,0,22,9,1,1,0,1
+0,"[RFC] Initial implementation of OperationObserveInForeground (Android)","master","mttkay",0,0,0,0.008411,0.764706,0,0,0,337,1,1,6,0,1
