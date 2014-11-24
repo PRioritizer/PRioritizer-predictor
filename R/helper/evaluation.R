@@ -4,7 +4,7 @@ load.package("ROCR") # Prediction
 # Train and test models
 models.evaluate <- function(model, train, test, select = list()) {
   # Number of algorithms
-  n <- 3
+  n <- 4
 
   # Results
   results = data.frame(classifier = rep(NA, n),
@@ -34,6 +34,13 @@ models.evaluate <- function(model, train, test, select = list()) {
     rfmodel <- random.forest.train(model, train)
     predictions <- random.forest.raw(rfmodel, test)
     results[3,] <- prediction.performance("RandomForest", predictions, test)
+  }
+
+  ### Support Vector Machine
+  if (length(select) == 0 || select$support.vector.machine) {
+    svmmodel <- svm.train(model, train)
+    predictions <- svm.raw(svmmodel, test)
+    results[4,] <- prediction.performance("SVM", predictions, test)
   }
 
   results

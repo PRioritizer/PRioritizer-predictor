@@ -12,7 +12,8 @@ source("helper/utils.R")
 select <- list(
   logistic.regression = FALSE,
   naive.bayes = FALSE,
-  random.forest = TRUE
+  random.forest = TRUE,
+  support.vector.machine = TRUE
 )
 
 # ================================== PROGRAM ================================== #

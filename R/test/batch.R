@@ -26,19 +26,23 @@ if(.Platform$OS.type == "windows") {
 select <- list(
   logistic.regression = FALSE,
   naive.bayes = FALSE,
-  random.forest = TRUE
+  random.forest = TRUE,
+  support.vector.machine = TRUE
 )
 
 # Export functions
 export.names <- c(
   "select",
   "printf",
+  "svm",
   "randomForest",
   "naiveBayes",
   "prediction",
   "performance",
   "split.data",
   "models.evaluate",
+  "svm.train",
+  "svm.raw",
   "random.forest.train",
   "random.forest.raw",
   "logistic.regression.train",
