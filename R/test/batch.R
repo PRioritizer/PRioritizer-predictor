@@ -53,28 +53,9 @@ export.names <- c(
 )
 
 # Test files
-files <- c(
-  "akka.csv",
-  "angular.csv",
-  "bitcoin.csv",
-  "bootstrap.csv",
-  "brackets.csv",
-  "cakephp.csv",
-  "django.csv",
-  "docker.csv",
-  "elasticsearch.csv",
-  "hhvm.csv",
-  "joomla.csv",
-  "jquery-mobile.csv",
-  "linguist.csv",
-  "mongo.csv",
-  "owncloud.csv",
-  "playframework.csv",
-  "redis.csv",
-  "rxjava.csv",
-  "wordpress.csv",
-  "xbmc.csv"
-)
+list <- file("test/csv/list.csv")
+files <- readLines(list)
+close(list)
 
 # Run a cross validation round, return a dataframe with all results added
 cross.validation <- function(model, df, runs) {
@@ -96,17 +77,17 @@ cross.validation.means <- function(cvResult) {
 
 # ================================== PROGRAM ================================== #
 
-printf("file classifier auc acc prec rec f1\n")
 foreach(f = files) %do% {
   ### Read data
-  data <- read.data(file.path("test/csv", f))
+  data <- read.data(f)
 
   ### Cross validation
   results <- cross.validation(model, data, 10)
   means <- cross.validation.means(results)
-  printf("File: %s\n", f)
+  means$file = f
 
   print(means)
+  write.table(means, "batch.csv", col.names=FALSE, sep=",", append=TRUE)
 }
 
 # Stop parallel execution
