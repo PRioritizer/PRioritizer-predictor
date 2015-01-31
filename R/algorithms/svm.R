@@ -4,8 +4,7 @@ load.package("e1071") # Support Vector Machine
 
 svm.train <- function(model, train.set) {
   svmmodel <- svm(model, data = train.set,
-                  type = "C-classification", probability = TRUE, scale = FALSE,
-                  cost = 100, gamma = 0.8)
+                  type = "C-classification", probability = TRUE, scale = FALSE)
   # print(svmmodel)
   # plot(svmmodel)
   svmmodel

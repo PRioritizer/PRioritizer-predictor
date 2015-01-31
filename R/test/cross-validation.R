@@ -27,7 +27,7 @@ select <- list(
   logistic.regression = FALSE,
   naive.bayes = FALSE,
   random.forest = TRUE,
-  support.vector.machine = TRUE
+  support.vector.machine = FALSE
 )
 
 # Export functions
