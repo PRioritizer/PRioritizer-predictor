@@ -41,6 +41,26 @@ read.data <- function(file) {
   data
 }
 
+balance.data <- function(data, ratioTF) {
+
+  num.true <- nrow(subset(data, important == TRUE))
+  num.false <- nrow(subset(data, important == FALSE))
+
+  if (num.true / ratioTF <= num.false) {
+    num.false <- ceiling(num.true / ratioTF)
+  } else {
+    num.true <- ceiling(num.false * ratioTF)
+  }
+
+  data.true <- data[which(data$important == TRUE),]
+  data.false <- data[which(data$important == FALSE),]
+
+  data.true <- data.true[sample(1:nrow(data.true), num.true, replace=FALSE),]
+  data.false <- data.false[sample(1:nrow(data.false), num.false, replace=FALSE),]
+
+  rbind(data.true, data.false)
+}
+
 as.boolean.factor <- function(list, threshold = 0.5, limit = -1) {
   # Total length
   size <- length(list)

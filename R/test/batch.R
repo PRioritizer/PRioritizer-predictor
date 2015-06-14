@@ -40,6 +40,7 @@ export.names <- c(
   "prediction",
   "performance",
   "split.data",
+  "balance.data",
   "models.evaluate",
   "svm.train",
   "svm.raw",
@@ -60,9 +61,11 @@ close(list)
 # Run a cross validation round, return a dataframe with all results added
 cross.validation <- function(model, df, runs) {
   result <- foreach(n = 1:runs, .combine = rbind, .export=export.names) %dopar% {
+#  result <- foreach(n = 1:runs) %do% {
     printf("Run #%s\n", n)
     dataset <- split.data(df, .90)
-    res <- models.evaluate(model, dataset$train, dataset$test, select)
+    train.set <- dataset$train # balance.data(dataset$train, 1)
+    res <- models.evaluate(model, train.set, dataset$test, select)
     res$run <- n
     res
   }
